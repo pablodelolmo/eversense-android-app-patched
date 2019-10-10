@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigați la ecranul de pornire</string>
+    <string name="abc_action_bar_up_description">Navigați în sus</string>
+    <string name="abc_action_menu_overflow_description">Mai multe opțiuni</string>
+    <string name="abc_action_mode_done">Terminat</string>
+    <string name="abc_activity_chooser_view_see_all">Afișați-le pe toate</string>
+    <string name="abc_activitychooserview_choose_application">Alegeți o aplicație</string>
+    <string name="abc_capital_off">DEZACTIVAȚI</string>
+    <string name="abc_capital_on">ACTIVAT</string>
+    <string name="abc_search_hint">Căutați…</string>
+    <string name="abc_searchview_description_clear">Ștergeți interogarea</string>
+    <string name="abc_searchview_description_query">Interogare de căutare</string>
+    <string name="abc_searchview_description_search">Căutați</string>
+    <string name="abc_searchview_description_submit">Trimiteți interogarea</string>
+    <string name="abc_searchview_description_voice">Căutare vocală</string>
+    <string name="abc_shareactionprovider_share_with">Trimiteți la</string>
+    <string name="abc_shareactionprovider_share_with_application">Trimiteți folosind %s</string>
+    <string name="abc_toolbar_collapse_description">Restrângeți</string>
+    <string name="about">Despre</string>
+    <string name="above">Peste</string>
+    <string name="above_target_level">Peste valoarea ţintă</string>
+    <string name="accept">Acceptare</string>
+    <string name="alcohol">Alcool</string>
+    <string name="alert">Alertă</string>
+    <string name="alert_detail_glucose_value">Valoare glucoză:</string>
+    <string name="alert_detail_threshold">Prag:</string>
+    <string name="alert_notice">Notificare de alertă</string>
+    <string name="alert_settings">Setări alertă</string>
+    <string name="all">Toate</string>
+    <string name="allergy">Alergie</string>
+    <string name="and">şi</string>
+    <string name="android_device_info">Informaţii dispozitiv Android</string>
+    <string name="android_version">Versiune Android</string>
+    <string name="app_update_body">Pentru aplicaţia Eversense este disponibil un upgrade. Doriţi să îl instalaţi acum?</string>
+    <string name="app_update_title">Upgrade aplicaţie Eversense</string>
+    <string name="auto_sync">Sincronizare automată</string>
+    <string name="auto_sync_enabled_text">"Sincronizare automată a fost activată.
+Datele dvs. vor fi sincronizate pe server la fiecare 2 ore."</string>
+    <string name="average">Average (Mediu)</string>
+    <string name="avg">Mediu</string>
+    <string name="battery_level">Nivel baterie</string>
+    <string name="below">Sub</string>
+    <string name="below_target_level">Sub valoarea ţintă</string>
+    <string name="between">între</string>
+    <string name="ble_not_supported">Nu este acceptat dispozitiv bluetooth de joasă energie</string>
+    <string name="bluetooth_is_off">Bluetooth dezactivat</string>
+    <string name="bluetooth_pairing">Asociere bluetooth</string>
+    <string name="breakfast">Mic dejun</string>
+    <string name="cal_accepted_message_2">"Valoarea de glucoză în sânge a fost utilizată cu succes pentru calibrare.
+
+Avertisment: Transmitter dumneavoastră nu trebuie îndepărtat de la sensor timp de %1$d minute. Dacă transmitter este îndepărtat, calibrarea va trebui repetată."</string>
+    <string name="cal_accepted_title">Calibrare acceptată</string>
+    <string name="cal_in_progress">Calibrare în desfăşurare (%1$d min, %2$d sec)</string>
+    <string name="cal_not_entered_message">Valoarea de glucoză în sânge a fost înregistrată dar nu a fost introdusă pentru calibrare.</string>
+    <string name="cal_not_entered_title">Calibrare neintrodusă</string>
+    <string name="cal_not_used_reason_text">Motiv pentru care nu a fost folosit pentru calibrare</string>
+    <string name="cal_rejected_auto_link_message">Valoarea de glucoză în sânge nu a fost utilizată pentru calibrare deoarece modul Corelare automată este activ. Vă rugăm să dezactivaţi modul Corelare automată înainte de a începe o calibrare.</string>
+    <string name="cal_rejected_auto_link_title">"Calibrare respinsă
+(Mod corelare automată)"</string>
+    <string name="cal_rejected_blinded_message_2">Valoarea de glucoză în sânge nu a fost utilizată pentru calibrare. Vă rugăm să aşteptaţi %1$d oră(ore) şi să încercaţi din nou.</string>
+    <string name="cal_rejected_blinded_title">"Calibrare respinsă
+(Orb)"</string>
+    <string name="cal_rejected_data_message_2">Valoarea de glucoză în sânge nu a fost utilizată pentru calibrare deoarece nu există suficiente date de la sensor de glucoză. Asiguraţi-vă că transmitter dumneavoastră este amplasat peste sensor, aşteptaţi %1$d minute şi încercaţi din nou.</string>
+    <string name="cal_rejected_data_title">"Calibrare respinsă
+(Date insuficiente)"</string>
+    <string name="cal_rejected_not_ready_message_2">Valoarea de glucoză în sânge nu a fost utilizată pentru calibrare deoarece proba a fost prelevată înainte ca transmitter să fie pregătit pentru a accepta o calibrare. Aşteptaţi %1$d minute şi încercaţi din nou.</string>
+    <string name="cal_rejected_not_ready_title">"Calibrare respinsă
+(Nu este gata)"</string>
+    <string name="cal_rejected_other_message">Valoarea de glucoză în sânge nu a fost utilizată pentru calibrare din cauza unei erori necunoscute.</string>
+    <string name="cal_rejected_other_title">"Calibrare respinsă
+(Altă eroare)"</string>
+    <string name="cal_rejected_rate_message_2">Valoarea de glucoză în sânge nu a fost utilizată pentru calibrare deoarece rata de glucoză se modifică prea repede. Vă rugăm să aşteptaţi %1$d oră(ore) şi să încercaţi din nou.</string>
+    <string name="cal_rejected_rate_title">"Calibrare respinsă
+(Rată de modificare mare)"</string>
+    <string name="cal_rejected_replacement_message">Valoarea de glucoză în sânge nu a fost utilizată pentru calibrare deoarece sensor dumneavoastră trebuie înlocuit. Vă rugăm să contactaţi medicul dumneavoastră pentru înlocuirea sensor.</string>
+    <string name="cal_rejected_replacement_title">"Calibrare respinsă
+(Necesară poziţionarea sensor)"</string>
+    <string name="cal_rejected_too_different_message_2">Valoarea de calibrare introdusă de dvs. %1$s poate fi incorectă. Reefectuaţi calibrarea peste %2$d ore pentru a asigura corectitudinea determinării glucozei.</string>
+    <string name="cal_rejected_too_different_title">Calibrare în revizuire</string>
+    <string name="cal_rejected_too_high_message_2">Valorile glucozei mai mari de %1$s nu pot fi utilizate pentru calibrare. Vă rugăm să luaţi măsurile corespunzătoare şi să încercaţi din nou în %2$d oră(ore).</string>
+    <string name="cal_rejected_too_high_title">"Calibrare respinsă
+(Prea mare)"</string>
+    <string name="cal_rejected_too_low_message_2">Valorile glucozei mai mici de %1$s nu pot fi utilizate pentru calibrare. Vă rugăm să luaţi măsurile corespunzătoare şi să încercaţi din nou în %2$d oră(ore).</string>
+    <string name="cal_rejected_too_low_title">"Calibrare respinsă
+(Prea mică)"</string>
+    <string name="cal_rejected_unknown_message">Valoarea de glucoză în sânge nu a fost utilizată pentru calibrare dintr-o cauză necunoscută. Încercaţi din nou mai târziu.</string>
+    <string name="cal_rejected_unknown_title">"Calibrare respinsă
+(Eroare necunoscută)"</string>
+    <string name="calibrate">Calibraţi</string>
+    <string name="calibrate_now_notification_help_message">Calibrarea sistemului CGM cu ajutorul unui instrument de măsurare a glucozei, conform planificării, este importantă pentru a vă asigura că obţineţi valori de glucoză precise.</string>
+    <string name="calibrate_now_notification_message">Trebuie realizată calibrarea. Vă rugăm să efectuaţi acum o calibrare cu înţepare în deget cu instrumentul de măsurare a glucozei.</string>
+    <string name="calibrate_now_notification_title">Calibraţi acum</string>
+    <string name="calibrate_text">Introduceţi valoarea glicemiei şi ora recoltării din instrumentul dumneavoastră de măsurare, apoi atingeţi \"Trimitere\" pentru a le introduce.</string>
+    <string name="calibration">Calibrare</string>
+    <string name="calibration_event">Calibrare</string>
+    <string name="calibration_expired_alarm_help_message">"Calibrarea sistemului CGM cu ajutorul unui instrument de măsurare a glucozei, conform planificării, este importantă pentru a vă asigura că obţineţi valori de glucoză precise. 
+
+În faza de reiniţializare, trebuie să efectuaţi 4 teste cu instrumentul de măsurare a glucozei, la intervale de 2-12 ore. Sistemul dumneavoastră vă va ghida în mod automat de-a lungul acestui proces de calibrare."</string>
+    <string name="calibration_expired_alarm_message">Nu s-a efectuat o calibrare în ultimele 24 de ore. Sistemul dumneavoastră se află în faza de reiniţializare şi va trebui să efectuaţi 4 teste de calibrare cu înţepare în deget.</string>
+    <string name="calibration_expired_alarm_title">Calibrare expirată</string>
+    <string name="calibration_grace_alert_help_message">"Ora pentru calibrarea transmitter dumneavoastră a fost depăşită. Valorile de glucoză ale sensor nu vor mai fi afişate. Vă rugăm să apăsaţi 'Calibrare' pentru a continua."</string>
+    <string name="calibration_grace_alert_message">"Ora pentru calibrarea transmitter dumneavoastră a fost depăşită. Valorile de glucoză ale sensor nu vor mai fi afişate. Vă rugăm să apăsaţi 'Calibrare' pentru a continua."</string>
+    <string name="calibration_grace_alert_title">Calibrare scadentă</string>
+    <string name="calibration_tips"><b>Sfaturi de calibrare</b></string>
+    <string name="cancel">Revocare</string>
+    <string name="carbs">Carbohidraţi</string>
+    <string name="click_twice_back">Faceţi clic din nou pe ÎNAPOI pentru a ieşi</string>
+    <string name="clinical_mode_enabled">Mod clinic activat</string>
+    <string name="complete_sensor_linking_text">Poziţionaţi transmiţătorul peste senzor pentru a finaliza corelarea. Apăsaţi OK după ce aţi terminat.</string>
+    <string name="completed_cals">Calibrări efectuate</string>
+    <string name="condition">Stare</string>
+    <string name="congratulations">Felicitări!</string>
+    <string name="connected">Conectat</string>
+    <string name="connecting">În curs de conectare</string>
+    <string name="connecting_wait">În curs de conectare, vă rugăm să aşteptaţi…</string>
+    <string name="connection_status">Conectare</string>
+    <string name="connection_tips"><b>Ajutor pentru conectare</b></string>
+    <string name="contact">Contact</string>
+    <string name="contact_us">Contactaţi-ne</string>
+    <string name="contact_us_mail_body">Aceste mesaje nu sunt monitorizate 24/7. Nu utilizaţi acest e-mail pentru întrebări urgente.</string>
+    <string name="contact_us_mail_subject">Mesaj de la Centrul de asistenţă pentru clienţi</string>
+    <string name="cough_cold">Tuse/Răceală</string>
+    <string name="create_an_account">Creare cont</string>
+    <string name="current_phase">Fază curentă</string>
+    <string name="daily_calibration">Calibrare zilnică</string>
+    <string name="data_saved">Date salvate</string>
+    <string name="data_saved_text" formatted="false">"%@ evenimente noi au fost salvate în baza dumneavoastră de date,
+%@ evenimente au fost salvate anterior."</string>
+    <string name="date">Dată</string>
+    <string name="day_1">1 Zi</string>
+    <string name="day_14">14 Zile</string>
+    <string name="day_30">30 Zile</string>
+    <string name="day_7">7 Zile</string>
+    <string name="day_90">90 Zile</string>
+    <string name="daylight_saving">Ora de vară</string>
+    <string name="days_remaining_alarm_help_message_1">De la data acestei notificări, numărul aproximativ de zile în care senzorul dvs. ca efectua citiri este 4. Contactaţi medicul dvs. pentru a programa înlocuirea acestuia.</string>
+    <string name="default_sync_days">Zile sincronizare implicite</string>
+    <string name="details">Detalii</string>
+    <string name="details_version">Versiune</string>
+    <string name="detected_sensor">Sensor detectat</string>
+    <string name="detected_serialnumber">SN detectat</string>
+    <string name="device_compatibility">COMPATIBILITATE DISPOZITIVE</string>
+    <string name="diarrhea">Diaree</string>
+    <string name="dinner">Cină</string>
+    <string name="disconnected_from_transmitter">Transmitter dumneavoastră este momentan deconectat. Vă rugăm să conectaţi transmitter şi să încercaţi din nou.</string>
+    <string name="dismiss_all">Eliminare toate</string>
+    <string name="dizzy">Ameţeală</string>
+    <string name="do_not_disturb">Nu deranjaţi</string>
+    <string name="do_not_disturb_description">Dezactivaţi afişarea tuturor alertelor şi notificărilor non-critice.</string>
+    <string name="do_not_disturb_warning_message_2">Alertele non-critice sunt dezactivate în aplicație și pe transmițătorul inteligent.</string>
+    <string name="do_not_disturb_warning_title">Modul Nu deranjaţi activat</string>
+    <string name="done">Efectuat</string>
+    <string name="drawer_close">Închidere casetă de navigare</string>
+    <string name="drawer_open">Deschidere casetă de navigare</string>
+    <string name="drop_out">Nu se poate calibra. Aşteptaţi 6 ore şi încercaţi din nou.</string>
+    <string name="duration">Durată</string>
+    <string name="earache">Durere de urechi</string>
+    <string name="email">E-mail</string>
+    <string name="email_body_graph">"Consultaţi raportul Diagramă radială glucoză cu datele colectate în ultimele %1$s de sistemul Eversense CGM.
+
+Notă: Dacă aveţi probleme la vizualizarea imaginii, încercaţi să o deschideţi cu un browser web.
+"</string>
+    <string name="email_body_pie">"Consultaţi raportul Diagramă radială glucoză cu datele colectate în ultimele %d de sistemul Eversense CGM.
+
+Notă: Dacă aveţi probleme la vizualizarea imaginii, încercaţi să o deschideţi cu un browser web.
+"</string>
+    <string name="email_body_table">Consultaţi raportul Statistici glucoză cu datele colectate în ultimele %d de sistemul Eversense CGM.</string>
+    <string name="email_body_weekly">Consultaţi raportul Rezumat modal săptămânal cu datele colectate în ultimele 7 zile de sistemul Eversense CGM.</string>
+    <string name="email_subject_graph">Date senzor</string>
+    <string name="email_subject_pie_chart">Raport diagramă radială glucoză</string>
+    <string name="email_subject_pie_table">Raport statistici glucoză</string>
+    <string name="email_subject_weekly">Raport Rezumat modal săptămânal</string>
+    <string name="empty_battery_alarm_help_message">"Îndepărtaţi transmitter de pe corpul dumneavoastră înainte de a conecta transmitter la sursa de alimentare pentru reîncărcarea acumulatorului. 
+
+Transmitter nu colectează informaţii de la sensor în perioada de încărcare. Nu veţi primi informaţii despre glucoză în timpul încărcării transmitter."</string>
+    <string name="empty_battery_alarm_message">Acumulatorul transmitter dumneavoastră este epuizat. Vă rugăm să reîncărcaţi transmitter acum pentru a relua afişajul valorii de glucoză.</string>
+    <string name="empty_battery_alarm_title">Acumulator epuizat</string>
+    <string name="end">Sfârşit</string>
+    <string name="estimated_days_remaining_alarm_message">Cifra estimativă a zilelor în care senzorul dvs. va furniza date, începând cu data acestei notificări este de 4. Vă rugăm să vă adresați medicului dvs. pentru a face o programare pentru primirea unui dispozitiv de înlocuire.</string>
+    <string name="estimated_days_remaining_alarm_title">Cifra estimativă a zilelor rămase</string>
+    <string name="eula">ACORD DE LICENŢĂ PENTRU UTILIZATORUL FINAL</string>
+    <string name="eula_menu">Acord de licenţă</string>
+    <string name="eula_screen">Ecran EULA</string>
+    <string name="evening">Seară</string>
+    <string name="evening_time">Seara</string>
+    <string name="event_cal_accepted_title">Utilizat</string>
+    <string name="event_cal_not_entered_title">Neintrodusă</string>
+    <string name="event_cal_rejected_auto_link_title">Mod corelare automată</string>
+    <string name="event_cal_rejected_blinded_title">Orb</string>
+    <string name="event_cal_rejected_data_title">Date insuficiente</string>
+    <string name="event_cal_rejected_not_ready_title">Nu este gata</string>
+    <string name="event_cal_rejected_other_title">Altă eroare</string>
+    <string name="event_cal_rejected_rate_title">Rată de modificare mare</string>
+    <string name="event_cal_rejected_replacement_title">Necesară înlocuire sensor</string>
+    <string name="event_cal_rejected_too_different_title">În revizuire</string>
+    <string name="event_cal_rejected_too_high_title">Prea ridicat</string>
+    <string name="event_cal_rejected_too_low_title">Prea scăzut</string>
+    <string name="event_log">Jurnal de evenimente</string>
+    <string name="excellent">Excelent</string>
+    <string name="exercise_event">Exerciţiu fizic</string>
+    <string name="exit_app">Ieşire</string>
+    <string name="faq">Întrebări frecvente</string>
+    <string name="fever">Febră</string>
+    <string name="file_corrupted">Fişier incorect</string>
+    <string name="file_corrupted_text">Nu se poate descărca fişierul de parametri ai senzorului. Contactaţi Centrul de asistenţă pentru clienţi.</string>
+    <string name="finish">Finalizare</string>
+    <string name="flu">Gripă</string>
+    <string name="force_logout_text_w_email">Aţi fost deconectat(ă) deoarece numele de utilizator sau adresa de e-mail sunt incorecte.</string>
+    <string name="forgot_my_password">Am uitat parola</string>
+    <string name="general_error_saving_data">Eroare la salvarea datelor</string>
+    <string name="general_error_saving_data_text">Datele nu au fost salvate pe server. Încercaţi din nou. Dacă eroarea persistă, contactaţi Centrul de asistenţă pentru clienţi.</string>
+    <string name="glucose_above_high_alert_level">Glucoză peste nivelul ridicat de alertă</string>
+    <string name="glucose_above_high_target_level">Glucoză peste nivelul ţintă ridicat</string>
+    <string name="glucose_alert_levels">Niveluri de alertă glucoză</string>
+    <string name="glucose_below_low_alert_level">Glucoză sub nivelul scăzut de alertă</string>
+    <string name="glucose_below_low_target_level">Glucoză sub nivelul ţintă scăzut</string>
+    <string name="glucose_event">Glucoză</string>
+    <string name="glucose_event_submit_title">Confirmare glucoză</string>
+    <string name="glucose_level_distribution">Diagramă radială glucoză (%1$s)</string>
+    <string name="glucose_target_levels">Niveluri ţintă glucoză</string>
+    <string name="glucose_unit">Unităţi glucoză</string>
+    <string name="glucose_within_target_levels">Glucoză cuprinsă între nivelurile ţintă</string>
+    <string name="good">Bună</string>
+    <string name="grams">grame</string>
+    <string name="health_event">Sănătate</string>
+    <string name="help">Ajutor</string>
+    <string name="hide">Ascundere</string>
+    <string name="hide_event"><b>Ascundere eveniment</b></string>
+    <string name="hide_event_question">Sigur doriţi să ascundeţi acest eveniment?</string>
+    <string name="high">Ridicat</string>
+    <string name="high_alert">Alertă nivel ridicat</string>
+    <string name="high_ambient_light_alarm_help_message">"Pentru a reduce expunerea la lumină a transmiţătorului, încercaţi una sau mai multe dintre următoarele soluţii: 
+-Deplasaţi-vă într-o zonă cu mai puţină lumină 
+-Purtaţi transmiţătorul sub haine"</string>
+    <string name="high_ambient_light_alarm_message_2">Senzorul dvs. primește prea multă lumină. Reduceți expunerea senzorului la lumină pentru a relua citirea valorilor glucozei. Dacă problema persistă, contactați Serviciul de asistență pentru clienți.</string>
+    <string name="high_ambient_light_alarm_title">Lumină ambientală puternică</string>
+    <string name="high_glucose_alarm_help_message_2" formatted="false">"Aţi configurat setarea pentru alerta de nivel de glucoză ridicat la %value%. Ori de câte ori veţi atinge acest prag al valorii glucozei, transmiţătorul şi smartphone-ul dumneavoastră vor activa o alertă. Este posibil să fiţi la valoarea alertei de nivel de glucoză ridicat sau sub aceasta. 
+
+Confirmaţi întotdeauna valoarea glucozei cu un test cu instrumentul de măsurare a glucozei sanguine înainte de a lua o decizie de tratament. 
+
+Dacă doriţi să modificaţi setarea pentru alerta nivel de glucoză ridicat, mergeţi la Meniu -> Setări -> Glucoză."</string>
+    <string name="high_glucose_alarm_message_2">Valoarea glucozei la senzor se află la setarea %d a alertei de nivel de glucoză ridicat sau peste aceasta. Confirmaţi valoarea glucozei realizând un test cu instrumentul de măsurare a glucozei sanguine.</string>
+    <string name="high_glucose_alarm_title">Nivel ridicat glucoză</string>
+    <string name="high_glucose_alert_help_message" formatted="false">"Aţi configurat setarea pentru alarma de nivel de glucoză ridicat la %value%. Ori de câte ori veţi atinge acest prag al valorii glucozei, transmitter şi smartphone-ul dumneavoastră vor activa o alarmă. Este posibil să fiţi la valoarea alertei de nivel de glucoză ridicat sau să o depăşiţi. 
+
+Confirmaţi întotdeauna valoarea glucozei cu un test cu instrumentul de măsurare a glucozei înainte de a lua o decizie de tratament. 
+
+Vă rugăm să reţineţi că setarea pentru alerta de nivel de glucoză ridicat este diferită de setarea pentru alarma de nivel de glucoză ridicat. 
+
+Dacă doriţi să modificaţi setarea pentru alerta de nivel de glucoză ridicat, mergeţi la Meniu -> Setări -> Glucoză."</string>
+    <string name="high_glucose_alert_message">Valoarea glucozei la sensor se află la setarea %d a alertei de nivel de glucoză ridicat sau peste aceasta.</string>
+    <string name="high_glucose_alert_title">Nivel ridicat glucoză</string>
+    <string name="high_symptoms">Simptome nivel ridicat</string>
+    <string name="high_target">Ţintă nivel ridicat</string>
+    <string name="home">Valoarea glucozei mele</string>
+    <string name="hours_remaining">ore rămase</string>
+    <string name="hr">ore</string>
+    <string name="i_do_not_have_a_glucose_sensor">Nu am un Transmitter inteligent</string>
+    <string name="i_have_glucose_sensor">Am un Transmitter inteligent</string>
+    <string name="image_description">Imagine</string>
+    <string name="incompatible_fw_version_body_2">A fost detectat un software transmiţător incompatibil. Contactaţi Centrul de asistenţă pentru clienţi.</string>
+    <string name="incompatible_fw_version_title_2">Software transmiţător incompatibil</string>
+    <string name="incompatible_sensor_file">Fişier sensor incompatibil</string>
+    <string name="incompatible_sensor_file_text">A fost detectat un fişier senzor incompatibil (a fost detectată versiunea: %%). Contactaţi Centrul de asistenţă pentru clienţi.</string>
+    <string name="infection">Infecţie</string>
+    <string name="init_phase">Iniţializare</string>
+    <string name="init_phase_notif">Fază iniţializare (%1$d calibrări de efectuat)</string>
+    <string name="insertion_date">Data introducerii</string>
+    <string name="insertion_time">Ora introducerii</string>
+    <string name="insulin_event">Insulină</string>
+    <string name="insulin_type">Tip</string>
+    <string name="intensity">Intensitate</string>
+    <string name="intermediate_acting">Acţiune pe termen mediu</string>
+    <string name="invalid_device_type">Tip de dispozitiv nevalid</string>
+    <string name="invalid_device_type_text">Tip de dispozitiv nevalid. Încercaţi din nou. Dacă eroarea persistă, contactaţi Centrul de asistenţă pentru clienţi.</string>
+    <string name="invalid_email">E-mail incorect</string>
+    <string name="invalid_error_text">Nu a fost detectată nicio conexiune la internet. Pentru a obţine ultima versiune, vă rugăm să vă conectaţi la internet.</string>
+    <string name="invalid_password">Parolă nevalidă</string>
+    <string name="invalid_user_credentials_text_w_email">Adresa de e-mail sau parola sunt incorecte. Încercaţi din nou. Dacă eroarea persistă, contactaţi Centrul de asistenţă pentru clienţi.</string>
+    <string name="invalid_user_credentials_w_email">E-mail sau parolă incorecte</string>
+    <string name="last_cal">Ultima calibrare</string>
+    <string name="last_synced_on">Ultima sincronizare:</string>
+    <string name="less_than_one_hour">1 oră rămasă</string>
+    <string name="link_detected_sensor">Corelare sensor detectat</string>
+    <string name="link_detected_sensor_text_2">A fost detectat un senzor necorelat. Atingeţi Corelare senzor detectat pentru a continua.</string>
+    <string name="link_sensor">Corelare sensor</string>
+    <string name="linked_sensor">Sensor corelat</string>
+    <string name="linking_process_complete">3. Proces de corelare finalizat</string>
+    <string name="linking_sensor">2. Corelare sensor</string>
+    <string name="log_in">Log in (Conectare)</string>
+    <string name="log_out">Log Out (Deconectare)</string>
+    <string name="log_out_text">Dacă vă deconectaţi, nu veţi mai putea vizualiza datele despre glucoză pe aplicaţia Eversense până când vă veţi conecta din nou. Sunteţi sigur(ă) că doriţi să vă deconectaţi?</string>
+    <string name="login_success">Conectare reuşită</string>
+    <string name="long_acting">Acţiune pe termen lung</string>
+    <string name="low">Scăzut</string>
+    <string name="low_alert">Alertă nivel scăzut</string>
+    <string name="low_battery_notification_help_message">Acumulatorul transmitter dumneavoastră se apropie de epuizare. Vă rugăm să încărcaţi cât mai curând posibil.</string>
+    <string name="low_battery_notification_message">Acumulatorul transmitter dumneavoastră se apropie de epuizare. Vă rugăm să încărcaţi cât mai curând posibil.</string>
+    <string name="low_battery_notification_title">Încărcare transmitter</string>
+    <string name="low_glucose_alarm_help_message_2" formatted="false">"Aţi configurat setarea pentru alerta de nivel de glucoză scăzut la %value%. Ori de câte ori veţi atinge acest prag al valorii glucozei, transmiţătorul şi smartphone-ul dumneavoastră vor activa o alertă. Este posibil să fiţi la valoarea alertei de nivel de glucoză scăzut sau sub aceasta. 
+
+Confirmaţi întotdeauna valoarea glucozei cu un test cu instrumentul de măsurare a glucozei sanguine înainte de a lua o decizie de tratament. 
+
+Dacă doriţi să modificaţi setarea pentru alerta nivel de glucoză ridicat, mergeţi la Meniu -> Setări -> Glucoză."</string>
+    <string name="low_glucose_alarm_message_2">Valoarea glucozei la senzor se află la setarea %d a alertei de nivel de glucoză scăzut sau sub aceasta. Confirmaţi valoarea glucozei realizând un test cu instrumentul de măsurare a glucozei sanguine.</string>
+    <string name="low_glucose_alarm_title">Nivel scăzut glucoză</string>
+    <string name="low_glucose_alert_help_message" formatted="false">"Aţi configurat setarea pentru alarma de nivel de glucoză ridicat la %value%. Ori de câte ori veţi atinge acest prag al valorii glucozei, transmitter şi smartphone-ul dumneavoastră vor activa o alarmă. Este posibil să fiţi la valoarea alertei de nivel de glucoză scăzut sau sub aceasta.
+
+Confirmaţi întotdeauna valoarea glucozei cu un test cu instrumentul de măsurare a glucozei înainte de a lua o decizie de tratament.
+
+Vă rugăm să reţineţi că setarea pentru alerta de nivel de glucoză scăzut este diferită de setarea pentru alarma de nivel de glucoză scăzut. 
+
+Dacă doriţi să modificaţi setarea pentru alerta de nivel de glucoză scăzut, mergeţi la Meniu -> Setări -> Glucoză."</string>
+    <string name="low_glucose_alert_message">Valoarea glucozei la sensor se află la setarea %d a alertei de nivel de glucoză scăzut sau sub aceasta.</string>
+    <string name="low_glucose_alert_title">Nivel scăzut glucoză</string>
+    <string name="low_symptoms">Simptome nivel scăzut</string>
+    <string name="low_target">Ţintă nivel scăzut</string>
+    <string name="lunch">Prânz</string>
+    <string name="machine">Aparat</string>
+    <string name="manual_text">Beneficiaţi de funcţiile oferite prin introducerea manuală a datelor.</string>
+    <string name="meal_event">Masă</string>
+    <string name="meal_start_end_time_text">Vă rugăm să selectaţi ora de PORNIRE şi de FINAL</string>
+    <string name="meal_times">Orele de masă</string>
+    <string name="medium">Mediu</string>
+    <string name="menstrual_period">Perioadă de menstruaţie</string>
+    <string name="mg_Dl">mg/dL</string>
+    <string name="mg_dl_min">mg/dL/min</string>
+    <string name="min">min</string>
+    <string name="minutes_from_alert_level">Minute</string>
+    <string name="mixed_50_50">Mixt 50/50</string>
+    <string name="mixed_70_30">Mixt 70/30</string>
+    <string name="mixed_75_25">Mixt 75/25</string>
+    <string name="mmol_L">mmol/L</string>
+    <string name="mmol_l_min">mmol/L/min</string>
+    <string name="model">Model</string>
+    <string name="model_number">Număr model</string>
+    <string name="modify_evening_time">Avertisment: Orele de dimineaţă şi de seară trebuie să fie la o distanţă cuprinsă între 10 şi 14 ore (ex. 8AM şi 6PM). Vă rugăm să modificaţi ora de seară înainte de a părăsi ecranul.</string>
+    <string name="more_than_max_pending_alerts">Aveţi mai mult de 2 alerte în aşteptare de care trebuie să vă ocupaţi. Doriţi să le vizualizaţi pe toate?</string>
+    <string name="morning">Dimineaţă</string>
+    <string name="morning_time">Dimineaţa</string>
+    <string name="my_account_sync">Sincronizare</string>
+    <string name="my_sensor">sensor meu</string>
+    <string name="my_transmitter">Transmitter meu</string>
+    <string name="name">Nume</string>
+    <string name="nausea_vomiting">Greaţă/Vomă</string>
+    <string name="new_sensor_detected_notification_help_message">sensor introdus şi transmitter trebuie să fie corelate pentru începerea comunicaţiilor. Atingeţi \"Link Sensor\" („Corelare sensor”) pentru a parcurge automat procesul de corelare. Noul dumneavoastră sensor va trebui să se aclimatizeze cu răspunsul corpului dumneavoastră. Vă rugăm să aşteptaţi 24 de ore înainte de a purta transmitter peste sensor şi de a începe faza de iniţializare a calibrării.</string>
+    <string name="new_sensor_detected_notification_message">A fost detectat un sensor nou. Dacă aveţi un sensor şi/sau un transmitter nou, creaţi conexiunea între sensor şi transmitter.</string>
+    <string name="new_sensor_detected_notification_title">A fost detectat un sensor nou</string>
+    <string name="next">Următorul</string>
+    <string name="next_schedule_cal_time"><b>Ora următoarei calibrări planificate</b></string>
+    <string name="next_schedule_cal_unknown">Indisponibil</string>
+    <string name="no">Nu</string>
+    <string name="no_browser_found_2">Nu a fost detectat niciun browser pentru deschiderea paginilor web. Instalaţi un browser din Google Play store.</string>
+    <string name="no_glucose_display">Nu sunt afişate valori ale glucozei</string>
+    <string name="no_sensor_detected_alarm_message">Transmitter dumneavoastră (%@) nu poate localiza sensor. Valorile de glucoză ale sensor vor fi afişate doar după repoziţionarea transmitter direct peste sensor. Pentru asistenţă, accesaţi Ghidul de amplasare.</string>
+    <string name="no_sensor_detected_alarm_title">Nu a fost detectat un sensor</string>
+    <string name="no_sensor_glucose_reading">Nu există nicio valoare citită de sensor pentru glucoză</string>
+    <string name="no_sensor_linked">Transmitter dumneavoastră nu este corelat la un sensor. Vă rugăm să corelaţi la un sensor şi să încercaţi din nou.</string>
+    <string name="no_signal">Fără semnal</string>
+    <string name="no_statistics">Nu există statistici disponibile din cauza lipsei datelor. Aşteptaţi să fie adunate mai multe date.</string>
+    <string name="no_transmitter_connected">Niciun transmitter conectat</string>
+    <string name="normal">Normal</string>
+    <string name="not_available">Nu este cazul</string>
+    <string name="not_connected">Neconectat</string>
+    <string name="not_enough_data">Nu au fost colectate suficiente date de sensor.</string>
+    <string name="not_now">Nu acum</string>
+    <string name="notes">Note</string>
+    <string name="notification">Notificare</string>
+    <string name="notifications_2">Istoric alerte</string>
+    <string name="now">Acum</string>
+    <string name="ok">OK</string>
+    <string name="one_day_distribution">Statistici glucoză (%1$s)</string>
+    <string name="or">SAU</string>
+    <string name="other">Altele</string>
+    <string name="out_of_range_high_glucose_alarm_help_message" formatted="false">"Vă rugăm să confirmaţi întotdeauna valoarea glucozei cu un test cu instrumentul de măsurare a glucozei înainte de a lua o decizie de tratament. 
+
+După ce valoarea glucozei devine egală cu %value% sau mai mică, afişajul valorii de glucoză la sensor va fi reluat."</string>
+    <string name="out_of_range_high_glucose_alarm_message_2">Valoarea glucozei la sensor este mai mare de %1$s. Vă rugăm să măsuraţi glucoza manual utilizând instrumentul de măsurare a glucozei.</string>
+    <string name="out_of_range_high_glucose_alarm_title">Nivel ridicat de glucoză în afara intervalului</string>
+    <string name="out_of_range_low_glucose_alarm_help_message" formatted="false">"Vă rugăm să confirmaţi întotdeauna valoarea glucozei cu un instrument de măsurare a glucozei înainte de a lua o decizie de tratament. 
+
+După ce valoarea glucozei devine egală cu %value% sau mai mică, afişajul valorii de glucoză la sensor va fi reluat."</string>
+    <string name="out_of_range_low_glucose_alarm_message_2">Valoarea glucozei la sensor este mai mică de %1$s. Vă rugăm să măsuraţi glucoza manual utilizând instrumentul de măsurare a glucozei.</string>
+    <string name="out_of_range_low_glucose_alarm_title">Nivel scăzut de glucoză în afara intervalului</string>
+    <string name="pair_text">Împerecheaţi transmitter pentru a recepţiona şi urmări automat datele dumneavoastră de glucoză.</string>
+    <string name="pair_text_title">ASOCIAŢI Transmitter</string>
+    <string name="password">Parolă</string>
+    <string name="period">Perioadă</string>
+    <string name="phase_start">Pornire fază</string>
+    <string name="phase_text">Fază</string>
+    <string name="place_sensor">Vă rugăm să amplasaţi transmitter peste sensor şi să încercaţi din nou în %d minute.</string>
+    <string name="place_transmitter_text">Amplasaţi transmitter direct peste sensor pentru cel mai bun semnal.</string>
+    <string name="placement_guide">Ghid de amplasare</string>
+    <string name="placement_in_progress">Amplasare în desfăşurare…</string>
+    <string name="placement_low_battery_body_2">A fost detectat acumulatorul transmitter descărcat. Intensitatea semnalului se va actualiza mai încet decât în mod normal (o dată la fiecare %1$d minute).</string>
+    <string name="placement_low_battery_title">Detectat acumulator descărcat</string>
+    <string name="placement_mode_body">Doriţi să utilizaţi în continuare pagina Ghid de amplasare?</string>
+    <string name="placement_mode_title">Mod amplasare</string>
+    <string name="poor">Slab</string>
+    <string name="power_failure_alarm_help_message">Transmitter dumneavoastră se va reajusta la data/ora curentă cu ajutorul smartphone-ului dumneavoastră. Trebuie să reîncărcaţi transmitter zilnic pentru a evita apariţia unei ore nevalide.</string>
+    <string name="power_failure_alarm_message">Transmiţătorul dumneavoastră are o marcă pentru dată/oră veche sau nevalidă. Aplicaţia va actualiza ora transmiţătorului. Dacă primiţi în continuare această eroare, vă rugăm să contactaţi Centrul de asistenţă pentru clienţi.</string>
+    <string name="power_failure_alarm_title">Oră transmitter nevalidă</string>
+    <string name="predicted_high_glucose_alert_help_message_2" formatted="false">"Aţi configurat setarea pentru alerta preconizată la %predictiveMins% minute înainte ca valorile de glucoză ale senzorului să atingă pragul alertei de glucoză, în cazul în care vor progresa în ritmul curent. 
+
+Confirmaţi întotdeauna valoarea glucozei cu un test cu instrumentul de măsurare a glucozei sanguine înainte de a lua o decizie de tratament. 
+
+Dacă doriţi să modificaţi setarea pentru alerta preconizată, mergeţi la Meniu -> Setări -> Glucoză."</string>
+    <string name="predicted_high_glucose_alert_message_3">Valoarea glucozei la senzor are o tendinţă ascendentă şi va atinge valoarea alertei de nivel de glucoză crescut în %d minute. Vă rugăm să măsuraţi glucoza manual utilizând instrumentul de măsurare a glucozei sanguine la domiciliu.</string>
+    <string name="predicted_high_glucose_alert_title">Nivel ridicat de glucoză preconizat</string>
+    <string name="predicted_low_glucose_alert_help_message_2" formatted="false">"Aţi configurat setarea pentru alerta preconizată la %predictiveMins% minute înainte ca valorile de glucoză ale senzorului să atingă pragul alertei de glucoză, în cazul în care vor progresa în ritmul curent. 
+
+Confirmaţi întotdeauna valoarea glucozei cu un test cu instrumentul de măsurare a glucozei sanguine înainte de a lua o decizie de tratament. 
+
+Dacă doriţi să modificaţi setarea pentru alerta preconizată, mergeţi la Meniu -> Setări -> Glucoză."</string>
+    <string name="predicted_low_glucose_alert_message_2">Valoarea glucozei la senzor are o tendinţă descendentă şi va atinge valoarea alertei de nivel de glucoză scăzut în %d minute. Vă rugăm să măsuraţi glucoza manual utilizând instrumentul de măsurare a glucozei sanguine la domiciliu.</string>
+    <string name="predicted_low_glucose_alert_title">Nivel scăzut de glucoză preconizat</string>
+    <string name="predictive_alerts">Alerte preconizate</string>
+    <string name="predictive_text_2">Sunteţi alertat cu X minute înainte ca senzorul pentru nivelul glucozei să depăşească pragul de alertă pentru glucoză, dacă acesta continuă la rata curentă.</string>
+    <string name="privacy_statement">Declaraţie de confidenţialitate</string>
+    <string name="product_information">Informaţii despre produs</string>
+    <string name="productinfo">"&lt;html>&lt;body style='margin:0;padding:0;'> &lt;table cellpadding=\"5\"> &lt;tr > &lt;td valign=\"top\">Companie:&lt;/td> &lt;td>Senseonics, Inc.&lt;br/>20451 Seneca Meadows Parkway,&lt;br/>Germantown, Maryland,&lt;br/>USA&lt;br/>&lt;a href='http://www.eversensediabetes.com'>www.eversensediabetes.com&lt;/a>&lt;/td> &lt;/tr> &lt;tr > &lt;td>Versiune:&lt;/td> &lt;td>@version&lt;/td> &lt;/tr> &lt;tr > &lt;td>Lansare:&lt;/td> &lt;td>@releasedate&lt;/td> &lt;/tr> &lt;tr> &lt;td>Compatibilitate:&lt;/td> &lt;td>&lt;a href='https://ous.eversensediabetes.com/compatibility/'>https://&lt;br/>ous.eversensediabetes.com/&lt;br/>compatibility/&lt;/a>&lt;/td> &lt;/tr> &lt;tr> &lt;td>&lt;/td> &lt;td>&lt;/td> &lt;/tr> &lt;tr> &lt;td>&lt;/td> &lt;td>&lt;/td> &lt;/tr> &lt;tr> &lt;td colspan=2 align='center'> © 2016 Senseonics, Inc. &lt;/td> &lt;/tr> &lt;/table> &lt;/body>&lt;/html>"</string>
+    <string name="rapid_acting">Acţiune rapidă</string>
+    <string name="rate_alerts">Alerte rată</string>
+    <string name="rate_falling_alert_mg_message_2" formatted="false">Valoarea glucozei la senzor scade cu o rată egală cu setarea dumneavoastră %.1f %@ a ratei de modificare sau mai mare. Vă rugăm să măsuraţi glucoza manual utilizând instrumentul de măsurare a glucozei sanguine la domiciliu.</string>
+    <string name="rate_falling_alert_mg_mmol_help_message" formatted="false">"Aţi configurat setarea pentru rata de modificare pentru a vă alerta atunci când valorile glucozei de la sensor se modifică mai repede de %rate%. 
+
+Confirmaţi întotdeauna valoarea glucozei cu un test cu instrumentul de măsurare a glucozei înainte de a lua o decizie de tratament. 
+
+Dacă doriţi să modificaţi setarea pentru rata de modificare, mergeţi la Meniu -> Setări -> Glucoză."</string>
+    <string name="rate_falling_alert_mmol_message_2" formatted="false">Valoarea glucozei la senzor scade cu o rată egală cu setarea dumneavoastră %.2f %@ a ratei de modificare sau mai mare. Vă rugăm să măsuraţi glucoza manual utilizând instrumentul de măsurare a glucozei sanguine la domiciliu.</string>
+    <string name="rate_falling_alert_title">Rată în scădere</string>
+    <string name="rate_of_change">Rată de modificare</string>
+    <string name="rate_rising_alert_mg_message_2" formatted="false">Valoarea glucozei la senzor creşte cu o rată egală cu setarea dumneavoastră %.1f %@ a ratei de modificare sau mai mare. Vă rugăm să măsuraţi glucoza manual utilizând instrumentul de măsurare a glucozei sanguine la domiciliu.</string>
+    <string name="rate_rising_alert_mg_mmol_help_message" formatted="false">"Aţi configurat setarea pentru rata de modificare pentru a vă alerta atunci când valorile glucozei de la sensor se modifică mai repede de %rate%. 
+
+Confirmaţi întotdeauna valoarea glucozei cu un test cu instrumentul de măsurare a glucozei înainte de a lua o decizie de tratament. 
+
+Dacă doriţi să modificaţi setarea pentru rata de modificare, mergeţi la Meniu -> Setări -> Glucoză."</string>
+    <string name="rate_rising_alert_mmol_message_2" formatted="false">Valoarea glucozei la senzor creşte cu o rată egală cu setarea dumneavoastră %.2f %@ a ratei de modificare sau mai mare. Vă rugăm să măsuraţi glucoza manual utilizând instrumentul de măsurare a glucozei sanguine la domiciliu.</string>
+    <string name="rate_rising_alert_title">Rată în creştere</string>
+    <string name="rate_text">Sunteţi alertat atunci când sensor pentru nivelul glucozei se modifică (scade sau creşte) mai rapid decât rata de modificare setată.</string>
+    <string name="rate_too_high">sensor de glucoză se schimbă prea rapid. Aşteptaţi 10 minute şi încercaţi din nou.</string>
+    <string name="request_timeout">Solicitare pauză</string>
+    <string name="request_timeout_text">Solicitare pauză determinată de conexiunea la internet sau de o problemă de server. Verificaţi conexiunea la internet. Dacă eroarea persistă, contactaţi Centrul de asistenţă pentru clienţi.</string>
+    <string name="retrieving_parameters">1. Extragere parametri</string>
+    <string name="ringtones">TONURI DE APEL</string>
+    <string name="rssi_value">RSSI</string>
+    <string name="save">Salvare</string>
+    <string name="search_menu_title">Căutați</string>
+    <string name="searching">Căutare…</string>
+    <string name="select_transmitter_text">Selectaţi transmitter din lista de mai jos pentru a vă conecta</string>
+    <string name="sensor_days_since_insertion">Zile de la introducere</string>
+    <string name="sensor_details">Detalii sensor</string>
+    <string name="sensor_eol">sensor este izolat. Vă rugăm să contactaţi medicul dumneavoastră.</string>
+    <string name="sensor_file_error">Eroare fişier sensor</string>
+    <string name="sensor_file_error_text">Nu se poate descărca fişierul de parametri ai senzorului. Încercaţi din nou. Dacă eroarea persistă, contactaţi Centrul de asistenţă pentru clienţi.</string>
+    <string name="sensor_hardware_error_alarm_help_message">Transmiţătorul dumneavoastră (%@) a raportat o eroare de hardware la nivelul senzorului şi nu va mai afişa valoarea glucozei la senzor. Vă rugăm să contactaţi Centrul de asistenţă pentru clienţi pentru a rezolva eroarea.</string>
+    <string name="sensor_hardware_error_alarm_message">Transmiţătorul dumneavoastră (%@) a raportat o eroare de hardware la nivelul senzorului şi nu va mai afişa valoarea glucozei la senzor. Vă rugăm să contactaţi Centrul de asistenţă pentru clienţi pentru a rezolva eroarea.</string>
+    <string name="sensor_hardware_error_alarm_title">Eroare hardware sensor</string>
+    <string name="sensor_high_temperature_alarm_message">Temperatura senzorului dumneavoastră este prea ridicată. Vă rugăm să vă deplasaţi într-un mediu mai rece pentru a relua primirea valorilor de glucoză. Dacă problema persistă, contactaţi Centrul de asistenţă pentru clienţi.</string>
+    <string name="sensor_high_temperature_alarm_title">Temperatură ridicată sensor</string>
+    <string name="sensor_instability_alarm_help_message">În faza de reiniţializare, trebuie să efectuaţi 4 teste cu instrumentul de măsurare a glucozei, la intervale de 2-12 ore. Sistemul dumneavoastră vă va ghida în mod automat de-a lungul acestui proces de calibrare.</string>
+    <string name="sensor_instability_alarm_message">Sistemul necesită reiniţializare. Va trebui să efectuaţi 4 teste de calibrare cu înţepare în deget.</string>
+    <string name="sensor_instability_alarm_title">Verificare senzor</string>
+    <string name="sensor_link_failure_body">Vă rugăm să încercați din nou. Dacă problema persistă, contactați Serviciul de asistență clienți.</string>
+    <string name="sensor_link_failure_title">Conectarea senzorului a eșuat</string>
+    <string name="sensor_low_high_temperature_alarm_help_message">Păstraţi transmitter dumneavoastră pornit deasupra sensor. În momentul în care temperatura sensor ajunge între 27-40 C, acesta va relua determinarea valorilor de glucoză.</string>
+    <string name="sensor_low_temperature_alarm_message">Temperatura senzorului dumneavoastră este prea scăzută. Vă rugăm să vă deplasaţi într-un mediu mai cald pentru a relua primirea valorilor de glucoză. Dacă problema persistă, contactaţi Centrul de asistenţă pentru clienţi.</string>
+    <string name="sensor_low_temperature_alarm_title">Temperatură scăzută sensor</string>
+    <string name="sensor_on_hold_alarm_help_message">La începerea fazei de iniţializare după 6 ore, sistemul vă va notifica să calibraţi cu teste de calibrare cu înţepare în deget.</string>
+    <string name="sensor_on_hold_alarm_message">Sistemul este suspendat timp de 6 ore şi reiniţializarea va începe în 6 ore.</string>
+    <string name="sensor_on_hold_alarm_title">Senzor suspendat</string>
+    <string name="sensor_retired_alarm_help_message">"Contactaţi medicul dumneavoastră pentru îndepărtarea sensor curent şi înlocuirea acestuia cu unul nou. 
+
+sensor dumneavoastră curent nu mai poate furniza valori ale glucozei."</string>
+    <string name="sensor_retired_alarm_message">sensor dumneavoastră trebuie înlocuit. Vă rugăm să contactaţi medicul dumneavoastră pentru înlocuirea sensor.</string>
+    <string name="sensor_retired_alarm_title">Înlocuire sensor</string>
+    <string name="sensor_retired_prematurely_alarm_message">Senzorul dvs. nu mai poate măsura valorile glucozei. Vă rugăm să contactaţi medicul dumneavoastră pentru înlocuirea senzorului.</string>
+    <string name="sensor_retired_prematurely_alarm_title">Înlocuire sensor</string>
+    <string name="sensor_retired_prematurely_help_message">Senzorul nu mai funcţionează şi nu mai poate măsura valorile glucozei. Contactaţi medicul dvs. pentru înlocuirea senzorului.</string>
+    <string name="sensor_retirement_14_days_notification_message_2">În următoarele 14 zile va fi necesară înlocuirea senzorului şi nu veţi mai putea primi valori ale senzorului pentru glucoză. Vă rugăm să contactaţi medicul dumneavoastră pentru înlocuirea senzorului.</string>
+    <string name="sensor_retirement_14_days_notification_title">Înlocuire sensor</string>
+    <string name="sensor_retirement_1_7_day_alarm_help_message">sensor dumneavoastră trebuie îndepărtat şi înlocuit. Vă rugăm să contactaţi medicul dumneavoastră pentru a vă programa vizita.</string>
+    <string name="sensor_retirement_1_day_alarm_message">În următoarea zi va fi necesară înlocuirea sensor şi nu veţi mai putea primi valori ale sensor pentru glucoză. Vă rugăm să contactaţi medicul dumneavoastră pentru înlocuirea sensor.</string>
+    <string name="sensor_retirement_1_day_alarm_title">Înlocuire sensor</string>
+    <string name="sensor_retirement_2_days_alarm_message_2">În următoarele 2 zile va fi necesară înlocuirea senzorului şi nu veţi mai putea primi valori ale senzorului pentru glucoză. Vă rugăm să contactaţi medicul dumneavoastră pentru înlocuirea senzorului.</string>
+    <string name="sensor_retirement_2_days_alarm_title">Înlocuire sensor</string>
+    <string name="sensor_retirement_30_days_notification_message">În următoarele 30 zile va fi necesară înlocuirea sensor şi nu veţi mai putea primi valori ale sensor pentru glucoză. Vă rugăm să contactaţi medicul dumneavoastră pentru înlocuirea sensor.</string>
+    <string name="sensor_retirement_30_days_notification_title">Înlocuire sensor</string>
+    <string name="sensor_retirement_3_days_alert_message_2">În următoarele 3 zile va fi necesară înlocuirea senzorului şi nu veţi mai putea primi valori ale senzorului pentru glucoză. Vă rugăm să contactaţi medicul dumneavoastră pentru înlocuirea senzorului.</string>
+    <string name="sensor_retirement_3_days_alert_title">Înlocuire sensor</string>
+    <string name="sensor_retirement_7_days_alert_message_2">În următoarele 7 zile va fi necesară înlocuirea senzorului şi nu veţi mai putea primi valori ale senzorului pentru glucoză. Vă rugăm să contactaţi medicul dumneavoastră pentru înlocuirea senzorului.</string>
+    <string name="sensor_retirement_7_days_alert_title">Înlocuire sensor</string>
+    <string name="sensor_retirement_agedout_alarm_message">Pentru a putea primi în continuare valorile de glucoză la senzor, senzorul dvs. trebuie înlocuit în următoarele 7 zile. Vă rugăm să contactaţi medicul dumneavoastră pentru înlocuirea senzorului.</string>
+    <string name="sensor_retirement_agedout_help_message">Nu veţi mai primi valori de glucoză la senzor după 7 zile. Contactaţi medicul dvs. pentru înlocuirea senzorului.</string>
+    <string name="sensor_status_alarm_message_0">Senzorul dvs. a fost inserat timp de 150 de zile. Vă rugăm să vă adresați medicului dvs. cât de curând posibil pentru a programa primirea unui dispozitiv de înlocuire.</string>
+    <string name="sensor_status_alarm_message_1">Senzorul dvs. a fost inserat timp de 146 de zile. Vă rugăm să vă adresați medicului dvs. cât de curând posibil pentru a programa primirea unui dispozitiv de înlocuire.</string>
+    <string name="sensor_status_alarm_message_2">Senzorul dvs. a fost inserat timp de 136 de zile. Vă rugăm să vă adresați medicului dvs. pentru a programa primirea unui dispozitiv de înlocuire.</string>
+    <string name="sensor_status_alarm_message_3">Senzorul dvs. a fost inserat timp de 120 de zile. Vă rugăm să vă adresați medicului dvs. pentru a programa primirea unui dispozitiv de înlocuire.</string>
+    <string name="sensor_status_alarm_title">Stare senzor</string>
+    <string name="serial_number">Număr de serie</string>
+    <string name="serial_number_sensor">SN corelat</string>
+    <string name="server_error">Eroare server</string>
+    <string name="server_error_text">A survenit o eroare a serverului. Încercaţi din nou. Dacă eroarea persistă, contactaţi Centrul de asistenţă pentru clienţi.</string>
+    <string name="set_alert_levels">Setaţi nivelurile de glucoză la care doriţi ca sistemul să declanşeze alerta, dacă acestea sunt atinse.</string>
+    <string name="set_calibration_time_text">"Setaţi orele de dimineaţă şi de seară la care doriţi să vi se reamintească să efectuaţi calibrarea.
+
+Notă: Orele calibrării de dimineaţă şi de seară trebuie să fie la o distanţă cuprinsă între 10 şi 14 ore."</string>
+    <string name="set_meal_times_text">Perioade de timp pentru tabelul cu orele de masă</string>
+    <string name="set_target_levels">Selectaţi nivelurile de glucoză între care doriţi să vă încadraţi.</string>
+    <string name="settings">Setări</string>
+    <string name="severity">Gravitate</string>
+    <string name="share_my_data">Distribuire a datelor mele</string>
+    <string name="short_acting">Acţiune scurtă</string>
+    <string name="shortcut_breakfast">Brk</string>
+    <string name="shortcut_dinner">Din</string>
+    <string name="shortcut_lunch">Lun</string>
+    <string name="shortcut_sleep">Slp</string>
+    <string name="shortcut_snack">Sna</string>
+    <string name="sleep">Somn</string>
+    <string name="snack">Gustare</string>
+    <string name="sore_throat">Laringită</string>
+    <string name="sound_high_glucose_alarm_2">Alertă nivel ridicat glucoză</string>
+    <string name="sound_high_snooze">Alarmă nivel ridicat</string>
+    <string name="sound_low_glucose_alarm_2">Alertă nivel scăzut glucoză</string>
+    <string name="sound_low_snooze">Alarmă nivel scăzut</string>
+    <string name="sound_settings">Setări sunet</string>
+    <string name="sound_settings_description_2">Alegeţi sunetele pentru alertele de nivel de glucoză ridicat/scăzut şi frecvenţa repetării.</string>
+    <string name="start">Pornire</string>
+    <string name="statistics">Rapoarte</string>
+    <string name="statistics_string">Statistici</string>
+    <string name="status_bar_notification_info_overflow">˃999</string>
+    <string name="stddev">Dev std</string>
+    <string name="stop">Oprire</string>
+    <string name="stress">Stres</string>
+    <string name="submit">Trimitere</string>
+    <string name="sync_could_not_start_2">Sincronizarea nu a putut începe, vă rugăm să vă deconectați și apoi să vă conectați din nou la contul dvs.</string>
+    <string name="sync_days">Sincronizare zile</string>
+    <string name="sync_now">PORNIRE SINCRONIZARE</string>
+    <string name="synced_success">Sincronizare reuşită</string>
+    <string name="syncing">ÎN CURS DE SINCRONIZARE…</string>
+    <string name="system">Sistem</string>
+    <string name="target">Ţintă</string>
+    <string name="temp_profile_description">Setaţi valorile glucozei de la care doriţi ca sistemul să vă alerteze atunci când Profil temp este ACTIV. Atingeţi START pentru activare; atingeţi STOP pentru dezactivare.</string>
+    <string name="temp_profile_duration">%1$dhr %2$dmin</string>
+    <string name="temp_profile_glucose_settings_warning">Profilul dvs. temp este activ şi setările pentru glucoză salvate aici nu vor intra în vigoare până când profilul Temp nu este dezactivat sau nu expiră.</string>
+    <string name="temp_profile_time_left">%1$dhr %2$dmin rămase</string>
+    <string name="temp_profile_title">Profil temp</string>
+    <string name="temp_profile_turned_off_body">Durata profilului dvs. temp s-a terminat. Setările standard pentru glucoză vor fi acum reluate.</string>
+    <string name="temp_profile_turned_off_title">Profil temp dezactivat</string>
+    <string name="time">Ora</string>
+    <string name="tips_connect_html_text">"Dacă nu reuşiţi să stabiliţi o conexiune cu transmitter dumneavoastră, încercaţi să parcurgeţi următorii paşi:
+
+ * Asiguraţi-vă că transmitter este încărcat şi că nu este conectat la un încărcător.
+ * Dezactivaţi şi activaţi serviciul Bluetooth din meniul de setări al smartphone-ului.
+ * Opriţi şi reporniţi smartphone-ul.
+ * Rulaţi funcţia „Uită dispozitivul meu” şi stabiliţi o nouă asociere."</string>
+    <string name="tips_connect_html_text_initial">"Pentru a conecta (\"asocia\") transmitter pentru prima dată:
+
+ 1) Deconectaţi transmitter de la USB.
+ 2) Atingeţi butonul de pe transmitter de 3 ori.
+ 3) Confirmaţi că LED-ul luminează VERDE şi PORTOCALIU.
+ 4) Atingeţi în lista de mai sus numele transmitter (denumit în funcţie de SN sau eticheta de pe spate)."</string>
+    <string name="tips_html_text">"* Spălaţi-vă pe mâini şi uscaţi-vă bine înainte de a utiliza o bandă de test
+ * Utilizaţi o picătură de sânge cu dimensiunea corectă
+ * Păstraţi instrumentul de măsurare curat
+ * Momente sugerate pentru efectuarea calibrării - înainte de mese, înaintea dozării insulinei, înainte de culcare, înainte de exerciţii fizice"</string>
+    <string name="tired">Obosit/ă</string>
+    <string name="today">AZI</string>
+    <string name="todayLow">Azi</string>
+    <string name="tomorrowLow">Mâine</string>
+    <string name="too_soon">Nu este ora calibrării planificate. Vă rugăm să încercaţi din nou la ora următoarei calibrări planificate.</string>
+    <string name="transmitter_details">Detalii transmitter</string>
+    <string name="transmitter_disconnected_notification_message">Transmitter dumneavoastră (%@) a fost deconectat. Vă rugăm să conectaţi transmitter pentru a continua să primiţi toate notificările.</string>
+    <string name="transmitter_disconnected_notification_title">Transmitter deconectat</string>
+    <string name="transmitter_error">Eroare transmitter</string>
+    <string name="transmitter_error_alarm_help_message">Contactaţi Centrul de asistenţă pentru clienţi.</string>
+    <string name="transmitter_error_alarm_message_2">Transmiţătorul dumneavoastră a detectat o eroare. Vă rugăm să contactaţi Centrul de asistenţă pentru clienţi.</string>
+    <string name="transmitter_error_alarm_title">Eroare transmitter</string>
+    <string name="transmitter_high_temperature_alarm_help_message">"În momentul în care temperatura transmitter ajunge sub 42 C, acesta va relua determinarea valorilor de glucoză. 
+
+Puteţi să îndepărtaţi temporar transmitter pentru a permite răcirea acestuia. Asiguraţi-vă însă că repoziţionaţi transmitter deasupra sensor după scăderea temperaturii. Nu refrigeraţi transmitter."</string>
+    <string name="transmitter_high_temperature_alarm_message_2">Temperatura transmiţătorului dumneavoastră este prea ridicată. Deplasaţi-vă într-un mediu mai rece pentru a relua afişajul valorii de glucoză pe senzor. Dacă problema persistă, contactaţi Centrul de asistenţă pentru clienţi.</string>
+    <string name="transmitter_high_temperature_alarm_title">Temperatură ridicată transmitter</string>
+    <string name="type">Tip</string>
+    <string name="unit_descriptive_text_mgdl_mmol" formatted="false">Dacă doriţi să schimbaţi unitatea de măsură în<b> %value%</b>, puteţi să o faceţi numai acum. Înainte de a modifica această setare, vă rugăm să vă consultaţi cu medicul dumneavoastră dacă nu sunteţi sigur(ă) care trebuie să fie unitatea dumneavoastră de măsură.</string>
+    <string name="unit_example_text_mgdl">Exemplu: 160 &lt;b>mg/dL&lt;/b> (sau orice valoare din intervalul &lt;b>40–400 mg/dL&lt;/b>)</string>
+    <string name="unit_example_text_mmol">Exemplu: 8,9 &lt;b>mmol/L&lt;/b> (sau orice valoare din intervalul &lt;b>2,2–22,2 mmol/L&lt;/b>)</string>
+    <string name="unit_glucose_reading_changed">modificat</string>
+    <string name="unit_glucose_reading_set">configurat</string>
+    <string name="unit_glucose_reading_text_mgdl_mmol_2" formatted="false">Valoarea glucozei a fost<b> %value%</b>, afișată în unitatea de măsură prezentată mai jos.</string>
+    <string name="unit_selected_text" formatted="false">Unitate de măsură:<b> %value%</b></string>
+    <string name="unit_title">UNITATE DE MĂSURĂ</string>
+    <string name="units">Unităţi</string>
+    <string name="unknown">Necunoscut</string>
+    <string name="unknown_error">Eroare necunoscută</string>
+    <string name="unknown_error_alert_message">Eroare necunoscută. Dacă primiţi în continuare această eroare, vă rugăm să contactaţi Centrul de asistenţă pentru clienţi. (%@)</string>
+    <string name="unknown_error_alert_title">Cod necunoscut: %d</string>
+    <string name="unknown_error_text">A survenit o eroare necunoscută. Încercaţi din nou. Dacă eroarea persistă, contactaţi Centrul de asistenţă pentru clienţi.</string>
+    <string name="unknown_help_message">Eroare necunoscută. Dacă primiţi în continuare această eroare, vă rugăm să contactaţi Centrul de asistenţă pentru clienţi. (%@)</string>
+    <string name="unknown_reason">Momentan, calibrarea nu poate fi finalizată. Pentru mai multe informaţii, consultaţi secţiunea Calibrarea din ghidul utilizatorului şi încercaţi din nou mai târziu.</string>
+    <string name="unsupported_mode">Transmitter dumneavoastră se află într-un mod care nu acceptă o calibrare. Vă rugăm să contactaţi medicul dumneavoastră dacă aveţi întrebări suplimentare.</string>
+    <string name="username">Nume utilizator</string>
+    <string name="value">Valoare</string>
+    <string name="version_number">Versiune firmware</string>
+    <string name="very_low">Foarte scăzut</string>
+    <string name="very_low_battery_alert_help_message">"Îndepărtaţi transmitter de pe corpul dumneavoastră înainte de a conecta transmitter la sursa de alimentare pentru reîncărcarea acumulatorului. 
+
+Transmitter nu colectează informaţii de la sensor în perioada de încărcare. Nu veţi primi informaţii despre glucoză în timpul încărcării transmitter."</string>
+    <string name="very_low_battery_alert_message">Acumulatorul transmitter dumneavoastră este aproape epuizat. Vă rugăm să vă reîncărcaţi transmitter acum.</string>
+    <string name="very_low_battery_alert_title">Încărcare transmitter</string>
+    <string name="vibration_motor_alarm_help_message">Sistemul dvs. va continua să afişeze valorile glucozei pentru următoarele 72 de ore. Pentru a putea primi valori de glucoză după 72 de ore, transmiţătorul dvs. trebuie înlocuit. Contactaţi Centrul de asistenţă pentru clienţi pentru înlocuire.</string>
+    <string name="vibration_motor_alarm_message">Transmiţătorul a detectat o problemă cu vibromotorul şi nu mai poate furniza alerte vibratorii. Contactaţi Centrul de asistenţă pentru clienţi pentru înlocuirea transmiţătorului.</string>
+    <string name="vibration_motor_alarm_title">Vibromotor</string>
+    <string name="view">Vizualizare</string>
+    <string name="wait_for_x_minutes">Vă rugăm să încercaţi din nou în %d minute.</string>
+    <string name="waiting_post_calibration">Se aşteaptă determinările sensor post calibrare. Aşteptaţi %d minute şi încercaţi din nou.</string>
+    <string name="warm_up_phase">Încălzire</string>
+    <string name="warmup_unknown">Transmitter dumneavoastră se află în faza de încălzire şi nu este necesară o calibrare. Vă rugăm să contactaţi medicul dumneavoastră pentru mai multe informaţii.</string>
+    <string name="warning">Avertisment</string>
+    <string name="weekly_statistics">Rezumat modal săptămânal (%1$s)</string>
+    <string name="welcome">Bine aţi venit</string>
+    <string name="wi_fi_disconnected">Internet deconectat</string>
+    <string name="wi_fi_disconnected_text">Nu se poate detecta conexiunea la internet. Vă rugăm să vă conectaţi la internet şi să încercaţi din nou.</string>
+    <string name="within">În interval</string>
+    <string name="within_target_levels">Între valorile ţintă</string>
+    <string name="yes">Da</string>
+</resources>

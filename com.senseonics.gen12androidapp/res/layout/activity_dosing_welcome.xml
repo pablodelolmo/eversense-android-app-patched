@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/dosingImageView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/large_margin" android:src="@drawable/company_logo" android:contentDescription="@string/image_description" />
+            <TextView android:textSize="@dimen/dosing_welcome_title_size" android:textStyle="bold" android:textColor="@color/black" android:id="@id/dosingTextView1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium_margin" android:text="@string/dosing_welcome_title" android:layout_marginStart="@dimen/medium_margin" android:layout_marginEnd="@dimen/medium_margin" />
+            <TextView android:textSize="@dimen/large_text" android:textColor="@color/black" android:id="@id/dosingTextView2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/medium_margin" android:text="@string/dosing_welcome_text_2" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

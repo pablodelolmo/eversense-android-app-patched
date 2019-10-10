@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/large_text" android:textStyle="bold" android:textColor="@color/black" android:id="@id/titleTextView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/box_margin" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/imageView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/box_margin" android:src="@drawable/no_sensor_icon_dialog" />
+        <TextView android:textSize="@dimen/large_text" android:textColor="@color/black" android:gravity="center" android:id="@id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/box_margin" />
+    </LinearLayout>
+    <View android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <TextView android:textSize="@dimen/large_text" android:textColor="@color/lighter_black" android:id="@id/ok" android:background="@color/gray_popup_bar" android:paddingTop="@dimen/box_margin" android:paddingBottom="@dimen/box_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ok" style="@android:style/Widget.Holo.Button.Borderless" />
+</LinearLayout>

@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigeren naar startpositie</string>
+    <string name="abc_action_bar_up_description">Omhoog navigeren</string>
+    <string name="abc_action_menu_overflow_description">Meer opties</string>
+    <string name="abc_action_mode_done">Gereed</string>
+    <string name="abc_activity_chooser_view_see_all">Alles weergeven</string>
+    <string name="abc_activitychooserview_choose_application">Een app selecteren</string>
+    <string name="abc_capital_off">UIT</string>
+    <string name="abc_capital_on">AAN</string>
+    <string name="abc_search_hint">Zoeken…</string>
+    <string name="abc_searchview_description_clear">Zoekopdracht wissen</string>
+    <string name="abc_searchview_description_query">Zoekopdracht</string>
+    <string name="abc_searchview_description_search">Zoeken</string>
+    <string name="abc_searchview_description_submit">Zoekopdracht verzenden</string>
+    <string name="abc_searchview_description_voice">Gesproken zoekopdracht</string>
+    <string name="abc_shareactionprovider_share_with">Delen met</string>
+    <string name="abc_shareactionprovider_share_with_application">Delen met %s</string>
+    <string name="abc_toolbar_collapse_description">Samenvouwen</string>
+    <string name="about">Info</string>
+    <string name="above">Boven</string>
+    <string name="above_target_level">Boven streefwaarde</string>
+    <string name="accept">Accepteren</string>
+    <string name="alcohol">Alcohol</string>
+    <string name="alert">Waarschuwing</string>
+    <string name="alert_detail_glucose_value">Glucosewaarde:</string>
+    <string name="alert_detail_threshold">Drempel:</string>
+    <string name="alert_notice">Waarschuwingsmelding</string>
+    <string name="alert_settings">Instellingen voor waarschuwingen</string>
+    <string name="all">Alle</string>
+    <string name="allergy">Allergie</string>
+    <string name="and">en</string>
+    <string name="android_device_info">Info Android-apparaat</string>
+    <string name="android_version">Android-versie</string>
+    <string name="app_update_body">Er is een upgrade beschikbaar voor uw Eversense-app. Wilt u deze nu installeren?</string>
+    <string name="app_update_title">Eversense-app upgraden</string>
+    <string name="auto_sync">Automatische synchronisatie</string>
+    <string name="auto_sync_enabled_text">"Automatische synchronisatie ingeschakeld.
+Uw gegevens worden iedere 2 uur met de server gesynchroniseerd."</string>
+    <string name="average">Gemiddeld</string>
+    <string name="avg">Gem.</string>
+    <string name="battery_level">Batterijniveau</string>
+    <string name="below">Onder</string>
+    <string name="below_target_level">Onder streefwaarde</string>
+    <string name="between">tussen</string>
+    <string name="ble_not_supported">Bluetooth Low Energy wordt niet ondersteund</string>
+    <string name="bluetooth_is_off">Bluetooth is UITGESCHAKELD</string>
+    <string name="bluetooth_pairing">Bluetooth-koppeling</string>
+    <string name="breakfast">Ontbijt</string>
+    <string name="cal_accepted_message_2">"Uw bloedglucosewaarde is gebruikt voor kalibratie.
+
+Waarschuwing: uw zender mag %1$d minuten lang niet van de sensor worden verwijderd. Als de zender wordt verwijderd, moet de kalibratie worden herhaald."</string>
+    <string name="cal_accepted_title">Kalibratie geaccepteerd</string>
+    <string name="cal_in_progress">Kalibratie wordt uitgevoerd (%1$d min, %2$d sec)</string>
+    <string name="cal_not_entered_message">Uw bloedglucosewaarde is vastgelegd, maar is niet ingevoerd voor kalibratie.</string>
+    <string name="cal_not_entered_title">Kalibratie niet ingevoerd</string>
+    <string name="cal_not_used_reason_text">Reden niet gebruikt voor kalibratie</string>
+    <string name="cal_rejected_auto_link_message">Uw bloedglucosewaarde is niet gebruikt voor kalibratie omdat de modus voor automatische koppeling actief is. Schakel de modus voor automatische koppeling uit voordat u een kalibratie invoert.</string>
+    <string name="cal_rejected_auto_link_title">"Kalibratie geweigerd
+(Automatische koppelingsmodus)"</string>
+    <string name="cal_rejected_blinded_message_2">Uw bloedglucosewaarde is niet gebruikt voor kalibratie. Wacht %1$d uur en probeer het opnieuw.</string>
+    <string name="cal_rejected_blinded_title">"Kalibratie geweigerd
+(Geblindeerd)"</string>
+    <string name="cal_rejected_data_message_2">Uw bloedglucosewaarde is niet gebruikt voor kalibratie omdat er niet voldoende glucosegegevens van de sensor beschikbaar zijn. Controleer of uw zender boven de sensor is geplaatst, wacht %1$d minuten en probeer het opnieuw.</string>
+    <string name="cal_rejected_data_title">"Kalibratie geweigerd
+(Onvoldoende gegevens)"</string>
+    <string name="cal_rejected_not_ready_message_2">Uw bloedglucosewaarde is niet gebruikt voor kalibratie omdat het monster is afgenomen voordat de zender gereed was om kalibratie te accepteren. Wacht %1$d minuten en probeer het vervolgens opnieuw.</string>
+    <string name="cal_rejected_not_ready_title">"Kalibratie geweigerd
+(Niet gereed)"</string>
+    <string name="cal_rejected_other_message">Uw bloedglucosewaarde is niet gebruikt voor kalibratie vanwege een onbekende storing.</string>
+    <string name="cal_rejected_other_title">"Kalibratie geweigerd
+(Andere storing)"</string>
+    <string name="cal_rejected_rate_message_2">Uw bloedglucosewaarde is niet gebruikt voor kalibratie omdat de glucosewaarde te snel verandert. Wacht %1$d uur en probeer het opnieuw.</string>
+    <string name="cal_rejected_rate_title">"Kalibratie geweigerd
+(Sterke verandering)"</string>
+    <string name="cal_rejected_replacement_message">Uw bloedglucosewaarde is niet gebruikt voor kalibratie omdat uw sensor moet worden vervangen. Neem contact op met uw arts om uw sensor te laten vervangen.</string>
+    <string name="cal_rejected_replacement_title">"Kalibratie geweigerd
+(Sensor moet worden vervangen)"</string>
+    <string name="cal_rejected_too_different_message_2">De ingevoerde kalibratiewaarde %1$s is mogelijk onjuist. Kalibreer opnieuw over %2$d uur om voor een nauwkeurige glucosewaarde te zorgen.</string>
+    <string name="cal_rejected_too_different_title">Kalibratie wordt gecontroleerd</string>
+    <string name="cal_rejected_too_high_message_2">Bloedglucosewaarden hoger dan %1$s kunnen niet worden gebruikt voor kalibratie. Onderneem passende actie en probeer het opnieuw over %2$d uur.</string>
+    <string name="cal_rejected_too_high_title">"Kalibratie geweigerd
+(Te hoog)"</string>
+    <string name="cal_rejected_too_low_message_2">Bloedglucosewaarden lager dan %1$s kunnen niet worden gebruikt voor kalibratie. Onderneem passende actie en probeer het opnieuw over %2$d uur.</string>
+    <string name="cal_rejected_too_low_title">"Kalibratie geweigerd
+(Te laag)"</string>
+    <string name="cal_rejected_unknown_message">Uw bloedglucosewaarde is niet gebruikt voor kalibratie vanwege een onbekende reden. Probeer het later opnieuw.</string>
+    <string name="cal_rejected_unknown_title">"Kalibratie geweigerd
+(Onbekende storing)"</string>
+    <string name="calibrate">Kalibreren</string>
+    <string name="calibrate_now_notification_help_message">Het volgens planning kalibreren van uw CGM-systeem naar een bloedglucosemeter is belangrijk om ervoor te zorgen dat u nauwkeurige sensorglucosewaarden krijgt.</string>
+    <string name="calibrate_now_notification_message">Uw kalibratie is verlopen. Voer nu een kalibratie bloedglucose via vingerprik uit.</string>
+    <string name="calibrate_now_notification_title">Nu kalibreren</string>
+    <string name="calibrate_text">Voer de bloedglucosewaarde en tijd in die u hebt afgelezen van uw meter en tik vervolgens op \"Verzenden\" om deze in te voeren.</string>
+    <string name="calibration">Kalibratie</string>
+    <string name="calibration_event">Kalibratie</string>
+    <string name="calibration_expired_alarm_help_message">"Het volgens planning kalibreren van uw CGM-systeem naar een bloedglucosemeter is belangrijk om ervoor te zorgen dat u nauwkeurige sensorglucosewaarden krijgt. 
+
+Tijdens de herinitialisatiefase moet u vier bloedglucosemetertests met een interval van twee tot twaalf uur uitvoeren. Uw systeem begeleidt u tijdens dit kalibratieproces."</string>
+    <string name="calibration_expired_alarm_message">Er is de afgelopen 24 uur geen kalibratie uitgevoerd. Uw systeem bevindt zich in de herinitialisatiefase. U moet vier vingerprikkalibratietests uitvoeren.</string>
+    <string name="calibration_expired_alarm_title">Kalibratie verlopen</string>
+    <string name="calibration_grace_alert_help_message">"U bent te laat met het kalibreren van uw zender. De sensorglucosewaarden worden niet langer weergegeven. Druk op 'Kalibreren' om door te gaan."</string>
+    <string name="calibration_grace_alert_message">"U bent te laat met het kalibreren van uw zender. De sensorglucosewaarden worden niet langer weergegeven. Druk op 'Kalibreren' om door te gaan."</string>
+    <string name="calibration_grace_alert_title">Kalibratie overtijd</string>
+    <string name="calibration_tips"><b>Kalibratietips</b></string>
+    <string name="cancel">Annuleren</string>
+    <string name="carbs">Koolhydraten</string>
+    <string name="click_twice_back">Klik nog een keer op VORIGE om af te sluiten</string>
+    <string name="clinical_mode_enabled">Klinische modus ingeschakeld</string>
+    <string name="complete_sensor_linking_text">Plaats de zender boven de sensor om het koppelen te voltooien. Druk vervolgens op OK.</string>
+    <string name="completed_cals">Voltooide kalibraties</string>
+    <string name="condition">Conditie</string>
+    <string name="congratulations">Gefeliciteerd!</string>
+    <string name="connected">Verbonden</string>
+    <string name="connecting">Verbinding maken</string>
+    <string name="connecting_wait">Verbinden, even geduld…</string>
+    <string name="connection_status">Aansluiten</string>
+    <string name="connection_tips"><b>Help me verbinding maken</b></string>
+    <string name="contact">Contact</string>
+    <string name="contact_us">Contact met ons opnemen</string>
+    <string name="contact_us_mail_body">Deze berichten worden niet 24/7 gemonitord. Gebruik dit e-mailadres niet voor urgente vragen.</string>
+    <string name="contact_us_mail_subject">Bericht voor klantenondersteuning</string>
+    <string name="cough_cold">Hoesten/verkouden</string>
+    <string name="create_an_account">Een account aanmaken</string>
+    <string name="current_phase">Huidige fase</string>
+    <string name="daily_calibration">Dag. kalibratie</string>
+    <string name="data_saved">Gegevens opgeslagen</string>
+    <string name="data_saved_text" formatted="false">"%@ er zijn nieuwe gebeurtenissen opgeslagen in uw database.
+ Er waren al %@ gebeurtenissen opgeslagen."</string>
+    <string name="date">Datum</string>
+    <string name="day_1">1 dag</string>
+    <string name="day_14">14 dagen</string>
+    <string name="day_30">30 dagen</string>
+    <string name="day_7">7 dagen</string>
+    <string name="day_90">90 dagen</string>
+    <string name="daylight_saving">Zomertijd</string>
+    <string name="days_remaining_alarm_help_message_1">Het geschatte aantal dagen dat uw sensor waarden doorgeeft is 4, vanaf de datum van dit bericht. Neem contact op met uw arts om een afspraak voor vervanging te maken.</string>
+    <string name="default_sync_days">Standaard synchronisatiedagen</string>
+    <string name="details">Details</string>
+    <string name="details_version">Versie</string>
+    <string name="detected_sensor">Gedetecteerde sensor</string>
+    <string name="detected_serialnumber">SN gedetecteerd</string>
+    <string name="device_compatibility">COMPATIBILITEIT MET APPARAAT</string>
+    <string name="diarrhea">Diarree</string>
+    <string name="dinner">Avondeten</string>
+    <string name="disconnected_from_transmitter">De verbinding met uw zender is momenteel verbroken. Breng een verbinding met uw zender tot stand en probeer het opnieuw.</string>
+    <string name="dismiss_all">Alles afwijzen</string>
+    <string name="dizzy">Duizelig</string>
+    <string name="do_not_disturb">Niet storen</string>
+    <string name="do_not_disturb_description">De weergave van alle niet-kritieke waarschuwingen en meldingen uitschakelen.</string>
+    <string name="do_not_disturb_warning_message_2">Niet-kritische waarschuwingen worden uitgeschakeld in de app en op de Smart-zender.</string>
+    <string name="do_not_disturb_warning_title">Niet storen ingeschakeld</string>
+    <string name="done">Gereed</string>
+    <string name="drawer_close">Navigatielade sluiten</string>
+    <string name="drawer_open">Navigatielade openen</string>
+    <string name="drop_out">Kan niet kalibreren. Wacht 6 uur en probeer het opnieuw.</string>
+    <string name="duration">Duur</string>
+    <string name="earache">Oorpijn</string>
+    <string name="email">E-mailadres</string>
+    <string name="email_body_graph">"Zie de grafiek met glucosegegevens met gegevens van de laatste %1$s afkomstig van mijn Eversense CGM-systeem.
+
+Opmerking: als de afbeelding niet goed wordt weergegeven, probeer deze dan te openen in een webbrowser.
+"</string>
+    <string name="email_body_pie">"Zie het rapport Glucosecirkeldiagram met gegevens van de laatste %d afkomstig van mijn Eversense CGM-systeem.
+
+Opmerking: als de afbeelding niet goed wordt weergegeven, probeer deze dan te openen in een webbrowser.
+"</string>
+    <string name="email_body_table">Zie het rapport Glucosestatistieken met gegevens van de laatste %d afkomstig van mijn Eversense CGM-systeem.</string>
+    <string name="email_body_weekly">Zie het rapport Overzicht wekelijks gemiddelde met gegevens van de laatste 7 dagen afkomstig van mijn Eversense CGM-systeem.</string>
+    <string name="email_subject_graph">Sensorgegevens</string>
+    <string name="email_subject_pie_chart">Rapport Glucosecirkeldiagram</string>
+    <string name="email_subject_pie_table">Rapport Glucosestatistieken</string>
+    <string name="email_subject_weekly">Rapport Overzicht wekelijks gemiddelde</string>
+    <string name="empty_battery_alarm_help_message">"Haal de zender van uw lichaam voordat u de zender aansluit op de voeding en de batterij opnieuw oplaadt. 
+
+De zender verzamelt tijdens het opladen geen gegevens van de sensor. U ontvangt geen glucose-informatie wanneer de zender wordt opgeladen."</string>
+    <string name="empty_battery_alarm_message">De batterij van uw zender is leeg. Laad de zender nu op om de sensorglucoseweergave te hervatten.</string>
+    <string name="empty_battery_alarm_title">Batterij leeg</string>
+    <string name="end">Einde</string>
+    <string name="estimated_days_remaining_alarm_message">Naar schatting zal uw sensor nog gedurende 4 dagen na de datum van dit bericht waarden doorgeven. Neem contact op met uw arts om een afspraak te maken voor vervanging.</string>
+    <string name="estimated_days_remaining_alarm_title">Geschat aantal dagen resterend</string>
+    <string name="eula">LICENTIEOVEREENKOMST VOOR EINDGEBRUIKERS</string>
+    <string name="eula_confirmation_text">Door hieronder op \"Accepteren\" te klikken, ga ik akkoord met de voorwaarden van de Eindgebruikerslicentieovereenkomst (End User License Agreement, EULA), het Privacybeleid van Senseonics en de Gebruiksvoorwaarden (Privacybeleid) en, tijdens mijn gebruik van het Eversense®-systeem, de toekomstige updates. Ik ga akkoord met het bewaren, verzenden en gebruik van mijn gegevens, inclusief maar niet beperkt tot het bewaren van gegevens in het VK en verzending naar de VS voor beperkte doeleinden (zoals engineering en klantenondersteuning), overeenkomstig de voorwaarden van de EULA en het Privacybeleid, waarbij wordt erkend dat deze gegevensverstrekking de volledige functionaliteit en ondersteuning van het systeem mogelijk maken.</string>
+    <string name="eula_menu">Licentieovereenkomst</string>
+    <string name="eula_screen">Scherm met licentieovereenkomst</string>
+    <string name="evening">Avond</string>
+    <string name="evening_time">Avondtijd</string>
+    <string name="event_cal_accepted_title">Gebruikt</string>
+    <string name="event_cal_not_entered_title">Niet ingevoerd</string>
+    <string name="event_cal_rejected_auto_link_title">Automatische koppelingsmodus</string>
+    <string name="event_cal_rejected_blinded_title">Geblindeerd</string>
+    <string name="event_cal_rejected_data_title">Onvoldoende gegevens</string>
+    <string name="event_cal_rejected_not_ready_title">Niet gereed</string>
+    <string name="event_cal_rejected_other_title">Andere storing</string>
+    <string name="event_cal_rejected_rate_title">Sterke verandering</string>
+    <string name="event_cal_rejected_replacement_title">Sensor moet worden vervangen</string>
+    <string name="event_cal_rejected_too_different_title">Wordt gecontroleerd</string>
+    <string name="event_cal_rejected_too_high_title">Te hoog</string>
+    <string name="event_cal_rejected_too_low_title">Te laag</string>
+    <string name="event_log">Logboek</string>
+    <string name="excellent">Uitstekend</string>
+    <string name="exercise_event">Sporten</string>
+    <string name="exit_app">Afsluiten</string>
+    <string name="faq">Veelgestelde vragen</string>
+    <string name="fever">Koorts</string>
+    <string name="file_corrupted">Bestand beschadigd</string>
+    <string name="file_corrupted_text">Het sensorparameterbestand kan niet worden gedownload. Neem contact op met de klantenondersteuning.</string>
+    <string name="finish">Beëindig</string>
+    <string name="flu">Griep</string>
+    <string name="force_logout_text_w_email">U bent afgemeld omdat er een onjuist e-mailadres of onjuist wachtwoord is opgegeven.</string>
+    <string name="forgot_my_password">Mijn wachtwoord vergeten</string>
+    <string name="general_error_saving_data">Fout tijdens opslaan van gegevens</string>
+    <string name="general_error_saving_data_text">De gegevens zijn niet op de server opgeslagen. Probeer het opnieuw. Neem contact op met de klantenondersteuning als de fout zich blijft voordoen.</string>
+    <string name="glucose_above_high_alert_level">Glucose boven waarsch. niv. hoog</string>
+    <string name="glucose_above_high_target_level">Glucose boven hoge streefwaarde</string>
+    <string name="glucose_alert_levels">Glucosewaarschuwingsniveaus</string>
+    <string name="glucose_below_low_alert_level">Glucose onder waarsch. niv. laag</string>
+    <string name="glucose_below_low_target_level">Glucose onder lage streefwaarde</string>
+    <string name="glucose_event">Glucose</string>
+    <string name="glucose_event_submit_title">Glucose bevestigen</string>
+    <string name="glucose_level_distribution">Glucosecirkeldiagram (%1$s)</string>
+    <string name="glucose_target_levels">Glucosestreefwaarden</string>
+    <string name="glucose_unit">Glucose-eenheden</string>
+    <string name="glucose_within_target_levels">Glucose binnen streefwaarden</string>
+    <string name="good">Goed</string>
+    <string name="grams">gram</string>
+    <string name="health_event">Gezondheid</string>
+    <string name="help">Help</string>
+    <string name="hide">Verbergen</string>
+    <string name="hide_event"><b>Gebeurtenis verbergen</b></string>
+    <string name="hide_event_question">Weet u zeker dat u dit voorval wilt verbergen?</string>
+    <string name="high">Hoog</string>
+    <string name="high_alert">Waarsch. Hoog</string>
+    <string name="high_ambient_light_alarm_help_message">"Als u de blootstelling van de zender aan licht wilt verminderen, kunt u een van de volgende dingen proberen: 
+-Ga naar een gebied waar minder licht is 
+-Draag de zender onder uw kleding"</string>
+    <string name="high_ambient_light_alarm_message_2">Uw sensor krijgt te veel licht. Verminder de blootstelling van de sensor aan licht om weer glucosewaarden te ontvangen. Neem contact op met de klantenondersteuning als het probleem zich blijft voordoen.</string>
+    <string name="high_ambient_light_alarm_title">Veel omgevingslicht</string>
+    <string name="high_glucose_alarm_help_message_2" formatted="false">"U hebt de hoge-glucosewaarschuwing ingesteld op %value%. Wanneer u deze glucosedrempel bereikt, wordt op uw zender en smartphone een waarschuwing geactiveerd. U hebt mogelijk de ingestelde waarde of hoger voor de hoge-glucosewaarschuwing bereikt. 
+
+Bevestig uw glucosewaarde altijd met een bloedglucosemeter voordat u een beslissing over de behandeling neemt. 
+
+Als u de instelling voor de hoge-glucosewaarschuwing wilt wijzigen, gaat u naar Menu -> Instellingen -> Glucose."</string>
+    <string name="high_glucose_alarm_message_2">Uw sensorglucosewaarde is hoger dan of gelijk aan uw instelling %d voor de hoge-glucosewaarschuwing. Bevestig de glucosewaarde door een bloedglucosemetertest uit te voeren.</string>
+    <string name="high_glucose_alarm_title">Glucose hoog</string>
+    <string name="high_glucose_alert_help_message" formatted="false">"U hebt de hoge-glucosewaarschuwing ingesteld op %value%. Wanneer u deze glucosedrempel bereikt, wordt op uw zender en smartphone een alarm geactiveerd. U hebt mogelijk de ingestelde waarde of hoger voor de hoge-glucosewaarschuwing bereikt. 
+
+Bevestig uw glucosewaarde altijd met een bloedglucosemeter voordat u een beslissing over de behandeling neemt. 
+
+Let op: de hoge-glucosewaarschuwing wijkt af van de instelling voor het hoge-glucosealarm. 
+
+Als u de instelling voor de hoge-glucosewaarschuwing wilt wijzigen, gaat u naar Menu -> Instellingen -> Glucose."</string>
+    <string name="high_glucose_alert_message">Uw sensorglucosewaarde is hoger dan of gelijk aan de instelling %d voor het hoge-glucosealarm.</string>
+    <string name="high_glucose_alert_title">Glucose hoog</string>
+    <string name="high_symptoms">Symptomen Hoog</string>
+    <string name="high_target">Hoge streefwaarde</string>
+    <string name="home">Mijn glucose</string>
+    <string name="hours_remaining">uur resterend</string>
+    <string name="hr">u</string>
+    <string name="i_do_not_have_a_glucose_sensor">Ik heb geen Smart-zender</string>
+    <string name="i_have_glucose_sensor">Ik heb een Smart-zender</string>
+    <string name="image_description">Afbeelding</string>
+    <string name="incompatible_fw_version_body_2">Incompatibele zendersoftware gedetecteerd. Neem contact op met de klantenondersteuning.</string>
+    <string name="incompatible_fw_version_title_2">Incompatibele zendersoftware</string>
+    <string name="incompatible_sensor_file">Incompatibel sensorbestand</string>
+    <string name="incompatible_sensor_file_text">Incompatibel sensorbestand (versie: %%) gedetecteerd. Neem contact op met de klantenondersteuning.</string>
+    <string name="infection">Infectie</string>
+    <string name="init_phase">Initialisatie</string>
+    <string name="init_phase_notif">Initialisatiefase (nog %1$d kalibraties)</string>
+    <string name="insertion_date">Inbreng datum</string>
+    <string name="insertion_time">Inbreng tijd</string>
+    <string name="insulin_event">Insuline</string>
+    <string name="insulin_type">Type</string>
+    <string name="intensity">Intensiteit</string>
+    <string name="intermediate_acting">Middellang werkend</string>
+    <string name="invalid_device_type">Ongeldig apparaattype</string>
+    <string name="invalid_device_type_text">Ongeldig apparaattype. Probeer het opnieuw. Neem contact op met de klantenondersteuning als de fout zich blijft voordoen.</string>
+    <string name="invalid_email">Ongeldig e-mailadres</string>
+    <string name="invalid_error_text">Geen internetverbinding gedetecteerd. Maak verbinding met internet om de laatste versie te downloaden.</string>
+    <string name="invalid_password">Ongeldig wachtwoord</string>
+    <string name="invalid_user_credentials_text_w_email">Het e-mailadres of het wachtwoord is onjuist. Probeer het opnieuw. Neem contact op met de klantenondersteuning als de fout zich blijft voordoen.</string>
+    <string name="invalid_user_credentials_w_email">Onjuist e-mailadres of wachtwoord</string>
+    <string name="last_cal">Laatste kalibratie</string>
+    <string name="last_synced_on">Laatste synchr.:</string>
+    <string name="less_than_one_hour">1 uur resterend</string>
+    <string name="link_detected_sensor">Gedetecteerde sensor koppelen</string>
+    <string name="link_detected_sensor_text_2">Ongekoppelde sensor gevonden. Tik op Gedetecteerde sensor koppelen om verder te gaan.</string>
+    <string name="link_sensor">Sens. kopp.</string>
+    <string name="linked_sensor">Gekoppelde sensor</string>
+    <string name="linking_process_complete">3. Koppelingsprocedure voltooid</string>
+    <string name="linking_sensor">2. Sensor koppelen</string>
+    <string name="log_in">Aanmelden</string>
+    <string name="log_out">Afmelden</string>
+    <string name="log_out_text">Als u zich afmeldt, kunt u in de Eversense-app geen glucosegegevens bekijken tot u zich weer aanmeldt. Weet u zeker dat u zich wilt afmelden?</string>
+    <string name="login_success">Aanmelding succesvol</string>
+    <string name="long_acting">Langwerkend</string>
+    <string name="low">Laag</string>
+    <string name="low_alert">Waarsch. Laag</string>
+    <string name="low_battery_notification_help_message">De batterij van uw zender is bijna leeg. Laad de batterij spoedig op.</string>
+    <string name="low_battery_notification_message">De batterij van uw zender is bijna leeg. Laad de batterij spoedig op.</string>
+    <string name="low_battery_notification_title">Zender opladen</string>
+    <string name="low_glucose_alarm_help_message_2" formatted="false">"U hebt de lage-glucosewaarschuwing ingesteld op %value%. Wanneer u deze glucosedrempel bereikt, wordt op uw zender en smartphone een waarschuwing geactiveerd. U hebt mogelijk de ingestelde waarde of lager voor de lage-glucosewaarschuwing bereikt. 
+
+Bevestig uw glucosewaarde altijd met een bloedglucosemeter voordat u een beslissing over de behandeling neemt. 
+
+Als u de instelling voor de lage-glucosewaarschuwing wilt wijzigen, gaat u naar Menu -> Instellingen -> Glucose."</string>
+    <string name="low_glucose_alarm_message_2">Uw sensorglucosewaarde is lager dan of gelijk aan uw instelling %d voor de lage-glucosewaarschuwing. Bevestig de glucosewaarde door een bloedglucosemetertest uit te voeren.</string>
+    <string name="low_glucose_alarm_title">Glucose laag</string>
+    <string name="low_glucose_alert_help_message" formatted="false">"U hebt de lage-glucosewaarschuwing ingesteld op %value%. Wanneer u deze glucosedrempel bereikt, wordt op uw zender en smartphone een alarm geactiveerd. U hebt mogelijk de ingestelde waarde of lager voor de lage-glucosewaarschuwing bereikt.
+
+Bevestig uw glucosewaarde altijd met een bloedglucosemeter voordat u een beslissing over de behandeling neemt. 
+
+Let op: de lage-glucosewaarschuwing wijkt af van de instelling voor het lage-glucosealarm. 
+
+Als u de instelling voor de lage-glucosewaarschuwing wilt wijzigen, gaat u naar Menu -> Instellingen -> Glucose."</string>
+    <string name="low_glucose_alert_message">Uw sensorglucosewaarde is lager dan of gelijk aan de instelling %d voor het lage-glucosealarm.</string>
+    <string name="low_glucose_alert_title">Glucose laag</string>
+    <string name="low_symptoms">Symptomen Laag</string>
+    <string name="low_target">Lage streefwaarde</string>
+    <string name="lunch">Lunch</string>
+    <string name="machine">Machine</string>
+    <string name="manual_text">Profiteer van de beschikbare functies door de gegevens handmatig in te voeren.</string>
+    <string name="meal_event">Maaltijd</string>
+    <string name="meal_start_end_time_text">Selecteer de begin- en eindtijd</string>
+    <string name="meal_times">Maaltijd tijden</string>
+    <string name="medium">Medium</string>
+    <string name="menstrual_period">Menstruatie</string>
+    <string name="mg_Dl">mg/dL</string>
+    <string name="mg_dl_min">mg/dL/min</string>
+    <string name="min">min</string>
+    <string name="minutes_from_alert_level">Minuten</string>
+    <string name="mixed_50_50">Gemengd 50/50</string>
+    <string name="mixed_70_30">Gemengd 70/30</string>
+    <string name="mixed_75_25">Gemengd 75/25</string>
+    <string name="mmol_L">mmol/L</string>
+    <string name="mmol_l_min">mmol/L/min</string>
+    <string name="model">Model</string>
+    <string name="model_number">Modelnummer</string>
+    <string name="modify_evening_time">"Waarschuwing: de kalibratietijden 's ochtends en 's avonds moeten tussen 10 en 14 uur uit elkaar liggen (bijv. tussen 08.00 en 18.00 uur). Wijzig de avondtijd voordat u het scherm verlaat."</string>
+    <string name="more_than_max_pending_alerts">U hebt meer dan 2 waarschuwingen in de wachtrij staan. Wilt u deze allemaal weergeven?</string>
+    <string name="morning">Ochtend</string>
+    <string name="morning_time">Ochtendtijd</string>
+    <string name="my_account_sync">Synchronisatie</string>
+    <string name="my_sensor">Mijn sensor</string>
+    <string name="my_transmitter">Mijn zender</string>
+    <string name="name">Naam</string>
+    <string name="nausea_vomiting">Misselijk/braken</string>
+    <string name="new_sensor_detected_notification_help_message">"De geplaatste sensor en de zender moeten worden gekoppeld om de communicatie te starten. Tik op 'Sensor koppelen' om het koppelingsproces te doorlopen. De sensor moet zich aanpassen aan uw lichaamsreactie. Wacht 24 uur voordat u de zender boven de sensor draagt en de kalibratie-initialisatiefase start."</string>
+    <string name="new_sensor_detected_notification_message">Er is een nieuwe sensor gedetecteerd. Als u een nieuwe sensor en/of zender hebt, koppelt u de sensor aan uw zender.</string>
+    <string name="new_sensor_detected_notification_title">Nieuwe sensor gedetecteerd</string>
+    <string name="next">Volg.</string>
+    <string name="next_schedule_cal_time"><b>Volgende geplande kalibratietijd</b></string>
+    <string name="next_schedule_cal_unknown">Niet beschikbaar</string>
+    <string name="no">Nee</string>
+    <string name="no_browser_found_2">"Geen browser gevonden om webpagina's mee te openen. Installeer een browser vanuit de Google Play Store."</string>
+    <string name="no_glucose_display">Geen glucosewaarden weergegeven</string>
+    <string name="no_sensor_detected_alarm_message">Uw zender (%@) kan uw sensor niet vinden. Sensorglucosewaarden worden niet weergegeven totdat de zender opnieuw direct boven de sensor is geplaatst. Raadpleeg de plaatsingshandleiding voor assistentie.</string>
+    <string name="no_sensor_detected_alarm_title">Geen sensor gedetecteerd</string>
+    <string name="no_sensor_glucose_reading">Geen glucosemeting</string>
+    <string name="no_sensor_linked">Uw zender is niet gekoppeld aan een sensor. Koppel aan een sensor en probeer het opnieuw.</string>
+    <string name="no_signal">Geen signaal</string>
+    <string name="no_statistics">Geen statistieken, wacht op meer gegevens</string>
+    <string name="no_transmitter_connected">Geen zender aangesloten</string>
+    <string name="normal">Normaal</string>
+    <string name="not_available">n.v.t.</string>
+    <string name="not_connected">Niet verbonden</string>
+    <string name="not_enough_data">Er zijn onvoldoende sensorgegevens verzameld.</string>
+    <string name="not_now">Niet nu</string>
+    <string name="notes">Opmerkingen</string>
+    <string name="notification">Melding</string>
+    <string name="notification_channel_alert">Eversense-waarschuwingen en -meldingen</string>
+    <string name="notification_channel_foreground">Eversense-systeeminformatie</string>
+    <string name="notifications_2">Wars. Gesch.</string>
+    <string name="now">Nu</string>
+    <string name="ok">OK</string>
+    <string name="one_day_distribution">Glucosestatistieken (%1$s)</string>
+    <string name="or">OF</string>
+    <string name="other">Overig</string>
+    <string name="out_of_range_high_glucose_alarm_help_message" formatted="false">"Bevestig uw glucosewaarde altijd met een bloedglucosemeter voordat u een beslissing over de behandeling neemt. 
+
+Wanneer de sensorglucosewaarde lager dan of gelijk is aan %value%, wordt de weergave van de sensorglucosewaarde hervat."</string>
+    <string name="out_of_range_high_glucose_alarm_message_2">Uw sensorglucosewaarde is hoger dan %1$s. Meet uw glucose handmatig met uw bloedglucosemeter.</string>
+    <string name="out_of_range_high_glucose_alarm_title">Buiten bereik, hoge glucose</string>
+    <string name="out_of_range_low_glucose_alarm_help_message" formatted="false">"Bevestig uw glucosewaarde altijd met een bloedglucosemeter voordat u een beslissing over de behandeling neemt. 
+
+Wanneer de sensorglucosewaarde hoger dan of gelijk is aan %value%, wordt de weergave van de sensorglucosewaarde hervat."</string>
+    <string name="out_of_range_low_glucose_alarm_message_2">Uw sensorglucosewaarde is lager dan %1$s. Meet uw glucose handmatig met uw bloedglucosemeter.</string>
+    <string name="out_of_range_low_glucose_alarm_title">Buiten bereik, lage glucose</string>
+    <string name="pair_text">Uw zender koppelen om automatisch uw glucosegegevens te ontvangen en te volgen.</string>
+    <string name="pair_text_title">KOPPEL UW ZENDER</string>
+    <string name="password">Wachtwoord</string>
+    <string name="period">Periode</string>
+    <string name="phase_start">Begin van fase</string>
+    <string name="phase_text">Fase</string>
+    <string name="place_sensor">Plaats uw zender boven de sensor en probeer het over %d minuten opnieuw.</string>
+    <string name="place_transmitter_text">Plaats de zender direct boven de sensor voor het beste signaal.</string>
+    <string name="placement_guide">Plaatsingshandleiding</string>
+    <string name="placement_in_progress">Plaatsing wordt uitgevoerd…</string>
+    <string name="placement_low_battery_body_2">De batterij van de zender is bijna leeg. De signaalsterkte wordt langzamer dan normaal bijgewerkt (elke %1$d minuten).</string>
+    <string name="placement_low_battery_title">Batterij bijna leeg</string>
+    <string name="placement_mode_body">Wilt u de pagina met de plaatsingshandleiding blijven gebruiken?</string>
+    <string name="placement_mode_title">Plaatsingsmodus</string>
+    <string name="poor">Slecht</string>
+    <string name="power_failure_alarm_help_message">De huidige datum en tijd van uw zender worden aangepast aan de datum en tijd van uw smartphone. U moet de zender dagelijks opladen om te voorkomen dat een ongeldige tijd wordt weergegeven.</string>
+    <string name="power_failure_alarm_message">Uw zender heeft een oude of ongeldige datum-/tijdstempel. De app werkt de tijd van de zender bij. Neem contact op met de klantenondersteuning als deze fout zich blijft voordoen.</string>
+    <string name="power_failure_alarm_title">Ongeldige zendertijd</string>
+    <string name="predicted_high_glucose_alert_help_message_2" formatted="false">"U hebt de voorspellende waarschuwing ingesteld op %predictiveMins% minuten voor uw sensorglucosewaarden. Bij voortzetting van de huidige ontwikkeling overschrijdt u de drempel voor glucosewaarschuwing. 
+
+Bevestig uw glucosewaarde altijd met een bloedglucosemeter voordat u een beslissing over de behandeling neemt. 
+
+Als u de instelling voor de voorspellende waarschuwing wilt wijzigen, gaat u naar Menu -> Instellingen -> Glucose."</string>
+    <string name="predicted_high_glucose_alert_message_3">Uw sensorglucosewaarde gaat omhoog en bereikt de waarde voor de hoge-glucosewaarschuwing over %d minuten. Meet uw glucose handmatig met uw bloedglucosemeter voor thuisgebruik.</string>
+    <string name="predicted_high_glucose_alert_title">Voorspelde hoge glucose</string>
+    <string name="predicted_low_glucose_alert_help_message_2" formatted="false">"U hebt de voorspellende waarschuwing ingesteld op %predictiveMins% minuten voor uw sensorglucosewaarden. Bij voortzetting van de huidige ontwikkeling overschrijdt u de drempel voor glucosewaarschuwing. 
+
+Bevestig uw glucosewaarde altijd met een bloedglucosemeter voordat u een beslissing over de behandeling neemt. 
+
+Als u de instelling voor de voorspellende waarschuwing wilt wijzigen, gaat u naar Menu -> Instellingen -> Glucose."</string>
+    <string name="predicted_low_glucose_alert_message_2">Uw sensorglucosewaarde gaat omlaag en bereikt de waarde voor de lage-glucosewaarschuwing over %d minuten. Meet uw glucose handmatig met uw bloedglucosemeter voor thuisgebruik.</string>
+    <string name="predicted_low_glucose_alert_title">Voorspelde lage glucose</string>
+    <string name="predictive_alerts">Voorspellende waarsch.</string>
+    <string name="predictive_text_2">Ontvang een waarschuwing X minuten voordat uw sensorglucosewaarde, bij voortzetting van de huidige ontwikkeling, de drempel voor een glucosewaarschuwing overschrijdt.</string>
+    <string name="privacy_statement">Privacyverklaring</string>
+    <string name="product_information">Productinformatie</string>
+    <string name="productinfo">"&lt;html>&lt;body style='margin:0;padding:0;'> &lt;table cellpadding=\"5\"> &lt;tr > &lt;td valign=\"top\">Bedrijf:&lt;/td> &lt;td>Senseonics, Inc.&lt;br/>20451 Seneca Meadows Parkway,&lt;br/>Germantown, Maryland,&lt;br/>USA&lt;br/>&lt;a href='http://www.eversensediabetes.com'>www.eversensediabetes.com&lt;/a>&lt;/td> &lt;/tr> &lt;tr > &lt;td>Versie:&lt;/td> &lt;td>@version&lt;/td> &lt;/tr> &lt;tr > &lt;td>Uitgebracht:&lt;/td> &lt;td>@releasedate&lt;/td> &lt;/tr> &lt;tr> &lt;td>Compatibiliteit:&lt;/td> &lt;td>&lt;a href='https://ous.eversensediabetes.com/compatibility/'>https://&lt;br/>ous.eversensediabetes.com/&lt;br/>compatibility/&lt;/a>&lt;/td> &lt;/tr> &lt;tr> &lt;td>&lt;/td> &lt;td>&lt;/td> &lt;/tr> &lt;tr> &lt;td>&lt;/td> &lt;td>&lt;/td> &lt;/tr> &lt;tr> &lt;td colspan=2 align='center'> © 2016 Senseonics, Inc. &lt;/td> &lt;/tr> &lt;/table> &lt;/body>&lt;/html>"</string>
+    <string name="rapid_acting">Snelwerkend</string>
+    <string name="rate_alerts">Waarsch. hoev.</string>
+    <string name="rate_falling_alert_mg_message_2" formatted="false">Uw sensorglucosewaarde daalt met een snelheid groter dan of gelijk aan de ingestelde snelheidswijziging van %.1f %@. Meet uw glucose handmatig met uw bloedglucosemeter voor thuisgebruik.</string>
+    <string name="rate_falling_alert_mg_mmol_help_message" formatted="false">"U hebt de wijzigingssnelheid ingesteld op een waarschuwing wanneer uw sensorglucose sneller verandert dan %rate%. 
+
+Bevestig uw glucosewaarde altijd met een bloedglucosemeter voordat u een beslissing over de behandeling neemt. 
+
+Als u de instelling voor de wijzigingssnelheid wilt wijzigen, gaat u naar Menu -> Instellingen -> Glucose."</string>
+    <string name="rate_falling_alert_mmol_message_2" formatted="false">Uw sensorglucosewaarde daalt met een snelheid groter dan of gelijk aan de ingestelde snelheidswijziging van %.2f %@. Meet uw glucose handmatig met uw bloedglucosemeter voor thuisgebruik.</string>
+    <string name="rate_falling_alert_title">Snelle daling</string>
+    <string name="rate_of_change">Wijzigingssnelheid</string>
+    <string name="rate_rising_alert_mg_message_2" formatted="false">Uw sensorglucosewaarde stijgt met een snelheid groter dan of gelijk aan de ingestelde snelheidswijziging van %.1f %@. Meet uw glucose handmatig met uw bloedglucosemeter voor thuisgebruik.</string>
+    <string name="rate_rising_alert_mg_mmol_help_message" formatted="false">"U hebt de wijzigingssnelheid ingesteld op een waarschuwing wanneer uw sensorglucose sneller verandert dan %rate%. 
+
+Bevestig uw glucosewaarde altijd met een bloedglucosemeter voordat u een beslissing over de behandeling neemt. 
+
+Als u de instelling voor de wijzigingssnelheid wilt wijzigen, gaat u naar Menu -> Instellingen -> Glucose."</string>
+    <string name="rate_rising_alert_mmol_message_2" formatted="false">Uw sensorglucosewaarde stijgt met een snelheid groter dan of gelijk aan de ingestelde snelheidswijziging van %.2f %@. Meet uw glucose handmatig met uw bloedglucosemeter voor thuisgebruik.</string>
+    <string name="rate_rising_alert_title">Snelle stijging</string>
+    <string name="rate_text">U krijgt een waarschuwing wanneer uw sensorglucosewaarde sneller verandert (stijgt of daalt) dan de ingestelde snelheid.</string>
+    <string name="rate_too_high">Uw sensorglucose verandert te snel. Wacht 10 minuten en probeer het vervolgens opnieuw.</string>
+    <string name="request_timeout">Time-out van aanvraag</string>
+    <string name="request_timeout_text">Time-out van aanvraag veroorzaakt door probleem met internetverbinding of server. Controleer uw internetverbinding. Neem contact op met de klantenondersteuning als de fout zich blijft voordoen.</string>
+    <string name="retrieving_parameters">1. Parameters ophalen</string>
+    <string name="ringtones">BELTONEN</string>
+    <string name="rssi_value">RSSI</string>
+    <string name="save">Opslaan</string>
+    <string name="search_menu_title">Zoeken</string>
+    <string name="searching">Zoeken…</string>
+    <string name="select_transmitter_text">Selecteer uw zender in de lijst hieronder om verbinding te maken</string>
+    <string name="sensor_days_since_insertion">Dagen sinds inbrengen</string>
+    <string name="sensor_details">Sensorgegevens</string>
+    <string name="sensor_eol">Gebruiksduur sensor verstreken. Neem contact op met uw arts.</string>
+    <string name="sensor_file_error">Fout in sensorbestand</string>
+    <string name="sensor_file_error_text">Het sensorparameterbestand kan niet worden gedownload. Probeer het opnieuw. Neem contact op met de klantenondersteuning als de fout zich blijft voordoen.</string>
+    <string name="sensor_hardware_error_alarm_help_message">Uw zender (%@) heeft een sensorhardwarefout gemeld en geeft niet langer sensorglucosewaarden weer. Neem contact op met de klantenondersteuning om het probleem op te lossen.</string>
+    <string name="sensor_hardware_error_alarm_message">Uw zender (%@) heeft een sensorhardwarefout gemeld en geeft niet langer sensorglucosewaarden weer. Neem contact op met de klantenondersteuning om het probleem op te lossen.</string>
+    <string name="sensor_hardware_error_alarm_title">Sensorhardwarefout</string>
+    <string name="sensor_high_temperature_alarm_message">De temperatuur van uw sensor is te hoog. Ga naar een koelere omgeving om weer sensorglucosewaarden te ontvangen. Neem contact op met de klantenondersteuning als het probleem zich blijft voordoen.</string>
+    <string name="sensor_high_temperature_alarm_title">Hoge sensortemperatuur</string>
+    <string name="sensor_instability_alarm_help_message">Tijdens de herinitialisatiefase moet u vier bloedglucosemetertests met een interval van twee tot twaalf uur uitvoeren. Uw systeem begeleidt u tijdens dit kalibratieproces.</string>
+    <string name="sensor_instability_alarm_message">Het systeem moet opnieuw worden geïnitialiseerd. U moet vier vingerprikkalibratietests uitvoeren.</string>
+    <string name="sensor_instability_alarm_title">Sensor controleren</string>
+    <string name="sensor_link_failure_body">Neem contact op met de klantenservice als het probleem zich blijft voordoen.</string>
+    <string name="sensor_link_failure_title">Sensor koppelen mislukt</string>
+    <string name="sensor_low_high_temperature_alarm_help_message">Houd uw zender boven de sensor. Wanneer de sensortemperatuur tussen 27-40 C ligt, worden de sensorglucosewaarden weer doorgegeven.</string>
+    <string name="sensor_low_temperature_alarm_message">De temperatuur van uw sensor is te laag. Ga naar een warmere omgeving om weer sensorglucosewaarden te ontvangen. Neem contact op met de klantenondersteuning als het probleem zich blijft voordoen.</string>
+    <string name="sensor_low_temperature_alarm_title">Lage sensortemperatuur</string>
+    <string name="sensor_on_hold_alarm_help_message">Als na een periode van 6 uur de initialisatiefase begint, wordt u door het systeem gevraagd met behulp van vingerpriktests een kalibratie uit te voeren.</string>
+    <string name="sensor_on_hold_alarm_message">Het systeem wordt voor 6 uur onderbroken en wordt over 6 uur opnieuw geïnitialiseerd.</string>
+    <string name="sensor_on_hold_alarm_title">Sensoronderbreking</string>
+    <string name="sensor_retired_alarm_help_message">"Neem contact op met uw arts om de huidige sensor te verwijderen en door een nieuwe sensor te vervangen. 
+
+Uw huidige sensor kan geen glucosewaarden meer aangeven."</string>
+    <string name="sensor_retired_alarm_message">Uw sensor moet worden vervangen. Neem contact op met uw arts om de sensor te vervangen.</string>
+    <string name="sensor_retired_alarm_title">Vervanging van sensor</string>
+    <string name="sensor_retired_prematurely_alarm_message">Uw huidige sensor kan geen glucosewaarden meer meten. Neem contact op met uw arts om de sensor te vervangen.</string>
+    <string name="sensor_retired_prematurely_alarm_title">Vervanging van sensor</string>
+    <string name="sensor_retired_prematurely_help_message">De sensor werkt niet meer en kan geen glucosewaarden meer meten. Neem contact op met uw arts om de sensor te vervangen.</string>
+    <string name="sensor_retirement_14_days_notification_message_2">De sensor moet binnen de komende 14 dagen worden vervangen en u kunt niet langer de sensorglucosewaarden ontvangen. Neem contact op met uw arts om de sensor te vervangen.</string>
+    <string name="sensor_retirement_14_days_notification_title">Vervanging van sensor</string>
+    <string name="sensor_retirement_1_7_day_alarm_help_message">Uw sensor moet worden verwijderd en vervangen. Neem contact op met uw arts om een afspraak te maken.</string>
+    <string name="sensor_retirement_1_day_alarm_message">De sensor moet binnen een dag worden vervangen en u kunt niet langer de sensorglucosewaarden ontvangen. Neem contact op met uw arts om de sensor te vervangen.</string>
+    <string name="sensor_retirement_1_day_alarm_title">Vervanging van sensor</string>
+    <string name="sensor_retirement_2_days_alarm_message_2">De sensor moet binnen de komende 2 dagen worden vervangen en u kunt niet langer de sensorglucosewaarden ontvangen. Neem contact op met uw arts om de sensor te vervangen.</string>
+    <string name="sensor_retirement_2_days_alarm_title">Vervanging van sensor</string>
+    <string name="sensor_retirement_30_days_notification_message">De sensor moet binnen de komende 30 dagen worden vervangen en u kunt niet langer sensorglucosewaarden ontvangen. Neem contact op met uw arts om de sensor te vervangen.</string>
+    <string name="sensor_retirement_30_days_notification_title">Vervanging van sensor</string>
+    <string name="sensor_retirement_3_days_alert_message_2">De sensor moet binnen de komende 3 dagen worden vervangen en u kunt niet langer de sensorglucosewaarden ontvangen. Neem contact op met uw arts om de sensor te vervangen.</string>
+    <string name="sensor_retirement_3_days_alert_title">Vervanging van sensor</string>
+    <string name="sensor_retirement_7_days_alert_message_2">De sensor moet binnen de komende 7 dagen worden vervangen en u kunt niet langer de sensorglucosewaarden ontvangen. Neem contact op met uw arts om de sensor te vervangen.</string>
+    <string name="sensor_retirement_7_days_alert_title">Vervanging van sensor</string>
+    <string name="sensor_retirement_agedout_alarm_message">Als u sensorglucosewaarden wilt blijven ontvangen, dient de sensor binnen 7 dagen te worden vervangen. Neem contact op met uw arts om de sensor te vervangen.</string>
+    <string name="sensor_retirement_agedout_help_message">Na 7 dagen zult u geen sensorglucosewaarden meer ontvangen. Neem contact op met uw arts om de sensor te vervangen.</string>
+    <string name="sensor_status_alarm_message_0">Uw sensor is al gedurende 150 dagen geplaatst. Neem zo spoedig mogelijk contact op met uw arts om een afspraak te maken voor vervanging.</string>
+    <string name="sensor_status_alarm_message_1">Uw sensor is al gedurende 146 dagen geplaatst. Neem zo spoedig mogelijk contact op met uw arts om een afspraak te maken voor vervanging.</string>
+    <string name="sensor_status_alarm_message_2">Uw sensor is al gedurende 136 dagen geplaatst. Neem contact op met uw arts om een afspraak te maken voor vervanging.</string>
+    <string name="sensor_status_alarm_message_3">Uw sensor is al gedurende 120 dagen geplaatst. Neem contact op met uw arts om een afspraak te maken voor vervanging.</string>
+    <string name="sensor_status_alarm_title">Sensorstatus</string>
+    <string name="serial_number">Serienummer</string>
+    <string name="serial_number_sensor">Gekoppelde SN</string>
+    <string name="server_error">Serverfout</string>
+    <string name="server_error_text">Er is een fout opgetreden met de server. Probeer het opnieuw. Neem contact op met de klantenondersteuning als de fout zich blijft voordoen.</string>
+    <string name="set_alert_levels">Stel de glucosewaarden in op het niveau waarop u wilt dat het systeem u waarschuwt als deze waarden zijn bereikt.</string>
+    <string name="set_calibration_time_text">"Stel de ochtend- en avondtijd in waarop u eraan wilt worden herinnerd om te kalibreren.
+
+Opmerking: de ochtend- en avondkalibratietijden moeten tussen 10 en 14 uur uit elkaar liggen."</string>
+    <string name="set_meal_times_text">Tabel Tijden voor maaltijd tijden</string>
+    <string name="set_target_levels">Stel de glucosewaarden in waartussen u wilt blijven.</string>
+    <string name="settings">Instellingen</string>
+    <string name="severity">Ernst</string>
+    <string name="share_my_data">Mijn gegevens delen</string>
+    <string name="short_acting">Kortwerkend</string>
+    <string name="shortcut_breakfast">Ont</string>
+    <string name="shortcut_dinner">Din</string>
+    <string name="shortcut_lunch">Lun</string>
+    <string name="shortcut_sleep">Slp</string>
+    <string name="shortcut_snack">Tsd</string>
+    <string name="sleep">Slapen</string>
+    <string name="snack">Tussendoortje</string>
+    <string name="sore_throat">Zere keel</string>
+    <string name="sound_high_glucose_alarm_2">Waarschuwing Glucose hoog</string>
+    <string name="sound_high_snooze">Hoog uitstellen</string>
+    <string name="sound_low_glucose_alarm_2">Waarschuwing Glucose laag</string>
+    <string name="sound_low_snooze">Laag uitstellen</string>
+    <string name="sound_settings">Geluidsinstellingen</string>
+    <string name="sound_settings_description_2">Kies het geluid voor waarschuwingen bij hoge/lage glucose en selecteer hoe vaak dit moet worden herhaald.</string>
+    <string name="start">Start</string>
+    <string name="statistics">Rapporten</string>
+    <string name="statistics_string">Statistieken</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stddev">Std.dev</string>
+    <string name="stop">Stop</string>
+    <string name="stress">Stress</string>
+    <string name="submit">Verzenden</string>
+    <string name="sync_could_not_start_2">De synchronisatie kan niet worden gestart. Meld u af en meld u vervolgens weer aan bij uw account.</string>
+    <string name="sync_days">Synchr. dagen</string>
+    <string name="sync_now">SYNCHRONISATIE STARTEN</string>
+    <string name="synced_success">Synchronisatie voltooid</string>
+    <string name="syncing">SYNCHRONISEREN…</string>
+    <string name="system">Systeem</string>
+    <string name="target">Doel</string>
+    <string name="temp_profile_description">Stel de glucosewaarden in op het niveau waarop u wilt dat het systeem u waarschuwt wanneer uw Tijdelijk profiel AAN is. Tik op START om te activeren; tik op STOP om te deactiveren.</string>
+    <string name="temp_profile_duration">%1$dhr %2$dmin</string>
+    <string name="temp_profile_glucose_settings_warning">Uw Tijdelijk profiel is actief en de glucose-instellingen die hier worden opgeslagen, worden pas van kracht als uw Tijdelijk profiel is gedeactiveerd of verlopen.</string>
+    <string name="temp_profile_time_left">%1$dhr %2$dmin resterend</string>
+    <string name="temp_profile_title">Tijdelijk profiel</string>
+    <string name="temp_profile_turned_off_body">De periode van uw Tijdelijk profiel is verlopen. Uw standaardglucose-instellingen worden opnieuw van kracht.</string>
+    <string name="temp_profile_turned_off_title">Tijdelijk profiel Uit</string>
+    <string name="time">Tijd</string>
+    <string name="tips_connect_html_text">"Als u geen verbinding kunt maken met de zender, probeert u de volgende stappen:
+
+ * Controleer of de zender is opgeladen en niet is aangesloten op een oplader.
+ * Schakel Bluetooth UIT en AAN via het menu Instellingen van de smartphone.
+ * Zet de smartphone UIT en AAN.
+ * 'Ontkoppel' uw apparaat en zorg daarna voor de koppeling."</string>
+    <string name="tips_connect_html_text_initial">"De zender voor het eerst aansluiten ('koppelen'):
+
+ 1) Koppel de zender los van de USB.
+ 2) Tik driemaal op de knop op de zender.
+ 3) Controleer of de LED GROEN en GEEL knippert.
+ 4) Tik op de naam van uw zender (aangegeven met SN op het etiket aan de achterkant) in de bovenstaande lijst."</string>
+    <string name="tips_html_text">"* Was uw handen en droog deze grondig af voor gebruik van een teststrip
+ * Gebruik correcte bloeddruppelgrootte
+ * Houd de meter schoon
+ * Voorgestelde kalibratietijden: vóór het eten, vóór toedienen van insuline, vóór bedtijd, vóór sporten"</string>
+    <string name="tired">Moe</string>
+    <string name="today">VANDAAG</string>
+    <string name="todayLow">Vandaag</string>
+    <string name="tomorrowLow">Morgen</string>
+    <string name="too_soon">Het is nog geen tijd voor uw geplande kalibratie. Probeer het opnieuw op uw volgende geplande kalibratietijdstip.</string>
+    <string name="transmitter_details">Zendergegevens</string>
+    <string name="transmitter_disconnected_notification_message">De verbinding met uw zender (%@) is verbroken. Breng de verbinding met de zender opnieuw tot stand om alle meldingen te ontvangen.</string>
+    <string name="transmitter_disconnected_notification_title">Verbinding verbroken</string>
+    <string name="transmitter_error">Fout met zender</string>
+    <string name="transmitter_error_alarm_help_message">Neem contact op met de klantenondersteuning.</string>
+    <string name="transmitter_error_alarm_message_2">Uw zender heeft een fout gemeld. Neem contact op met de klantenondersteuning.</string>
+    <string name="transmitter_error_alarm_title">Fout met zender</string>
+    <string name="transmitter_high_temperature_alarm_help_message">"Zodra de zendertemperatuur lager is dan 42 C, worden de sensorglucosewaarden weer doorgegeven. 
+
+U kunt de zender tijdelijk verwijderen om deze te laten afkoelen. Zorg er echter voor dat u de zender weer boven de sensor houdt nadat de temperatuur is gedaald. Leg de zender niet in de koelkast."</string>
+    <string name="transmitter_high_temperature_alarm_message_2">De temperatuur van uw zender is te hoog. Ga naar een koelere omgeving om weer sensorglucosewaarden te ontvangen. Neem contact op met de klantenondersteuning als het probleem zich blijft voordoen.</string>
+    <string name="transmitter_high_temperature_alarm_title">Hoge zendertemperatuur</string>
+    <string name="type">Type</string>
+    <string name="unit_descriptive_text_mgdl_mmol" formatted="false">Als u de meeteenheid wilt wijzigen in<b> %value%</b>, kunt u dit alleen nu doen. Voordat u deze instelling wijzigt, raadpleegt u uw zorgverlener als u niet zeker weet wat de meeteenheid moet zijn.</string>
+    <string name="unit_example_text_mgdl">Voorbeeld: 160 &lt;b>mg/dL&lt;/b> (of ergens binnen het bereik van &lt;b>40-400 mg/dL&lt;/b>)</string>
+    <string name="unit_example_text_mmol">Voorbeeld: 8,9 &lt;b>mmol/L&lt;/b> (of ergens binnen het bereik van &lt;b>2,2-22,2 mmol/L&lt;/b>)</string>
+    <string name="unit_glucose_reading_changed">gewijzigd</string>
+    <string name="unit_glucose_reading_set">instellen</string>
+    <string name="unit_glucose_reading_text_mgdl_mmol_2" formatted="false">Uw glucosewaarde is<b> %value%</b> om te worden weergegeven in de meeteenheid die hieronder wordt getoond.</string>
+    <string name="unit_selected_text" formatted="false">Meeteenheid:<b> %value%</b></string>
+    <string name="unit_title">MEETEENHEID</string>
+    <string name="units">Eh</string>
+    <string name="unknown">Onbekend</string>
+    <string name="unknown_error">Onbekende fout</string>
+    <string name="unknown_error_alert_message">Onbekende fout. Neem contact op met de klantenondersteuning als deze fout zich blijft voordoen. (%@)</string>
+    <string name="unknown_error_alert_title">Onbekende code: %d</string>
+    <string name="unknown_error_text">Er is een onbekende fout opgetreden. Probeer het opnieuw. Neem contact op met de klantenondersteuning als de fout zich blijft voordoen.</string>
+    <string name="unknown_help_message">Onbekende fout. Neem contact op met de klantenondersteuning als deze fout zich blijft voordoen. (%@)</string>
+    <string name="unknown_reason">Kalibratie kan op dit moment niet worden voltooid. Voor meer informatie raadpleegt u het gedeelte over kalibratie in de gebruikershandleiding en probeert u het later opnieuw.</string>
+    <string name="unsupported_mode">Uw zender bevindt zich in een modus die geen kalibratie ondersteunt. Neem contact op met uw arts als u verdere vragen hebt.</string>
+    <string name="username">Gebruikersnaam</string>
+    <string name="value">Waarde</string>
+    <string name="version_number">Firmwareversie</string>
+    <string name="very_low">Zeer laag</string>
+    <string name="very_low_battery_alert_help_message">"Haal de zender van uw lichaam voordat u de zender aansluit op de voeding en de batterij opnieuw oplaadt. 
+
+De zender verzamelt tijdens het opladen geen gegevens van de sensor. U ontvangt geen glucose-informatie wanneer de zender wordt opgeladen."</string>
+    <string name="very_low_battery_alert_message">De batterij van uw zender is praktisch leeg. Laad uw zender nu op.</string>
+    <string name="very_low_battery_alert_title">Zender opladen</string>
+    <string name="vibration_motor_alarm_help_message">Uw systeem blijft de komende 72 uur glucosewaarden weergeven. Als u na 72 uur nog glucosewaarden wilt ontvangen, dient u de zender te vervangen. Neem contact op met de klantenondersteuning voor vervanging van de zender.</string>
+    <string name="vibration_motor_alarm_message">De zender heeft een probleem vastgesteld met de trilmotor en kan geen trilmeldingen meer geven. Neem contact op met de klantenondersteuning voor een vervangende zender.</string>
+    <string name="vibration_motor_alarm_title">Trilmotor</string>
+    <string name="view">Weergeven</string>
+    <string name="wait_for_x_minutes">Probeer het over %d minuten opnieuw.</string>
+    <string name="waiting_post_calibration">Wacht op sensormetingen na kalibratie. Wacht %d minuten en probeer het vervolgens opnieuw.</string>
+    <string name="warm_up_phase">Opwarmen</string>
+    <string name="warmup_unknown">Uw zender bevindt zich in de opwarmfase. Er is geen kalibratie vereist. Neem voor meer informatie contact op met uw arts.</string>
+    <string name="warning">Waarschuwing</string>
+    <string name="weekly_statistics">Overzicht wekelijks gemiddelde (%1$s)</string>
+    <string name="welcome">Welkom</string>
+    <string name="wi_fi_disconnected">Verbinding met internet verbroken</string>
+    <string name="wi_fi_disconnected_text">Geen internetverbinding gedetecteerd. Maak verbinding met internet en probeer het opnieuw.</string>
+    <string name="within">Binnen</string>
+    <string name="within_target_levels">Binnen streefw.</string>
+    <string name="yes">Ja</string>
+</resources>

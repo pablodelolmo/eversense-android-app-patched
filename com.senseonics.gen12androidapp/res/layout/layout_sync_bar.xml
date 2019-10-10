@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/progress_bar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:progress="0" android:progressDrawable="@drawable/progress_drawable" style="?android:progressBarStyleHorizontal" />
+    <TextView android:textSize="@dimen/small_text" android:textStyle="bold" android:textColor="@color/graph_white" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/syncing" android:layout_alignTop="@id/progress_bar" android:layout_alignBottom="@id/progress_bar" android:layout_alignStart="@id/progress_bar" android:layout_alignEnd="@id/progress_bar" />
+</RelativeLayout>

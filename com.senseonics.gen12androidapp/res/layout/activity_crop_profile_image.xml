@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/cropImageViewContainer" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.theartofdev.edmodo.cropper.CropImageView android:id="@id/cropImageView" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" app:cropFixAspectRatio="true"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <LinearLayout android:padding="@dimen/extra_small_margin" android:layout_width="fill_parent" android:layout_height="70.0dip">
+        <Button android:layout_gravity="center" android:id="@id/cancelButton" android:layout_width="0.0dip" android:layout_margin="@dimen/extra_small_margin" android:text="@string/cancel" android:layout_weight="1.0" style="@style/LargeButtonWhiteText.Blue" />
+        <Button android:layout_gravity="center" android:id="@id/chooseButton" android:layout_width="0.0dip" android:layout_margin="@dimen/extra_small_margin" android:text="@string/choose" android:layout_weight="1.0" style="@style/LargeButtonWhiteText.Blue" />
+    </LinearLayout>
+</LinearLayout>

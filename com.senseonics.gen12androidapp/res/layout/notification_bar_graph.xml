@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="left" android:orientation="horizontal" android:id="@id/notificationBarGraph" android:background="@color/graph_green" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/drawerImageButton" android:paddingLeft="@dimen/box_margin_navi_left" android:paddingRight="@dimen/box_margin_navi_right" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_drawer" android:contentDescription="@string/image_description" />
+    <com.senseonics.view.NotificationDeviceStatus android:id="@id/device_status" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/notification_device_status" />
+</LinearLayout>

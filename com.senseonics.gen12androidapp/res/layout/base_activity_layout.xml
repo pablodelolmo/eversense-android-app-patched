@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/base_activity_linear_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/layout_sync_bar" android:visibility="gone" layout="@layout/layout_sync_bar" />
+    <include android:id="@id/alertView_base" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/notification_bar_graph" />
+    <include android:id="@id/navigationBar_base" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/navigation_bar_main_activity" />
+</LinearLayout>

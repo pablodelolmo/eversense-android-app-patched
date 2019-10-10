@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/content" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/box_margin" android:layout_marginTop="@dimen/box_margin" android:layout_marginRight="@dimen/box_margin" android:layout_above="@id/bottomLayout" />
+    <include android:id="@id/bottomLayout" android:visibility="invisible" layout="@layout/event_bottom_bar" />
+</RelativeLayout>

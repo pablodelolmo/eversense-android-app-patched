@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/notificationTwoButtons" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/box_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/buttonsParentLayout" android:layout_width="fill_parent" android:layout_height="38.0dip" android:weightSum="2.0">
+        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/graph_white" android:gravity="center" android:layout_gravity="bottom" android:id="@id/cancel" android:background="@drawable/diaglue_btn_up" android:layout_width="140.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/large_margin" android:layout_marginRight="@dimen/small_margin" android:text="@string/cancel" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/graph_white" android:gravity="center" android:layout_gravity="bottom" android:id="@id/ok" android:background="@drawable/diaglue_btn_up" android:layout_width="140.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/small_margin" android:layout_marginRight="@dimen/large_margin" android:text="@string/ok" android:layout_weight="1.0" />
+    </LinearLayout>
+    <FrameLayout android:paddingLeft="@dimen/box_margin" android:paddingTop="@dimen/box_margin" android:paddingRight="@dimen/box_margin" android:paddingBottom="@dimen/small_margin_navi" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="left" android:id="@id/infoImage" android:background="@drawable/info_icon_small" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:layout_gravity="right" android:id="@id/tranName" android:paddingTop="@dimen/small_margin_navi" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="TRANSMITTER" />
+    </FrameLayout>
+</LinearLayout>

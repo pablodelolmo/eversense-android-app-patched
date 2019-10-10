@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/graph_white" android:paddingTop="@dimen/box_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip">
+        <android.support.design.widget.TextInputLayout android:textColorHint="@color/light_gray" android:layout_width="fill_parent" android:layout_height="wrap_content" app:hintTextAppearance="@style/InputLayout.HintText" style="@style/InputLayout">
+            <EditText android:id="@id/nickname" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/nickname_label" android:maxLines="1" android:maxLength="60" android:inputType="textVisiblePassword|textNoSuggestions" />
+        </android.support.design.widget.TextInputLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputLayout android:textColorHint="@color/light_gray" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/btnAddEmail" app:hintTextAppearance="@style/InputLayout.HintText" style="@style/InputLayout">
+                <EditText android:id="@id/edEm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/email" android:maxLines="1" android:maxLength="254" android:inputType="textEmailAddress" />
+            </android.support.design.widget.TextInputLayout>
+            <ImageButton android:id="@id/btnAddEmail" android:background="@color/transparent" android:padding="@dimen/medium_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/box_margin" android:src="@drawable/ic_add_black" android:tint="@color/blue_dark" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <Button android:id="@id/sendButton" android:layout_margin="@dimen/medium_margin" android:text="@string/send" android:transitionName="EXPAND_FAB_TO_INVITE_PEER" style="@style/LargeButtonWhiteText.Blue" />
+</LinearLayout>

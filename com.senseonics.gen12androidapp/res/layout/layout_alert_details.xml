@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/graph_white" android:paddingTop="@dimen/box_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/layout_event_notification_detail_common" />
+        <View android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:padding="@dimen/box_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="2.0">
+            <TextView android:textSize="@dimen/medium_text" android:textStyle="bold" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/alert_detail_threshold" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:gravity="right" android:id="@id/thresHoldLevelValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" />
+        </LinearLayout>
+        <View android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="horizontal" android:padding="@dimen/box_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="2.0">
+            <TextView android:textSize="@dimen/medium_text" android:textStyle="bold" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="@string/alert_detail_glucose_value" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:gravity="right" android:id="@id/glucoseUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

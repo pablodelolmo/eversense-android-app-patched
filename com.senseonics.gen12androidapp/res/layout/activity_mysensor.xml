@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/box_margin">
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/small_margin" android:layout_marginTop="@dimen/small_margin" android:layout_marginRight="@dimen/small_margin" android:layout_marginBottom="@dimen/small_margin">
+                    <TextView android:textSize="@dimen/medium_text" android:textStyle="bold" android:textColor="@android:color/black" android:id="@id/serialNumberText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/serial_number_sensor" android:layout_toLeftOf="@id/serialNumber" android:layout_centerVertical="true" />
+                    <TextView android:textSize="@dimen/medium_text" android:textColor="@color/gray_darker" android:id="@id/serialNumber" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <View android:background="@color/gray_darker" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/small_margin" android:layout_marginTop="@dimen/small_margin" android:layout_marginRight="@dimen/small_margin" android:layout_marginBottom="@dimen/small_margin">
+                    <TextView android:textSize="@dimen/medium_text" android:textStyle="bold" android:textColor="@android:color/black" android:id="@id/insertionDateText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/insertion_date" android:layout_toLeftOf="@id/insertionDate" android:layout_centerVertical="true" />
+                    <TextView android:textSize="@dimen/medium_text" android:textColor="@color/gray_darker" android:id="@id/insertionDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <View android:background="@color/gray_darker" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/small_margin" android:layout_marginTop="@dimen/small_margin" android:layout_marginRight="@dimen/small_margin" android:layout_marginBottom="@dimen/small_margin">
+                    <TextView android:textSize="@dimen/medium_text" android:textStyle="bold" android:textColor="@android:color/black" android:id="@id/insertionTimeText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/insertion_time" android:layout_toLeftOf="@id/insertionTime" android:layout_centerVertical="true" />
+                    <TextView android:textSize="@dimen/medium_text" android:textColor="@color/gray_darker" android:id="@id/insertionTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <View android:background="@color/gray_darker" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/small_margin" android:layout_marginTop="@dimen/small_margin" android:layout_marginRight="@dimen/small_margin" android:layout_marginBottom="@dimen/small_margin">
+                    <TextView android:textSize="@dimen/medium_text" android:textStyle="bold" android:textColor="@android:color/black" android:id="@id/detectedSerialNumberText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/detected_serialnumber" android:layout_toLeftOf="@id/detectedSerialNumber" android:layout_centerVertical="true" />
+                    <TextView android:textSize="@dimen/medium_text" android:textColor="@color/gray_darker" android:id="@id/detectedSerialNumber" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <View android:background="@color/gray_darker" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

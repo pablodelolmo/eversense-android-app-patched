@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <com.senseonics.util.TabView android:id="@id/tabView1" android:layout_width="fill_parent" android:layout_height="wrap_content" custom:group_1_drawable="@drawable/red_icon_tab" custom:group_1_drawable_selected="@drawable/red_icon_tab" custom:group_2_drawable="@drawable/high_glucose_icon_tab" custom:group_2_drawable_selected="@drawable/high_glucose_icon_tab" custom:group_3_drawable="@drawable/notification_icon_tab" custom:group_3_drawable_selected="@drawable/notification_icon_tab" custom:group_4_drawable="@drawable/alert_icon_tab" custom:group_4_drawable_selected="@drawable/alert_icon_tab" custom:group_5_drawable="@drawable/battery_low_icon_tab" custom:group_5_drawable_selected="@drawable/battery_low_icon_tab" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/common_layout" />
+        <include layout="@layout/layout_no_statistics" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/box_margin">
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/small_margin" android:layout_marginTop="@dimen/small_margin" android:layout_marginRight="@dimen/small_margin" android:layout_marginBottom="@dimen/small_margin">
+                    <TextView android:textSize="@dimen/medium_text" android:textStyle="bold" android:textColor="@android:color/black" android:id="@id/myTx_transmitterNameText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/name" android:layout_toLeftOf="@id/myTx_transmitterName" android:layout_centerVertical="true" />
+                    <TextView android:textSize="@dimen/medium_text" android:textColor="@color/gray_darker" android:id="@id/myTx_transmitterName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <View android:background="@color/gray_darker" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/small_margin" android:layout_marginTop="@dimen/small_margin" android:layout_marginRight="@dimen/small_margin" android:layout_marginBottom="@dimen/small_margin">
+                    <TextView android:textSize="@dimen/medium_text" android:textStyle="bold" android:textColor="@android:color/black" android:id="@id/myTx_transmitterSerialNoText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/serial_number" android:layout_toLeftOf="@id/myTx_transmitterSerialNo" android:layout_centerVertical="true" />
+                    <TextView android:textSize="@dimen/medium_text" android:textColor="@color/gray_darker" android:id="@id/myTx_transmitterSerialNo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <View android:background="@color/gray_darker" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/small_margin" android:layout_marginTop="@dimen/small_margin" android:layout_marginRight="@dimen/small_margin" android:layout_marginBottom="@dimen/small_margin">
+                    <TextView android:textSize="@dimen/medium_text" android:textStyle="bold" android:textColor="@android:color/black" android:id="@id/myTx_transmitterModelNoText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/model_number" android:layout_toLeftOf="@id/myTx_transmitterModelNo" android:layout_centerVertical="true" />
+                    <TextView android:textSize="@dimen/medium_text" android:textColor="@color/gray_darker" android:id="@id/myTx_transmitterModelNo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <View android:background="@color/gray_darker" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/small_margin" android:layout_marginTop="@dimen/small_margin" android:layout_marginRight="@dimen/small_margin" android:layout_marginBottom="@dimen/small_margin">
+                    <TextView android:textSize="@dimen/medium_text" android:textStyle="bold" android:textColor="@android:color/black" android:id="@id/myTx_transmitterFWVersionText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/version_number" android:layout_toLeftOf="@id/myTx_transmitterFWVersion" android:layout_centerVertical="true" />
+                    <TextView android:textSize="@dimen/medium_text" android:textColor="@color/gray_darker" android:id="@id/myTx_transmitterFWVersion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <View android:background="@color/gray_darker" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/small_margin" android:layout_marginTop="@dimen/small_margin" android:layout_marginRight="@dimen/small_margin" android:layout_marginBottom="@dimen/small_margin">
+                    <TextView android:textSize="@dimen/medium_text" android:textStyle="bold" android:textColor="@android:color/black" android:id="@id/myTx_transmitterLastCalText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/last_cal" android:layout_toLeftOf="@id/myTx_transmitterLastCal" android:layout_centerVertical="true" />
+                    <TextView android:textSize="@dimen/medium_text" android:textColor="@color/gray_darker" android:id="@id/myTx_transmitterLastCal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <View android:background="@color/gray_darker" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/small_margin" android:layout_marginTop="@dimen/small_margin" android:layout_marginRight="@dimen/small_margin" android:layout_marginBottom="@dimen/small_margin">
+                    <TextView android:textSize="@dimen/medium_text" android:textStyle="bold" android:textColor="@android:color/black" android:id="@id/myTx_transmitterPhaseStartText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/phase_start" android:layout_toLeftOf="@id/myTx_transmitterPhaseStart" android:layout_centerVertical="true" />
+                    <TextView android:textSize="@dimen/medium_text" android:textColor="@color/gray_darker" android:id="@id/myTx_transmitterPhaseStart" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <View android:background="@color/gray_darker" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/small_margin" android:layout_marginTop="@dimen/small_margin" android:layout_marginRight="@dimen/small_margin" android:layout_marginBottom="@dimen/small_margin">
+                    <TextView android:textSize="@dimen/medium_text" android:textStyle="bold" android:textColor="@android:color/black" android:id="@id/myTx_transmitterCompletedCalsText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/completed_cals" android:layout_toLeftOf="@id/myTx_transmitterCompletedCals" android:layout_centerVertical="true" />
+                    <TextView android:textSize="@dimen/medium_text" android:textColor="@color/gray_darker" android:id="@id/myTx_transmitterCompletedCals" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <View android:background="@color/gray_darker" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/small_margin" android:layout_marginTop="@dimen/small_margin" android:layout_marginRight="@dimen/small_margin" android:layout_marginBottom="@dimen/small_margin">
+                    <TextView android:textSize="@dimen/medium_text" android:textStyle="bold" android:textColor="@android:color/black" android:id="@id/myTx_transmitterCurrentPhaseText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/current_phase" android:layout_toLeftOf="@id/myTx_transmitterCurrentPhase" android:layout_centerVertical="true" />
+                    <TextView android:textSize="@dimen/medium_text" android:textColor="@color/gray_darker" android:id="@id/myTx_transmitterCurrentPhase" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <View android:background="@color/gray_darker" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/small_margin" android:layout_marginTop="@dimen/small_margin" android:layout_marginRight="@dimen/small_margin" android:layout_marginBottom="@dimen/small_margin">
+                    <TextView android:textSize="@dimen/medium_text" android:textStyle="bold" android:textColor="@android:color/black" android:id="@id/myTx_transmitterRSSIText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/rssi_value" android:layout_toLeftOf="@id/myTx_transmitterRSSI" android:layout_centerVertical="true" />
+                    <TextView android:textSize="@dimen/medium_text" android:textColor="@color/gray_darker" android:id="@id/myTx_transmitterRSSI" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <View android:background="@color/gray_darker" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/small_margin" android:layout_marginTop="@dimen/small_margin" android:layout_marginRight="@dimen/small_margin" android:layout_marginBottom="@dimen/small_margin">
+                    <TextView android:textSize="@dimen/medium_text" android:textStyle="bold" android:textColor="@android:color/black" android:id="@id/myTx_transmitterBatteryLevelText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/battery_level" android:layout_toLeftOf="@id/myTx_transmitterBatteryLevel" android:layout_centerVertical="true" />
+                    <TextView android:textSize="@dimen/medium_text" android:textColor="@color/gray_darker" android:id="@id/myTx_transmitterBatteryLevel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <View android:background="@color/gray_darker" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

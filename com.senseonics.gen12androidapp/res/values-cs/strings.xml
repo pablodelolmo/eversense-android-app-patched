@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Přejít na plochu</string>
+    <string name="abc_action_bar_up_description">Přejít nahoru</string>
+    <string name="abc_action_menu_overflow_description">Více možností</string>
+    <string name="abc_action_mode_done">Hotovo</string>
+    <string name="abc_activity_chooser_view_see_all">Zobrazit vše</string>
+    <string name="abc_activitychooserview_choose_application">Vybrat aplikaci</string>
+    <string name="abc_capital_off">VYPNUTO</string>
+    <string name="abc_capital_on">ZAPNUTO</string>
+    <string name="abc_search_hint">Vyhledat…</string>
+    <string name="abc_searchview_description_clear">Smazat dotaz</string>
+    <string name="abc_searchview_description_query">Vyhledávací dotaz</string>
+    <string name="abc_searchview_description_search">Hledat</string>
+    <string name="abc_searchview_description_submit">Odeslat dotaz</string>
+    <string name="abc_searchview_description_voice">Hlasové vyhledávání</string>
+    <string name="abc_shareactionprovider_share_with">Sdílet pomocí</string>
+    <string name="abc_shareactionprovider_share_with_application">Sdílet s aplikací %s</string>
+    <string name="abc_toolbar_collapse_description">Sbalit</string>
+    <string name="about">Informace</string>
+    <string name="above">Nad</string>
+    <string name="above_target_level">Nad cílovou hladinou</string>
+    <string name="accept">Přijmout</string>
+    <string name="alcohol">Alkohol</string>
+    <string name="alert">Upozornění</string>
+    <string name="alert_detail_glucose_value">Hodnota glukózy:</string>
+    <string name="alert_detail_threshold">Mez:</string>
+    <string name="alert_notice">Oznámení upozornění</string>
+    <string name="alert_settings">Nastavení upozornění</string>
+    <string name="all">Vše</string>
+    <string name="allergy">Alergie</string>
+    <string name="and">a</string>
+    <string name="android_device_info">Informace o zařízení Android</string>
+    <string name="android_version">Verze systému Android</string>
+    <string name="app_update_body">Je k dispozici upgrade aplikace Eversense. Chcete jej nyní nainstalovat?</string>
+    <string name="app_update_title">Upgradovat aplikaci Eversense</string>
+    <string name="auto_sync">Automatická synchronizace</string>
+    <string name="auto_sync_enabled_text">"Automatická synchronizace je povolena.
+Vaše údaje budou synchronizovány se serverem každé 2 hodiny."</string>
+    <string name="average">Průměr</string>
+    <string name="avg">Prům</string>
+    <string name="battery_level">Úroveň nabití baterie</string>
+    <string name="below">Pod</string>
+    <string name="below_target_level">Pod cílovou hladinou</string>
+    <string name="between">mezi</string>
+    <string name="ble_not_supported">Přenos Bluetooth Low Energy není podporován.</string>
+    <string name="bluetooth_is_off">Funkce Bluetooth je vypnuta</string>
+    <string name="bluetooth_pairing">Spárování Bluetooth</string>
+    <string name="breakfast">Snídaně</string>
+    <string name="cal_accepted_message_2">"Hodnota glukózy v krvi byla úspěšně použita ke kalibraci.
+
+Varování: Vysílač nesmí být odebrán od senzoru po dobu %1$d min. Pokud vysílač odeberete, bude nutné kalibraci opakovat."</string>
+    <string name="cal_accepted_title">Kalibrace byla přijata</string>
+    <string name="cal_in_progress">Kalibrace probíhá (%1$d min, %2$d s)</string>
+    <string name="cal_not_entered_message">Hodnota glukózy v krvi byla zaznamenána, ale nebyla zadána pro kalibraci.</string>
+    <string name="cal_not_entered_title">Kalibrace nebyla zadána</string>
+    <string name="cal_not_used_reason_text">Důvod nepoužití ke kalibraci</string>
+    <string name="cal_rejected_auto_link_message">Hodnota glukózy v krvi nebyla použita ke kalibraci, protože je aktivní režim automatického propojení. Před zahájením kalibrace deaktivujte režim automatického propojení.</string>
+    <string name="cal_rejected_auto_link_title">"Kalibrace zamítnuta
+(režim automatického propojení)"</string>
+    <string name="cal_rejected_blinded_message_2">Hodnota glukózy v krvi nebyla použita ke kalibraci. Počkejte %1$d h a zkuste to znovu.</string>
+    <string name="cal_rejected_blinded_title">"Kalibrace zamítnuta
+(zaslepená)"</string>
+    <string name="cal_rejected_data_message_2">Hodnota glukózy v krvi nebyla použita ke kalibraci, protože neexistuje dostatek údajů z měření glukózy. Ujistěte se, že je vysílač umístěn nad senzorem, počkejte %1$d min a zkuste to znovu.</string>
+    <string name="cal_rejected_data_title">"Kalibrace zamítnuta
+(nedostatek údajů)"</string>
+    <string name="cal_rejected_not_ready_message_2">Hodnota glukózy v krvi nebyla použita ke kalibraci, protože vzorek byl odebrán dříve, než byl vysílač připraven přijmout kalibraci. Počkejte %1$d min a zkuste to znovu.</string>
+    <string name="cal_rejected_not_ready_title">"Kalibrace zamítnuta
+(nepřipravena)"</string>
+    <string name="cal_rejected_other_message">Hodnota glukózy v krvi nebyla použita ke kalibraci z důvodu neznámé chyby.</string>
+    <string name="cal_rejected_other_title">"Kalibrace zamítnuta
+(jiná chyba)"</string>
+    <string name="cal_rejected_rate_message_2">Hodnota glukózy v krvi nebyla použita ke kalibraci, protože hodnota glukózy se mění příliš rychle. Počkejte %1$d h a zkuste to znovu.</string>
+    <string name="cal_rejected_rate_title">"Kalibrace zamítnuta
+(vysoká rychlost změny)"</string>
+    <string name="cal_rejected_replacement_message">Hodnota glukózy v krvi nebyla použita ke kalibraci, protože senzor je nutné vyměnit. Obraťte se na svého lékaře a požádejte o výměnu senzoru.</string>
+    <string name="cal_rejected_replacement_title">"Kalibrace zamítnuta
+(je nutné vyměnit senzor)"</string>
+    <string name="cal_rejected_too_different_message_2">Zadaná hodnota kalibrace %1$s je pravděpodobně nepřesná. Pro zajištění přesného měření glukózy proveďte kalibraci znovu za %2$d h</string>
+    <string name="cal_rejected_too_different_title">Kalibraci je zkoumána</string>
+    <string name="cal_rejected_too_high_message_2">Hodnoty glukózy v krvi větší než %1$s nelze použít ke kalibraci. Proveďte odpovídající akci a zkuste to znovu za %2$d h.</string>
+    <string name="cal_rejected_too_high_title">"Kalibrace zamítnuta
+(příliš vysoká hodnota)"</string>
+    <string name="cal_rejected_too_low_message_2">Hodnoty glukózy v krvi menší než %1$s, nelze použít ke kalibraci. Proveďte odpovídající akci a zkuste to znovu za %2$d h.</string>
+    <string name="cal_rejected_too_low_title">"Kalibrace zamítnuta
+(příliš nízká hodnota)"</string>
+    <string name="cal_rejected_unknown_message">Hodnota glukózy v krvi nebyla použita ke kalibraci z neznámého důvodu. Zkuste to znovu později.</string>
+    <string name="cal_rejected_unknown_title">"Kalibrace zamítnuta
+(neznámá chyba)"</string>
+    <string name="calibrate">Kalibrovat</string>
+    <string name="calibrate_now_notification_help_message">Pravidelné provádění kalibrace systému CGM pomocí glukometru je důležité, aby bylo zajištěno získání přesných hodnot glukózy naměřených senzorem.</string>
+    <string name="calibrate_now_notification_message">Nastal čas provést kalibraci. Proveďte nyní kalibraci s měřením vzorku krve z prstu pomocí glukometru.</string>
+    <string name="calibrate_now_notification_title">Kalibrovat nyní</string>
+    <string name="calibrate_text">Zadejte hodnotu glykémie a čas měření a potvrďte klepnutím na možnost „Odeslat“.</string>
+    <string name="calibration">Kalibrace</string>
+    <string name="calibration_event">Kalibrace</string>
+    <string name="calibration_expired_alarm_help_message">"Pravidelné provádění kalibrace systému CGM pomocí glukometru je důležité, aby bylo zajištěno získání přesných hodnot glukózy naměřených senzorem. 
+
+Ve fázi opětovné inicializace je nutné provést 4 testy krve pomocí glukometru s přestávkami 2–12 hodin. Systém vás automaticky provede postupem kalibrace."</string>
+    <string name="calibration_expired_alarm_message">Kalibrace nebyla provedena po dobu 24 hodin. Systém je nyní ve fázi opětovné inicializace a je nutné, abyste provedli 4 kalibrační testy vzorků krve z prstu.</string>
+    <string name="calibration_expired_alarm_title">Vypršela platnost kalibrace</string>
+    <string name="calibration_grace_alert_help_message">Kalibrace vysílače je opožděna. Naměřené hodnoty glukózy se již nebudou zobrazovat. Pokračujte stisknutím možnosti „Kalibrovat“.</string>
+    <string name="calibration_grace_alert_message">Kalibrace vysílače je opožděna. Naměřené hodnoty glukózy se již nebudou zobrazovat. Pokračujte stisknutím možnosti „Kalibrovat“.</string>
+    <string name="calibration_grace_alert_title">Kalibrace je opožděna</string>
+    <string name="calibration_tips"><b>Tipy ke kalibraci</b></string>
+    <string name="cancel">Zrušit</string>
+    <string name="carbs">Sacharidy</string>
+    <string name="click_twice_back">Chcete-li skončit, klikněte znovu na možnost ZPĚT.</string>
+    <string name="clinical_mode_enabled">Klinický režim aktivován</string>
+    <string name="complete_sensor_linking_text">Umístěte vysílač nad senzor a dokončete propojení. Po provedení stiskněte tlačítko OK.</string>
+    <string name="completed_cals">Dokončené kalibrace</string>
+    <string name="condition">Stav</string>
+    <string name="congratulations">Gratulujeme!</string>
+    <string name="connected">Připojeno</string>
+    <string name="connecting">Připojování</string>
+    <string name="connecting_wait">Připojování, čekejte…</string>
+    <string name="connection_status">Připojit</string>
+    <string name="connection_tips"><b>Pomoc s připojením</b></string>
+    <string name="contact">Kontakt</string>
+    <string name="contact_us">Kontaktujte nás</string>
+    <string name="contact_us_mail_body">Tyto zprávy nejsou sledovány nepřetržitě. Nepoužívejte tento e-mail pro naléhavé otázky.</string>
+    <string name="contact_us_mail_subject">Zpráva pro zákaznickou podporu</string>
+    <string name="cough_cold">Kašel/nachlazení</string>
+    <string name="create_an_account">Vytvořit účet</string>
+    <string name="current_phase">Aktuální fáze</string>
+    <string name="daily_calibration">Denní kalibrace</string>
+    <string name="data_saved">Údaje uloženy</string>
+    <string name="data_saved_text" formatted="false">"%@ nových událostí bylo uloženo do vaší databáze,
+%@ nových událostí bylo uloženo dříve."</string>
+    <string name="date">Datum</string>
+    <string name="day_1">1 den</string>
+    <string name="day_14">14 dnů</string>
+    <string name="day_30">30 dnů</string>
+    <string name="day_7">7 dnů</string>
+    <string name="day_90">90 dnů</string>
+    <string name="daylight_saving">Letní čas</string>
+    <string name="days_remaining_alarm_help_message_1">Přibližný počet dnů, po které bude senzor poskytovat naměřené hodnoty od data tohoto oznámení, je 4. Obraťte se na svého lékaře a naplánujte si výměnu.</string>
+    <string name="default_sync_days">Výchozí dny synchronizace</string>
+    <string name="details">Podrobnosti</string>
+    <string name="details_version">Verze</string>
+    <string name="detected_sensor">Zjištěný senzor</string>
+    <string name="detected_serialnumber">Zjištěné SN</string>
+    <string name="device_compatibility">KOMPATIBILITA ZAŘÍZENÍ</string>
+    <string name="diarrhea">Průjem</string>
+    <string name="dinner">Večeře</string>
+    <string name="disconnected_from_transmitter">Vysílač je v současné době odpojen. Připojte vysílač a zkuste to znovu.</string>
+    <string name="dismiss_all">Zrušit vše</string>
+    <string name="dizzy">Závratě</string>
+    <string name="do_not_disturb">Nerušit</string>
+    <string name="do_not_disturb_description">Deaktivujte zobrazování všech nekritických upozornění a oznámení.</string>
+    <string name="do_not_disturb_warning_message_2">Nekritická upozornění jsou v aplikaci a na vysílači Smart vypnuta.</string>
+    <string name="do_not_disturb_warning_title">Režim Nerušit aktivován</string>
+    <string name="done">Hotovo</string>
+    <string name="drawer_close">Zavřít navigační pole</string>
+    <string name="drawer_open">Otevřít navigační pole</string>
+    <string name="drop_out">Nelze kalibrovat. Počkejte 6 hodin a zkuste to znovu.</string>
+    <string name="duration">Doba trvání</string>
+    <string name="earache">Bolest ucha</string>
+    <string name="email">E-mail</string>
+    <string name="email_body_graph">"Podívejte se na graf glukózy s údaji za poslední %1$s z mého systému CGM Eversense.
+
+Poznámka: Pokud máte problém se zobrazením obrázku, zkuste jej otevřít ve webovém prohlížeči.
+"</string>
+    <string name="email_body_pie">"Podívejte se na zprávu s grafem glukózy s údaji za poslední %d z mého systému CGM Eversense.
+
+Poznámka: Pokud máte problém se zobrazením obrázku, zkuste jej otevřít ve webovém prohlížeči.
+"</string>
+    <string name="email_body_table">Podívejte se na statistiku glukózy s údaji za poslední %d z mého systému Eversense CGM.</string>
+    <string name="email_body_weekly">Podívejte se na týdenní modální souhrnnou zprávu s údaji za posledních 7 dnů z mého systému CGM Eversense.</string>
+    <string name="email_subject_graph">Údaje senzoru</string>
+    <string name="email_subject_pie_chart">Zpráva s koláčovým grafem glukózy</string>
+    <string name="email_subject_pie_table">Zpráva o statistice glukózy</string>
+    <string name="email_subject_weekly">Týdenní modální souhrnná zpráva</string>
+    <string name="empty_battery_alarm_help_message">"Před připojením vysílače ke zdroji napájení a dobitím baterie sejměte vysílač z těla. 
+
+Během dobíjení vysílač nezískává informace ze senzoru. Během dobíjení vysílače nebudete dostávat informace o glukóze."</string>
+    <string name="empty_battery_alarm_message">Baterie vysílače je vybitá. Dobijte vysílač nyní, aby byl obnoven příjem hodnot glukózy naměřených senzorem.</string>
+    <string name="empty_battery_alarm_title">Vybitá baterie</string>
+    <string name="end">Konec</string>
+    <string name="estimated_days_remaining_alarm_message">Odhadovaný počet dnů, po které bude senzor poskytovat naměřené hodnoty od data odeslání tohoto oznámení, je 4. Obraťte se na svého lékaře a naplánujte si výměnu.</string>
+    <string name="estimated_days_remaining_alarm_title">Odhadované zbývající dny</string>
+    <string name="eula">LICENČNÍ DOHODA S KONCOVÝM UŽIVATELEM</string>
+    <string name="eula_confirmation_text">Kliknutím na tlačítko „Přijmout“ níže souhlasím s podmínkami Licenční dohody s koncovým uživatelem (EULA), Zásadami ochrany osobních údajů a podmínkami používání (Zásady ochrany osobních údajů) společnosti Senseonics a jejich budoucími aktualizacemi vydanými v průběhu mého používání systému Eversense®. Souhlasím s uchováváním, přenosem a používáním mých osobních údajů, včetně neomezeného ukládání ve Velké Británii a přenosu do USA k omezeným účelům (jako je technická a zákaznická podpora), za podmínek stanovených dohodou EULA a Zásadami ochrany osobních údajů, přičemž přijímám, že poskytnutí těchto údajů umožní plnou funkčnost a podporu systému.</string>
+    <string name="eula_menu">Licenční dohoda</string>
+    <string name="eula_screen">Obrazovka dohody EULA</string>
+    <string name="evening">Večer</string>
+    <string name="evening_time">Večerní čas</string>
+    <string name="event_cal_accepted_title">Použito</string>
+    <string name="event_cal_not_entered_title">Nezadáno</string>
+    <string name="event_cal_rejected_auto_link_title">Režim automatického připojení</string>
+    <string name="event_cal_rejected_blinded_title">Zaslepená</string>
+    <string name="event_cal_rejected_data_title">Nedostatek údajů</string>
+    <string name="event_cal_rejected_not_ready_title">Nepřipraveno</string>
+    <string name="event_cal_rejected_other_title">Jiná závada</string>
+    <string name="event_cal_rejected_rate_title">Vysoká rychlost změny</string>
+    <string name="event_cal_rejected_replacement_title">Je nutná výměna senzoru</string>
+    <string name="event_cal_rejected_too_different_title">Zkoumání</string>
+    <string name="event_cal_rejected_too_high_title">Příliš vysoká</string>
+    <string name="event_cal_rejected_too_low_title">Příliš nízká</string>
+    <string name="event_log">Protokol událostí</string>
+    <string name="excellent">Vynikající</string>
+    <string name="exercise_event">Cvičení</string>
+    <string name="exit_app">Konec</string>
+    <string name="faq">Časté otázky</string>
+    <string name="fever">Horečka</string>
+    <string name="file_corrupted">Soubor je poškozen</string>
+    <string name="file_corrupted_text">Nelze stáhnout soubor s parametry senzoru. Obraťte se na zákaznickou podporu.</string>
+    <string name="finish">Dokončit</string>
+    <string name="flu">Chřipka</string>
+    <string name="force_logout_text_w_email">Byli jste odhlášeni, protože jste zadali nesprávný e-mail nebo heslo.</string>
+    <string name="forgot_my_password">Zapomenuté heslo</string>
+    <string name="general_error_saving_data">Chyba při ukládání údajů</string>
+    <string name="general_error_saving_data_text">Údaje nejsou uloženy na serveru. Zkuste to znovu. Pokud chyba přetrvává, obraťte se na zákaznickou podporu.</string>
+    <string name="glucose_above_high_alert_level">Glukóza nad vysokou hladinou upozornění</string>
+    <string name="glucose_above_high_target_level">Glukóza nad vysokou cílovou hladinou</string>
+    <string name="glucose_alert_levels">Hladiny glukózy pro upozornění</string>
+    <string name="glucose_below_low_alert_level">Glukóza pod nízkou hladinou upozornění</string>
+    <string name="glucose_below_low_target_level">Glukóza pod nízkou cílovou hladinou</string>
+    <string name="glucose_event">Glukóza</string>
+    <string name="glucose_event_submit_title">Potvrdit hladinu glukózy</string>
+    <string name="glucose_level_distribution">Koláčový graf glukózy (%1$s)</string>
+    <string name="glucose_target_levels">Cílové hladiny glukózy</string>
+    <string name="glucose_unit">Jednotky měření glukózy</string>
+    <string name="glucose_within_target_levels">Glukóza v rámci cílového rozmezí</string>
+    <string name="good">Dobré</string>
+    <string name="grams">g</string>
+    <string name="health_event">Zdraví</string>
+    <string name="help">Nápověda</string>
+    <string name="hide">Skrýt</string>
+    <string name="hide_event"><b>Skrýt událost</b></string>
+    <string name="hide_event_question">Opravdu chcete skrýt tuto událost?</string>
+    <string name="high">Vysoká</string>
+    <string name="high_alert">Velmi vysoká</string>
+    <string name="high_ambient_light_alarm_help_message">"Snížení vystavení vysílače světlu lze provést některým z následujících způsobů: 
+-Přejděte do méně osvětlené oblasti. 
+-Noste vysílač pod oděvem."</string>
+    <string name="high_ambient_light_alarm_message_2">Senzor snímá příliš mnoho světla. Chcete-li pokračovat v měření glykémie, omezte přístup světla k senzoru. Pokud problém přetrvává, obraťte se na zákaznickou podporu.</string>
+    <string name="high_ambient_light_alarm_title">Silné okolní světlo</string>
+    <string name="high_glucose_alarm_help_message_2" formatted="false">"Upozornění na vysokou hladinu glukózy máte nastaveno na hodnotu %value%. Vždy, když dosáhnete této mezní hladiny glukózy, vysílač a chytrý telefon vás upozorní. Hodnota pravděpodobně dosáhla nebo překročila nastavení upozornění na vysokou hladinu glukózy. 
+
+Před rozhodnutím o léčbě vždy potvrďte hodnotu glukózy provedením testu pomocí glukometru. 
+
+Pokud chcete změnit nastavení upozornění na vysokou hladinu glukózy, přejděte na možnosti Nabídka -> Nastavení -> Glukóza."</string>
+    <string name="high_glucose_alarm_message_2">Naměřená hodnota glukózy dosáhla nebo překročila nastavení upozornění na vysokou hladinu glukózy %d. Potvrďte hodnotu glukózy provedením testu pomocí glukometru.</string>
+    <string name="high_glucose_alarm_title">Vysoká glukóza</string>
+    <string name="high_glucose_alert_help_message" formatted="false">"Upozornění na vysokou hladinu glukózy máte nastaveno na hodnotu %value%. Vždy, když dosáhnete této mezní hladiny glukózy, vysílač a chytrý telefon vás upozorní alarmem. Hodnota pravděpodobně dosáhla nebo překročila nastavení upozornění na vysokou hladinu glukózy. 
+
+Před rozhodnutím o léčbě vždy potvrďte hodnotu glukózy provedením testu pomocí glukometru. 
+
+Pamatujte, že upozornění na vysokou hladinu glukózy je nastaveno na jinou hodnotu než alarm vysoké hladiny glukózy. 
+
+Pokud chcete změnit nastavení upozornění na vysokou hladinu glukózy, přejděte na možnosti Nabídka -> Nastavení -> Glukóza."</string>
+    <string name="high_glucose_alert_message">Naměřená hodnota glukózy dosáhla nebo překročila nastavení upozornění na vysokou hladinu glukózy %d.</string>
+    <string name="high_glucose_alert_title">Vysoká glukóza</string>
+    <string name="high_symptoms">Příznaky vysoké hladiny</string>
+    <string name="high_target">Vysoký cíl</string>
+    <string name="home">Moje glukóza</string>
+    <string name="hours_remaining">h zbývá</string>
+    <string name="hr">h</string>
+    <string name="i_do_not_have_a_glucose_sensor">Nemám vysílač Smart</string>
+    <string name="i_have_glucose_sensor">Mám vysílač Smart</string>
+    <string name="image_description">Obrázek</string>
+    <string name="incompatible_fw_version_body_2">Byl zjištěn nekompatibilní software vysílače. Obraťte se na zákaznickou podporu.</string>
+    <string name="incompatible_fw_version_title_2">Nekompatibilní software vysílače</string>
+    <string name="incompatible_sensor_file">Nekompatibilní soubor senzoru</string>
+    <string name="incompatible_sensor_file_text">Byl zjištěn nekompatibilní soubor senzoru (verze: %%). Obraťte se na zákaznickou podporu.</string>
+    <string name="infection">Infekce</string>
+    <string name="init_phase">Inicializace</string>
+    <string name="init_phase_notif">Fáze inicializace (%1$d kalibrací k provedení)</string>
+    <string name="insertion_date">Datum zavedení</string>
+    <string name="insertion_time">Čas zavedení</string>
+    <string name="insulin_event">Inzulín</string>
+    <string name="insulin_type">Typ</string>
+    <string name="intensity">Intenzita</string>
+    <string name="intermediate_acting">Středně dlouho působící</string>
+    <string name="invalid_device_type">Neplatný typ zařízení</string>
+    <string name="invalid_device_type_text">Neplatný typ zařízení. Zkuste to znovu. Pokud chyba přetrvává, obraťte se na zákaznickou podporu.</string>
+    <string name="invalid_email">Neplatný e-mail</string>
+    <string name="invalid_error_text">Nebylo nalezeno žádné připojení k internetu. Chcete-li získat nejnovější verzi, připojte se k internetu.</string>
+    <string name="invalid_password">Neplatné heslo</string>
+    <string name="invalid_user_credentials_text_w_email">E-mail nebo heslo jsou nesprávné. Zkuste to znovu. Pokud chyba přetrvává, obraťte se na zákaznickou podporu.</string>
+    <string name="invalid_user_credentials_w_email">Nesprávný e-mail nebo heslo</string>
+    <string name="last_cal">Posl kal</string>
+    <string name="last_synced_on">Naposledy synchronizováno:</string>
+    <string name="less_than_one_hour">1 h zbývá</string>
+    <string name="link_detected_sensor">Propojit zjištěný senzor</string>
+    <string name="link_detected_sensor_text_2">Byl zjištěn nepropojený senzor. Pokračujte klepnutím na možnost Propojit zjištěný senzor.</string>
+    <string name="link_sensor">Propojit senzor</string>
+    <string name="linked_sensor">Propojený senzor</string>
+    <string name="linking_process_complete">3. Postup propojení dokončen</string>
+    <string name="linking_sensor">2. Propojení senzoru</string>
+    <string name="log_in">Přihlásit se</string>
+    <string name="log_out">Odhlásit se</string>
+    <string name="log_out_text">Pokud se odhlásíte, neuvidíte své údaje o glukóze v aplikaci Eversense, dokud se znovu nepřihlásíte. Opravdu se chcete odhlásit?</string>
+    <string name="login_success">Úspěšné přihlášení</string>
+    <string name="long_acting">Dlouho působící</string>
+    <string name="low">Nízká</string>
+    <string name="low_alert">Velice nízká</string>
+    <string name="low_battery_notification_help_message">Baterie vysílače je slabá. Dobijte ji co nejdříve.</string>
+    <string name="low_battery_notification_message">Baterie vysílače je slabá. Dobijte ji co nejdříve.</string>
+    <string name="low_battery_notification_title">Dobít vysílač</string>
+    <string name="low_glucose_alarm_help_message_2" formatted="false">"Upozornění na nízkou hladinu glukózy máte nastaveno na hodnotu %value%. Vždy, když dosáhnete této mezní hladiny glukózy, vysílač a chytrý telefon vás upozorní. Hodnota pravděpodobně klesla na nebo pod toto nastavení upozornění na nízkou hladinu glukózy. 
+
+Před rozhodnutím o léčbě vždy potvrďte hodnotu glukózy provedením testu pomocí glukometru. 
+
+Pokud chcete změnit nastavení upozornění na nízkou hladinu glukózy, přejděte na možnosti Nabídka -> Nastavení -> Glukóza."</string>
+    <string name="low_glucose_alarm_message_2">Naměřená hodnota glukózy klesla na nebo pod nastavení upozornění na nízkou hladinu glukózy %d. Potvrďte hodnotu glukózy provedením testu pomocí glukometru.</string>
+    <string name="low_glucose_alarm_title">Nízká glukóza</string>
+    <string name="low_glucose_alert_help_message" formatted="false">"Upozornění na nízkou hladinu glukózy máte nastaveno na hodnotu %value%. Vždy, když dosáhnete této mezní hladiny glukózy, vysílač a chytrý telefon vás upozorní alarmem. Hodnota pravděpodobně klesla na nebo pod toto nastavení upozornění na nízkou hladinu glukózy.
+
+Před rozhodnutím o léčbě vždy potvrďte hodnotu glukózy provedením testu glukometrem. 
+
+Pamatujte, že upozornění na nízkou hladinu glukózy je nastaveno na jinou hodnotu než alarm nízké hladiny glukózy. 
+
+Pokud chcete změnit nastavení upozornění na nízkou hladinu glukózy, přejděte na možnosti Nabídka -> Nastavení -> Glukóza."</string>
+    <string name="low_glucose_alert_message">Naměřená hodnota glukózy klesla na nebo pod nastavení upozornění na nízkou hladinu glukózy %d.</string>
+    <string name="low_glucose_alert_title">Nízká glukóza</string>
+    <string name="low_symptoms">Příznaky nízké hladiny</string>
+    <string name="low_target">Nízký cíl</string>
+    <string name="lunch">Oběd</string>
+    <string name="machine">Zařízení</string>
+    <string name="manual_text">Využijte výhod ručního zadávání dat.</string>
+    <string name="meal_event">Jídlo</string>
+    <string name="meal_start_end_time_text">Vyberte čas pro ZAČÁTEK a KONEC.</string>
+    <string name="meal_times">Časy jídla</string>
+    <string name="medium">Střední</string>
+    <string name="menstrual_period">Menstruační období</string>
+    <string name="mg_Dl">mg/dl</string>
+    <string name="mg_dl_min">mg/dl/min</string>
+    <string name="min">min</string>
+    <string name="minutes_from_alert_level">Minuty</string>
+    <string name="mixed_50_50">Kombinace 50/50</string>
+    <string name="mixed_70_30">Kombinace 70/30</string>
+    <string name="mixed_75_25">Kombinace 75/25</string>
+    <string name="mmol_L">mmol/l</string>
+    <string name="mmol_l_min">mmol/l/min</string>
+    <string name="model">Model</string>
+    <string name="model_number">Číslo modelu</string>
+    <string name="modify_evening_time">Varování: Mezi časem ráno a večer musí být rozdíl 10 až 14 hodin (např. 8:00 ráno a 18:00 večer). Před zavřením obrazovky upravte večerní čas.</string>
+    <string name="more_than_max_pending_alerts">Máte více než 2 upozornění k vyřízení. Chcete je zobrazit všechna?</string>
+    <string name="morning">Ráno</string>
+    <string name="morning_time">Ranní čas</string>
+    <string name="my_account_sync">Synchronizace</string>
+    <string name="my_sensor">Můj senzor</string>
+    <string name="my_transmitter">Můj vysílač</string>
+    <string name="name">Jméno</string>
+    <string name="nausea_vomiting">Nevolnost/zvracení</string>
+    <string name="new_sensor_detected_notification_help_message">Zavedený senzor a vysílač musí být propojeny, aby mohly začít komunikovat. Postup propojení zahájíte klepnutím na možnost „Propojit senzor“. Nový senzor se bude muset přizpůsobit vašemu tělu. Před přiložením vysílače k senzoru a zahájením fáze inicializace kalibrace vyčkejte 24 hodin.</string>
+    <string name="new_sensor_detected_notification_message">Byl zjištěn nový senzor. Pokud máte nový senzor a/nebo vysílač, propojte senzor s vysílačem.</string>
+    <string name="new_sensor_detected_notification_title">Byl zjištěn nový senzor</string>
+    <string name="next">Další</string>
+    <string name="next_schedule_cal_time"><b>Čas příští plánované kalibrace</b></string>
+    <string name="next_schedule_cal_unknown">Není k dispozici</string>
+    <string name="no">Ne</string>
+    <string name="no_browser_found_2">Nebyl nalezen prohlížeč pro otevření webových stránek. Nainstalujte prohlížeč z obchodu Google Play.</string>
+    <string name="no_glucose_display">Nezobrazují se žádné hodnoty glukózy</string>
+    <string name="no_sensor_detected_alarm_message">Vysílač (%@) nemůže najít senzor. Hodnoty glukózy naměřené senzorem se nebudou zobrazovat, dokud vysílač neumístíte zpět přímo nad senzor. Vyhledejte pokyny v návodu k umístění vysílače a senzoru.</string>
+    <string name="no_sensor_detected_alarm_title">Senzor nebyl zjištěn</string>
+    <string name="no_sensor_glucose_reading">Žádná hodnota glukózy naměřená senzorem</string>
+    <string name="no_sensor_linked">Vysílač není propojen se senzorem. Propojte senzor a zkuste to znovu.</string>
+    <string name="no_signal">Žádný signál</string>
+    <string name="no_statistics">Žádné statistiky nejsou k dispozici z důvodu nedostatku údajů. Vyčkejte na získání dalších údajů.</string>
+    <string name="no_transmitter_connected">Vysílač není připojen</string>
+    <string name="normal">Normální</string>
+    <string name="not_available">Není k dispozici</string>
+    <string name="not_connected">Nepřipojeno</string>
+    <string name="not_enough_data">Nebyl získán dostatek naměřených údajů.</string>
+    <string name="not_now">Nyní ne</string>
+    <string name="notes">Poznámky</string>
+    <string name="notification">Oznámení</string>
+    <string name="notification_channel_alert">Upozornění a oznámení systému Eversense</string>
+    <string name="notification_channel_foreground">Informace o systému Eversense</string>
+    <string name="notifications_2">Historie upozornění</string>
+    <string name="now">Nyní</string>
+    <string name="ok">OK</string>
+    <string name="one_day_distribution">Statistika glukózy (%1$s)</string>
+    <string name="or">NEBO</string>
+    <string name="other">Jiné</string>
+    <string name="out_of_range_high_glucose_alarm_help_message" formatted="false">"Před rozhodnutím o léčbě vždy potvrďte hodnotu glukózy provedením testu pomocí glukometru. 
+
+Jakmile hodnota glukózy naměřená senzorem klesne na nebo pod hodnotu %value%, zobrazení hodnot glukózy naměřených senzorem bude obnoveno."</string>
+    <string name="out_of_range_high_glucose_alarm_message_2">Hladina glukózy naměřená senzorem je vyšší než %1$s. Změřte hladinu glukózy v krvi ručně pomocí glukometru.</string>
+    <string name="out_of_range_high_glucose_alarm_title">Vysoká glukóza mimo rozsah</string>
+    <string name="out_of_range_low_glucose_alarm_help_message" formatted="false">"Před rozhodnutím o léčbě vždy potvrďte hodnotu glukózy pomocí glukometru. 
+
+Jakmile hodnota glukózy naměřená senzorem dosáhne nebo překročí hodnotu %value%, zobrazení hodnot glukózy naměřených senzorem bude obnoveno."</string>
+    <string name="out_of_range_low_glucose_alarm_message_2">Hladina glukózy naměřená senzorem je nižší než %1$s. Změřte hladinu glukózy v krvi ručně pomocí glukometru.</string>
+    <string name="out_of_range_low_glucose_alarm_title">Nízká glukóza mimo rozsah</string>
+    <string name="pair_text">Spárujte vysílač, abyste mohli automaticky přijímat a sledovat údaje o glykémii.</string>
+    <string name="pair_text_title">SPÁROVÁNÍ VYSÍLAČE</string>
+    <string name="password">Heslo</string>
+    <string name="period">Období</string>
+    <string name="phase_start">Začátek fáze</string>
+    <string name="phase_text">Fáze</string>
+    <string name="place_sensor">Umístěte vysílač nad senzor a zkuste to znovu za %d min.</string>
+    <string name="place_transmitter_text">Umístěte vysílač přímo nad senzor, abyste získali co nejlepší signál.</string>
+    <string name="placement_guide">Návod k umístění</string>
+    <string name="placement_in_progress">Probíhá umísťování…</string>
+    <string name="placement_low_battery_body_2">Byla zjištěna slabá baterie vysílače. Síla signálu se bude aktualizovat pomaleji než obvykle (jednou za %1$d min).</string>
+    <string name="placement_low_battery_title">Byla zjištěna slabá baterie</string>
+    <string name="placement_mode_body">Chcete pokračovat pomocí stránky Návod k umístění?</string>
+    <string name="placement_mode_title">Režim umístění</string>
+    <string name="poor">Špatné</string>
+    <string name="power_failure_alarm_help_message">Vysílač upraví aktuální datum a čas podle vašeho chytrého telefonu. Vysílač je vhodné každý den dobíjet, aby nedocházelo ke vzniku neplatného času.</string>
+    <string name="power_failure_alarm_message">Vysílač má staré nebo neplatné datové a časové razítko. Aplikace aktualizuje čas vysílače. Pokud se tato chyba stále objevuje, obraťte se na zákaznickou podporu.</string>
+    <string name="power_failure_alarm_title">Neplatný čas vysílače</string>
+    <string name="predicted_high_glucose_alert_help_message_2" formatted="false">"Předběžné upozornění je nastaveno tak, abyste je obdrželi %predictiveMins% min před tím, než hodnota glukózy naměřená senzorem překročí mez pro upozornění na hladinu glukózy, pokud se bude dále měnit stávající rychlostí. 
+
+Před rozhodnutím o léčbě vždy potvrďte hodnotu glukózy provedením testu pomocí glukometru. 
+
+Pokud chcete změnit nastavení předběžného upozornění, přejděte na možnosti Nabídka -> Nastavení -> Glukóza."</string>
+    <string name="predicted_high_glucose_alert_message_3">Hladina glukózy naměřená senzorem má stoupající tendenci a dosáhne hodnoty upozornění na vysokou hladinu glukózy za %d min. Změřte hladinu glukózy v krvi ručně pomocí glukometru.</string>
+    <string name="predicted_high_glucose_alert_title">Předpokládaná vysoká hladina glukózy</string>
+    <string name="predicted_low_glucose_alert_help_message_2" formatted="false">"Předběžné upozornění je nastaveno tak, abyste je obdrželi %predictiveMins% min před tím, než hodnota glukózy naměřená senzorem překročí mez pro upozornění na hladinu glukózy, pokud se bude dále měnit stávající rychlostí. 
+
+Před rozhodnutím o léčbě vždy potvrďte hodnotu glukózy provedením testu pomocí glukometru. 
+
+Pokud chcete změnit nastavení předběžného upozornění, přejděte na možnosti Nabídka -> Nastavení -> Glukóza."</string>
+    <string name="predicted_low_glucose_alert_message_2">Hladina glukózy naměřená senzorem má klesající tendenci a dosáhne hodnoty upozornění na nízkou hladinu glukózy za %d min. Změřte hladinu glukózy v krvi ručně pomocí glukometru.</string>
+    <string name="predicted_low_glucose_alert_title">Předpokládaná nízká hladina glukózy</string>
+    <string name="predictive_alerts">Prediktivní upozornění</string>
+    <string name="predictive_text_2">Upozornit X min před tím, než hladina glukózy naměřená senzorem překročí mez pro upozornění na hladinu glukózy, pokud se bude dále měnit stávající rychlostí.</string>
+    <string name="privacy_statement">Prohlášení o zásadách ochrany osobních údajů</string>
+    <string name="product_information">Informace o produktu</string>
+    <string name="productinfo">"&lt;html>&lt;body style='margin:0;padding:0;'> &lt;table cellpadding=\"5\"> &lt;tr > &lt;td valign=\"top\">Company:&lt;/td> &lt;td>Senseonics, Inc.&lt;br/>20451 Seneca Meadows Parkway,&lt;br/>Germantown, Maryland,&lt;br/>USA&lt;br/>&lt;a href='http://www.eversensediabetes.com'>www.eversensediabetes.com&lt;/a>&lt;/td> &lt;/tr> &lt;tr > &lt;td>Verze:&lt;/td> &lt;td>@version&lt;/td> &lt;/tr> &lt;tr > &lt;td>Vydáno:&lt;/td> &lt;td>@releasedate&lt;/td> &lt;/tr> &lt;tr> &lt;td>Kompatibilita:&lt;/td> &lt;td>&lt;a href='https://ous.eversensediabetes.com/compatibility/'>https://&lt;br/>ous.eversensediabetes.com/&lt;br/>compatibility/&lt;/a>&lt;/td> &lt;/tr> &lt;tr> &lt;td>&lt;/td> &lt;td>&lt;/td> &lt;/tr> &lt;tr> &lt;td>&lt;/td> &lt;td>&lt;/td> &lt;/tr> &lt;tr> &lt;td colspan=2 align='center'> &amp;#169; 2016 Senseonics, Inc. &lt;/td> &lt;/tr> &lt;/table> &lt;/body>&lt;/html>"</string>
+    <string name="rapid_acting">Rychle působící</string>
+    <string name="rate_alerts">Upozornění na rychlost</string>
+    <string name="rate_falling_alert_mg_message_2" formatted="false">Hladina glukózy naměřená senzorem klesá stejnou nebo vyšší rychlostí, než je nastavená rychlost změny %.1f %@. Změřte hladinu glukózy v krvi ručně pomocí glukometru.</string>
+    <string name="rate_falling_alert_mg_mmol_help_message" formatted="false">"Rychlost změny jste nastavili tak, že budete upozorněni, pokud se hodnota glukózy naměřená senzorem bude měnit rychleji než %rate%. 
+
+Před rozhodnutím o léčbě vždy potvrďte hodnotu glukózy provedením testu pomocí glukometru. 
+
+Pokud chcete změnit nastavení rychlosti změny, přejděte na možnosti Nabídka -> Nastavení -> Glukóza."</string>
+    <string name="rate_falling_alert_mmol_message_2" formatted="false">Hladina glukózy naměřená senzorem klesá stejnou nebo vyšší rychlostí, než je nastavená rychlost změny %.2f %@. Změřte hladinu glukózy v krvi ručně pomocí glukometru.</string>
+    <string name="rate_falling_alert_title">Rychlost klesání</string>
+    <string name="rate_of_change">Rychlost změny</string>
+    <string name="rate_rising_alert_mg_message_2" formatted="false">Hladina glukózy naměřená senzorem stoupá stejnou nebo vyšší rychlostí, než je nastavená rychlost změny %.1f %@. Změřte hladinu glukózy v krvi ručně pomocí glukometru.</string>
+    <string name="rate_rising_alert_mg_mmol_help_message" formatted="false">"Rychlost změny jste nastavili tak, že budete upozorněni, pokud se hodnota glukózy naměřená senzorem bude měnit rychleji než %rate%. 
+
+Před rozhodnutím o léčbě vždy potvrďte hodnotu glukózy provedením testu pomocí glukometru. 
+
+Pokud chcete změnit nastavení rychlosti změny, přejděte na možnosti Nabídka -> Nastavení -> Glukóza."</string>
+    <string name="rate_rising_alert_mmol_message_2" formatted="false">Hladina glukózy naměřená senzorem stoupá stejnou nebo vyšší rychlostí, než je nastavená rychlost změny %.2f %@. Změřte hladinu glukózy v krvi ručně pomocí glukometru.</string>
+    <string name="rate_rising_alert_title">Rychlost stoupání</string>
+    <string name="rate_text">Upozornit, pokud se hladina glukózy naměřená senzorem bude měnit (stoupat nebo klesat) rychleji, než je nastavená rychlost změny.</string>
+    <string name="rate_too_high">Hodnota glukózy naměřená senzorem se mění příliš rychle. Počkejte 10 minut a zkuste to znovu.</string>
+    <string name="request_timeout">Vypršel čas požadavku</string>
+    <string name="request_timeout_text">Čas požadavku vypršel z důvodu problému internetového připojení nebo serveru. Zkontrolujte připojení k internetu. Pokud chyba přetrvává, obraťte se na zákaznickou podporu.</string>
+    <string name="retrieving_parameters">1. Načítání parametrů</string>
+    <string name="ringtones">VYZVÁNĚCÍ TÓNY</string>
+    <string name="rssi_value">RSSI</string>
+    <string name="save">Uložit</string>
+    <string name="search_menu_title">Hledat</string>
+    <string name="searching">Vyhledávání...</string>
+    <string name="select_transmitter_text">Z následujícího seznamu vyberte vysílač, který chcete připojit.</string>
+    <string name="sensor_days_since_insertion">Počet dnů od zavedení</string>
+    <string name="sensor_details">Podrobnosti o senzoru</string>
+    <string name="sensor_eol">Činnost senzoru je ukončena. Obraťte se na svého lékaře.</string>
+    <string name="sensor_file_error">Chyba souboru senzoru</string>
+    <string name="sensor_file_error_text">Nelze stáhnout soubor s parametry senzoru. Zkuste to znovu. Pokud chyba přetrvává, obraťte se na zákaznickou podporu.</string>
+    <string name="sensor_hardware_error_alarm_help_message">Vysílač (%@) ohlásil chybu hardwaru senzoru a nebude dále zobrazovat naměřenou hodnotu glukózy. Obraťte se na zákaznickou podporu a požádejte o vyřešení chyby.</string>
+    <string name="sensor_hardware_error_alarm_message">Vysílač (%@) ohlásil chybu hardwaru senzoru a nebude dále zobrazovat naměřenou hodnotu glukózy. Obraťte se na zákaznickou podporu a požádejte o vyřešení chyby.</string>
+    <string name="sensor_hardware_error_alarm_title">Chyba hardwaru senzoru</string>
+    <string name="sensor_high_temperature_alarm_message">Teplota senzoru je příliš vysoká. Přejděte na chladnější místo, aby byl obnoven příjem hodnot glukózy naměřených senzorem. Pokud problém přetrvává, obraťte se na zákaznickou podporu.</string>
+    <string name="sensor_high_temperature_alarm_title">Vysoká teplota senzoru</string>
+    <string name="sensor_instability_alarm_help_message">Ve fázi opětovné inicializace je nutné provést 4 měření glykémie pomocí glukometru s přestávkami 2–12 hodin. Systém vás automaticky provede postupem kalibrace.</string>
+    <string name="sensor_instability_alarm_message">Systém vyžaduje opětovnou inicializaci. Budete muset provést 4 kalibrační testy vzorků krve z prstu.</string>
+    <string name="sensor_instability_alarm_title">Kontrola senzoru</string>
+    <string name="sensor_link_failure_body">Zkuste to znovu. Pokud problém přetrvává, obraťte se na zákaznickou podporu.</string>
+    <string name="sensor_link_failure_title">Senzor se nepodařilo propojit</string>
+    <string name="sensor_low_high_temperature_alarm_help_message">Udržujte vysílač zapnutý nad senzorem. Jakmile bude teplota senzoru mezi 27–40 °C, senzor bude opět poskytovat naměřené hodnoty glukózy.</string>
+    <string name="sensor_low_temperature_alarm_message">Teplota senzoru je příliš nízká. Přejděte na teplejší místo, aby byl obnoven příjem hodnot glukózy naměřených senzorem. Pokud problém přetrvává, obraťte se na zákaznickou podporu.</string>
+    <string name="sensor_low_temperature_alarm_title">Nízká teplota senzoru</string>
+    <string name="sensor_on_hold_alarm_help_message">Když bude zahájena fáze kalibrace po 6 hodinách, systém vás vyzve ke kalibraci pomocí testů vzorků krve z prstu.</string>
+    <string name="sensor_on_hold_alarm_message">Systém pozastaven na 6 hodin, opětovná inicializace začne za 6 hodin.</string>
+    <string name="sensor_on_hold_alarm_title">Pozastavení senzoru</string>
+    <string name="sensor_retired_alarm_help_message">"Obraťte se na svého lékaře a požádejte o odebrání stávajícího senzoru a výměnu za nový. 
+
+Stávající senzor již nemůže poskytovat hodnoty glukózy."</string>
+    <string name="sensor_retired_alarm_message">Senzor je nutné vyměnit. Obraťte se na svého lékaře a nechte si senzor vyměnit.</string>
+    <string name="sensor_retired_alarm_title">Výměna senzoru</string>
+    <string name="sensor_retired_prematurely_alarm_message">Senzor již nemůže měřit hodnoty glukózy. Obraťte se na svého lékaře a nechte si senzor vyměnit.</string>
+    <string name="sensor_retired_prematurely_alarm_title">Výměna senzoru</string>
+    <string name="sensor_retired_prematurely_help_message">Senzor přestal pracovat a již nebude měřit hodnoty glukózy. Obraťte se na svého lékaře a nechte si senzor vyměnit.</string>
+    <string name="sensor_retirement_14_days_notification_message_2">Výměna senzoru bude vyžadována během příštích 14 dnů a nebudete již moci přijímat hodnoty glukózy naměřené senzorem. Obraťte se na svého lékaře a nechte si senzor vyměnit.</string>
+    <string name="sensor_retirement_14_days_notification_title">Výměna senzoru</string>
+    <string name="sensor_retirement_1_7_day_alarm_help_message">Senzor je nutné odebrat a vyměnit. Obraťte se na svého lékaře a naplánujte si návštěvu v ordinaci.</string>
+    <string name="sensor_retirement_1_day_alarm_message">Výměna senzoru bude vyžadována během následujícího dne a nebudete již moci přijímat hodnoty glukózy naměřené senzorem. Obraťte se na svého lékaře a nechte si senzor vyměnit.</string>
+    <string name="sensor_retirement_1_day_alarm_title">Výměna senzoru</string>
+    <string name="sensor_retirement_2_days_alarm_message_2">Výměna senzoru bude vyžadována během příštích 2 dnů a nebudete již moci přijímat hodnoty glukózy naměřené senzorem. Obraťte se na svého lékaře a nechte si senzor vyměnit.</string>
+    <string name="sensor_retirement_2_days_alarm_title">Výměna senzoru</string>
+    <string name="sensor_retirement_30_days_notification_message">Výměna senzoru bude vyžadována během příštích 30 dnů a nebudete již moci přijímat hodnoty glukózy naměřené senzorem. Obraťte se na svého lékaře a nechte si senzor vyměnit.</string>
+    <string name="sensor_retirement_30_days_notification_title">Výměna senzoru</string>
+    <string name="sensor_retirement_3_days_alert_message_2">Výměna senzoru bude vyžadována během příštích 3 dnů a nebudete již moci přijímat hodnoty glukózy naměřené senzorem. Obraťte se na svého lékaře a nechte si senzor vyměnit.</string>
+    <string name="sensor_retirement_3_days_alert_title">Výměna senzoru</string>
+    <string name="sensor_retirement_7_days_alert_message_2">Výměna senzoru bude vyžadována během příštích 7 dnů a nebudete již moci přijímat hodnoty glukózy naměřené senzorem. Obraťte se na svého lékaře a nechte si senzor vyměnit.</string>
+    <string name="sensor_retirement_7_days_alert_title">Výměna senzoru</string>
+    <string name="sensor_retirement_agedout_alarm_message">Senzor je nutné vyměnit do 7 dnů, abyste mohli nadále přijímat hodnoty glukózy naměřené senzorem. Obraťte se na svého lékaře a nechte si senzor vyměnit.</string>
+    <string name="sensor_retirement_agedout_help_message">Po uplynutí 7 dnů již nebudete dostávat hodnoty glukózy naměřené senzorem. Obraťte se na svého lékaře a nechte si senzor vyměnit.</string>
+    <string name="sensor_status_alarm_message_0">Senzor máte zaveden už 150 dnů. Co nejdříve se obraťte na svého lékaře a naplánujte si výměnu.</string>
+    <string name="sensor_status_alarm_message_1">Senzor máte zaveden už 146 dnů. Co nejdříve se obraťte na svého lékaře a naplánujte si výměnu.</string>
+    <string name="sensor_status_alarm_message_2">Senzor máte zaveden už 136 dnů. Obraťte se na svého lékaře a naplánujte si výměnu.</string>
+    <string name="sensor_status_alarm_message_3">Senzor máte zaveden už 120 dnů. Obraťte se na svého lékaře a naplánujte si výměnu.</string>
+    <string name="sensor_status_alarm_title">Stav senzoru</string>
+    <string name="serial_number">Sériové číslo</string>
+    <string name="serial_number_sensor">Propojené SN</string>
+    <string name="server_error">Chyba serveru</string>
+    <string name="server_error_text">Došlo k chybě serveru. Zkuste to znovu. Pokud chyba přetrvává, obraťte se na zákaznickou podporu.</string>
+    <string name="set_alert_levels">Nastavte hladiny glukózy, na které vás systém při dosažení odpovídajících hodnot upozorní.</string>
+    <string name="set_calibration_time_text">"Nastavte ranní a večerní čas, kdy chcete být upozorněni na kalibraci.
+
+Poznámka: Mezi časem kalibrace ráno a večer musí být rozdíl 10 až 14 hodin."</string>
+    <string name="set_meal_times_text">Tabulka časových období jídel</string>
+    <string name="set_target_levels">Nastavte hladiny glukózy, mezi kterými chcete zůstat.</string>
+    <string name="settings">Nastavení</string>
+    <string name="severity">Závažnost</string>
+    <string name="share_my_data">Sdílet moje údaje</string>
+    <string name="short_acting">Krátce působící</string>
+    <string name="shortcut_breakfast">Sníd</string>
+    <string name="shortcut_dinner">Več</string>
+    <string name="shortcut_lunch">Oběd</string>
+    <string name="shortcut_sleep">Spán</string>
+    <string name="shortcut_snack">Svač</string>
+    <string name="sleep">Spánek</string>
+    <string name="snack">Svačina</string>
+    <string name="sore_throat">Bolest v krku</string>
+    <string name="sound_high_glucose_alarm_2">Upozornění na vysokou hladinu glukózy</string>
+    <string name="sound_high_snooze">Potlačení vysoké</string>
+    <string name="sound_low_glucose_alarm_2">Upozornění na nízkou hladinu glukózy</string>
+    <string name="sound_low_snooze">Potlačení nízké</string>
+    <string name="sound_settings">Nastavení zvuku</string>
+    <string name="sound_settings_description_2">Vyberte si zvuky pro upozornění na vysokou/nízkou hladinu glykémie a nastavte, jak často se zvuk bude opakovat.</string>
+    <string name="start">Začátek</string>
+    <string name="statistics">Zprávy</string>
+    <string name="statistics_string">Statistika</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stddev">Směr. odchyl.</string>
+    <string name="stop">Zastavit</string>
+    <string name="stress">Stres</string>
+    <string name="submit">Odeslat</string>
+    <string name="sync_could_not_start_2">Synchronizaci nelze zahájit. Odhlaste se a znovu se přihlaste k účtu.</string>
+    <string name="sync_days">Dny synchronizace</string>
+    <string name="sync_now">ZAHÁJIT SYNCHRONIZACI</string>
+    <string name="synced_success">Úspěšně synchronizováno</string>
+    <string name="syncing">SYNCHRONIZACE…</string>
+    <string name="system">Systém</string>
+    <string name="target">Cíl</string>
+    <string name="temp_profile_description">Nastavte hladiny glukózy, na které vás systém upozorní, pokud je aktivován váš dočasný profil. Tlačítkem ZAČÁTEK profil aktivujete; tlačítkem ZASTAVIT jej deaktivujete.</string>
+    <string name="temp_profile_duration">%1$d h %2$d min</string>
+    <string name="temp_profile_glucose_settings_warning">Váš dočasný profil je aktivní a uložená nastavení glukózy nebudou použita, dokud dočasný profil nebude deaktivován nebo neuplyne jeho platnost.</string>
+    <string name="temp_profile_time_left">Zbývá %1$d h %2$d min</string>
+    <string name="temp_profile_title">Dočasný profil</string>
+    <string name="temp_profile_turned_off_body">Doba trvání dočasného profilu uplynula. Budou obnovena standardní nastavení glukózy.</string>
+    <string name="temp_profile_turned_off_title">Dočasný profil vypnut</string>
+    <string name="time">Čas</string>
+    <string name="tips_connect_html_text">"Pokud nemůžete navázat spojení s vysílačem, vyzkoušejte následující kroky:
+
+ * Zajistěte, že je vysílač nabitý, ale není připojen k nabíječce.
+ * Vypněte a zapněte funkci Bluetooth pomocí nabídky nastavení v chytrém telefonu.
+ * Vypněte a zapněte chytrý telefon.
+ * Zrušte spárování zařízení a spárujte je znovu."</string>
+    <string name="tips_connect_html_text_initial">"Postup při prvním připojení („spárování“) vysílače:
+
+ 1) Odpojte vysílač od USB.
+ 2) Klepněte 3krát na tlačítko na vysílači.
+ 3) Ověřte, že LED bliká ZELENĚ a ŽLUTĚ.
+ 4) Klepněte na název vysílače (podle čísla SN na zadním štítku) ve zobrazeném seznamu."</string>
+    <string name="tips_html_text">"* Před použitím testovacího proužku si důkladně umyjte a osušte ruce.
+ * Použijte správnou velikost kapky krve.
+ * Uchovávejte glukometr čistý.
+ * Doporučované doby kalibrace – před jídlem, před dávkou inzulinu, před spaním, před cvičením."</string>
+    <string name="tired">Únava</string>
+    <string name="today">DNES</string>
+    <string name="todayLow">Dnes</string>
+    <string name="tomorrowLow">Zítra</string>
+    <string name="too_soon">Není čas na naplánovanou kalibraci. Zkuste to znovu v době příští plánované kalibrace.</string>
+    <string name="transmitter_details">Podrobnosti o vysílači</string>
+    <string name="transmitter_disconnected_notification_message">Vysílač (%@) byl odpojen. Připojte vysílač, aby byl obnoven příjem všech oznámení.</string>
+    <string name="transmitter_disconnected_notification_title">Vysílač je odpojen</string>
+    <string name="transmitter_error">Chyba vysílače</string>
+    <string name="transmitter_error_alarm_help_message">Obraťte se na zákaznickou podporu.</string>
+    <string name="transmitter_error_alarm_message_2">Vysílač zjistil chybu. Obraťte se na zákaznickou podporu.</string>
+    <string name="transmitter_error_alarm_title">Chyba vysílače</string>
+    <string name="transmitter_high_temperature_alarm_help_message">"Jakmile bude teplota vysílače pod 42 °C, vysílač bude opět poskytovat hodnoty glykémie naměřené senzorem. 
+
+Vysílač můžete dočasně odebrat, aby se ochladil. Jakmile teplota vysílače klesne, nezapomeňte jej vrátit nad senzor. Nevkládejte vysílač do chladničky."</string>
+    <string name="transmitter_high_temperature_alarm_message_2">Teplota vysílače je příliš vysoká. Přejděte do chladnější oblasti, aby byl obnoven příjem hodnot glukózy naměřených senzorem. Pokud problém přetrvává, obraťte se na zákaznickou podporu.</string>
+    <string name="transmitter_high_temperature_alarm_title">Vysoká teplota vysílače</string>
+    <string name="type">Typ</string>
+    <string name="unit_descriptive_text_mgdl_mmol" formatted="false">Pokud chcete změnit jednotku měření<b> %value%</b>, můžete to provést pouze nyní. Před změnou tohoto nastavení se poraďte s lékařem, pokud si nejste jisti, jakou jednotku měření máte použít.</string>
+    <string name="unit_example_text_mgdl">Příklad: 160 &lt;b>mg/dl&lt;/b> (nebo jakákoli hodnota v rozmezí &lt;b>40–400 mg/dl&lt;/b>)</string>
+    <string name="unit_example_text_mmol">Příklad: 8,9 &lt;b>mmol/l&lt;/b> (nebo jakákoli hodnota v rozmezí &lt;b>2,2–22,2 mmol/l&lt;/b>)</string>
+    <string name="unit_glucose_reading_changed">změněno</string>
+    <string name="unit_glucose_reading_set">nastaveno</string>
+    <string name="unit_glucose_reading_text_mgdl_mmol_2" formatted="false">Naměřená hodnota glukózy je<b> %value%</b> a bude zobrazena v níže uvedených jednotkách.</string>
+    <string name="unit_selected_text" formatted="false">Jednotka měření:<b>%value%</b></string>
+    <string name="unit_title">JEDNOTKA MĚŘENÍ</string>
+    <string name="units">Jednotky</string>
+    <string name="unknown">Neznámé</string>
+    <string name="unknown_error">Neznámá chyba</string>
+    <string name="unknown_error_alert_message">Neznámá chyba. Pokud se tato chyba stále objevuje, obraťte se na zákaznickou podporu. (%@)</string>
+    <string name="unknown_error_alert_title">Neznámý kód: %d</string>
+    <string name="unknown_error_text">Došlo k neznámé chybě. Zkuste to znovu. Pokud chyba přetrvává, obraťte se na zákaznickou podporu.</string>
+    <string name="unknown_help_message">Neznámá chyba. Pokud se tato chyba stále objevuje, obraťte se na zákaznickou podporu. (%@)</string>
+    <string name="unknown_reason">Kalibraci nyní nelze dokončit. Přečtěte si další informace v části Kalibrace v uživatelské příručce a zkuste to znovu později.</string>
+    <string name="unsupported_mode">Vysílač je v režimu, který nepodporuje kalibraci. S dalšími otázkami se obraťte na svého lékaře.</string>
+    <string name="username">Uživatelské jméno</string>
+    <string name="value">Hodnota</string>
+    <string name="version_number">Verze firmwaru</string>
+    <string name="very_low">Velmi nízká</string>
+    <string name="very_low_battery_alert_help_message">"Před připojením vysílače ke zdroji napájení a dobitím baterie sejměte vysílač z těla. 
+
+Během dobíjení vysílač nezískává informace ze senzoru. Během dobíjení vysílače nebudete dostávat informace o glukóze."</string>
+    <string name="very_low_battery_alert_message">Baterie vysílače je velmi slabá. Dobijte vysílač nyní.</string>
+    <string name="very_low_battery_alert_title">Dobít vysílač</string>
+    <string name="vibration_motor_alarm_help_message">Systém bude zobrazovat hodnoty glukózy další 72 hodiny. Po uplynutí 72 hodin je nutné vysílač vyměnit, abyste mohli dále přijímat naměřené hodnoty glukózy. Obraťte se na zákaznickou podporu a požádejte o výměnu.</string>
+    <string name="vibration_motor_alarm_message">Vysílač zjistil problém s vibračním motorem a nemůže nadále poskytovat vibrační upozornění. Obraťte se na zákaznickou podporu a požádejte o výměnu vysílače.</string>
+    <string name="vibration_motor_alarm_title">Vibrační motor</string>
+    <string name="view">Zobrazit</string>
+    <string name="wait_for_x_minutes">Zkuste to znovu za %d min.</string>
+    <string name="waiting_post_calibration">Čekání na měření senzoru po kalibraci. Počkejte %d min a zkuste to znovu.</string>
+    <string name="warm_up_phase">Zahřívání</string>
+    <string name="warmup_unknown">Vysílač je ve fázi zahřívání a kalibrace nejsou požadovány. Požádejte svého lékaře o další informace.</string>
+    <string name="warning">Varování</string>
+    <string name="weekly_statistics">Týdenní modální souhrnná zpráva (%1$s)</string>
+    <string name="welcome">Vítejte</string>
+    <string name="wi_fi_disconnected">Internet odpojen</string>
+    <string name="wi_fi_disconnected_text">Internetové připojení nelze nalézt. Připojte se k internetu a zkuste to znovu.</string>
+    <string name="within">V rámci</string>
+    <string name="within_target_levels">V rámci cílových hladin</string>
+    <string name="yes">Ano</string>
+</resources>

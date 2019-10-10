@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/graph_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/glucose_display_margin">
+        <ImageView android:id="@id/tempProfileImageView" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/icon_tempprofile" android:scaleType="centerCrop" android:layout_marginStart="5.0dip" />
+        <ImageView android:id="@id/dndImageView" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/icon_dnd" android:scaleType="centerCrop" android:layout_marginStart="5.0dip" />
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+            <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:id="@id/transmitterName" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" />
+            <ImageView android:id="@id/signalStrengthImageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:src="@drawable/signal_strength_none" android:scaleType="centerCrop" />
+            <ImageView android:id="@id/batteryStrengthImageView" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:src="@drawable/icon_battery_0" android:scaleType="centerInside" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="10.0" android:layout_centerInParent="true">
+        <TextView android:textSize="@dimen/glucose_value_size_mg_dl" android:textStyle="normal" android:textColor="@color/gray_text_glucose" android:gravity="bottom|center" android:id="@id/glucoseValue" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginTop="20.0dip" android:layout_weight="6.0" />
+        <FrameLayout android:gravity="left" android:paddingLeft="@dimen/small_margin" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="4.0">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/trend_inactive" android:scaleType="fitXY" />
+            <TextView android:textSize="@dimen/glucose_type_size" android:textStyle="bold" android:textColor="@color/gray_text_glucose" android:layout_gravity="bottom" android:id="@id/glucoseUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="5.0dip" android:maxLines="1" android:layout_centerHorizontal="true" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,263 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: com.senseonics.gen12androidapp.apk
+compressionType: false
+doNotCompress:
+- arsc
+- META-INF/android.arch.core_runtime.version
+- META-INF/android.arch.lifecycle_livedata-core.version
+- META-INF/android.arch.lifecycle_runtime.version
+- META-INF/android.arch.lifecycle_viewmodel.version
+- META-INF/com.android.support_animated-vector-drawable.version
+- META-INF/com.android.support_appcompat-v7.version
+- META-INF/com.android.support_design.version
+- META-INF/com.android.support_exifinterface.version
+- META-INF/com.android.support_recyclerview-v7.version
+- META-INF/com.android.support_support-compat.version
+- META-INF/com.android.support_support-core-ui.version
+- META-INF/com.android.support_support-core-utils.version
+- META-INF/com.android.support_support-fragment.version
+- META-INF/com.android.support_support-media-compat.version
+- META-INF/com.android.support_support-v13.version
+- META-INF/com.android.support_support-v4.version
+- META-INF/com.android.support_support-vector-drawable.version
+- META-INF/com.android.support_transition.version
+- res/drawable-hdpi-v4/ab_bottom_solid_senseonics.9.png
+- res/drawable-hdpi-v4/ab_solid_senseonics.9.png
+- res/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+- png
+- res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+- res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+- res/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+- res/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png
+- res/drawable-hdpi-v4/abc_list_focused_holo.9.png
+- res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png
+- res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png
+- res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png
+- res/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+- res/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png
+- res/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+- res/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png
+- res/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+- res/drawable-hdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+- res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+- res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png
+- res/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+- res/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+- res/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+- res/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+- res/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+- res/drawable-hdpi-v4/blue_alert_dialog_icon.9.png
+- res/drawable-hdpi-v4/day_picker_week_view_dayline_holo.9.png
+- res/drawable-hdpi-v4/list_divider_holo_dark.9.png
+- res/drawable-hdpi-v4/list_divider_holo_light.9.png
+- res/drawable-hdpi-v4/list_focused_holo.9.png
+- res/drawable-hdpi-v4/list_longpressed_holo.9.png
+- res/drawable-hdpi-v4/list_pressed_holo_dark.9.png
+- res/drawable-hdpi-v4/list_pressed_holo_light.9.png
+- res/drawable-hdpi-v4/list_selector_disabled_holo_dark.9.png
+- res/drawable-hdpi-v4/list_selector_disabled_holo_light.9.png
+- res/drawable-hdpi-v4/notification_bg_low_normal.9.png
+- res/drawable-hdpi-v4/notification_bg_low_pressed.9.png
+- res/drawable-hdpi-v4/notification_bg_normal.9.png
+- res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png
+- res/drawable-hdpi-v4/np_numberpicker_selection_divider.9.png
+- res/drawable-hdpi-v4/numberpicker_selection_divider.9.png
+- res/drawable-hdpi-v4/pie_chart_list_bg.9.png
+- res/drawable-hdpi-v4/progress_bg_senseonics.9.png
+- res/drawable-hdpi-v4/progress_primary_senseonics.9.png
+- res/drawable-hdpi-v4/progress_secondary_senseonics.9.png
+- res/drawable-hdpi-v4/red_alert_dialog_icon.9.png
+- res/drawable-hdpi-v4/scrubber_primary_holo.9.png
+- res/drawable-hdpi-v4/scrubber_secondary_holo.9.png
+- res/drawable-hdpi-v4/scrubber_track_holo_light.9.png
+- res/drawable-hdpi-v4/switch_bg_disabled_holo_light.9.png
+- res/drawable-hdpi-v4/switch_bg_focused_holo_light.9.png
+- res/drawable-hdpi-v4/switch_bg_holo_light.9.png
+- res/drawable-hdpi-v4/switch_thumb_activated_holo_light.9.png
+- res/drawable-hdpi-v4/switch_thumb_disabled_holo_light.9.png
+- res/drawable-hdpi-v4/switch_thumb_holo_light.9.png
+- res/drawable-hdpi-v4/switch_thumb_pressed_holo_light.9.png
+- res/drawable-hdpi-v4/tab_selected_focused_holo.9.png
+- res/drawable-hdpi-v4/tab_selected_holo.9.png
+- res/drawable-hdpi-v4/tab_selected_pressed_holo.9.png
+- res/drawable-hdpi-v4/tab_unselected_focused_holo.9.png
+- res/drawable-hdpi-v4/tab_unselected_holo.9.png
+- res/drawable-hdpi-v4/tab_unselected_pressed_holo.9.png
+- res/drawable-hdpi-v4/yellow_alert_dialog_icon.9.png
+- res/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+- res/drawable-ldrtl-mdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+- res/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+- res/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+- res/drawable-ldrtl-xxxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+- res/drawable-mdpi-v4/ab_bottom_solid_senseonics.9.png
+- res/drawable-mdpi-v4/ab_solid_senseonics.9.png
+- res/drawable-mdpi-v4/ab_stacked_solid_senseonics.9.png
+- res/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+- res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+- res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+- res/drawable-mdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+- res/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png
+- res/drawable-mdpi-v4/abc_list_focused_holo.9.png
+- res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png
+- res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png
+- res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png
+- res/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+- res/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png
+- res/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+- res/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png
+- res/drawable-mdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+- res/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+- res/drawable-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+- res/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png
+- res/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+- res/drawable-mdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+- res/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+- res/drawable-mdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+- res/drawable-mdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+- res/drawable-mdpi-v4/apptheme_textfield_activated_holo_light.9.png
+- res/drawable-mdpi-v4/apptheme_textfield_default_holo_light.9.png
+- res/drawable-mdpi-v4/apptheme_textfield_disabled_focused_holo_light.9.png
+- res/drawable-mdpi-v4/apptheme_textfield_disabled_holo_light.9.png
+- res/drawable-mdpi-v4/apptheme_textfield_focused_holo_light.9.png
+- res/drawable-mdpi-v4/day_picker_week_view_dayline_holo.9.png
+- res/drawable-mdpi-v4/list_divider_holo_dark.9.png
+- res/drawable-mdpi-v4/list_divider_holo_light.9.png
+- res/drawable-mdpi-v4/list_focused_holo.9.png
+- res/drawable-mdpi-v4/list_longpressed_holo.9.png
+- res/drawable-mdpi-v4/list_pressed_holo_dark.9.png
+- res/drawable-mdpi-v4/list_pressed_holo_light.9.png
+- res/drawable-mdpi-v4/list_selector_disabled_holo_dark.9.png
+- res/drawable-mdpi-v4/list_selector_disabled_holo_light.9.png
+- res/drawable-mdpi-v4/notification_bg_low_normal.9.png
+- res/drawable-mdpi-v4/notification_bg_low_pressed.9.png
+- res/drawable-mdpi-v4/notification_bg_normal.9.png
+- res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png
+- res/drawable-mdpi-v4/np_numberpicker_selection_divider.9.png
+- res/drawable-mdpi-v4/progress_bg_senseonics.9.png
+- res/drawable-mdpi-v4/progress_primary_senseonics.9.png
+- res/drawable-mdpi-v4/progress_secondary_senseonics.9.png
+- res/drawable-sw600dp-v13/blue_alert_dialog_icon.9.png
+- res/drawable-sw600dp-v13/red_alert_dialog_icon.9.png
+- res/drawable-sw600dp-v13/yellow_alert_dialog_icon.9.png
+- res/drawable-xhdpi-v4/ab_bottom_solid_senseonics.9.png
+- res/drawable-xhdpi-v4/ab_solid_senseonics.9.png
+- res/drawable-xhdpi-v4/ab_stacked_solid_senseonics.9.png
+- res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+- res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+- res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+- res/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+- res/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png
+- res/drawable-xhdpi-v4/abc_list_focused_holo.9.png
+- res/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png
+- res/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png
+- res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png
+- res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+- res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png
+- res/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+- res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png
+- res/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+- res/drawable-xhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+- res/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+- res/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+- res/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+- res/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+- res/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+- res/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+- res/drawable-xhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+- res/drawable-xhdpi-v4/apptheme_textfield_activated_holo_light.9.png
+- res/drawable-xhdpi-v4/apptheme_textfield_default_holo_light.9.png
+- res/drawable-xhdpi-v4/apptheme_textfield_disabled_focused_holo_light.9.png
+- res/drawable-xhdpi-v4/apptheme_textfield_disabled_holo_light.9.png
+- res/drawable-xhdpi-v4/apptheme_textfield_focused_holo_light.9.png
+- res/drawable-xhdpi-v4/day_picker_week_view_dayline_holo.9.png
+- res/drawable-xhdpi-v4/list_divider_holo_dark.9.png
+- res/drawable-xhdpi-v4/list_divider_holo_light.9.png
+- res/drawable-xhdpi-v4/list_focused_holo.9.png
+- res/drawable-xhdpi-v4/list_longpressed_holo.9.png
+- res/drawable-xhdpi-v4/list_pressed_holo_dark.9.png
+- res/drawable-xhdpi-v4/list_pressed_holo_light.9.png
+- res/drawable-xhdpi-v4/list_selector_disabled_holo_dark.9.png
+- res/drawable-xhdpi-v4/list_selector_disabled_holo_light.9.png
+- res/drawable-xhdpi-v4/notification_bg_low_normal.9.png
+- res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png
+- res/drawable-xhdpi-v4/notification_bg_normal.9.png
+- res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png
+- res/drawable-xhdpi-v4/np_numberpicker_selection_divider.9.png
+- res/drawable-xhdpi-v4/progress_bg_senseonics.9.png
+- res/drawable-xhdpi-v4/progress_primary_senseonics.9.png
+- res/drawable-xhdpi-v4/progress_secondary_senseonics.9.png
+- res/drawable-xhdpi-v4/scrubber_primary_holo.9.png
+- res/drawable-xhdpi-v4/scrubber_secondary_holo.9.png
+- res/drawable-xhdpi-v4/scrubber_track_holo_light.9.png
+- res/drawable-xhdpi-v4/switch_bg_disabled_holo_light.9.png
+- res/drawable-xhdpi-v4/switch_bg_focused_holo_light.9.png
+- res/drawable-xhdpi-v4/switch_bg_holo_light.9.png
+- res/drawable-xhdpi-v4/switch_thumb_activated_holo_light.9.png
+- res/drawable-xhdpi-v4/switch_thumb_disabled_holo_light.9.png
+- res/drawable-xhdpi-v4/switch_thumb_holo_light.9.png
+- res/drawable-xhdpi-v4/switch_thumb_pressed_holo_light.9.png
+- res/drawable-xxhdpi-v4/ab_bottom_solid_senseonics.9.png
+- res/drawable-xxhdpi-v4/ab_solid_senseonics.9.png
+- res/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+- res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+- res/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png
+- res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png
+- res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png
+- res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png
+- res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+- res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png
+- res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+- res/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png
+- res/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/scrubber_primary_holo.9.png
+- res/drawable-xxhdpi-v4/scrubber_secondary_holo.9.png
+- res/drawable-xxhdpi-v4/scrubber_track_holo_light.9.png
+- res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+- res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+- res/drawable-xxxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+- res/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+- res/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+- m4a
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '21'
+  targetSdkVersion: '27'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  LICENSE-junit.txt: '8'
+  androidsupportmultidexversion.txt: '0'
+  fabric/com.crashlytics.sdk.android.answers.properties: '8'
+  fabric/com.crashlytics.sdk.android.beta.properties: '8'
+  fabric/com.crashlytics.sdk.android.crashlytics-core.properties: '8'
+  fabric/com.crashlytics.sdk.android.crashlytics.properties: '8'
+  fabric/io.fabric.sdk.android.fabric.properties: '8'
+  jcifs/http/ne.css: '8'
+  jcifs/util/mime.map: '8'
+  junit/runner/logo.gif: '0'
+  junit/runner/smalllogo.gif: '0'
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: '0'
+  org/bouncycastle/x509/CertPathReviewerMessages.properties: '8'
+  org/bouncycastle/x509/CertPathReviewerMessages_de.properties: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.0
+versionInfo:
+  versionCode: '2001'
+  versionName: 1.0.410

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/linkedSensorLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/box_margin">
+        <View android:background="@color/blue" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        <include layout="@layout/sensor_list_item" />
+        <View android:background="@color/blue" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/unlinkedSensorLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/box_margin">
+        <View android:background="@color/blue" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        <include layout="@layout/sensor_list_item" />
+        <View android:background="@color/blue" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/linkDetectedSensorLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/box_margin">
+        <TextView android:textSize="@dimen/large_text" android:textStyle="italic" android:textColor="@color/black" android:gravity="left" android:id="@id/linkDetectedSensorTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/box_margin" android:layout_marginBottom="@dimen/box_margin" android:text="@string/link_detected_sensor_text_2" />
+        <LinearLayout android:orientation="vertical" android:background="@color/graph_green" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/box_margin">
+            <Button android:textSize="@dimen/large_text" android:textStyle="bold" android:textColor="@color/graph_white" android:id="@id/linkDetectedSensorButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/link_detected_sensor" style="@android:style/Widget.Holo.Button.Borderless" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/linkingLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/box_margin">
+        <View android:background="@color/blue" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        <RelativeLayout android:background="@android:color/white" android:padding="@dimen/event_box_text_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/large_text" android:textStyle="bold" android:textColor="@android:color/black" android:id="@id/retrievingParamsTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/retrieving_parameters" android:layout_toLeftOf="@id/rightLayout1" android:layout_centerVertical="true" />
+            <RelativeLayout android:gravity="center" android:id="@id/rightLayout1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <ProgressBar android:id="@id/progressBar1" android:layout_width="34.0dip" android:layout_height="34.0dip" />
+                <ImageView android:id="@id/imageView1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/green_check_mark" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <View android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/small_margin" android:layout_marginRight="@dimen/small_margin" />
+        <RelativeLayout android:background="@android:color/white" android:padding="@dimen/event_box_text_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/large_text" android:textStyle="bold" android:textColor="@android:color/black" android:id="@id/linkingSensorTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/linking_sensor" android:layout_toLeftOf="@id/rightLayout2" android:layout_centerVertical="true" />
+            <RelativeLayout android:gravity="center" android:id="@id/rightLayout2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <ProgressBar android:id="@id/progressBar2" android:layout_width="34.0dip" android:layout_height="34.0dip" />
+                <ImageView android:id="@id/imageView2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/green_check_mark" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <View android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/small_margin" android:layout_marginRight="@dimen/small_margin" />
+        <RelativeLayout android:background="@android:color/white" android:padding="@dimen/event_box_text_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/large_text" android:textStyle="bold" android:textColor="@android:color/black" android:id="@id/linkinProcessCompleteTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/linking_process_complete" android:layout_toLeftOf="@id/rightLayout3" android:layout_centerVertical="true" />
+            <RelativeLayout android:gravity="center" android:id="@id/rightLayout3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <ProgressBar android:id="@id/progressBar3" android:layout_width="34.0dip" android:layout_height="34.0dip" />
+                <ImageView android:id="@id/imageView3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/green_check_mark" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <View android:background="@color/blue" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    </LinearLayout>
+</LinearLayout>

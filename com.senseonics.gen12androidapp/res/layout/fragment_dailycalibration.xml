@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/box_margin">
+        <TextView android:textSize="@dimen/extra_large_text" android:textColor="@color/black" android:id="@id/dailyCalibrationTitle" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/box_margin" android:layout_marginBottom="@dimen/box_margin" android:text="@string/daily_calibration" />
+        <TextView android:textSize="@dimen/medium_text" android:textStyle="italic" android:textColor="@color/detail_font_color" android:gravity="left" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/box_margin" android:text="@string/set_calibration_time_text" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/box_margin">
+        <View android:background="@color/blue" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        <RelativeLayout android:id="@id/morningPicker" android:padding="@dimen/event_box_text_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@android:style/Widget.Holo.Button.Borderless">
+            <TextView android:textSize="@dimen/large_text" android:textColor="@color/black" android:id="@id/morningText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/morning" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="@dimen/large_text" android:textColor="@color/black" android:id="@id/morningTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/arrowMorning" />
+            <ImageView android:id="@id/arrowMorning" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/event_box_text_margin" android:src="@drawable/list_item_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/morning" />
+        </RelativeLayout>
+        <View android:background="@color/gray_horizontal_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <RelativeLayout android:id="@id/eveningPicker" android:padding="@dimen/event_box_text_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@android:style/Widget.Holo.Button.Borderless">
+            <TextView android:textSize="@dimen/large_text" android:textColor="@color/black" android:id="@id/eveningText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/evening" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="@dimen/large_text" android:textColor="@color/black" android:id="@id/eveningTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/arrowEvening" />
+            <ImageView android:id="@id/arrowEvening" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/event_box_text_margin" android:src="@drawable/list_item_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/evening" />
+        </RelativeLayout>
+        <View android:background="@color/blue" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    </LinearLayout>
+</LinearLayout>

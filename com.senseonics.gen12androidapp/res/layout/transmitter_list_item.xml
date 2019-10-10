@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/large_text" android:textStyle="bold" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginTop="@dimen/small_margin_cell" android:layout_marginRight="3.0dip" android:layout_marginBottom="@dimen/small_margin_cell" android:layout_toLeftOf="@id/rightLayout" android:layout_centerVertical="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/rightLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/large_text" android:textColor="@color/gray_medium" android:id="@id/state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/not_connected" />
+        <ProgressBar android:id="@id/progressBar" android:visibility="gone" android:layout_width="34.0dip" android:layout_height="34.0dip" android:layout_marginLeft="5.0dip" />
+        <ImageView android:id="@id/bluetoothImage" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/connected_icon" />
+    </LinearLayout>
+</RelativeLayout>

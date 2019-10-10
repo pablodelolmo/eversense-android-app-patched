@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/notificationLayout" android:background="@drawable/blue_bg" android:layout_width="@dimen/notification_dialog_width" android:layout_height="@dimen/notification_dialog_height" android:weightSum="4.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/box_margin" android:weightSum="3.0" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/medium_text" android:textStyle="bold" android:textColor="@color/graph_white" android:gravity="center" android:id="@id/titleTextView" android:paddingTop="@dimen/small_margin_navi" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="NOTIFICATION" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/large_text" android:textStyle="bold" android:textColor="@color/graph_white" android:gravity="center" android:id="@id/glucoseState" android:paddingTop="@dimen/small_margin_navi" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Calibrate Now" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/medium_text" android:textStyle="bold" android:textColor="@color/graph_white" android:gravity="center" android:id="@id/timeStamp" android:paddingTop="@dimen/small_margin_navi" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Monday, January 19, 04:21 PM" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/box_margin" android:weightSum="4.0" android:layout_weight="2.0">
+        <TextView android:textSize="@dimen/medium_text" android:textStyle="bold" android:textColor="@color/black" android:gravity="center" android:id="@id/blindedText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/box_margin" android:text="No Glucose Values Displayed" android:minLines="2" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:id="@id/alertText" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/box_margin" android:text="Your daily calibration is due. Please perform a fingerstick blood glucose meter calibration now." android:maxLines="6" android:minLines="4" android:layout_weight="3.0" />
+    </LinearLayout>
+    <ViewStub android:id="@id/selectButtonLayout" android:layout="@layout/notifications_two_buttons" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

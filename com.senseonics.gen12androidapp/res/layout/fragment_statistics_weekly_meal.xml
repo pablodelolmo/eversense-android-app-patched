@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_no_statistics" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/contentLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/large_text" android:textColor="@color/blue" android:gravity="center_horizontal" android:id="@id/titleTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small_margin" />
+            <TextView android:textSize="@dimen/medium_text" android:textColor="@color/blue" android:gravity="center_horizontal" android:id="@id/tvDateRange" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/extra_small_margin" android:text="(June 1 - June 30, 2015)" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="horizontal" android:id="@id/graphLayout" android:layout_width="fill_parent" android:layout_height="@dimen/report_graph_height" android:layout_marginLeft="3.0dip" android:layout_marginTop="@dimen/small_margin" android:layout_marginRight="@dimen/small_margin" android:layout_marginBottom="@dimen/small_margin" />
+                <TableLayout android:id="@id/tableLayout1" android:padding="@dimen/box_margin" android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchColumns="*" android:shrinkColumns="*">
+                    <TableRow android:id="@id/tableRow2" android:background="@color/graph_blue" android:padding="@dimen/step_pager_tab_spacing" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:id="@id/TextView21" android:text="" />
+                        <TextView android:textSize="@dimen/medium_text" android:textStyle="bold" android:textColor="@color/graph_white" android:gravity="center" android:id="@id/TextView22" android:text="@string/shortcut_breakfast" />
+                        <TextView android:textSize="@dimen/medium_text" android:textStyle="bold" android:textColor="@color/graph_white" android:gravity="center" android:id="@id/TextView23" android:text="@string/shortcut_lunch" />
+                        <TextView android:textSize="@dimen/medium_text" android:textStyle="bold" android:textColor="@color/graph_white" android:gravity="center" android:id="@id/TextView24" android:text="@string/shortcut_snack" />
+                        <TextView android:textSize="@dimen/medium_text" android:textStyle="bold" android:textColor="@color/graph_white" android:gravity="center" android:id="@id/TextView25" android:text="@string/shortcut_dinner" />
+                        <TextView android:textSize="@dimen/medium_text" android:textStyle="bold" android:textColor="@color/graph_white" android:gravity="center" android:id="@id/textView26" android:text="@string/shortcut_sleep" />
+                    </TableRow>
+                    <TableRow android:gravity="center_horizontal" android:id="@id/tableRow1" android:background="@color/divider_color" android:paddingTop="@dimen/box_margin" android:paddingBottom="@dimen/box_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/medium_text" android:textStyle="bold" android:textColor="@color/black" android:gravity="center" android:id="@id/textView11" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_span="6" android:text="@string/statistics_string" />
+                    </TableRow>
+                    <TableRow android:id="@id/tableRowAvg" android:paddingTop="@dimen/box_margin" android:paddingBottom="@dimen/box_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:id="@id/textViewAverage" android:text="@string/average" />
+                        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/avgBreakfast" android:text="@string/not_available" />
+                        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/avgLunch" android:text="@string/not_available" />
+                        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/avgSnack" android:text="@string/not_available" />
+                        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/avgDinner" android:text="@string/not_available" />
+                        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/avgSleep" android:text="@string/not_available" />
+                    </TableRow>
+                    <TableRow android:id="@id/tableRowStdDev" android:background="@color/divider_color" android:paddingTop="@dimen/box_margin" android:paddingBottom="@dimen/box_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:id="@id/textView46" android:text="@string/stddev" />
+                        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/stdDevBreakfast" android:text="@string/not_available" />
+                        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/stdDevLunch" android:text="@string/not_available" />
+                        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/stdDevSnack" android:text="@string/not_available" />
+                        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/stdDevDinner" android:text="@string/not_available" />
+                        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/stdDevSleep" android:text="@string/not_available" />
+                    </TableRow>
+                    <TableRow android:gravity="center_horizontal" android:id="@id/tableRow6" android:paddingTop="@dimen/box_margin" android:paddingBottom="@dimen/box_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/medium_text" android:textStyle="bold" android:textColor="@color/black" android:gravity="center" android:id="@id/textView70" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_span="6" android:text="@string/target" />
+                    </TableRow>
+                    <TableRow android:id="@id/tableRowStdWithIn" android:background="@color/divider_color" android:paddingTop="@dimen/box_margin" android:paddingBottom="@dimen/box_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:id="@id/textView47" android:text="@string/within" />
+                        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/withinBreakfast" android:text="@string/not_available" />
+                        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/withinLunch" android:text="@string/not_available" />
+                        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/withinSnack" android:text="@string/not_available" />
+                        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/withinDinner" android:text="@string/not_available" />
+                        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/withinSleep" android:text="@string/not_available" />
+                    </TableRow>
+                    <TableRow android:id="@id/tableRowAbove" android:paddingTop="@dimen/box_margin" android:paddingBottom="@dimen/box_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:id="@id/textView48" android:text="@string/above" />
+                        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/aboveBreakfast" android:text="@string/not_available" />
+                        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/aboveLunch" android:text="@string/not_available" />
+                        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/aboveSnack" android:text="@string/not_available" />
+                        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/aboveDinner" android:text="@string/not_available" />
+                        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/aboveSleep" android:text="@string/not_available" />
+                    </TableRow>
+                    <TableRow android:id="@id/tableRowBelow" android:background="@color/divider_color" android:paddingTop="@dimen/box_margin" android:paddingBottom="@dimen/box_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:id="@id/textView49" android:text="@string/below" />
+                        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/belowBreakfast" android:text="@string/not_available" />
+                        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/belowLunch" android:text="@string/not_available" />
+                        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/belowSnack" android:text="@string/not_available" />
+                        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/belowDinner" android:text="@string/not_available" />
+                        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/belowSleep" android:text="@string/not_available" />
+                    </TableRow>
+                    <TableRow android:gravity="center_horizontal" android:id="@id/tableRow7" android:paddingTop="@dimen/box_margin" android:paddingBottom="@dimen/box_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/medium_text" android:textStyle="bold" android:textColor="@color/black" android:gravity="center" android:id="@id/textView71" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_span="6" android:text="@string/glucose_event" />
+                    </TableRow>
+                    <TableRow android:id="@id/tableRowLow" android:background="@color/divider_color" android:paddingTop="@dimen/box_margin" android:paddingBottom="@dimen/box_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:id="@id/textView50" android:text="@string/low" />
+                        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/lowBreakfast" android:text="@string/not_available" />
+                        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/lowLunch" android:text="@string/not_available" />
+                        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/lowSnack" android:text="@string/not_available" />
+                        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/lowDinner" android:text="@string/not_available" />
+                        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/lowSleep" android:text="@string/not_available" />
+                    </TableRow>
+                    <TableRow android:id="@id/tableRowHigh" android:paddingTop="@dimen/box_margin" android:paddingBottom="@dimen/box_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:id="@id/textView51" android:text="@string/high" />
+                        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/highBreakfast" android:text="@string/not_available" />
+                        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/highLunch" android:text="@string/not_available" />
+                        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/highSnack" android:text="@string/not_available" />
+                        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/highDinner" android:text="@string/not_available" />
+                        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/highSleep" android:text="@string/not_available" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

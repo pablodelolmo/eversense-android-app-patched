@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="add_event_menu_margin">200.0dip</dimen>
+    <dimen name="alert_size">70.0dip</dimen>
+    <dimen name="bottom_text_margin">30.0dip</dimen>
+    <dimen name="box_margin">15.0dip</dimen>
+    <dimen name="dateview_text_size">19.0dip</dimen>
+    <dimen name="diabetes_text_size">25.0dip</dimen>
+    <dimen name="dialog_width">420.0dip</dimen>
+    <dimen name="event_box_divider_margin">15.0dip</dimen>
+    <dimen name="extra_large_margin">90.0dip</dimen>
+    <dimen name="extra_large_text">24.0dip</dimen>
+    <dimen name="extra_small_margin">9.0dip</dimen>
+    <dimen name="glucose_display_margin">15.0dip</dimen>
+    <dimen name="glucose_type_size">20.0dip</dimen>
+    <dimen name="glucose_value_size_mg_dl">110.0dip</dimen>
+    <dimen name="glucose_value_size_mmol_l">100.0dip</dimen>
+    <dimen name="graph_glucose_value_size">17.0dip</dimen>
+    <dimen name="graph_large_text">17.0dip</dimen>
+    <dimen name="graph_time_size">14.0dip</dimen>
+    <dimen name="large_margin">60.0dip</dimen>
+    <dimen name="large_text">21.0dip</dimen>
+    <dimen name="medium_text">19.0dip</dimen>
+    <dimen name="notification_dialog_height">510.0dip</dimen>
+    <dimen name="notification_dialog_width">420.0dip</dimen>
+    <dimen name="notification_title_large_text">22.0dip</dimen>
+    <dimen name="pop_up_margin_right">130.0dip</dimen>
+    <dimen name="popup_glucose_value_size">90.0dip</dimen>
+    <dimen name="small_margin">15.0dip</dimen>
+    <dimen name="small_margin_cell">25.0dip</dimen>
+    <dimen name="status_header_medium_text">20.0dip</dimen>
+</resources>

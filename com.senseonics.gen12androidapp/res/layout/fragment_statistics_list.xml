@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/tabview2_layout" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/layout_no_statistics" />
+        <LinearLayout android:orientation="vertical" android:id="@id/contentLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/large_text" android:textColor="@color/blue" android:gravity="center_horizontal" android:id="@id/titleTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/extra_small_margin" />
+            <TextView android:textSize="@dimen/medium_text" android:textColor="@color/blue" android:gravity="center_horizontal" android:id="@id/tvDateRange" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/extra_small_margin" android:text="(June 1 - June 30, 2015)" />
+            <LinearLayout android:id="@id/titleLayout" android:background="@color/blue" android:paddingTop="@dimen/small_margin" android:paddingBottom="@dimen/small_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="11.0">
+                <TextView android:textSize="@dimen/medium_text" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/period" android:layout_weight="3.0" />
+                <TextView android:textSize="@dimen/medium_text" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/avg" android:layout_weight="2.0" />
+                <TextView android:textSize="@dimen/medium_text" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/low" android:layout_weight="2.0" />
+                <TextView android:textSize="@dimen/medium_text" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/high" android:layout_weight="2.0" />
+                <TextView android:textSize="@dimen/medium_text" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/stddev" android:layout_weight="2.0" />
+            </LinearLayout>
+            <ListView android:id="@id/listView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/titleLayout" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

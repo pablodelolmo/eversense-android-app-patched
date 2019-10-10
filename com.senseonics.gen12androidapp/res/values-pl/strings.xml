@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Przejdź do strony głównej</string>
+    <string name="abc_action_bar_up_description">Przejdź wyżej</string>
+    <string name="abc_action_menu_overflow_description">Więcej opcji</string>
+    <string name="abc_action_mode_done">Gotowe</string>
+    <string name="abc_activity_chooser_view_see_all">Zobacz wszystkie</string>
+    <string name="abc_activitychooserview_choose_application">Wybierz aplikację</string>
+    <string name="abc_capital_off">WYŁ.</string>
+    <string name="abc_capital_on">WŁ.</string>
+    <string name="abc_search_hint">Szukaj…</string>
+    <string name="abc_searchview_description_clear">Wyczyść zapytanie</string>
+    <string name="abc_searchview_description_query">Wyszukiwane hasło</string>
+    <string name="abc_searchview_description_search">Szukaj</string>
+    <string name="abc_searchview_description_submit">Wyślij zapytanie</string>
+    <string name="abc_searchview_description_voice">Wyszukiwanie głosowe</string>
+    <string name="abc_shareactionprovider_share_with">Udostępnij dla</string>
+    <string name="abc_shareactionprovider_share_with_application">Udostępnij przez: %s</string>
+    <string name="abc_toolbar_collapse_description">Zwiń</string>
+    <string name="about">Informacje</string>
+    <string name="above">Powyżej</string>
+    <string name="above_target_level">Powyżej poziomu docelowego</string>
+    <string name="accept">Akceptuj</string>
+    <string name="alcohol">Alkohol</string>
+    <string name="alert">Alert</string>
+    <string name="alert_detail_glucose_value">Poziom stężenia glukozy:</string>
+    <string name="alert_detail_threshold">Próg:</string>
+    <string name="alert_notice">Powiadomienie o alercie</string>
+    <string name="alert_settings">Ustawienia alertów</string>
+    <string name="all">Wszystkie</string>
+    <string name="allergy">Alergia</string>
+    <string name="and">i</string>
+    <string name="android_device_info">Informacje o urządzeniu Android</string>
+    <string name="android_version">Wersja syst. Android</string>
+    <string name="app_update_body">Dostępna jest aktualizacja aplikacji Eversense App. Czy chcesz ją teraz zainstalować?</string>
+    <string name="app_update_title">Zaktualizuj Eversense App</string>
+    <string name="auto_sync">Automatyczna synchronizacja</string>
+    <string name="auto_sync_enabled_text">"Włączono automatyczną synchronizację.
+Dane będą synchronizowane z serwerem co 2 godziny."</string>
+    <string name="average">Średnia</string>
+    <string name="avg">Śr.</string>
+    <string name="battery_level">Poziom baterii</string>
+    <string name="below">Poniżej</string>
+    <string name="below_target_level">Poniżej poziomu docelowego</string>
+    <string name="between">między</string>
+    <string name="ble_not_supported">Standard Bluetooth niskiej energii nie jest obsługiwany</string>
+    <string name="bluetooth_is_off">Bluetooth WYŁĄCZONY</string>
+    <string name="bluetooth_pairing">Parowanie Bluetooth</string>
+    <string name="breakfast">Śniadanie</string>
+    <string name="cal_accepted_message_2">"Wartość poziomu glukozy we krwi została z powodzeniem użyta do kalibracji.
+
+Ostrzeżenie: Nie należy ściągać nadajnika z czujnika przez %1$d minut. W przypadku ściągnięcia nadajnika konieczne jest powtórzenie kalibracji."</string>
+    <string name="cal_accepted_title">Kalibracja zaakceptowana</string>
+    <string name="cal_in_progress">Trwa kalibracja (%1$d min, %2$d s)</string>
+    <string name="cal_not_entered_message">Wartość poziomu glukozy we krwi została zapisana, ale nie wprowadzona do kalibracji.</string>
+    <string name="cal_not_entered_title">Kalibracja nie została wprowadzona</string>
+    <string name="cal_not_used_reason_text">Powód nie używany do kalibracji</string>
+    <string name="cal_rejected_auto_link_message">Wartość poziomu glukozy we krwi nie została użyta do kalibracji, ponieważ aktywny jest tryb automatycznego łączenia. Przed wprowadzeniem kalibracji wyłącz tryb automatycznego łączenia.</string>
+    <string name="cal_rejected_auto_link_title">"Kalibracja odrzucona
+(tryb automatycznego łączenia)"</string>
+    <string name="cal_rejected_blinded_message_2">Wartość poziomu glukozy we krwi nie została użyta do kalibracji. Spróbuj ponownie po upływie następującej liczby godzin: %1$d.</string>
+    <string name="cal_rejected_blinded_title">"Kalibracja odrzucona
+(zaślepiona)"</string>
+    <string name="cal_rejected_data_message_2">Wartość poziomu glukozy we krwi nie została użyta do kalibracji, ponieważ dostępnych jest za mało danych z czujnika glukozy. Upewnij się, że nadajnik znajduje się nad czujnikiem, odczekaj %1$d minut i spróbuj ponownie.</string>
+    <string name="cal_rejected_data_title">"Kalibracja odrzucona
+(za mało danych)"</string>
+    <string name="cal_rejected_not_ready_message_2">Wartość poziomu glukozy nie została pobrana do kalibracji, ponieważ pobrano próbkę zanim nadajnik był gotowy do akceptacji kalibracji. Odczekaj %1$d minut i spróbuj ponownie.</string>
+    <string name="cal_rejected_not_ready_title">"Kalibracja odrzucona
+(nie gotowy)"</string>
+    <string name="cal_rejected_other_message">Wartość poziomu glukozy we krwi nie została użyta do kalibracji z powodu nieznanej usterki.</string>
+    <string name="cal_rejected_other_title">"Kalibracja odrzucona
+(inna usterka)"</string>
+    <string name="cal_rejected_rate_message_2">Wartość poziomu glukozy we krwi nie została użyta do kalibracji, ponieważ poziom glukozy zmienia się zbyt szybko. Spróbuj ponownie po upływie następującej liczby godzin: %1$d.</string>
+    <string name="cal_rejected_rate_title">"Kalibracja odrzucona
+(duża szybkość zmian)"</string>
+    <string name="cal_rejected_replacement_message">Wartość poziomu glukozy we krwi nie została użyta do kalibracji, ponieważ czujnik wymaga wymiany. Skontaktuj się z lekarzem w celu wymiany czujnika.</string>
+    <string name="cal_rejected_replacement_title">"Kalibracja odrzucona
+(wymagana wymiana czujnika)"</string>
+    <string name="cal_rejected_too_different_message_2">Wprowadzona wartość kalibracji %1$s może być niedokładna. W celu zapewnienia dokładnego odczytu poziomu glukozy ponów kalibrację za %2$d godzin.</string>
+    <string name="cal_rejected_too_different_title">Weryfikacja kalibracji</string>
+    <string name="cal_rejected_too_high_message_2">Poziomu glukozy powyżej %1$s nie można użyć do kalibracji. Wykonaj odpowiednie działania i spróbuj ponownie po upływie następującej liczby godzin: %2$d.</string>
+    <string name="cal_rejected_too_high_title">"Kalibracja odrzucona
+(zbyt wysoka)"</string>
+    <string name="cal_rejected_too_low_message_2">Poziomu glukozy poniżej %1$s nie można użyć do kalibracji. Wykonaj odpowiednie działania i spróbuj ponownie po upływie następującej liczby godzin: %2$d.</string>
+    <string name="cal_rejected_too_low_title">"Kalibracja odrzucona
+(zbyt niska)"</string>
+    <string name="cal_rejected_unknown_message">Wartość poziomu glukozy we krwi nie została użyta do kalibracji z nieznanego powodu. Spróbuj ponownie później.</string>
+    <string name="cal_rejected_unknown_title">"Kalibracja odrzucona
+(nieznana usterka)"</string>
+    <string name="calibrate">Kalibruj</string>
+    <string name="calibrate_now_notification_help_message">Kalibracja systemu CGM do glukometru zgodnie z harmonogramem jest ważna dla zapewnienia dokładnych wartości czujnika glukozy.</string>
+    <string name="calibrate_now_notification_message">Wymagana kalibracja. Wykonaj teraz kalibrację z użyciem glukometru i próbki krwi z opuszka palca.</string>
+    <string name="calibrate_now_notification_title">Kalibruj teraz</string>
+    <string name="calibrate_text">Wpisz godzinę oraz wartość poziomu glukozy we krwi odczytaną z glukometru, wybierz „Wyślij”, aby wprowadzić.</string>
+    <string name="calibration">Kalibracja</string>
+    <string name="calibration_event">Kalibracja</string>
+    <string name="calibration_expired_alarm_help_message">"Kalibracja systemu CGM do glukometru zgodnie z harmonogramem jest ważna dla zapewnienia dokładnych wartości czujnika glukozy. 
+
+W fazie ponownej inicjalizacji musisz wykonać 4 pomiary poziomu glukozy w odstępach 2–12 godzin. System automatycznie przeprowadzi Cię przez proces kalibracji."</string>
+    <string name="calibration_expired_alarm_message">Od 24 godzin nie wykonano kalibracji. System znajduje się w fazie ponownej inicjalizacji i będzie konieczne wykonanie 4 testów kalibracyjnych z opuszka palca.</string>
+    <string name="calibration_expired_alarm_title">Kalibracja przeterminowana</string>
+    <string name="calibration_grace_alert_help_message">Minął termin wymaganej kalibracji nadajnika. Wartości czujnika glukozy nie będą już wyświetlane. Naciśnij przycisk „Kalibruj”, aby kontynuować.</string>
+    <string name="calibration_grace_alert_message">Minął termin wymaganej kalibracji nadajnika. Wartości czujnika glukozy nie będą już wyświetlane. Naciśnij przycisk „Kalibruj”, aby kontynuować.</string>
+    <string name="calibration_grace_alert_title">Minął termin wymaganej kalibracji</string>
+    <string name="calibration_tips"><b>Wskazówki dotyczące kalibracji</b></string>
+    <string name="cancel">Anuluj</string>
+    <string name="carbs">Węglowodany</string>
+    <string name="click_twice_back">Wybierz ponownie WSTECZ, aby wyjść</string>
+    <string name="clinical_mode_enabled">Włączono tryb kliniczny</string>
+    <string name="complete_sensor_linking_text">Umieścić nadajnik nad czujnikiem, aby zakończyć powiązanie. Po zakończeniu naciśnij przycisk OK.</string>
+    <string name="completed_cals">Ukończone kalibracje</string>
+    <string name="condition">Stan</string>
+    <string name="congratulations">Gratulujemy!</string>
+    <string name="connected">Połączono</string>
+    <string name="connecting">Łączenie</string>
+    <string name="connecting_wait">Łączenie, czekaj…</string>
+    <string name="connection_status">Połącz</string>
+    <string name="connection_tips"><b>Pomóż mi się połączyć</b></string>
+    <string name="contact">Kontakt</string>
+    <string name="contact_us">Skontaktuj się z nami</string>
+    <string name="contact_us_mail_body">Wiadomości te nie są monitorowane całodobowo. Nie używaj tego adresu e-mail do pilnych pytań.</string>
+    <string name="contact_us_mail_subject">Wiadomość do działu obsługi klienta</string>
+    <string name="cough_cold">Kaszel/przeziębienie</string>
+    <string name="create_an_account">Utwórz konto</string>
+    <string name="current_phase">Bieżąca faza</string>
+    <string name="daily_calibration">Dzienna kalibracja</string>
+    <string name="data_saved">Zapisano dane</string>
+    <string name="data_saved_text" formatted="false">"W bazie danych zapisano nowe zdarzenia: %@,
+liczba zdarzeń wcześniej zapisanych w bazie: %@."</string>
+    <string name="date">Data</string>
+    <string name="day_1">1 dzień</string>
+    <string name="day_14">14 dni</string>
+    <string name="day_30">30 dni</string>
+    <string name="day_7">7 dni</string>
+    <string name="day_90">90 dni</string>
+    <string name="daylight_saving">Sezonowa zmiana czasu</string>
+    <string name="days_remaining_alarm_help_message_1">Od daty tego powiadomienia, szacunkowa liczba dni, przez które czujnik będzie podawał odczyty wynosi 4. Skontaktuj się z lekarzem w celu zaplanowania wymiany.</string>
+    <string name="default_sync_days">Domyślne dni synchronizacji</string>
+    <string name="details">Szczegóły</string>
+    <string name="details_version">Wersja</string>
+    <string name="detected_sensor">Wykryty czujnik</string>
+    <string name="detected_serialnumber">Wykryty numer seryjny</string>
+    <string name="device_compatibility">ZGODNOŚĆ URZĄDZENIA</string>
+    <string name="diarrhea">Biegunka</string>
+    <string name="dinner">Kolacja</string>
+    <string name="disconnected_from_transmitter">Nadajnik jest odłączony. Połącz się z nadajnikiem i spróbuj ponownie.</string>
+    <string name="dismiss_all">Odrzuć wszystkie</string>
+    <string name="dizzy">Zawroty głowy</string>
+    <string name="do_not_disturb">Nie przeszkadzać</string>
+    <string name="do_not_disturb_description">Wyłącz wyświetlanie alertów i powiadomień innych, niż krytyczne.</string>
+    <string name="do_not_disturb_warning_message_2">Alerty niekrytyczne są wyłączone w aplikacji i inteligentnym nadajniku.</string>
+    <string name="do_not_disturb_warning_title">Włączony tryb Nie przeszkadzać</string>
+    <string name="done">Gotowe</string>
+    <string name="drawer_close">Zamknij szufladę nawigacji</string>
+    <string name="drawer_open">Otwórz szufladę nawigacji</string>
+    <string name="drop_out">Nie można skalibrować. Odczekaj 6 godzin i spróbuj ponownie.</string>
+    <string name="duration">Czas trwania</string>
+    <string name="earache">Ból ucha</string>
+    <string name="email">E-mail</string>
+    <string name="email_body_graph">"Zobacz proszę wykres danych wartości stężeń glukozy, zebranych przez mój system Eversense CGM w ciągu ostatniego %1$s.
+
+Uwaga: w przypadku problemu z wyświetlaniem obrazu spróbuj otworzyć go w przeglądarce internetowej.
+"</string>
+    <string name="email_body_pie">"Zobacz proszę raport wykresu kołowego wartości stężenia glukozy zebrany przez mój system Eversense CGM w ciągu ostatnich %d.
+
+Uwaga: W przypadku problemów z wyświetlaniem obrazu, spróbuj otworzyć go w przeglądarce.
+"</string>
+    <string name="email_body_table">Zobacz proszę raport statystyk stężeń wartości glukozy z danymi zebranymi przez mój system Eversense CGM w ciągu ostatniego %d.</string>
+    <string name="email_body_weekly">Zobacz proszę raport tygodniowego zestawienia modalnego z danymi zebranymi przez mój system Eversense CGM w ciągu ostatnich 7 dni.</string>
+    <string name="email_subject_graph">Dane czujnika</string>
+    <string name="email_subject_pie_chart">Raport wykresu kołowego wartości stężeń glukozy</string>
+    <string name="email_subject_pie_table">Raport statystyk wartości stężeń glukozy</string>
+    <string name="email_subject_weekly">Raport tygodniowego zestawienia modalnego</string>
+    <string name="empty_battery_alarm_help_message">"Zdejmij nadajnik z ciała przed podłączeniem go do źródła zasilania i naładowaniem baterii. 
+
+Podczas ładowania nadajnik nie odbiera informacji od czujnika. Podczas ładowania nadajnika nie będziesz otrzymywać informacji dotyczących wartości stężenia glukozy."</string>
+    <string name="empty_battery_alarm_message">Bateria nadajnika jest rozładowana. Naładuj teraz nadajnik, aby wznowić wyświetlanie wartości czujnika glukozy.</string>
+    <string name="empty_battery_alarm_title">Rozładowana bateria</string>
+    <string name="end">Koniec</string>
+    <string name="estimated_days_remaining_alarm_message">Szacunkowa liczba dni, przez które czujnik będzie podawał odczyty, licząc od daty tego powiadomienia, wynosi 4. Skontaktuj się z lekarzem w celu zaplanowania wymiany.</string>
+    <string name="estimated_days_remaining_alarm_title">Szacowana liczba pozostałych dni</string>
+    <string name="eula">LICENCJA DLA UŻYTKOWNIKA KOŃCOWEGO</string>
+    <string name="eula_confirmation_text">Klikając przycisk „Akceptuj” poniżej, akceptuję postanowienia Umowy licencyjnej użytkownika końcowego (EULA), Polityki prywatności firmy Senseonics i Warunków korzystania (Polityki prywatności), włączając aktualizacje wprowadzane do nich w przyszłości, podczas korzystania przeze mnie z systemu Eversense®. Wyrażam zgodę na przechowywanie, przekazywanie i wykorzystywanie moich danych, w tym między innymi ich przechowywanie w Wielkiej Brytanii i przekazywanie do Stanów Zjednoczonych w ograniczonych celach (takich jak związane z udoskonalaniem produktu i obsługą klienta) na warunkach określonych w umowie EULA i Polityce prywatności, rozumiejąc, że takie udostępnianie danych umożliwia mi korzystanie z pełnego zakresu funkcji systemu oraz wsparcia technicznego.</string>
+    <string name="eula_menu">Umowa licencyjna</string>
+    <string name="eula_screen">Ekran licencji</string>
+    <string name="evening">Wieczór</string>
+    <string name="evening_time">Pora wieczorna</string>
+    <string name="event_cal_accepted_title">Używane</string>
+    <string name="event_cal_not_entered_title">Nie wprowadzono</string>
+    <string name="event_cal_rejected_auto_link_title">Tryb automatycznego łączenia</string>
+    <string name="event_cal_rejected_blinded_title">Zaślepione</string>
+    <string name="event_cal_rejected_data_title">Za mało danych</string>
+    <string name="event_cal_rejected_not_ready_title">Niegotowy</string>
+    <string name="event_cal_rejected_other_title">Inne niepowodzenie</string>
+    <string name="event_cal_rejected_rate_title">Duża szybkość zmian</string>
+    <string name="event_cal_rejected_replacement_title">Wymagana wymiana czujnika</string>
+    <string name="event_cal_rejected_too_different_title">W trakcie weryfikacji</string>
+    <string name="event_cal_rejected_too_high_title">Zbyt wysoki</string>
+    <string name="event_cal_rejected_too_low_title">Zbyt niski</string>
+    <string name="event_log">Dziennik zdarzeń</string>
+    <string name="excellent">Doskonałe</string>
+    <string name="exercise_event">Ćwiczenie</string>
+    <string name="exit_app">Wyjdź</string>
+    <string name="faq">Często zadawane pytania</string>
+    <string name="fever">Gorączka</string>
+    <string name="file_corrupted">Plik uszkodzony</string>
+    <string name="file_corrupted_text">Nie można pobrać pliku parametrów czujnika. Skontaktuj się z działem obsługi klienta.</string>
+    <string name="finish">Koniec</string>
+    <string name="flu">Grypa</string>
+    <string name="force_logout_text_w_email">Wylogowano Cię z powodu nieprawidłowego adresu e-mail lub hasła.</string>
+    <string name="forgot_my_password">Nie pamiętam hasła</string>
+    <string name="general_error_saving_data">Błąd zapisu danych</string>
+    <string name="general_error_saving_data_text">Dane nie zostały zapisane na serwerze. Spróbuj ponownie. Jeśli błąd nie ustępuje, skontaktuj się z Działem Obsługi Klienta.</string>
+    <string name="glucose_above_high_alert_level">Wart. glukozy powyżej górnego poz. docel.</string>
+    <string name="glucose_above_high_target_level">Wartość stężenia glukozy powyżej górnego poziomu docelowego</string>
+    <string name="glucose_alert_levels">Poziomy alertu wartości glukozy</string>
+    <string name="glucose_below_low_alert_level">Wart. glukozy poniżej alertu wys. poz.</string>
+    <string name="glucose_below_low_target_level">Wart. glukozy poniżej dolnego poz. docel.</string>
+    <string name="glucose_event">Glukoza</string>
+    <string name="glucose_event_submit_title">Potwierdź poziom glukozy</string>
+    <string name="glucose_level_distribution">Wykres kołowy wartości stężeń glukozy (%1$s)</string>
+    <string name="glucose_target_levels">Wartości docelowe glukozy</string>
+    <string name="glucose_unit">Jednostki stężenia glukozy</string>
+    <string name="glucose_within_target_levels">Poz. glukozy w gran. wartości docelowych</string>
+    <string name="good">Dobre</string>
+    <string name="grams">gramów</string>
+    <string name="health_event">Zdrowie</string>
+    <string name="help">Pomoc</string>
+    <string name="hide">Ukryj</string>
+    <string name="hide_event"><b>Ukryj zdarzenie</b></string>
+    <string name="hide_event_question">Na pewno chcesz ukryć to zdarzenie?</string>
+    <string name="high">Wysoka</string>
+    <string name="high_alert">Wysoki alert</string>
+    <string name="high_ambient_light_alarm_help_message">"Aby ograniczyć wystawianie nadajnika na światło, spróbuj następujących działań: 
+- przejdź w miejsce o mniejszym naświetleniu, 
+- noś nadajnik pod ubraniem."</string>
+    <string name="high_ambient_light_alarm_message_2">Na czujnik pada za duże światło. Ogranicz ekspozycję nadajnika na światło, aby wznowić odbieranie odczytów czujnika glukozy. Jeśli problem nie ustępuje, skontaktuj się z działem obsługi klienta.</string>
+    <string name="high_ambient_light_alarm_title">Dużo światła w otoczeniu</string>
+    <string name="high_glucose_alarm_help_message_2" formatted="false">"Wartość alertu wysokiego poziomu glukozy została ustawiona na %value%. Za każdym razem gdy osiągniesz tą wartość progową poziomu glukozy, nadajnik i telefon wyświetlą alert. Twój poziom stężenia glukozy we krwi może być równy lub wyższy od wartości ustawień Alertu wysokiego poziomu wartości glukozy. 
+
+Przed podjęciem decyzji terapeutycznych zawsze zmierz swój poziom glukozy we krwi za pomocą glukometru. 
+
+Jeśli chcesz zmienić ustawienie ALERTU wysokiego poziomu glukozy, wybierz Menu -> Ustawienia -> Glukoza."</string>
+    <string name="high_glucose_alarm_message_2">Poziom glukozy z czujnika jest równy lub wyższy od ustawienia alertu wysokiego poziomu glukozy o: %d. Potwierdź poziom glukozy we krwi wykonując test glukometrem.</string>
+    <string name="high_glucose_alarm_title">Wysoki poziom glukozy</string>
+    <string name="high_glucose_alert_help_message" formatted="false">"Wartość alertu wysokiego poziomu glukozy została ustawiona na %value%. Za każdym razem gdy osiągniesz tą wartość progową poziomu glukozy, nadajnik i telefon wyświetlą alarm. Twój poziom stężenia glukozy we krwi może być równy lub wyższy od wartości ustawień Alertu wysokiego poziomu wartości glukozy. 
+
+Przed podjęciem decyzji terapeutycznych zawsze zmierz swój poziom glukozy we krwi za pomocą glukometru. 
+
+Zwróć uwagę, że ustawienie alertu wysokiego poziomu wartości glukozy różni się od ustawień alarmu wysokiego poziomu wartości glukozy. 
+
+Jeśli chcesz zmienić ustawienie alertu wysokiego poziomu wartości glukozy, wybierz Menu -> Ustawienia -> Glukoza."</string>
+    <string name="high_glucose_alert_message">Poziom glukozy z czujnika jest równy lub wyższy od ustawienia alertu wysokiego poziomu glukozy o: %d.</string>
+    <string name="high_glucose_alert_title">Wysoki poziom glukozy</string>
+    <string name="high_symptoms">Objawy wysokiego poziomu</string>
+    <string name="high_target">Wysoki zakres</string>
+    <string name="home">Moja glukoza</string>
+    <string name="hours_remaining">godz. pozostałego czasu</string>
+    <string name="hr">godz.</string>
+    <string name="i_do_not_have_a_glucose_sensor">Nie mam nadajnika</string>
+    <string name="i_have_glucose_sensor">Mam nadajnik Smart Transmitter</string>
+    <string name="image_description">Zdjęcie</string>
+    <string name="incompatible_fw_version_body_2">Wykryto niezgodne oprogramowanie nadajnika. Skontaktuj się z działem obsługi klienta.</string>
+    <string name="incompatible_fw_version_title_2">Niezgodne oprogramowanie nadajnika</string>
+    <string name="incompatible_sensor_file">Niezgodny plik czujnika</string>
+    <string name="incompatible_sensor_file_text">Wykryto niezgodny plik czujnika (wersja %%). Skontaktuj się z działem obsługi klienta.</string>
+    <string name="infection">Zakażenie</string>
+    <string name="init_phase">Inicjalizacja</string>
+    <string name="init_phase_notif">Faza inicjalizacji (%1$d kalibracji do wykonania)</string>
+    <string name="insertion_date">Data wprowadzenia</string>
+    <string name="insertion_time">Godzina wprowadzenia</string>
+    <string name="insulin_event">Insulina</string>
+    <string name="insulin_type">Typ</string>
+    <string name="intensity">Intensywność</string>
+    <string name="intermediate_acting">Pośredni czas działania</string>
+    <string name="invalid_device_type">Nieprawidłowy typ urządzenia</string>
+    <string name="invalid_device_type_text">Nieprawidłowy typ urządzenia. Spróbuj ponownie. Jeśli błąd nie ustępuje, skontaktuj się z Działem Obsługi Klienta.</string>
+    <string name="invalid_email">Nieprawidłowy adres e-mail</string>
+    <string name="invalid_error_text">Nie wykryto połączenia z Internetem. W celu uzyskania najnowszej wersji połącz się z Internetem.</string>
+    <string name="invalid_password">Nieprawidłowe hasło</string>
+    <string name="invalid_user_credentials_text_w_email">Nieprawidłowy adres e-mail lub hasło. Spróbuj ponownie. Jeśli błąd nie ustępuje, skontaktuj się z Działem Obsługi Klienta.</string>
+    <string name="invalid_user_credentials_w_email">Nieprawidłowy adres e-mail lub hasło</string>
+    <string name="last_cal">Ostatnia kalib.</string>
+    <string name="last_synced_on">Ostatnia synchron.:</string>
+    <string name="less_than_one_hour">pozostały czas - godzina</string>
+    <string name="link_detected_sensor">Połącz wykryty czujnik</string>
+    <string name="link_detected_sensor_text_2">Wykryto odłączony czujnik. Aby kontynuować, dotknij Połącz wykryty czujnik.</string>
+    <string name="link_sensor">Połącz czuj.</string>
+    <string name="linked_sensor">Połączony czujnik</string>
+    <string name="linking_process_complete">3. Ukończono proces łączenia.</string>
+    <string name="linking_sensor">2. Łączenie czujnika</string>
+    <string name="log_in">Zaloguj</string>
+    <string name="log_out">Wyloguj</string>
+    <string name="log_out_text">Wartości glukozy nie będą wyświetlane po wylogowaniu z Eversense App, do czasu ponownego zalogowania. Na pewno chcesz się wylogować?</string>
+    <string name="login_success">Logowanie udane</string>
+    <string name="long_acting">Długodziałająca</string>
+    <string name="low">Niska</string>
+    <string name="low_alert">Niski alert</string>
+    <string name="low_battery_notification_help_message">Niski poziom baterii nadajnika. Naładuj ją jak najszybciej.</string>
+    <string name="low_battery_notification_message">Niski poziom baterii nadajnika. Naładuj ją jak najszybciej.</string>
+    <string name="low_battery_notification_title">Naładuj nadajnik</string>
+    <string name="low_glucose_alarm_help_message_2" formatted="false">"Wartość alertu niskiego poziomu glukozy została ustawiona na %value%. Za każdym razem gdy osiągniesz tą wartość progową poziomu glukozy, nadajnik i telefon wyświetlą alert. Twój poziom glukozy może być równy lub niższy od wartości ustawień alertu niskiego poziomu glukozy. 
+
+Przed podjęciem decyzji terapeutycznych zawsze zmierz swój poziom glukozy we krwi za pomocą glukometru. 
+
+Jeśli chcesz zmienić wartość ustawienia ALERTU niskiego poziomu glukozy, wybierz Menu -> Ustawienia -> Glukoza."</string>
+    <string name="low_glucose_alarm_message_2">Poziom glukozy z czujnika jest równy lub wyższy od ustawienia alertu niskiego poziomu glukozy o: %d. Potwierdź poziom glukozy we krwi wykonując test glukometrem.</string>
+    <string name="low_glucose_alarm_title">Niski poziom glukozy</string>
+    <string name="low_glucose_alert_help_message" formatted="false">"Wartość alertu niskiego poziomu glukozy została ustawiona na %value%. Za każdym razem gdy osiągniesz tą wartość progową poziomu glukozy, nadajnik i telefon wyświetlą alarm. Twój poziom stężenia glukozy we krwi może być równy lub niższy od wartości ustawień alertu niskiego poziomu glukozy.
+
+Przed podjęciem decyzji terapeutycznych zawsze zmierz swój poziom glukozy we krwi za pomocą glukometru. 
+
+Zwróć uwagę, że ustawienie alertu niskiego poziomu wartości glukozy różni się od ustawień alarmu niskiego poziomu wartości glukozy. 
+
+Jeśli chcesz zmienić ustawienie wartości alertu niskiego poziomu glukozy, wybierz Menu -> Ustawienia -> Glukoza."</string>
+    <string name="low_glucose_alert_message">Poziom glukozy z czujnika jest równy lub wyższy od ustawienia alertu niskiego poziomu glukozy o: %d.</string>
+    <string name="low_glucose_alert_title">Niski poziom glukozy</string>
+    <string name="low_symptoms">Objawy niskiego poziomu</string>
+    <string name="low_target">Niski zakres</string>
+    <string name="lunch">Obiad</string>
+    <string name="machine">Maszyna</string>
+    <string name="manual_text">Skorzystaj z oferowanych możliwości przez ręczne wprowadzanie danych.</string>
+    <string name="meal_event">Posiłek</string>
+    <string name="meal_start_end_time_text">Wybierz godzinę POCZĄTKU i KOŃCA</string>
+    <string name="meal_times">Godziny posiłków</string>
+    <string name="medium">Średni</string>
+    <string name="menstrual_period">Okres menstruacji</string>
+    <string name="mg_Dl">mg/dL</string>
+    <string name="mg_dl_min">mg/dL/min</string>
+    <string name="min">min</string>
+    <string name="minutes_from_alert_level">Minuty</string>
+    <string name="mixed_50_50">Mieszana 50/50</string>
+    <string name="mixed_70_30">Mieszana 70/30</string>
+    <string name="mixed_75_25">Mieszana 75/25</string>
+    <string name="mmol_L">mmol/L</string>
+    <string name="mmol_l_min">mmol/L/min</string>
+    <string name="model">Model</string>
+    <string name="model_number">Numer modelu</string>
+    <string name="modify_evening_time">Ostrzeżenie: Pory rano i wieczór musi oddzielać od 10 do 14 godzin (np. godzina 8 i 18). Przed opuszczeniem ekranu zmień godziny pory wieczornej.</string>
+    <string name="more_than_max_pending_alerts">Twojej uwagi wymaga więcej niż 2 oczekujące alerty. Chcesz je wyświetlić?</string>
+    <string name="morning">Rano</string>
+    <string name="morning_time">Poranek</string>
+    <string name="my_account_sync">Synchr.</string>
+    <string name="my_sensor">Mój czujnik</string>
+    <string name="my_transmitter">Mój nadajnik</string>
+    <string name="name">Nazwa</string>
+    <string name="nausea_vomiting">Mdłości/wymioty</string>
+    <string name="new_sensor_detected_notification_help_message">Aby możliwe było nawiązanie łączności, wprowadzony czujnik i nadajnik muszą zostać połączone. Wybierz przycisk „Połącz czujnik”, aby rozpocząć proces łączenia. Nowy czujnik musi się zaaklimatyzować do odpowiedzi Twojego ciała. Odczekaj 24 godziny przed założeniem nadajnika nad czujnikiem i rozpoczęciem fazy inicjalizacji kalibracji.</string>
+    <string name="new_sensor_detected_notification_message">Wykryto nowy czujnik. Jeśli masz nowy czujnik i/lub nadajnik, wykonaj połączenie czujnika i nadajnika.</string>
+    <string name="new_sensor_detected_notification_title">Wykryto nowy czujnik</string>
+    <string name="next">Dalej</string>
+    <string name="next_schedule_cal_time"><b>Godzina następnej zaplanowanej kalibracji</b></string>
+    <string name="next_schedule_cal_unknown">Niedostępny</string>
+    <string name="no">Nie</string>
+    <string name="no_browser_found_2">Nie wykryto przeglądarki do otwierania stron internetowych. Zainstaluj przeglądarkę ze sklepu Google Play.</string>
+    <string name="no_glucose_display">Brak wyświetlanych poziomów glukozy</string>
+    <string name="no_sensor_detected_alarm_message">Nadajnik (%@) nie może zlokalizować czujnika. Wartości glukozy czujnika nie będą wyświetlane do czasu umieszczenia nadajnika bezpośrednio nad czujnikiem. W celu uzyskania pomocy zobacz Przewodnik umieszczania.</string>
+    <string name="no_sensor_detected_alarm_title">Nie wykryto czujnika</string>
+    <string name="no_sensor_glucose_reading">Brak odczytu czujnika glukozy</string>
+    <string name="no_sensor_linked">Nadajnik nie jest połączony z czujnikiem. Połącz czujnik i spróbuj ponownie.</string>
+    <string name="no_signal">Brak sygnału</string>
+    <string name="no_statistics">Brak statystyk z powodu braku danych. Poczekaj na zebranie większej ilości danych.</string>
+    <string name="no_transmitter_connected">Nie połączono nadajnika</string>
+    <string name="normal">Prawidłowy</string>
+    <string name="not_available">nd.</string>
+    <string name="not_connected">Nie połączono</string>
+    <string name="not_enough_data">Zebrano za mało danych z czujnika.</string>
+    <string name="not_now">Nie teraz</string>
+    <string name="notes">Notatki</string>
+    <string name="notification">Powiadomienie</string>
+    <string name="notification_channel_alert">Alerty i powiadomienia systemu Eversense</string>
+    <string name="notification_channel_foreground">Informacje o systemie Eversense</string>
+    <string name="notifications_2">Historia alertów</string>
+    <string name="now">Teraz</string>
+    <string name="ok">OK</string>
+    <string name="one_day_distribution">Statystyki wartości stężeń glukozy (%1$s)</string>
+    <string name="or">LUB</string>
+    <string name="other">Inne</string>
+    <string name="out_of_range_high_glucose_alarm_help_message" formatted="false">"Przed podjęciem decyzji terapeutycznych zawsze potwierdź poziom glukozy za pomocą glukometru. 
+
+Gdy odczyt czujnika glukozy osiągnie lub będzie niższy niż %value%, wyświetlanie wartości czujnika glukozy zostanie wznowione."</string>
+    <string name="out_of_range_high_glucose_alarm_message_2">Poziom glukozy z czujnika wynosi powyżej %1$s. Zmierz poziom glukozy za pomocą glukometru.</string>
+    <string name="out_of_range_high_glucose_alarm_title">Poza zakresem wysokiego stężenia glukozy</string>
+    <string name="out_of_range_low_glucose_alarm_help_message" formatted="false">"Przed podjęciem decyzji terapeutycznych zawsze potwierdź poziom glukozy za pomocą glukometru. 
+
+Gdy odczyt czujnika glukozy osiągnie lub przekroczy wartość %value%, wyświetlanie wartości czujnika glukozy zostanie wznowione."</string>
+    <string name="out_of_range_low_glucose_alarm_message_2">Poziom glukozy z czujnika wynosi poniżej %1$s. Zmierz poziom glukozy za pomocą glukometru.</string>
+    <string name="out_of_range_low_glucose_alarm_title">Poza zakresem niskiego stężenia glukozy</string>
+    <string name="pair_text">Sparuj swój nadajnik aby automatycznie otrzymywać i śledzić dane glukozy.</string>
+    <string name="pair_text_title">SPARUJ SWÓJ NADAJNIK</string>
+    <string name="password">Hasło</string>
+    <string name="period">Okres</string>
+    <string name="phase_start">Początek fazy</string>
+    <string name="phase_text">Faza</string>
+    <string name="place_sensor">Umieść nadajnik nad czujnikiem i spróbuj ponownie za %d minut(y).</string>
+    <string name="place_transmitter_text">Aby uzyskać najsilniejszy sygnał umieść nadajnik nad czujnikiem.</string>
+    <string name="placement_guide">Przewodnik umieszczania</string>
+    <string name="placement_in_progress">Trwa umieszczanie…</string>
+    <string name="placement_low_battery_body_2">Wykryto niski poziom baterii nadajnika. Siła sygnału będzie aktualizowana rzadziej niż normalnie (co %1$d minut).</string>
+    <string name="placement_low_battery_title">Wykryto niski poziom baterii</string>
+    <string name="placement_mode_body">Czy chcesz nadal korzystać ze strony Przewodnik umieszczania?</string>
+    <string name="placement_mode_title">Tryb umieszczania</string>
+    <string name="poor">Słaby</string>
+    <string name="power_failure_alarm_help_message">Nadajnik dostosuje się do bieżącej daty/godziny zgodnie z ustawieniami telefonu. Nadajnik należy ładować codziennie, aby zapobiec występowaniu nieprawidłowej godziny.</string>
+    <string name="power_failure_alarm_message">Nadajnik ma stary lub nieprawidłowy znacznik daty/godziny. Aplikacja zaktualizuje czas w nadajniku. Jeśli błąd nie ustępuje, skontaktuj się z Działem Obsługi Klienta.</string>
+    <string name="power_failure_alarm_title">Nieprawidłowa godzina nadajnika</string>
+    <string name="predicted_high_glucose_alert_help_message_2" formatted="false">"Wybrano ustawienie alertu wartości przewidywanych na %predictiveMins% minut przed przekroczeniem przez poziom glukozy z czujnika progu alertu glukozy, przy utrzymaniu się bieżącej szybkości wzrostu. 
+
+Przed podjęciem decyzji terapeutycznych zawsze zmierz swój poziom glukozy we krwi za pomocą glukometru. 
+
+Jeśli chcesz zmienić ustawienie alertu wartości przewidywanych glukozy, wybierz Menu -> Ustawienia -> Glukoza."</string>
+    <string name="predicted_high_glucose_alert_message_3">Poziom glukozy z czujnika wykazuje trend rosnący i osiągnie wartość alertu wysokiego poziomu glukozy za %d minut. Zmierz poziom glukozy za pomocą glukometru.</string>
+    <string name="predicted_high_glucose_alert_title">Przew. wys. poz. glukozy</string>
+    <string name="predicted_low_glucose_alert_help_message_2" formatted="false">"Wybrano ustawienie alertu wartości przewidywanych na %predictiveMins% minut przed przekroczeniem przez poziom glukozy z czujnika progu alertu glukozy, przy utrzymaniu się bieżącej szybkości wzrostu. 
+
+Przed podjęciem decyzji terapeutycznych zawsze zmierz swój poziom glukozy we krwi za pomocą glukometru. 
+
+Jeśli chcesz zmienić ustawienie alertu wartości przewidywanych glukozy, wybierz Menu -> Ustawienia -> Glukoza."</string>
+    <string name="predicted_low_glucose_alert_message_2">Poziom glukozy z czujnika wykazuje trend malejący i osiągnie wartość alertu niskiego poziomu glukozy za %d minut. Zmierz poziom glukozy za pomocą glukometru.</string>
+    <string name="predicted_low_glucose_alert_title">Przew. nis. poz. glukozy</string>
+    <string name="predictive_alerts">Alerty przewidywania</string>
+    <string name="predictive_text_2">Otrzymaj powiadomienie X minut przed przekroczeniem przez poziom glukozy z czujnika progu alertu glukozy, przy utrzymaniu się bieżącej szybkości wzrostu.</string>
+    <string name="privacy_statement">Oświadczenie dotyczące prywatności</string>
+    <string name="product_information">Informacje o produkcie</string>
+    <string name="productinfo">"&lt;html>&lt;body style='margin:0;padding:0;'> &lt;table cellpadding=\"5\"> &lt;tr > &lt;td valign=\"top\">Firma:&lt;/td> &lt;td>Senseonics, Inc.&lt;br/>20451 Seneca Meadows Parkway,&lt;br/>Germantown, Maryland,&lt;br/>USA&lt;br/>&lt;a href='http://www.eversensediabetes.com'>www.eversensediabetes.com&lt;/a>&lt;/td> &lt;/tr> &lt;tr > &lt;td>Wersja:&lt;/td> &lt;td>@version&lt;/td> &lt;/tr> &lt;tr > &lt;td>Data wydania:&lt;/td> &lt;td>@releasedate&lt;/td> &lt;/tr> &lt;tr> &lt;td>Zgodność:&lt;/td> &lt;td>&lt;a href='https://ous.eversensediabetes.com/compatibility/'>https://&lt;br/>ous.eversensediabetes.com/&lt;br/>compatibility/&lt;/a>&lt;/td> &lt;/tr> &lt;tr> &lt;td>&lt;/td> &lt;td>&lt;/td> &lt;/tr> &lt;tr> &lt;td>&lt;/td> &lt;td>&lt;/td> &lt;/tr> &lt;tr> &lt;td colspan=2 align='center'> © 2016 Senseonics, Inc. &lt;/td> &lt;/tr> &lt;/table> &lt;/body>&lt;/html>"</string>
+    <string name="rapid_acting">Szybkodziałająca</string>
+    <string name="rate_alerts">Alerty szybkości</string>
+    <string name="rate_falling_alert_mg_message_2" formatted="false">Poziom glukozy czujnika spada z prędkością równą lub większą od ustawienia szybkości zmiany: %.1f %@. Zmierz poziom glukozy za pomocą glukometru.</string>
+    <string name="rate_falling_alert_mg_mmol_help_message" formatted="false">"Wybrano ustawienie szybkości zmian, generujące alert, gdy poziom glukozy czujnika zmienia się szybciej niż %rate%. 
+
+Przed podjęciem decyzji terapeutycznych zawsze zmierz swój poziom glukozy we krwi za pomocą glukometru. 
+
+Jeśli chcesz zmienić ustawienie szybkości zmian wybierz Menu -> Ustawienia -> Glukoza."</string>
+    <string name="rate_falling_alert_mmol_message_2" formatted="false">Poziom glukozy czujnika spada z prędkością równą lub większą od ustawienia szybkości zmiany: %.2f %@. Zmierz poziom glukozy za pomocą glukometru.</string>
+    <string name="rate_falling_alert_title">Szybkość spadania</string>
+    <string name="rate_of_change">Szybkość zmian</string>
+    <string name="rate_rising_alert_mg_message_2" formatted="false">Poziom glukozy czujnika wzrostu z prędkością równą lub większą od ustawienia szybkości zmiany: %.1f %@. Zmierz poziom glukozy za pomocą glukometru.</string>
+    <string name="rate_rising_alert_mg_mmol_help_message" formatted="false">"Wybrano ustawienie szybkości zmian, generujące alert, gdy poziom glukozy czujnika zmienia się szybciej niż %rate%. 
+
+Przed podjęciem decyzji terapeutycznych zawsze zmierz swój poziom glukozy we krwi za pomocą glukometru. 
+
+Jeśli chcesz zmienić ustawienie szybkości zmian wybierz Menu -> Ustawienia -> Glukoza."</string>
+    <string name="rate_rising_alert_mmol_message_2" formatted="false">Poziom glukozy czujnika wzrostu z prędkością równą lub większą od ustawienia szybkości zmiany: %.2f %@. Zmierz poziom glukozy za pomocą glukometru.</string>
+    <string name="rate_rising_alert_title">Szybkość wzrostu</string>
+    <string name="rate_text">Otrzymaj powiadomienie, gdy poziom glukozy z czujnika ulega zmianie (wzrostu lub spadania) szybciej, niż zadana szybkość zmiany.</string>
+    <string name="rate_too_high">Poziom glukozy z czujnika zmienia się zbyt szybko. Odczekaj 10 minut i spróbuj ponownie.</string>
+    <string name="request_timeout">Upłynął limit czasu żądania</string>
+    <string name="request_timeout_text">Limit czasu żądania upłynął z powodu problemu z połączeniem internetowym lub z serwerem. Sprawdź połączenie internetowe. Jeśli błąd nie ustępuje, skontaktuj się z Działem Obsługi Klienta.</string>
+    <string name="retrieving_parameters">1. Pobieranie parametrów</string>
+    <string name="ringtones">DZWONKI</string>
+    <string name="rssi_value">RSSI</string>
+    <string name="save">Zapisz</string>
+    <string name="search_menu_title">Szukaj</string>
+    <string name="searching">Wyszukiwanie…</string>
+    <string name="select_transmitter_text">W celu połączenia wybierz swój nadajnik z listy poniżej</string>
+    <string name="sensor_days_since_insertion">Dni od wprowadzenia</string>
+    <string name="sensor_details">Szczegóły czujnika</string>
+    <string name="sensor_eol">Czujnik jest wycofany. Skontaktuj się z lekarzem.</string>
+    <string name="sensor_file_error">Błąd pliku czujnika</string>
+    <string name="sensor_file_error_text">Nie można pobrać pliku parametrów czujnika. Spróbuj ponownie. Jeśli błąd nie ustępuje, skontaktuj się z Działem Obsługi Klienta.</string>
+    <string name="sensor_hardware_error_alarm_help_message">Nadajnik (%@) zgłosił błąd sprzętowy czujnika i nie będzie już wyświetlał poziomu glukozy z czujnika. Skontaktuj się z działem obsługi klienta w celu rozwiązania błędu.</string>
+    <string name="sensor_hardware_error_alarm_message">Nadajnik (%@) zgłosił błąd sprzętowy czujnika i nie będzie już wyświetlał poziomu glukozy z czujnika. Skontaktuj się z działem obsługi klienta w celu rozwiązania błędu.</string>
+    <string name="sensor_hardware_error_alarm_title">Błąd sprzętowy czujnika</string>
+    <string name="sensor_high_temperature_alarm_message">Zbyt wysoka temperatura czujnika. Przejdź do chłodniejszego miejsca w celu wznowienia odbioru odczytów glukozy z czujnika. Jeśli problem nie ustępuje, skontaktuj się z działem obsługi klienta.</string>
+    <string name="sensor_high_temperature_alarm_title">Wysoka temperatura czujnika</string>
+    <string name="sensor_instability_alarm_help_message">W fazie ponownej inicjalizacji musisz wykonać 4 testy z użyciem glukometru w odstępach 2–12 godzin. System automatycznie przeprowadzi Cię przez proces kalibracji.</string>
+    <string name="sensor_instability_alarm_message">System wymaga ponownej inicjalizacji. Konieczne jest wykonanie 4 testów kalibracyjnych z opuszka palca.</string>
+    <string name="sensor_instability_alarm_title">Kontrola czujnika</string>
+    <string name="sensor_link_failure_body">Spróbuj ponownie. Jeśli problem nie ustępuje, skontaktuj się z działem obsługi klienta.</string>
+    <string name="sensor_link_failure_title">Błąd łączenia czujnika</string>
+    <string name="sensor_low_high_temperature_alarm_help_message">Trzymaj nadajnik nad czujnikiem. Gdy temperatura czujnika osiągnie wartość z zakresu 27–40°C, nastąpi wznowienie przekazywania wartości stężenia glukozy z czujnika.</string>
+    <string name="sensor_low_temperature_alarm_message">Zbyt niska temperatura czujnika. Przejdź do cieplejszego miejsca w celu wznowienia odbioru odczytów czujnika glukozy. Jeśli problem nie ustępuje, skontaktuj się z działem obsługi klienta.</string>
+    <string name="sensor_low_temperature_alarm_title">Niska temperatura czujnika</string>
+    <string name="sensor_on_hold_alarm_help_message">Gdy po 6 godzinach rozpocznie się faza inicjalizacji, system wyświetli monit o kalibrację za pomocą testów z opuszka palca.</string>
+    <string name="sensor_on_hold_alarm_message">System został wstrzymany na 6 godzin i ponowna inicjalizacja rozpocznie się za 6 godzin.</string>
+    <string name="sensor_on_hold_alarm_title">Czujnik wstrzymany</string>
+    <string name="sensor_retired_alarm_help_message">"Skontaktuj się z lekarzem w celu usunięcia obecnego czujnika i zastąpienia go nowym. 
+
+Obecny czujnik nie może już przekazywać wartości stężenia glukozy."</string>
+    <string name="sensor_retired_alarm_message">Czujnik wymaga wymiany. Skontaktuj się z lekarzem w celu wymiany czujnika.</string>
+    <string name="sensor_retired_alarm_title">Wymiana czujnika</string>
+    <string name="sensor_retired_prematurely_alarm_message">Czujnik nie może dłużej mierzyć wartości poziomu glukozy. Skontaktuj się z lekarzem w celu wymiany czujnika.</string>
+    <string name="sensor_retired_prematurely_alarm_title">Wymiana czujnika</string>
+    <string name="sensor_retired_prematurely_help_message">Czujnik przestał pracować. Nie będzie mierzył poziomu wartości stężenia glukozy. Skontaktuj się z lekarzem w celu wymiany czujnika.</string>
+    <string name="sensor_retirement_14_days_notification_message_2">Wymagana wymiana czujnika w ciągu najbliższych 14 dni, po tym okresie nie będzie możliwe odbieranie odczytów poziomu glukozy z czujnika. Skontaktuj się z lekarzem w celu wymiany czujnika.</string>
+    <string name="sensor_retirement_14_days_notification_title">Wymiana czujnika</string>
+    <string name="sensor_retirement_1_7_day_alarm_help_message">Czujnik powinien zostać usunięty i wymieniony. Skontaktuj się z lekarzem w celu zaplanowania wizyty.</string>
+    <string name="sensor_retirement_1_day_alarm_message">Wymagana wymiana czujnika w ciągu doby, po tym okresie nie będzie możliwe odbieranie odczytów poziomu glukozy z czujnika. Skontaktuj się z lekarzem w celu wymiany czujnika.</string>
+    <string name="sensor_retirement_1_day_alarm_title">Wymiana czujnika</string>
+    <string name="sensor_retirement_2_days_alarm_message_2">Wymagana wymiana czujnika w ciągu najbliższych 2 dni, po tym okresie nie będzie możliwe odbieranie odczytów poziomu glukozy z czujnika. Skontaktuj się z lekarzem w celu wymiany czujnika.</string>
+    <string name="sensor_retirement_2_days_alarm_title">Wymiana czujnika</string>
+    <string name="sensor_retirement_30_days_notification_message">Wymagana wymiana czujnika w ciągu najbliższych 30 dni, po tym okresie nie będzie możliwe odbieranie odczytów poziomu glukozy z czujnika. Skontaktuj się z lekarzem w celu wymiany czujnika.</string>
+    <string name="sensor_retirement_30_days_notification_title">Wymiana czujnika</string>
+    <string name="sensor_retirement_3_days_alert_message_2">Wymagana wymiana czujnika w ciągu najbliższych 3 dni, po tym okresie nie będzie możliwe odbieranie odczytów poziomu glukozy z czujnika. Skontaktuj się z lekarzem w celu wymiany czujnika.</string>
+    <string name="sensor_retirement_3_days_alert_title">Wymiana czujnika</string>
+    <string name="sensor_retirement_7_days_alert_message_2">Wymagana wymiana czujnika w ciągu najbliższych 7 dni, po tym okresie nie będzie możliwe odbieranie odczytów poziomu glukozy z czujnika. Skontaktuj się z lekarzem w celu wymiany czujnika.</string>
+    <string name="sensor_retirement_7_days_alert_title">Wymiana czujnika</string>
+    <string name="sensor_retirement_agedout_alarm_message">W celu dalszego otrzymywania wartości poziomów glukozy, należy wymienić czujnik w ciągu najbliższych 7 dni. Skontaktuj się z lekarzem w celu wymiany czujnika.</string>
+    <string name="sensor_retirement_agedout_help_message">Po 7 dniach nie będziesz otrzymywać wartości glukozy z czujnika. Skontaktuj się z lekarzem w celu wymiany czujnika.</string>
+    <string name="sensor_status_alarm_message_0">Czujnik był wszczepiony przez 150 dni. Skontaktuj się jak najszybciej z lekarzem w celu zaplanowania wymiany.</string>
+    <string name="sensor_status_alarm_message_1">Czujnik był wszczepiony przez 146 dni. Skontaktuj się jak najszybciej z lekarzem w celu zaplanowania wymiany.</string>
+    <string name="sensor_status_alarm_message_2">Czujnik był wszczepiony przez 136 dni. Skontaktuj się z lekarzem w celu zaplanowania wymiany.</string>
+    <string name="sensor_status_alarm_message_3">Czujnik był wszczepiony przez 120 dni. Skontaktuj się z lekarzem w celu zaplanowania wymiany.</string>
+    <string name="sensor_status_alarm_title">Stan czujnika</string>
+    <string name="serial_number">Numer seryjny</string>
+    <string name="serial_number_sensor">Numer seryjny połączonego</string>
+    <string name="server_error">Błąd serwera</string>
+    <string name="server_error_text">Wystąpił błąd serwera. Spróbuj ponownie. Jeśli błąd nie ustępuje, skontaktuj się z Działem Obsługi Klienta.</string>
+    <string name="set_alert_levels">Ustaw poziomy stężenia glukozy, po osiągnięciu których, system powinien wyświetlić alert</string>
+    <string name="set_calibration_time_text">"Ustaw pory poranka i wieczoru, w których chcesz otrzymywać przypomnienia o kalibracji.
+
+Uwaga: Kalibrację poranną i wieczorną należy wykonywać w odstępie od 10 do 14 godzin."</string>
+    <string name="set_meal_times_text">Przedziały czasowe do tabeli pór posiłków</string>
+    <string name="set_target_levels">Ustaw poziomy wartości stężenia glukozy w których chcesz się utrzymać.</string>
+    <string name="settings">Ustawienia</string>
+    <string name="severity">Nasilenie</string>
+    <string name="share_my_data">Udostępnij moje dane</string>
+    <string name="short_acting">Krótkodziałająca</string>
+    <string name="shortcut_breakfast">Śn.</string>
+    <string name="shortcut_dinner">Kol.</string>
+    <string name="shortcut_lunch">Ob.</string>
+    <string name="shortcut_sleep">Sen</string>
+    <string name="shortcut_snack">Prz.</string>
+    <string name="sleep">Sen</string>
+    <string name="snack">Przekąska</string>
+    <string name="sore_throat">Ból gardła</string>
+    <string name="sound_high_glucose_alarm_2">Alert wysokiej glukozy</string>
+    <string name="sound_high_snooze">Odłożenie wysokiego</string>
+    <string name="sound_low_glucose_alarm_2">Alert niskiej glukozy</string>
+    <string name="sound_low_snooze">Odłożenie niskiego</string>
+    <string name="sound_settings">Ustawienia dźwięku</string>
+    <string name="sound_settings_description_2">Wybierz dźwięki alertów wysokiego/niskiego poziomu glukozy oraz częstotliwość ich powtarzania.</string>
+    <string name="start">Start</string>
+    <string name="statistics">Raporty</string>
+    <string name="statistics_string">Statystyki</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stddev">Od. st.</string>
+    <string name="stop">Stop</string>
+    <string name="stress">Stres</string>
+    <string name="submit">Zatwierdź</string>
+    <string name="sync_could_not_start_2">Nie można rozpocząć synchronizacji. Wyloguj się i zaloguj do swojego konta.</string>
+    <string name="sync_days">Dni synchronizacji</string>
+    <string name="sync_now">ROZPOCZNIJ SYNCHRONIZACJĘ</string>
+    <string name="synced_success">Synchronizacja powiodła się</string>
+    <string name="syncing">SYNCHRONIZACJA…</string>
+    <string name="system">System</string>
+    <string name="target">Wartość docelowa</string>
+    <string name="temp_profile_description">Ustaw poziomy wartości stężenia glukozy przy których chcesz otrzymywać alertu systemu, gdy Twój Profil Tymczasowy jest aktywny. Naciśnij START, aby aktywować, naciśnij STOP, aby wyłączyć.</string>
+    <string name="temp_profile_duration">%1$dgodz. %2$dmin</string>
+    <string name="temp_profile_glucose_settings_warning">Profil Tymczasowy jest aktywny i zapisane w nim ustawienia przestaną obowiązywać gdy zostanie wyłączony lub skończy się jego czas trwania.</string>
+    <string name="temp_profile_time_left">pozostało: %1$dgodz. %2$dmin</string>
+    <string name="temp_profile_title">Profil tymczasowy</string>
+    <string name="temp_profile_turned_off_body">Zakończył się czas trwania profilu tymczasowego. Zostaną przywrócone standardowe ustawienia glukozy.</string>
+    <string name="temp_profile_turned_off_title">Profil tymczasowy WYŁ.</string>
+    <string name="time">Godzina</string>
+    <string name="tips_connect_html_text">"Jeśli nie możesz nawiązać połączenia z nadajnikiem, wykonaj następujące działania:
+
+ * Upewnij się, że nadajnik jest naładowany i nie jest połączony do ładowarki.
+ * Korzystając z menu ustawień telefonu WYŁĄCZ i WŁĄCZ Bluetooth.
+ * WYŁĄCZ i WŁĄCZ telefon.
+ * Wybierz polecenie \"Zapomnij moje urządzenie\" i ponów parowanie."</string>
+    <string name="tips_connect_html_text_initial">"Aby połączyć („sparować”) nadajnik po raz pierwszy:
+
+ 1) Odłącz nadajnik od USB.
+ 2) Naciśnij przycisk nadajnika 3 razy.
+ 3) Upewnij się, że dioda LED miga w kolorach ZIELONYM i BURSZTYNOWYM.
+ 4) Dotknij nazwę nadajnika (nazwanego na podstawie numeru seryjnego lub tylnej etykiety) na liście powyżej."</string>
+    <string name="tips_html_text">"* Przed użyciem paska testowego umyj ręce i starannie je wytrzyj.
+ * Użyj kropli krwi właściwej wielkości.
+ * Utrzymuj miernik w czystości.
+ * Sugerowane pory kalibracji: przed posiłkami, przed podaniem insuliny, przed snem, przed ćwiczeniami."</string>
+    <string name="tired">Zmęczenie</string>
+    <string name="today">DZISIAJ</string>
+    <string name="todayLow">Dzisiaj</string>
+    <string name="tomorrowLow">Jutro</string>
+    <string name="too_soon">To nie pora na zaplanowaną kalibrację. Spróbuj ponownie o zaplanowanej godzinie kalibracji.</string>
+    <string name="transmitter_details">Szczegóły nadajnika</string>
+    <string name="transmitter_disconnected_notification_message">Nadajnik (%@) został odłączony. Połącz się z nadajnikiem w celu wznowienia odbierania wszystkich powiadomień.</string>
+    <string name="transmitter_disconnected_notification_title">Nadajnik odłączony</string>
+    <string name="transmitter_error">Błąd nadajnika</string>
+    <string name="transmitter_error_alarm_help_message">Skontaktuj się z działem obsługi klienta.</string>
+    <string name="transmitter_error_alarm_message_2">Nadajnik wykrył błąd. Skontaktuj się z działem obsługi klienta.</string>
+    <string name="transmitter_error_alarm_title">Błąd nadajnika</string>
+    <string name="transmitter_high_temperature_alarm_help_message">"Gdy temperatura nadajnika spadnie poniżej 42°C, nadajnik wznowi przekazywanie wartości czujnika glukozy. 
+
+Możesz chwilowo zdjąć nadajnik, aby go ochłodzić. Pamiętaj o założeniu nadajnika nad czujnikiem, gdy jego temperatura spadnie. Nie wkładaj nadajnika do lodówki."</string>
+    <string name="transmitter_high_temperature_alarm_message_2">Zbyt wysoka temperatura nadajnika. Przejdź do chłodniejszego miejsca w celu wznowienia odbioru odczytów glukozy z czujnika. Jeśli problem nie ustępuje, skontaktuj się z działem obsługi klienta.</string>
+    <string name="transmitter_high_temperature_alarm_title">Wysoka temperatura nadajnika</string>
+    <string name="type">Typ</string>
+    <string name="unit_descriptive_text_mgdl_mmol" formatted="false">Jeśli chcesz zmienić jednostkę miary na<b> %value%</b>, możesz to zrobić tylko teraz. Jeśli nie masz pewności jaką jednostkę ustawić, przed zmianą ustawienia skonsultuj się z lekarzem.</string>
+    <string name="unit_example_text_mgdl">Przykład: 160 &lt;b>mg/dL&lt;/b> (lub dowolna wartość z zakresu &lt;b>40–400 mg/dL&lt;/b>)</string>
+    <string name="unit_example_text_mmol">Przykład: 8,9 &lt;b>mmol/L&lt;/b> (lub dowolna wartość z zakresu &lt;b>2,2–22,2 mmol/L&lt;/b>)</string>
+    <string name="unit_glucose_reading_changed">zmieniony</string>
+    <string name="unit_glucose_reading_set">ustawiony</string>
+    <string name="unit_glucose_reading_text_mgdl_mmol_2" formatted="false">Twój odczyt poziomu glukozy został<b> %value%</b> do wyświetlania w jednostkach zamieszczonych poniżej.</string>
+    <string name="unit_selected_text" formatted="false">Jednostka miary:<b> %value%</b></string>
+    <string name="unit_title">JEDNOSTKA MIARY</string>
+    <string name="units">Jednostki</string>
+    <string name="unknown">Nieznany</string>
+    <string name="unknown_error">Nieznany błąd</string>
+    <string name="unknown_error_alert_message">Nieznany błąd. Jeśli błąd nie ustępuje, skontaktuj się z Działem Obsługi Klienta. (%@)</string>
+    <string name="unknown_error_alert_title">Nieznany kod: %d</string>
+    <string name="unknown_error_text">Wystąpił nieznany błąd. Spróbuj ponownie. Jeśli błąd nie ustępuje, skontaktuj się z Działem Obsługi Klienta.</string>
+    <string name="unknown_help_message">Nieznany błąd. Jeśli błąd nie ustępuje, skontaktuj się z Działem Obsługi Klienta. (%@)</string>
+    <string name="unknown_reason">W tym momencie nie można ukończyć kalibracji. Zapoznaj się z częścią Kalibracja instrukcji obsługi w celu uzyskania dodatkowych informacji i spróbuj ponownie później.</string>
+    <string name="unsupported_mode">Nadajnik jest w trybie, który nie obsługuje kalibracji. W razie dalszych pytań skontaktuj się z lekarzem.</string>
+    <string name="username">Nazwa użytkownika</string>
+    <string name="value">Wartość</string>
+    <string name="version_number">Wer. oprogr. sprzęt.</string>
+    <string name="very_low">Bardzo niski</string>
+    <string name="very_low_battery_alert_help_message">"Zdejmij nadajnik z ciała przed podłączeniem go do źródła zasilania i naładowaniem baterii. 
+
+Podczas ładowania nadajnik nie odbiera informacji od czujnika. Podczas ładowania nadajnika nie będziesz otrzymywać informacji dotyczących wartości stężenia glukozy."</string>
+    <string name="very_low_battery_alert_message">Bardzo niski poziom baterii nadajnika. Natychmiast naładuj nadajnik.</string>
+    <string name="very_low_battery_alert_title">Naładuj nadajnik</string>
+    <string name="vibration_motor_alarm_help_message">System będzie wyświetlał wartości poziomu glukozy przez następne 72 godziny. Po 72 godzinach konieczna będzie wymiana nadajnika, aby można było dalej otrzymywać odczyty glukozy. Skontaktuj się z działem obsługi klienta w celu wymiany.</string>
+    <string name="vibration_motor_alarm_message">Nadajnik wykrył problem z silnikiem wibracji i nie może już przekazywać alertów. Skontaktuj się z działem obsługi klienta w celu wymiany nadajnika.</string>
+    <string name="vibration_motor_alarm_title">Silnik wibracji</string>
+    <string name="view">Pokaż</string>
+    <string name="wait_for_x_minutes">Spróbuj ponownie za %d minut(y).</string>
+    <string name="waiting_post_calibration">Oczekiwanie na pomiary czujnika po kalibracji. Odczekaj %d minut i spróbuj ponownie.</string>
+    <string name="warm_up_phase">Rozgrzewanie</string>
+    <string name="warmup_unknown">Nadajnik znajduje się w fazie rozgrzewania i kalibracje nie są wymagane. Skontaktuj się z lekarzem w celu uzyskania dodatkowych informacji.</string>
+    <string name="warning">Ostrzeżenie</string>
+    <string name="weekly_statistics">Tygodn. zestawienie modalne (%1$s)</string>
+    <string name="welcome">Witaj</string>
+    <string name="wi_fi_disconnected">Odłączono Internet</string>
+    <string name="wi_fi_disconnected_text">Nie można wykryć połączenia internetowego. Połącz się z Internetem i spróbuj ponownie.</string>
+    <string name="within">W gran.</string>
+    <string name="within_target_levels">W zakresie wartości docelowych</string>
+    <string name="yes">Tak</string>
+</resources>

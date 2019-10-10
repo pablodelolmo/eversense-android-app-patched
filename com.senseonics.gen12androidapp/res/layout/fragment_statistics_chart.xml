@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/tabview2_layout" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/layout_no_statistics" />
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/contentLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="@dimen/large_text" android:textColor="@color/blue" android:gravity="center_horizontal" android:id="@id/titleTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small_margin" />
+                <TextView android:textSize="@dimen/medium_text" android:textColor="@color/blue" android:gravity="center_horizontal" android:id="@id/tvDateRange" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/extra_small_margin" android:text="(June 1 - June 30, 2015)" />
+                <RelativeLayout android:layout_gravity="center" android:id="@id/pieChartLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</LinearLayout>

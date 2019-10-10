@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/autoSyncSwitchLayout" android:background="@android:color/white" android:padding="@dimen/box_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bottom_text_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/medium_text" android:textColor="@android:color/black" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/auto_sync" android:layout_alignParentTop="false" android:layout_alignParentStart="true" />
+    <Switch android:gravity="center_vertical" android:id="@id/auto_sync_switcher" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentEnd="true" />
+</RelativeLayout>

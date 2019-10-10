@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/blue" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    <RelativeLayout android:padding="@dimen/event_box_text_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@android:style/Widget.Holo.Button.Borderless">
+        <ImageView android:id="@id/alertIconHighAlarmSwitch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/small_margin" android:src="@drawable/notification_menu_icon" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/large_text" android:textColor="@android:color/black" android:id="@id/highAlarmSwitchTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/high_alert" android:layout_toRightOf="@id/alertIconHighAlarmSwitch" android:layout_centerVertical="true" />
+        <Switch android:id="@id/highAlarmSwitch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="@color/gray_horizontal_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/small_margin" android:layout_marginRight="@dimen/small_margin" />
+    <RelativeLayout android:id="@id/highLayout" android:padding="@dimen/event_box_text_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@android:style/Widget.Holo.Button.Borderless">
+        <ImageView android:id="@id/alertIconHighAlarm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/small_margin" android:src="@drawable/notification_menu_icon" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/large_text" android:textColor="@android:color/black" android:id="@id/highLabelTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/high_alert_level" android:layout_toRightOf="@id/alertIconHighAlarm" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/large_text" android:textColor="@color/light_gray" android:id="@id/highValueTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/small_margin" android:layout_toLeftOf="@id/arrowAlarmHigh" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/arrowAlarmHigh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/list_item_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="@color/gray_horizontal_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/small_margin" android:layout_marginRight="@dimen/small_margin" />
+    <RelativeLayout android:id="@id/lowLayout" android:padding="@dimen/event_box_text_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@android:style/Widget.Holo.Button.Borderless">
+        <ImageView android:id="@id/alertIconLowAlarm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/small_margin" android:src="@drawable/notification_menu_icon" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/large_text" android:textColor="@android:color/black" android:id="@id/lowLabelTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/low_alert_level" android:layout_toRightOf="@id/alertIconLowAlarm" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/large_text" android:textColor="@color/light_gray" android:id="@id/lowValueTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/small_margin" android:layout_toLeftOf="@id/arrowAlarmLow" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/arrowAlarmLow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/list_item_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="@color/blue" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+</LinearLayout>

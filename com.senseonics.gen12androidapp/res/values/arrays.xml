@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_entries">
+        <item>@string/day_1</item>
+        <item>@string/day_7</item>
+        <item>@string/day_14</item>
+        <item>@string/day_30</item>
+        <item>@string/day_90</item>
+    </string-array>
+</resources>

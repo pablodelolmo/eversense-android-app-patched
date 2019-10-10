@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/medium_text" android:textStyle="italic" android:textColor="@color/detail_font_color" android:gravity="center" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/box_margin" android:text="@string/place_transmitter_text" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/text">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:id="@id/imageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/signal_indicator_excellent_placement_guide" />
+            <TextView android:textAppearance="@android:style/TextAppearance.Large" android:textColor="@color/blue" android:id="@id/signalStrength" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_margin" android:text="@string/excellent" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

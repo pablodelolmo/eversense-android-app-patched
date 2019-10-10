@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:padding="@dimen/event_box_text_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@android:style/Widget.Holo.Button.Borderless">
+        <TextView android:textSize="@dimen/large_text" android:textColor="@android:color/black" android:id="@id/alertTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rate_alerts" android:layout_toLeftOf="@id/alertSwitch" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <Switch android:textColor="@color/gray" android:id="@id/alertSwitch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="@color/gray_horizontal_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/small_margin" android:layout_marginRight="@dimen/small_margin" />
+    <RelativeLayout android:id="@id/valueLayout" android:padding="@dimen/event_box_text_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@android:style/Widget.Holo.Button.Borderless">
+        <TextView android:textSize="@dimen/large_text" android:textColor="@android:color/black" android:id="@id/valueLabelTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rate_of_change" android:layout_toLeftOf="@id/valueVal" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/large_text" android:textColor="@color/light_gray" android:id="@id/valueVal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/small_margin" android:layout_toLeftOf="@id/arrow" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/list_item_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

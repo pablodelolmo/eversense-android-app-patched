@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/white" android:padding="@dimen/box_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bottom_text_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:id="@id/tvLastSyncedOnLabel" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/last_synced_on" android:layout_alignParentLeft="true" />
+    <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:id="@id/tvLastSyncedOn" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+</RelativeLayout>

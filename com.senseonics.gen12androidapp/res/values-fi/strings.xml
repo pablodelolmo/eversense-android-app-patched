@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Siirry etusivulle</string>
+    <string name="abc_action_bar_up_description">Siirry ylös</string>
+    <string name="abc_action_menu_overflow_description">Lisää</string>
+    <string name="abc_action_mode_done">Valmis</string>
+    <string name="abc_activity_chooser_view_see_all">Näytä kaikki</string>
+    <string name="abc_activitychooserview_choose_application">Valitse sovellus</string>
+    <string name="abc_capital_off">POIS KÄYTÖSTÄ</string>
+    <string name="abc_capital_on">KÄYTÖSSÄ</string>
+    <string name="abc_search_hint">Haku…</string>
+    <string name="abc_searchview_description_clear">Tyhjennä kysely</string>
+    <string name="abc_searchview_description_query">Hakulauseke</string>
+    <string name="abc_searchview_description_search">Haku</string>
+    <string name="abc_searchview_description_submit">Lähetä kysely</string>
+    <string name="abc_searchview_description_voice">Puhehaku</string>
+    <string name="abc_shareactionprovider_share_with">Jakaminen:</string>
+    <string name="abc_shareactionprovider_share_with_application">Jaa sovelluksessa %s</string>
+    <string name="abc_toolbar_collapse_description">Kutista</string>
+    <string name="about">Tietoja</string>
+    <string name="above">Yli</string>
+    <string name="above_target_level">Yli tavoitetason</string>
+    <string name="accept">Hyväksy</string>
+    <string name="alcohol">Alkoholi</string>
+    <string name="alert">Varoitus</string>
+    <string name="alert_detail_glucose_value">Glukoosiarvo:</string>
+    <string name="alert_detail_threshold">Kynnysarvo:</string>
+    <string name="alert_notice">Varoitusilmoitus</string>
+    <string name="alert_settings">Varoitusasetukset</string>
+    <string name="all">Kaikki</string>
+    <string name="allergy">Allergia</string>
+    <string name="and">ja</string>
+    <string name="android_device_info">Android-laitteen tiedot</string>
+    <string name="android_version">Android-versio</string>
+    <string name="app_update_body">Eversense App -sovellukseen on saatavilla päivitys. Haluatko asentaa sen nyt?</string>
+    <string name="app_update_title">Päivitä Eversense App</string>
+    <string name="auto_sync">Automaattinen synkronointi</string>
+    <string name="auto_sync_enabled_text">"Automaattinen synkronointi on käytössä.
+Tietosi synkronoidaan palvelimen kanssa 2 tunnin välein."</string>
+    <string name="average">Keskiarvo</string>
+    <string name="avg">ka.</string>
+    <string name="battery_level">Akun taso</string>
+    <string name="below">Alle</string>
+    <string name="below_target_level">Alle tavoitetason</string>
+    <string name="between">välillä</string>
+    <string name="ble_not_supported">Bluetooth Low Energy ei tuettu</string>
+    <string name="bluetooth_is_off">Bluetooth ei ole käytössä</string>
+    <string name="bluetooth_pairing">Bluetooth-yhteyden muodostus</string>
+    <string name="breakfast">Aamiainen</string>
+    <string name="cal_accepted_message_2">"Verensokeriarvoa käytettiin kalibrointiin onnistuneesti.
+
+Varoitus: Lähetintä ei pidä ottaa pois sensorin päältä %1$d minuuttiin. Jos lähetin otetaan pois, kalibrointi on toistettava."</string>
+    <string name="cal_accepted_title">Kalibrointi hyväksytty</string>
+    <string name="cal_in_progress">Kalibrointi käynnissä (%1$d min, %2$d sek)</string>
+    <string name="cal_not_entered_message">Veren glukoosiarvo taltioitiin, mutta sitä ei syötetty kalibrointia varten.</string>
+    <string name="cal_not_entered_title">Kalibrointia ei syötetty</string>
+    <string name="cal_not_used_reason_text">Syy käyttämättömyyteen kalibroinnissa</string>
+    <string name="cal_rejected_auto_link_message">Veren glukoosiarvoa ei käytetty kalibrointiin, koska automaattisen yhteyden tila on käytössä. Poista automaattisen yhteyden tila käytöstä ennen kalibroinnin syöttämistä.</string>
+    <string name="cal_rejected_auto_link_title">"Kalibrointi hylätty
+(automaattisen yhteyden tila)"</string>
+    <string name="cal_rejected_blinded_message_2">Veren glukoosiarvoa ei käytetty kalibrointiin. Odota %1$d tunti(a) ja yritä uudelleen.</string>
+    <string name="cal_rejected_blinded_title">"Kalibrointi hylätty
+(sokkoutettu)"</string>
+    <string name="cal_rejected_data_message_2">Veren glukoosiarvoa ei käytetty kalibrointiin, koska sensorin glukoositietoja ei ole tarpeeksi. Varmista, että Transmitter on sensorin päällä, odota %1$d minuuttia ja yritä uudelleen.</string>
+    <string name="cal_rejected_data_title">"Kalibrointi hylätty
+(tietoja ei riittävästi)"</string>
+    <string name="cal_rejected_not_ready_message_2">Veren glukoosiarvoa ei käytetty kalibrointiin, koska Transmitter ei ollut valmis hyväksymään kalibrointia näytteen ottohetkellä. Odota %1$d minuuttia ja yritä uudelleen.</string>
+    <string name="cal_rejected_not_ready_title">"Kalibrointi hylätty
+(ei valmis)"</string>
+    <string name="cal_rejected_other_message">Veren glukoosiarvoa ei käytetty kalibrointiin tuntemattoman vian vuoksi.</string>
+    <string name="cal_rejected_other_title">"Kalibrointi hylätty
+(muu virhe)"</string>
+    <string name="cal_rejected_rate_message_2">Veren glukoosiarvoa ei käytetty kalibrointiin, koska glukoositaso muuttuu liian nopeasti. Odota %1$d tunti(a) ja yritä uudelleen.</string>
+    <string name="cal_rejected_rate_title">"Kalibrointi hylätty
+(korkea muutosnopeus)"</string>
+    <string name="cal_rejected_replacement_message">Veren glukoosiarvoa ei käytetty kalibrointiin, koska sensori on vaihdettava. Ota yhteys lääkäriisi sensorin vaihtamiseksi.</string>
+    <string name="cal_rejected_replacement_title">"Kalibrointi hylätty
+(sensori vaihdettava)"</string>
+    <string name="cal_rejected_too_different_message_2">Syöttämäsi kalibrointiarvo %1$s voi olla virheellinen. Kalibroi uudelleen %2$d tunnin kuluttua glukoosiarvon tarkkuuden varmistamiseksi.</string>
+    <string name="cal_rejected_too_different_title">Kalibrointia tarkistetaan</string>
+    <string name="cal_rejected_too_high_message_2">Kalibrointiin ei voi käyttää arvoa %1$s suurempia veren glukoosiarvoja. Tee tarvittavat toimet ja yritä uudelleen %2$d tunnin kuluttua.</string>
+    <string name="cal_rejected_too_high_title">"Kalibrointi hylätty
+(liian korkea)"</string>
+    <string name="cal_rejected_too_low_message_2">Kalibrointiin ei voi käyttää arvoa %1$s pienempiä veren glukoosiarvoja. Tee tarvittavat toimet ja yritä uudelleen %2$d tunnin kuluttua.</string>
+    <string name="cal_rejected_too_low_title">"Kalibrointi hylätty
+(liian matala)"</string>
+    <string name="cal_rejected_unknown_message">Veren glukoosiarvoa ei käytetty kalibrointiin tuntemattomasta syystä. Yritä uudelleen myöhemmin.</string>
+    <string name="cal_rejected_unknown_title">"Kalibrointi hylätty
+(tuntematon virhe)"</string>
+    <string name="calibrate">Kalibroi</string>
+    <string name="calibrate_now_notification_help_message">CGM-järjestelmän määräaikainen kalibrointi verenglukoosimittariin on tärkeää tarkkojen sensorin glukoosiarvojen varmistamiseksi.</string>
+    <string name="calibrate_now_notification_message">Nyt on kalibroinnin aika. Tee verenglukoosimittaritesti näytekärjellä nyt.</string>
+    <string name="calibrate_now_notification_title">Kalibroi nyt</string>
+    <string name="calibrate_text">Anna veren glukoosiarvo ja näytteen ottoaika mittaristasi ja napauta \"Lähetä\".</string>
+    <string name="calibration">Kalibrointi</string>
+    <string name="calibration_event">Kalibrointi</string>
+    <string name="calibration_expired_alarm_help_message">"CGM-järjestelmän määräajoin tehtävä kalibrointi verensokerimittarilla mitatulla verensokeriarvolla on tärkeää tarkkojen sensorin glukoosiarvojen varmistamiseksi. 
+
+Uudelleenalustusvaiheessa on suoritettava 4 verensokerimittausta 2–12 tunnin välein. Järjestelmä ohjaa sinut automaattisesti tämän kalibrointiprosessin läpi."</string>
+    <string name="calibration_expired_alarm_message">Kalibrointia ei ole suoritettu 24 tuntiin. Järjestelmä alustetaan nyt uudelleen ja sinun on suoritettava 4 kalibrointitestiä näytekärjellä.</string>
+    <string name="calibration_expired_alarm_title">Kalibrointi vanhentunut</string>
+    <string name="calibration_grace_alert_help_message">"Transmitteriä ei kalibroitu määräajassa. Sensorin glukoosiarvoja ei enää näytetä. Jatka painamalla 'Kalibroi'."</string>
+    <string name="calibration_grace_alert_message">"Transmitteriä ei kalibroitu määräajassa. Sensorin glukoosiarvoja ei enää näytetä. Jatka painamalla 'Kalibroi'."</string>
+    <string name="calibration_grace_alert_title">Kalibrointi myöhässä</string>
+    <string name="calibration_tips"><b>Kalibrointivinkkejä</b></string>
+    <string name="cancel">Peruuta</string>
+    <string name="carbs">Hiilihydraatit</string>
+    <string name="click_twice_back">Poistu napsauttamalla uudelleen TAKAISIN</string>
+    <string name="clinical_mode_enabled">Kliininen tila käytössä</string>
+    <string name="complete_sensor_linking_text">Suorita yhdistäminen loppuun asettamalla lähetin sensorin päälle. Paina OK, kun yhdistäminen on valmis.</string>
+    <string name="completed_cals">Suoritetut kalibroinnit</string>
+    <string name="condition">Tila</string>
+    <string name="congratulations">Onnittelut!</string>
+    <string name="connected">Yhdistetty</string>
+    <string name="connecting">Yhdistetään</string>
+    <string name="connecting_wait">Yhdistetään, odota hetki...</string>
+    <string name="connection_status">Yhdistä</string>
+    <string name="connection_tips"><b>Apua yhteyden muodostukseen</b></string>
+    <string name="contact">Ota yhteys</string>
+    <string name="contact_us">Ota yhteyttä</string>
+    <string name="contact_us_mail_body">Näitä viestejä ei seurata 24/7. Älä käytä tätä sähköpostiosoitetta kiireisissä kysymyksissä.</string>
+    <string name="contact_us_mail_subject">Viesti asiakastukea varten</string>
+    <string name="cough_cold">Yskä/nuha</string>
+    <string name="create_an_account">Luo tili</string>
+    <string name="current_phase">Nykyinen vaihe</string>
+    <string name="daily_calibration">Päivittäinen kalib.</string>
+    <string name="data_saved">Tiedot tallennettu</string>
+    <string name="data_saved_text" formatted="false">"%@ uutta tapahtumaa on tallennettu tietokantaan,
+%@ tapahtumaa on tallennettu aikaisemmin."</string>
+    <string name="date">Päivämäärä</string>
+    <string name="day_1">1 päivä</string>
+    <string name="day_14">14 päivää</string>
+    <string name="day_30">30 päivää</string>
+    <string name="day_7">7 päivää</string>
+    <string name="day_90">90 päivää</string>
+    <string name="daylight_saving">Kesäaika</string>
+    <string name="days_remaining_alarm_help_message_1">Sensorisi antaa lukemia arviolta 4 päivän ajan tämän ilmoituksen päivämäärästä laskien. Ota yhteys lääkäriin ja sovi aika sensorin vaihtamista varten.</string>
+    <string name="default_sync_days">Oletussynkronointipäivät</string>
+    <string name="details">Tiedot</string>
+    <string name="details_version">Versio</string>
+    <string name="detected_sensor">Havaittu sensori</string>
+    <string name="detected_serialnumber">Havaittu SN</string>
+    <string name="device_compatibility">LAITTEIDEN YHTEENSOPIVUUS</string>
+    <string name="diarrhea">Ripuli</string>
+    <string name="dinner">Päivällinen</string>
+    <string name="disconnected_from_transmitter">Transmitteriin ei ole nyt yhteyttä. Muodosta yhteys Transmitteriin ja yritä uudelleen.</string>
+    <string name="dismiss_all">Hylkää kaikki</string>
+    <string name="dizzy">Huimaus</string>
+    <string name="do_not_disturb">Ei saa häiritä</string>
+    <string name="do_not_disturb_description">Poista käytöstä kaikkien ei-kriittisten varoitusten ja ilmoitusten näyttäminen</string>
+    <string name="do_not_disturb_warning_message_2">Ei-kriittiset varoitukset on kytketty pois päältä mobiilisovelluksessa ja älylähettimessä.</string>
+    <string name="do_not_disturb_warning_title">Ei saa häiritä -tila käytössä</string>
+    <string name="done">Valmis</string>
+    <string name="drawer_close">Sulje navigointivalikko</string>
+    <string name="drawer_open">Avaa navigointivalikko</string>
+    <string name="drop_out">Ei voi kalibroida. Odota 6 tuntia ja yritä uudelleen.</string>
+    <string name="duration">Kesto</string>
+    <string name="earache">Korvakipu</string>
+    <string name="email">Sähköposti</string>
+    <string name="email_body_graph">"Katso glukoosikaaviota, jonka tiedot on kerätty omasta Eversense CGM -järjestelmästä ajanjaksolta: viimeiset %1$s.
+
+Huom.: jos et näe kuvaa hyvin, yritä avata se verkkoselaimessa.
+"</string>
+    <string name="email_body_pie">"Katso glukoosin ympyräkaavioraportti, jonka tiedot on kerätty omasta Eversense CGM -järjestelmästä ajanjaksolta: viimeiset %d.
+
+Huom.: jos et näe kuvaa hyvin, yritä avata se verkkoselaimessa.
+"</string>
+    <string name="email_body_table">Katso glukoositilastojen raportti, joka sisältää omasta Eversense CGM -järjestelmästä saadut tiedot, jotka on kerätty ajanjaksolta: viimeiset %d.</string>
+    <string name="email_body_weekly">Katso viikoittainen tila-yhteenvetoraportti, joka sisältää omasta Eversense CGM -järjestelmästä saadut tiedot, jotka on kerätty viimeisten 7 päivän ajalta.</string>
+    <string name="email_subject_graph">Sensorin tiedot</string>
+    <string name="email_subject_pie_chart">Glukoosin ympyräkaavioraportti</string>
+    <string name="email_subject_pie_table">Glukoositilastojen raportti</string>
+    <string name="email_subject_weekly">Viikoittaisen tilayhteenvedon raportti</string>
+    <string name="empty_battery_alarm_help_message">"Irrota lähetin kehostasi ennen sen kytkemistä virtalähteeseen ja akun lataamista. 
+
+Lähetin ei kerää tietoja sensorista latauksen aikana. Et saa glukoositietoja, kun lähetin on latauksessa."</string>
+    <string name="empty_battery_alarm_message">Transmitterin akku on tyhjä. Lataa Transmitterin akku nyt, jotta glukoosiarvojen näyttämistä voidaan jatkaa.</string>
+    <string name="empty_battery_alarm_title">Akku tyhjä</string>
+    <string name="end">Lopetus</string>
+    <string name="estimated_days_remaining_alarm_message">Sensorisi antaa lukemia arviolta 4 päivän ajan tämän ilmoituksen päivämäärästä laskien. Ota yhteys lääkäriisi sensorin vaihtoa varten.</string>
+    <string name="estimated_days_remaining_alarm_title">Arvio jäljellä olevista käyttöpäivistä</string>
+    <string name="eula">LOPPUASIAKKAAN LISENSSISOPIMUS</string>
+    <string name="eula_confirmation_text">Napsauttamalla ”Hyväksy” alla: Hyväksyn loppukäyttäjän käyttöoikeussopimuksen (EULA), Senseonicsin tietosuojakäytännön ja käyttöehdot (tietosuojakäytäntö) ja, käyttäessäni Eversense®-järjestelmää, niiden tulevat päivitykset. Hyväksyn tietojeni säilytyksen, lähettämisen ja käytön, mukaan lukien rajoituksetta säilytyksen Yhdistyneessä kuningaskunnassa ja lähetyksen Yhdysvaltoihin rajoitettuja tarkoituksia varten (esimerkiksi tekniikkaan ja asiakaspalveluun liittyen) EULAn ja tietosuojakäytännön ehtojen mukaisesti ja huomioiden, että tällaiset tietojen luovutukset mahdollistavat järjestelmän täyden toimivuuden ja tuen.</string>
+    <string name="eula_menu">Lisenssisopimus</string>
+    <string name="eula_screen">EULA-näyttö</string>
+    <string name="evening">Ilta</string>
+    <string name="evening_time">Ilta-aika</string>
+    <string name="event_cal_accepted_title">Käytetty</string>
+    <string name="event_cal_not_entered_title">Ei syötetty</string>
+    <string name="event_cal_rejected_auto_link_title">Automaattisen yhteyden tila</string>
+    <string name="event_cal_rejected_blinded_title">Sokkoutettu</string>
+    <string name="event_cal_rejected_data_title">Tietoja ei ole riittävästi</string>
+    <string name="event_cal_rejected_not_ready_title">Ei valmis</string>
+    <string name="event_cal_rejected_other_title">Muu vika</string>
+    <string name="event_cal_rejected_rate_title">Korkea muutosnopeus</string>
+    <string name="event_cal_rejected_replacement_title">Sensori täytyy vaihtaa</string>
+    <string name="event_cal_rejected_too_different_title">Tarkistus käynnissä</string>
+    <string name="event_cal_rejected_too_high_title">Liian korkea</string>
+    <string name="event_cal_rejected_too_low_title">Liian alhainen</string>
+    <string name="event_log">Tapahtumaloki</string>
+    <string name="excellent">Erinomainen</string>
+    <string name="exercise_event">Liikunta</string>
+    <string name="exit_app">Poistu</string>
+    <string name="faq">UKK</string>
+    <string name="fever">Kuume</string>
+    <string name="file_corrupted">Tiedosto vaurioitunut</string>
+    <string name="file_corrupted_text">Sensorin parametritiedostoa ei voi ladata. Ota yhteys asiakastukeen.</string>
+    <string name="finish">Lopeta</string>
+    <string name="flu">Influenssa</string>
+    <string name="force_logout_text_w_email">Sinut on kirjattu ulos, koska sähköpostiosoite tai salasana on väärä.</string>
+    <string name="forgot_my_password">Unohdin salasanan</string>
+    <string name="general_error_saving_data">Tietojen tallennusvirhe</string>
+    <string name="general_error_saving_data_text">Tietoja ei tallennettu palvelimelle. Yritä uudelleen. Jos virhe ei poistu, ota yhteys asiakastukeen.</string>
+    <string name="glucose_above_high_alert_level">Glukoosi korkeaa varoitust. korkeampi</string>
+    <string name="glucose_above_high_target_level">Glukoosi ylätavoitetasoa korkeampi</string>
+    <string name="glucose_alert_levels">Glukoosin varoitustasot</string>
+    <string name="glucose_below_low_alert_level">Glukoosi matalaa varoitust. matalampi</string>
+    <string name="glucose_below_low_target_level">Glukoosi alatavoitetasoa alhaisempi</string>
+    <string name="glucose_event">Glukoosi</string>
+    <string name="glucose_event_submit_title">Vahvista glukoosi</string>
+    <string name="glucose_level_distribution">Glukoosin ympyräkaavio (%1$s)</string>
+    <string name="glucose_target_levels">Glukoosin tavoitetasot</string>
+    <string name="glucose_unit">Glukoosiyksiköt</string>
+    <string name="glucose_within_target_levels">Glukoosi tavoitetasojen rajoissa</string>
+    <string name="good">Hyvä</string>
+    <string name="grams">grammaa</string>
+    <string name="health_event">Terveys</string>
+    <string name="help">Ohje</string>
+    <string name="hide">Piilota</string>
+    <string name="hide_event"><b>Piilota tapahtuma</b></string>
+    <string name="hide_event_question">Haluatko varmasti piilottaa tämän tapahtuman?</string>
+    <string name="high">Korkea</string>
+    <string name="high_alert">Korkea varoitus</string>
+    <string name="high_ambient_light_alarm_help_message">"Voit vähentää lähettimen altistumista valolle yhdellä tai useammilla seuraavista tavoista: 
+-Siirry hämärämpään ympäristöön 
+-Pidä lähetin vaatteiden alla"</string>
+    <string name="high_ambient_light_alarm_message_2">Sensorin valoaltistus on liiallinen. Vähennä sensorin altistusta valolle, jotta saisit taas glukoosilukemia. Jos ongelma ei poistu, ota yhteys asiakastukeen.</string>
+    <string name="high_ambient_light_alarm_title">Voimakas ympäristön valaistus</string>
+    <string name="high_glucose_alarm_help_message_2" formatted="false">"Olet asettanut korkean glukoosin varoitustasoksi %value%. Lähettimesi ja älypuhelimesi antavat varoituksen, kun saavutat tämän glukoositason. Glukoosiarvosi voi olla sama tai korkeampi kuin asetettu korkean glukoosin varoitustaso. 
+
+Varmista aina glukoosiarvo verensokerimittarilla ennen hoitopäätöksen tekemistä. 
+
+Voit muuttaa asetettua korkean glukoosin varoitustasoa valitsemalla Valikko -> Asetukset -> Glukoosi."</string>
+    <string name="high_glucose_alarm_message_2">Sensorin glukoosiarvo on sama tai korkeampi kuin asetettu korkean glukoosin varoitustaso %d. Varmista glukoosiarvo verensokerimittarilla.</string>
+    <string name="high_glucose_alarm_title">Korkea glukoosi</string>
+    <string name="high_glucose_alert_help_message" formatted="false">"Olet asettanut korkean glukoosin varoitustasoksi %value%. Lähettimesi ja älypuhelimesi antavat hälytyksen, kun saavutat tämän glukoosiarvon. Glukoositasosi voi olla sama tai korkeampi kuin asetettu korkean glukoosin varoitustaso. 
+
+Varmista aina glukoosiarvo sormenpääverensokerimittauksella ennen hoitopäätöksen tekemistä. 
+
+Huomaa, että korkean glukoosin varoitustaso poikkeaa asetetusta korkean glukoosin hälytystasosta. 
+
+Voit muuttaa asetettua korkean glukoosin varoitustasoa valitsemalla Valikko -> Asetukset -> Glukoosi."</string>
+    <string name="high_glucose_alert_message">Sensorin glukoosiarvo on sama tai korkeampi kuin asetettu korkean glukoosin varoitustaso %d.</string>
+    <string name="high_glucose_alert_title">Korkea glukoosi</string>
+    <string name="high_symptoms">Korkean glukoosin oireet</string>
+    <string name="high_target">Ylätavoite</string>
+    <string name="home">Oma glukoosi</string>
+    <string name="hours_remaining">tuntia jäljellä</string>
+    <string name="hr">h</string>
+    <string name="i_do_not_have_a_glucose_sensor">Minulla ei ole äly-Transmitteriä</string>
+    <string name="i_have_glucose_sensor">Minulla on äly-Transmitter</string>
+    <string name="image_description">Kuva</string>
+    <string name="incompatible_fw_version_body_2">Yhteensopimaton lähetinohjelmisto havaittu. Ota yhteys asiakastukeen.</string>
+    <string name="incompatible_fw_version_title_2">Yhteensopimaton lähetinohjelmisto</string>
+    <string name="incompatible_sensor_file">Yhteensopimaton sensorin tiedosto</string>
+    <string name="incompatible_sensor_file_text">Yhteensopimaton sensorin tiedosto (versio: %%) havaittu. Ota yhteys asiakastukeen.</string>
+    <string name="infection">Infektio</string>
+    <string name="init_phase">Alustus</string>
+    <string name="init_phase_notif">Alustusvaihe (%1$d kalibrointia jäljellä)</string>
+    <string name="insertion_date">Asennuspäivä</string>
+    <string name="insertion_time">Asennusaika</string>
+    <string name="insulin_event">Insuliini</string>
+    <string name="insulin_type">Tyyppi</string>
+    <string name="intensity">Intensiteetti</string>
+    <string name="intermediate_acting">Keskipitkävaikutteinen</string>
+    <string name="invalid_device_type">Kelpaamaton laitetyyppi</string>
+    <string name="invalid_device_type_text">Kelpaamaton laitetyyppi. Yritä uudelleen. Jos virhe ei poistu, ota yhteys asiakastukeen.</string>
+    <string name="invalid_email">Kelpaamaton sähköpostiosoite</string>
+    <string name="invalid_error_text">Internet-yhteyttä ei löytynyt. Jos haluat asentaa uusimman version, muodosta yhteys internetiin.</string>
+    <string name="invalid_password">Kelpaamaton salasana</string>
+    <string name="invalid_user_credentials_text_w_email">Sähköpostiosoite tai salasana on väärä. Yritä uudelleen. Jos virhe ei poistu, ota yhteys asiakastukeen.</string>
+    <string name="invalid_user_credentials_w_email">Väärä sähköpostiosoite tai salasana</string>
+    <string name="last_cal">Viim. kal.</string>
+    <string name="last_synced_on">Viimeksi synkronoitu:</string>
+    <string name="less_than_one_hour">1 tunti jäljellä</string>
+    <string name="link_detected_sensor">Yhdistä havaittu sensori</string>
+    <string name="link_detected_sensor_text_2">Yhdistämätön sensori havaittu. Jatka napauttamalla Yhdistä havaittu sensori -painiketta.</string>
+    <string name="link_sensor">Yhd. sens.</string>
+    <string name="linked_sensor">Yhdistetty sensori</string>
+    <string name="linking_process_complete">3. Yhdistäminen valmis</string>
+    <string name="linking_sensor">2. Yhdistetään sensori</string>
+    <string name="log_in">Kirjaudu</string>
+    <string name="log_out">Kirjaudu ulos</string>
+    <string name="log_out_text">Jos kirjaudut ulos, et voi nähdä glukoositietojasi Eversense App -ohjelmassa ennen uutta sisäänkirjautumista. Haluatko varmasti kirjautua ulos?</string>
+    <string name="login_success">Kirjautuminen onnistui</string>
+    <string name="long_acting">Pitkävaikutteinen</string>
+    <string name="low">Alh.</string>
+    <string name="low_alert">Matala varoitus</string>
+    <string name="low_battery_notification_help_message">Transmitterin akun varaus on alhainen. Lataa akku pian.</string>
+    <string name="low_battery_notification_message">Transmitterin akun varaus on alhainen. Lataa akku pian.</string>
+    <string name="low_battery_notification_title">Lataa Transmitter</string>
+    <string name="low_glucose_alarm_help_message_2" formatted="false">"Olet asettanut matalan glukoosin varoitustasoksi %value%. Lähettimesi ja älypuhelimesi antavat varoituksen, kun saavutat tämän glukoositason. Glukoosiarvosi voi olla sama tai matalampi kuin asetettu matalan glukoosin varoitustaso. 
+
+Varmista aina glukoosiarvo verensokerimittarilla ennen hoitopäätöksen tekemistä. 
+
+Voit muuttaa asetettua matalan glukoosin varoitustasoa valitsemalla Valikko -> Asetukset -> Glukoosi."</string>
+    <string name="low_glucose_alarm_message_2">Sensorin glukoosiarvo on sama tai matalampi kuin asetettu matalan glukoosin varoitustaso %d. Varmista glukoosiarvo verensokerimittarilla.</string>
+    <string name="low_glucose_alarm_title">Alhainen glukoosi</string>
+    <string name="low_glucose_alert_help_message" formatted="false">"Olet asettanut matalan glukoosin varoitustasoksi %value%. Lähettimesi ja älypuhelimesi antavat hälytyksen, kun saavutat tämän glukoosiarvon. Glukoositasosi voi olla sama tai matalampi kuin asetettu matalan glukoosin varoitustaso.
+
+Varmista aina glukoosiarvo sormenpääverensokerimittauksella ennen hoitopäätöksen tekemistä. 
+
+Huomaa, että matalan glukoosin varoitustaso poikkeaa asetetusta matalan glukoosin hälytystasosta. 
+
+Voit muuttaa asetettua matalan glukoosin varoitustasoa valitsemalla Valikko -> Asetukset -> Glukoosi."</string>
+    <string name="low_glucose_alert_message">Sensorin glukoosiarvo on sama tai alhaisempi kuin asetettu alhaisen glukoosin varoitustaso %d.</string>
+    <string name="low_glucose_alert_title">Alhainen glukoosi</string>
+    <string name="low_symptoms">Alhaisen glukoosin oireet</string>
+    <string name="low_target">Alatavoite</string>
+    <string name="lunch">Lounas</string>
+    <string name="machine">Kone</string>
+    <string name="manual_text">Hyödynnä tarjolla olevia toimintoja syöttämällä tietoja manuaalisesti.</string>
+    <string name="meal_event">Ateria</string>
+    <string name="meal_start_end_time_text">Valitse ALOITUS- ja LOPETUSaika</string>
+    <string name="meal_times">Ateria-ajat</string>
+    <string name="medium">Keskit.</string>
+    <string name="menstrual_period">Kuukautiskierto</string>
+    <string name="mg_Dl">mg/dl</string>
+    <string name="mg_dl_min">mg/dl/min</string>
+    <string name="min">min</string>
+    <string name="minutes_from_alert_level">Minuuttia</string>
+    <string name="mixed_50_50">Sekoitettu 50/50</string>
+    <string name="mixed_70_30">Sekoitettu 70/30</string>
+    <string name="mixed_75_25">Sekoitettu 75/25</string>
+    <string name="mmol_L">mmol/l</string>
+    <string name="mmol_l_min">mmol/l/min</string>
+    <string name="model">Malli</string>
+    <string name="model_number">Mallinumero</string>
+    <string name="modify_evening_time">Varoitus: Aamun ja illan aikojen välissä on oltava 10–14 tunnin ero (esim. 8AM ja 6PM). Muokkaa illan aikaa ennen näytöstä poistumista.</string>
+    <string name="more_than_max_pending_alerts">Sinulla on enemmän kuin 2 huomioitavaa varoitusta. Haluatko nähdä ne kaikki?</string>
+    <string name="morning">Aamu</string>
+    <string name="morning_time">Aamuaika</string>
+    <string name="my_account_sync">Synkronointi</string>
+    <string name="my_sensor">Oma sensori</string>
+    <string name="my_transmitter">Oma Transmitter</string>
+    <string name="name">Nimi</string>
+    <string name="nausea_vomiting">Pahoinvointi/oksentelu</string>
+    <string name="new_sensor_detected_notification_help_message">Asennettu sensori ja Transmitter on yhdistettävä toisiinsa tiedonsiirron aloittamiseksi. Käynnistä yhdistämisprosessi napauttamalla \"Yhdistä sensori\". Uuden sensorin on sopeuduttava kehosi vasteisiin. Odota 24 tuntia ennen Transmitterin asettamista sensorin päälle ja kalibroinnin alustusvaiheen aloittamista.</string>
+    <string name="new_sensor_detected_notification_message">Uusi sensori havaittu. Jos sinulla on uusi sensori ja/tai Transmitter, muodosta yhteys sensorin ja Transmitterin välille.</string>
+    <string name="new_sensor_detected_notification_title">Uusi sensori havaittu</string>
+    <string name="next">Seuraava</string>
+    <string name="next_schedule_cal_time"><b>Seuraava suunniteltu kalibrointiaika</b></string>
+    <string name="next_schedule_cal_unknown">Ei saatavissa</string>
+    <string name="no">Ei</string>
+    <string name="no_browser_found_2">Selainta verkkosivujen avaamista varten ei ole havaittu. Asenna selain Google Play -kaupasta.</string>
+    <string name="no_glucose_display">Ei näytettäviä glukoosiarvoja</string>
+    <string name="no_sensor_detected_alarm_message">Transmitter (%@) ei voi paikallistaa sensoria. Sensorin glukoosiarvoja ei näytetä ennen kuin Transmitter asetetaan suoraan sensorin päälle. Saat apua Sijoitusoppaasta.</string>
+    <string name="no_sensor_detected_alarm_title">Sensoria ei löytynyt</string>
+    <string name="no_sensor_glucose_reading">Ei sensorin glukoosilukemaa</string>
+    <string name="no_sensor_linked">Transmitter ei ole yhdistettynä sensoriin. Muodosta yhteys sensoriin ja yritä uudelleen.</string>
+    <string name="no_signal">Ei signaalia</string>
+    <string name="no_statistics">Tilastoja ei ole saatavissa tietojen puutteen vuoksi. Odota lisätietojen keräämistä.</string>
+    <string name="no_transmitter_connected">Transmitteriä ei ole yhdistetty</string>
+    <string name="normal">Normaali</string>
+    <string name="not_available">Ei saat.</string>
+    <string name="not_connected">Ei yhdistetty</string>
+    <string name="not_enough_data">Sensorin tietoja ei ole kerätty riittävästi.</string>
+    <string name="not_now">Ei nyt</string>
+    <string name="notes">Huomautukset</string>
+    <string name="notification">Ilmoitus</string>
+    <string name="notification_channel_alert">Eversense-varoitukset ja -ilmoitukset</string>
+    <string name="notification_channel_foreground">Eversense-järjestelmätiedot</string>
+    <string name="notifications_2">Varoitushistoria</string>
+    <string name="now">Nyt</string>
+    <string name="ok">OK</string>
+    <string name="one_day_distribution">Glukoositilastot (%1$s)</string>
+    <string name="or">TAI</string>
+    <string name="other">Muu</string>
+    <string name="out_of_range_high_glucose_alarm_help_message" formatted="false">"Varmista aina verensokeri verensokerimittarilla ennen hoitopäätöksen tekemistä. 
+
+Sensorin glukoosiarvo tulee taas näkyviin, kun se on %value% tai matalampi."</string>
+    <string name="out_of_range_high_glucose_alarm_message_2">Sensorin glukoosiarvo on korkeampi kuin %1$s. Mittaa glukoosi manuaalisesti verenglukoosimittarilla.</string>
+    <string name="out_of_range_high_glucose_alarm_title">Viitealuetta korkeampi glukoosi</string>
+    <string name="out_of_range_low_glucose_alarm_help_message" formatted="false">"Varmista aina verensokeri verensokerimittarilla ennen hoitopäätöksen tekemistä. 
+
+Sensorin glukoosiarvo tulee taas näkyviin, kun se on %value% tai korkeampi."</string>
+    <string name="out_of_range_low_glucose_alarm_message_2">Sensorin glukoosiarvo on alhaisempi kuin %1$s. Mittaa glukoosi manuaalisesti verenglukoosimittarilla.</string>
+    <string name="out_of_range_low_glucose_alarm_title">Viitealuetta alhaisempi glukoosi</string>
+    <string name="pair_text">Muodosta yhteys Transmitteriin glukoositietojen automaattista vastaanottoa ja seurantaa varten.</string>
+    <string name="pair_text_title">MUODOSTA YHTEYS TRANSMITTERIIN</string>
+    <string name="password">Salasana</string>
+    <string name="period">Jakso</string>
+    <string name="phase_start">Vaiheen alku</string>
+    <string name="phase_text">Vaihe</string>
+    <string name="place_sensor">Aseta Transmitter sensorin päälle ja yritä uudelleen %d minuutin kuluttua.</string>
+    <string name="place_transmitter_text">Aseta Transmitter suoraan sensorin päälle parhaan mahdollisen signaalin saamiseksi.</string>
+    <string name="placement_guide">Sijoitusopas</string>
+    <string name="placement_in_progress">Asetus käynnissä...</string>
+    <string name="placement_low_battery_body_2">Transmitterin alhainen akun varaus havaittu. Signaalin voimakkuus päivittyy normaalia hitaammin (kerran %1$d minuutissa).</string>
+    <string name="placement_low_battery_title">Alhainen akun varaus havaittu</string>
+    <string name="placement_mode_body">Haluatko jatkaa Sijoitusopas-sivun käyttöä?</string>
+    <string name="placement_mode_title">Sijoitustila</string>
+    <string name="poor">Heikko</string>
+    <string name="power_failure_alarm_help_message">Transmitter päivittyy nykyiseen päivämäärään/aikaan älypuhelimesi mukaan. Transmitterin akku tulee ladata päivittäin, jotta aika pysyy aina oikeana.</string>
+    <string name="power_failure_alarm_message">Transmitterin päivä-/aikaleima on vanhentunut tai kelpaamaton. App päivittää Transmitterin ajan. Jos saat virheen uudelleen, ota yhteys asiakastukeen.</string>
+    <string name="power_failure_alarm_title">Kelpaamaton Transmitterin aika</string>
+    <string name="predicted_high_glucose_alert_help_message_2" formatted="false">"Olet asettanut ennakoivan varoituksen aktivoitumaan %predictiveMins% minuuttia ennen kuin sensorin glukoosiarvo ohittaa glukoosin varoitustason muuttuessaan samalla nopeudella. 
+
+Varmista aina glukoosiarvo verensokerimittarilla ennen hoitopäätöksen tekemistä. 
+
+Voit muuttaa ennakoivan varoituksen asetusta valitsemalla Valikko -> Asetukset -> Glukoosi."</string>
+    <string name="predicted_high_glucose_alert_message_3">Sensorin glukoosiarvo on noususuuntainen ja saavuttaa korkean glukoosin varoitustason %d minuutissa. Mittaa verensokeri manuaalisesti omalla verensokerimittarilla.</string>
+    <string name="predicted_high_glucose_alert_title">Ennustettu korkea glukoosi</string>
+    <string name="predicted_low_glucose_alert_help_message_2" formatted="false">"Olet asettanut ennakoivan varoituksen aktivoitumaan %predictiveMins% minuuttia ennen kuin sensorin glukoosiarvo ohittaa glukoosin varoitustason muuttuessaan samalla nopeudella. 
+
+Varmista aina glukoosiarvo verensokerimittarilla ennen hoitopäätöksen tekemistä. 
+
+Voit muuttaa ennakoivan varoituksen asetusta valitsemalla Valikko -> Asetukset -> Glukoosi."</string>
+    <string name="predicted_low_glucose_alert_message_2">Sensorin glukoosiarvo on laskusuuntainen ja saavuttaa matalan glukoosin varoitustason %d minuutissa. Mittaa verensokeri manuaalisesti omalla verensokerimittarilla.</string>
+    <string name="predicted_low_glucose_alert_title">Ennustettu alhainen glukoosi</string>
+    <string name="predictive_alerts">Ennakoivat varoitukset</string>
+    <string name="predictive_text_2">Saat varoituksen X minuuttia ennen kuin sensorin glukoositaso ohittaa glukoosin varoitustason muuttuessaan samalla nopeudella.</string>
+    <string name="privacy_statement">Yksityisyyslausunto</string>
+    <string name="product_information">Tuotetiedot</string>
+    <string name="productinfo">"&lt;html>&lt;body style='margin:0;padding:0;'> &lt;table cellpadding=\"5\"> &lt;tr > &lt;td valign=\"top\">Yhtiö:&lt;/td> &lt;td>Senseonics, Inc.&lt;br/>20451 Seneca Meadows Parkway,&lt;br/>Germantown, Maryland,&lt;br/>USA&lt;br/>&lt;a href='http://www.eversensediabetes.com'>www.eversensediabetes.com&lt;/a>&lt;/td> &lt;/tr> &lt;tr > &lt;td>Versio:&lt;/td> &lt;td>@version&lt;/td> &lt;/tr> &lt;tr > &lt;td>Julkaistu:&lt;/td> &lt;td>@releasedate&lt;/td> &lt;/tr> &lt;tr> &lt;td>Yhteensopivuus:&lt;/td> &lt;td>&lt;a href='https://ous.eversensediabetes.com/compatibility/'>https://&lt;br/>ous.eversensediabetes.com/&lt;br/>compatibility/&lt;/a>&lt;/td> &lt;/tr> &lt;tr> &lt;td>&lt;/td> &lt;td>&lt;/td> &lt;/tr> &lt;tr> &lt;td>&lt;/td> &lt;td>&lt;/td> &lt;/tr> &lt;tr> &lt;td colspan=2 align='center'> © 2016 Senseonics, Inc. &lt;/td> &lt;/tr> &lt;/table> &lt;/body>&lt;/html>"</string>
+    <string name="rapid_acting">Nopeavaikutteinen</string>
+    <string name="rate_alerts">Nopeusvaroitukset</string>
+    <string name="rate_falling_alert_mg_message_2" formatted="false">Sensorin glukoosiarvo laskee asetettua muutosnopeutta %.1f %@ nopeammin tai yhtä nopeasti. Mittaa verensokeri manuaalisesti omalla verensokerimittarilla.</string>
+    <string name="rate_falling_alert_mg_mmol_help_message" formatted="false">"Olet määrittänyt Muutosnopeus-asetuksen siten, että saat varoituksen, kun sensorin glukoosiarvo muuttuu nopeammin kuin %rate%. 
+
+Varmista aina glukoosiarvo sormenpääverensokerimittauksella ennen hoitopäätöksen tekemistä. 
+
+Voit muuttaa Muutosnopeus-asetusta valitsemalla Valikko -> Asetukset -> Glukoosi."</string>
+    <string name="rate_falling_alert_mmol_message_2" formatted="false">Sensorin glukoosiarvo laskee asetettua muutosnopeutta %.2f %@ nopeammin tai yhtä nopeasti. Mittaa verensokeri manuaalisesti omalla verensokerimittarilla.</string>
+    <string name="rate_falling_alert_title">Laskemisnopeus</string>
+    <string name="rate_of_change">Muutosnopeus</string>
+    <string name="rate_rising_alert_mg_message_2" formatted="false">Sensorin glukoosiarvo nousee asetettua muutosnopeutta %.1f %@ nopeammin tai yhtä nopeasti. Mittaa verensokeri manuaalisesti omalla verensokerimittarilla.</string>
+    <string name="rate_rising_alert_mg_mmol_help_message" formatted="false">"Olet määrittänyt Muutosnopeus-asetuksen siten, että saat varoituksen, kun sensorin glukoosiarvo muuttuu nopeammin kuin %rate%. 
+
+Varmista aina glukoosiarvo sormenpääverensokerimittauksella ennen hoitopäätöksen tekemistä. 
+
+Voit muuttaa Muutosnopeus-asetusta valitsemalla Valikko -> Asetukset -> Glukoosi."</string>
+    <string name="rate_rising_alert_mmol_message_2" formatted="false">Sensorin glukoosiarvo nousee asetettua muutosnopeutta %.2f %@ nopeammin tai yhtä nopeasti. Mittaa verensokeri manuaalisesti omalla verensokerimittarilla.</string>
+    <string name="rate_rising_alert_title">Nousemisnopeus</string>
+    <string name="rate_text">Saat varoituksen, kun sensorin glukoositaso muuttuu (nousee tai laskee) asetettua muutosnopeutta nopeammin.</string>
+    <string name="rate_too_high">Sensorin glukoosiarvo muuttuu liian nopeasti. Odota 10 minuuttia ja yritä uudelleen.</string>
+    <string name="request_timeout">Aikakatkaisupyyntö</string>
+    <string name="request_timeout_text">Internet-yhteyden tai palvelimen ongelma aiheutti aikakatkaisun. Tarkista internet-yhteys. Jos virhe ei poistu, ota yhteys asiakastukeen.</string>
+    <string name="retrieving_parameters">1. Parametreja noudetaan</string>
+    <string name="ringtones">SOITTOÄÄNET</string>
+    <string name="rssi_value">RSSI</string>
+    <string name="save">Tallenna</string>
+    <string name="search_menu_title">Haku</string>
+    <string name="searching">Etsitään...</string>
+    <string name="select_transmitter_text">Valitse Transmitterisi alla olevasta luettelosta yhteyden muodostusta varten</string>
+    <string name="sensor_days_since_insertion">Päivää asetuksesta</string>
+    <string name="sensor_details">Sensorin tiedot</string>
+    <string name="sensor_eol">Sensori on poistettu käytöstä. Ota yhteys lääkäriisi.</string>
+    <string name="sensor_file_error">Sensorin tiedostovirhe</string>
+    <string name="sensor_file_error_text">Sensorin parametritiedostoa ei voi ladata. Yritä uudelleen. Jos virhe ei poistu, ota yhteys asiakastukeen.</string>
+    <string name="sensor_hardware_error_alarm_help_message">Transmitter (%@) on ilmoittanut sensorin laitteistovirheestä eikä enää näytä sensorin glukoosiarvoa. Ota yhteys asiakastukeen virheen korjaamiseksi.</string>
+    <string name="sensor_hardware_error_alarm_message">Transmitter (%@) on ilmoittanut sensorin laitteistovirheestä eikä enää näytä sensorin glukoosiarvoa. Ota yhteys asiakastukeen virheen korjaamiseksi.</string>
+    <string name="sensor_hardware_error_alarm_title">Sensorin laitteistovirhe</string>
+    <string name="sensor_high_temperature_alarm_message">Sensorin lämpötila on liian korkea. Siirry viileämpään paikkaan, jotta saisit taas sensorin glukoosiarvoja. Jos ongelma ei poistu, ota yhteys asiakastukeen.</string>
+    <string name="sensor_high_temperature_alarm_title">Korkea sensorin lämpötila</string>
+    <string name="sensor_instability_alarm_help_message">Uudelleenalustusvaiheessa on suoritettava 4 verenglukoosimittaritestiä 2–12 tunnin välein. Järjestelmä ohjaa sinut automaattisesti tämän kalibrointiprosessin läpi.</string>
+    <string name="sensor_instability_alarm_message">Järjestelmä on alustettava uudelleen. Sinun on suoritettava 4 kalibrointitestiä näytekärjellä.</string>
+    <string name="sensor_instability_alarm_title">Sensorin tarkistus</string>
+    <string name="sensor_link_failure_body">Yritä uudelleen. Jos virhe ei poistu, ota yhteys asiakastukeen.</string>
+    <string name="sensor_link_failure_title">Sensorin yhdistäminen epäonnistui</string>
+    <string name="sensor_low_high_temperature_alarm_help_message">Pidä Transmitter sensorin päällä. Se jatkaa sensorin glukoosiarvojen antamista, kun sensorin lämpötila on välillä 27–40 C.</string>
+    <string name="sensor_low_temperature_alarm_message">Sensorin lämpötila on liian alhainen. Siirry lämpimämpään paikkaan, jotta saisit taas sensorin glukoosiarvoja. Jos ongelma ei poistu, ota yhteys asiakastukeen.</string>
+    <string name="sensor_low_temperature_alarm_title">Alhainen sensorin lämpötila</string>
+    <string name="sensor_on_hold_alarm_help_message">Kun alustusvaihe alkaa 6 tunnin kuluttua, järjestelmä kehottaa sinua kalibroimaan näytekärkitestien avulla.</string>
+    <string name="sensor_on_hold_alarm_message">Järjestelmä keskeytetään 6 tunnin ajaksi ja uudelleenalustus alkaa 6 tunnin päästä.</string>
+    <string name="sensor_on_hold_alarm_title">Sensorin keskeytys</string>
+    <string name="sensor_retired_alarm_help_message">"Ota yhteys lääkäriisi nykyisen sensorin poistamiseksi ja korvaamiseksi uudella sensorilla. 
+
+Nykyinen sensorisi ei voi enää antaa glukoosiarvoja."</string>
+    <string name="sensor_retired_alarm_message">Sensori on vaihdettava. Ota yhteys lääkäriisi sensorin vaihtamiseksi.</string>
+    <string name="sensor_retired_alarm_title">Sensorin vaihto</string>
+    <string name="sensor_retired_prematurely_alarm_message">Sensorisi ei voi enää mitata glukoosiarvoja. Ota yhteys lääkäriisi sensorin vaihtamiseksi.</string>
+    <string name="sensor_retired_prematurely_alarm_title">Sensorin vaihto</string>
+    <string name="sensor_retired_prematurely_help_message">Sensorin toiminta on keskeytynyt. Et voi enää mitata glukoosiarvoja. Ota yhteys lääkäriisi sensorin vaihtamiseksi.</string>
+    <string name="sensor_retirement_14_days_notification_message_2">Sensori on vaihdettava 14 päivän kuluessa. Sensorin glukoosiarvoja ei ole enää mahdollista saada. Ota yhteys lääkäriin sensorin vaihtamista varten.</string>
+    <string name="sensor_retirement_14_days_notification_title">Sensorin vaihto</string>
+    <string name="sensor_retirement_1_7_day_alarm_help_message">Sensori täytyy poistaa ja vaihtaa. Varaa aika lääkäriltäsi.</string>
+    <string name="sensor_retirement_1_day_alarm_message">Sensori on vaihdettava yhden päivän kuluessa. Sensorin glukoosiarvoja ei ole enää mahdollista saada. Ota yhteys lääkäriisi sensorin vaihtamiseksi.</string>
+    <string name="sensor_retirement_1_day_alarm_title">Sensorin vaihto</string>
+    <string name="sensor_retirement_2_days_alarm_message_2">Sensori on vaihdettava 2 päivän kuluessa. Sensorin glukoosiarvoja ei ole enää mahdollista saada. Ota yhteys lääkäriin sensorin vaihtamista varten.</string>
+    <string name="sensor_retirement_2_days_alarm_title">Sensorin vaihto</string>
+    <string name="sensor_retirement_30_days_notification_message">Sensori on vaihdettava 30 päivän kuluessa. Sensorin glukoosiarvoja ei ole enää mahdollista saada. Ota yhteys lääkäriisi sensorin vaihtamiseksi.</string>
+    <string name="sensor_retirement_30_days_notification_title">Sensorin vaihto</string>
+    <string name="sensor_retirement_3_days_alert_message_2">Sensori on vaihdettava 3 päivän kuluessa. Sensorin glukoosiarvoja ei ole enää mahdollista saada. Ota yhteys lääkäriin sensorin vaihtamista varten.</string>
+    <string name="sensor_retirement_3_days_alert_title">Sensorin vaihto</string>
+    <string name="sensor_retirement_7_days_alert_message_2">Sensori on vaihdettava 7 päivän kuluessa. Sensorin glukoosiarvoja ei ole enää mahdollista saada. Ota yhteys lääkäriin sensorin vaihtamista varten.</string>
+    <string name="sensor_retirement_7_days_alert_title">Sensorin vaihto</string>
+    <string name="sensor_retirement_agedout_alarm_message">Sensori täytyy vaihtaa 7 päivän kuluessa, jotta saisit sensorin glukoosiarvoja edelleen. Ota yhteys lääkäriisi sensorin vaihtamiseksi.</string>
+    <string name="sensor_retirement_agedout_help_message">Et enää saa sensorin glukoosiarvoja 7 päivän kuluttua. Ota yhteys lääkäriisi sensorin vaihtamiseksi.</string>
+    <string name="sensor_status_alarm_message_0">Sensorisi on asennettu 150 päivän ajaksi. Ota yhteys lääkäriisi sensorin vaihtoa varten.</string>
+    <string name="sensor_status_alarm_message_1">Sensorisi on asennettu 146 päivän ajaksi. Ota yhteys lääkäriisi sensorin vaihtoa varten.</string>
+    <string name="sensor_status_alarm_message_2">Sensorisi on asennettu 136 päivän ajaksi. Ota yhteys lääkäriisi sensorin vaihtoa varten.</string>
+    <string name="sensor_status_alarm_message_3">Sensorisi on asennettu 120 päivän ajaksi. Ota yhteys lääkäriisi sensorin vaihtoa varten.</string>
+    <string name="sensor_status_alarm_title">Sensorin tila</string>
+    <string name="serial_number">Sarjanumero</string>
+    <string name="serial_number_sensor">Yhdistetty SN</string>
+    <string name="server_error">Palvelimen virhe</string>
+    <string name="server_error_text">Tapahtui palvelinvirhe. Yritä uudelleen. Jos virhe ei poistu, ota yhteys asiakastukeen.</string>
+    <string name="set_alert_levels">Aseta glukoositasot, joiden saavuttamisen jälkeen haluat järjestelmän antavan varoituksen.</string>
+    <string name="set_calibration_time_text">"Aseta aamun ja illan ajat, jolloin haluat saada muistutuksen kalibroinnista.
+
+Huomaa: Aamun ja illan kalibrointiaikojen välissä on oltava 10–14 tunnin ero."</string>
+    <string name="set_meal_times_text">Ajanjaksot Ateria-ajat-taulukkoa varten</string>
+    <string name="set_target_levels">Aseta glukoositasot, joiden välillä haluat glukoosiarvosi pysyvän.</string>
+    <string name="settings">Asetukset</string>
+    <string name="severity">Vakavuus</string>
+    <string name="share_my_data">Jaa omat tiedot</string>
+    <string name="short_acting">Lyhytvaikutteinen</string>
+    <string name="shortcut_breakfast">Aam.</string>
+    <string name="shortcut_dinner">Päiv.</string>
+    <string name="shortcut_lunch">Lou</string>
+    <string name="shortcut_sleep">Uni</string>
+    <string name="shortcut_snack">Välip.</string>
+    <string name="sleep">Uni</string>
+    <string name="snack">Välipala</string>
+    <string name="sore_throat">Kurkkukipu</string>
+    <string name="sound_high_glucose_alarm_2">Korkean glukoosin varoitus</string>
+    <string name="sound_high_snooze">Korkean muistutus</string>
+    <string name="sound_low_glucose_alarm_2">Matalan glukoosin varoitus</string>
+    <string name="sound_low_snooze">Matalan muistutus</string>
+    <string name="sound_settings">Ääniasetukset</string>
+    <string name="sound_settings_description_2">Valitse äänet korkean/matalan glukoosin varoituksille ja äänen toistotiheys.</string>
+    <string name="start">Aloitus</string>
+    <string name="statistics">Raportit</string>
+    <string name="statistics_string">Tilastot</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stddev">Keskihaj.</string>
+    <string name="stop">Lopeta</string>
+    <string name="stress">Rasitus</string>
+    <string name="submit">Lähetä</string>
+    <string name="sync_could_not_start_2">Synkronointia ei voitu aloittaa, kirjaudu ulos tililtäsi ja kirjaudu tilillesi uudelleen.</string>
+    <string name="sync_days">Synkronointipäivät</string>
+    <string name="sync_now">ALOITA SYNKR.</string>
+    <string name="synced_success">Synkronointi onnistui</string>
+    <string name="syncing">SYNKRONOIDAAN...</string>
+    <string name="system">Järjestelmä</string>
+    <string name="target">Tavoite</string>
+    <string name="temp_profile_description">Aseta glukoositasot, joita haluat järjestelmän varoittavan, kun tilapäinen profiilisi on käytössä. Ota käyttöön napauttamalla ALOITA tai poista käytöstä napauttamalla LOPETA.</string>
+    <string name="temp_profile_duration">%1$dhr %2$dmin</string>
+    <string name="temp_profile_glucose_settings_warning">Tilapäinen profiilisi on käytössä, ja tänne tallennetut glukoosiasetukset tulevat voimaan vasta, kun tilapäinen profiili poistetaan käytöstä tai sen käyttöaika umpeutuu.</string>
+    <string name="temp_profile_time_left">%1$dhr %2$dmin jäljellä</string>
+    <string name="temp_profile_title">Tilapäinen profiili</string>
+    <string name="temp_profile_turned_off_body">Tilapäisen profiilin käyttöaika on umpeutunut, ja järjestelmä ottaa normaalit glukoosiasetukset käyttöön.</string>
+    <string name="temp_profile_turned_off_title">Tilapäinen profiili pois käytöstä</string>
+    <string name="time">Aika</string>
+    <string name="tips_connect_html_text">"Jos et voi muodostaa yhteyttä lähettimeen, kokeile seuraavia:
+
+ * Varmista, että lähetin on ladattu ja että se ei ole kytkettynä laturiin.
+ * Poista Bluetooth käytöstä ja ota se uudelleen käyttöön älypuhelimen asetusvalikossa.
+ * Sammuta älypuhelin ja kytke se uudelleen päälle.
+ * Suorita Unohda laite -toiminto ja muodosta laitepari."</string>
+    <string name="tips_connect_html_text_initial">"Lähettimen yhdistäminen (\"laiteparin muodostaminen\") ensimmäisen kerran:
+
+ 1) Irrota lähetin USB-johdosta.
+ 2) Napauta lähettimen painiketta 3 kertaa.
+ 3) Varmista, että merkkivalo vilkkuu VIHREÄNÄ ja ORANSSINA.
+ 4) Napauta lähettimen nimeä (SN takaetiketissä) yllä olevassa luettelossa."</string>
+    <string name="tips_html_text">"* Pese kädet ja kuivaa ne hyvin ennen testiliuskan käyttöä
+ * Käytä oikeaa veripisaran kokoa
+ * Pidä mittari puhtaana
+ * Suositellut kalibrointiajat – ennen aterioita, ennen insuliinin annostelua, ennen nukkumaanmenoa, ennen liikuntaa"</string>
+    <string name="tired">Väsymys</string>
+    <string name="today">TÄNÄÄN</string>
+    <string name="todayLow">Tänään</string>
+    <string name="tomorrowLow">Huomenna</string>
+    <string name="too_soon">Nyt ei ole määräaikaiskalibroinnin aika. Yritä uudelleen, kun on seuraavan määräaikaiskalibroinnin aika.</string>
+    <string name="transmitter_details">Transmitterin tiedot</string>
+    <string name="transmitter_disconnected_notification_message">Transmitterin (%@) yhteys on katkennut. Yhdistä Transmitter uudelleen, jotta voit vastaanottaa kaikki ilmoitukset.</string>
+    <string name="transmitter_disconnected_notification_title">Transmitteriin ei ole yhteyttä</string>
+    <string name="transmitter_error">Transmitterin virhe</string>
+    <string name="transmitter_error_alarm_help_message">Ota yhteys asiakastukeen.</string>
+    <string name="transmitter_error_alarm_message_2">Lähetin on havainnut virheen. Ota yhteys asiakastukeen.</string>
+    <string name="transmitter_error_alarm_title">Transmitterin virhe</string>
+    <string name="transmitter_high_temperature_alarm_help_message">"Kun lähettimen lämpötila on alle 42 C, se jatkaa sensorin glukoosiarvojen antamista. 
+
+Voit poistaa lähettimen väliaikaisesti sen jäähdyttämiseksi. Muista kuitenkin asettaa lähetin uudelleen sensorin päälle, kun sen lämpötila on laskenut. Älä laita lähetintä jääkaappiin."</string>
+    <string name="transmitter_high_temperature_alarm_message_2">Lähettimen lämpötila on liian korkea. Siirry viileämpään paikkaan, jotta saisit taas sensorin glukoosiarvoja. Jos ongelma ei poistu, ota yhteys asiakastukeen.</string>
+    <string name="transmitter_high_temperature_alarm_title">Korkea Transmitterin lämpötila</string>
+    <string name="type">Tyyppi</string>
+    <string name="unit_descriptive_text_mgdl_mmol" formatted="false">Jos haluat vaihtaa mittayksikköön<b> %value%</b>, voit tehdä sen vain tämän kerran. Keskustele lääkärisi kanssa ennen asetuksen muuttamista, jos et ole varma käytettävästä mittayksiköstä.</string>
+    <string name="unit_example_text_mgdl">Esimerkki: 160 &lt;b>mg/dL&lt;/b> (tai välillä &lt;b>40–400 mg/dL&lt;/b>)</string>
+    <string name="unit_example_text_mmol">Esimerkki: 8,9 &lt;b>mmol/L&lt;/b> (tai välillä &lt;b>2,2–22,2 mmol/L&lt;/b>)</string>
+    <string name="unit_glucose_reading_changed">muutettu</string>
+    <string name="unit_glucose_reading_set">asetettu</string>
+    <string name="unit_glucose_reading_text_mgdl_mmol_2" formatted="false">Glukoosilukemasi on<b> %value%</b> näytettäväksi alla esitetyllä mittayksiköllä.</string>
+    <string name="unit_selected_text" formatted="false">Mittayksikkö:<b> %value%</b></string>
+    <string name="unit_title">MITTAYKSIKKÖ</string>
+    <string name="units">Yksiköt</string>
+    <string name="unknown">Tuntematon</string>
+    <string name="unknown_error">Tuntematon virhe</string>
+    <string name="unknown_error_alert_message">Tuntematon virhe. Jos saat virheen uudelleen, ota yhteys asiakastukeen. (%@)</string>
+    <string name="unknown_error_alert_title">Tuntematon koodi: %d</string>
+    <string name="unknown_error_text">Tapahtui tuntematon virhe. Yritä uudelleen. Jos virhe ei poistu, ota yhteys asiakastukeen.</string>
+    <string name="unknown_help_message">Tuntematon virhe. Jos saat virheen uudelleen, ota yhteys asiakastukeen. (%@)</string>
+    <string name="unknown_reason">Kalibrointia ei voi suorittaa tällä kertaa. Katso lisätietoja käyttöoppaan Kalibrointi-osiosta ja yritä uudelleen myöhemmin.</string>
+    <string name="unsupported_mode">Transmitter on tilassa, joka ei tue kalibrointia. Ota yhteys lääkäriisi, jos sinulla on kysyttävää.</string>
+    <string name="username">Käyttäjätunnus</string>
+    <string name="value">Arvo</string>
+    <string name="version_number">Laiteohjelmiston versio</string>
+    <string name="very_low">Hyvin alhainen</string>
+    <string name="very_low_battery_alert_help_message">"Irrota lähetin kehostasi ennen sen kytkemistä virtalähteeseen ja akun lataamista. 
+
+Lähetin ei kerää tietoja sensorista latauksen aikana. Et saa glukoositietoja, kun lähetin on latauksessa."</string>
+    <string name="very_low_battery_alert_message">Transmitterin akun varaus on hyvin alhainen. Lataa Transmitterin akku nyt.</string>
+    <string name="very_low_battery_alert_title">Lataa Transmitter</string>
+    <string name="vibration_motor_alarm_help_message">Järjestelmä jatkaa glukoosiarvojen näyttämistä seuraavien 72 tunnin ajan. Transmitter on vaihdettava, jotta saisit glukoosiarvoja edelleen 72 tunnin kuluttua. Ota yhteys asiakastukeen vaihtoa varten.</string>
+    <string name="vibration_motor_alarm_message">Transmitterin värinämoottorissa on ongelma, joten värinävaroituksia ei voida enää antaa. Ota yhteys asiakastukeen Transmitterin vaihtoa varten.</string>
+    <string name="vibration_motor_alarm_title">Värinämoottori</string>
+    <string name="view">Näytä</string>
+    <string name="wait_for_x_minutes">Yritä uudelleen %d minuutin kuluttua.</string>
+    <string name="waiting_post_calibration">Odotetaan kalibroinnin jälkeisiä sensorimittauksia. Odota %d minuuttia ja yritä uudelleen.</string>
+    <string name="warm_up_phase">Lämmitys</string>
+    <string name="warmup_unknown">Transmitter on lämmitysvaiheessa ja kalibroinnit eivät ole tarpeen. Pyydä lisätietoja lääkäriltäsi.</string>
+    <string name="warning">Varoitus</string>
+    <string name="weekly_statistics">Viikoittainen tilayhteenveto (%1$s)</string>
+    <string name="welcome">Tervetuloa</string>
+    <string name="wi_fi_disconnected">Ei internet-yhteyttä</string>
+    <string name="wi_fi_disconnected_text">Internet-yhteyttä ei löytynyt. Muodosta internet-yhteys ja yritä uudelleen.</string>
+    <string name="within">Rajoissa</string>
+    <string name="within_target_levels">Tavoitetasojen rajoissa</string>
+    <string name="yes">Kyllä</string>
+</resources>

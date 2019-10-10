@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layoutInviteToMyCircles" android:background="@drawable/ripple_effect_white_background" android:padding="@dimen/box_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/box_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:id="@id/tvDefaultSyncDaysText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Invite to My Circle" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/medium_text" android:textColor="@color/gray" android:id="@id/tvDefaultSyncDaysValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_email" android:layout_toLeftOf="@id/arrowIntensity" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/arrowIntensity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/event_box_text_margin" android:src="@drawable/list_item_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

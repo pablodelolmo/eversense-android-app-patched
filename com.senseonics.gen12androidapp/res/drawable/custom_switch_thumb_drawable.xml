@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/white" />
+            <size android:height="30.0dip" android:width="30.0dip" />
+            <stroke android:width="4.0dip" android:color="@color/transparent" />
+        </shape>
+    </item>
+    <item android:state_enabled="false">
+        <shape android:shape="oval">
+            <solid android:color="@color/gray" />
+            <size android:height="30.0dip" android:width="30.0dip" />
+            <stroke android:width="4.0dip" android:color="@color/transparent" />
+        </shape>
+    </item>
+</selector>

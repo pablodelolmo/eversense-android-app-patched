@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <TextView android:textAppearance="@android:style/TextAppearance.Small" android:textColor="@color/light_gray" android:ellipsize="end" android:id="@id/timeView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/small_margin" android:layout_marginRight="3.0dip" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/imageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:layout_toRightOf="@id/timeView" android:layout_centerVertical="true" android:contentDescription="@string/image_description" />
+        <TextView android:textAppearance="@android:style/TextAppearance.Small" android:textColor="@color/black" android:ellipsize="end" android:id="@id/eventType" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="38.0dip" android:singleLine="true" android:layout_toLeftOf="@id/arrow" android:layout_toRightOf="@id/imageView" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/arrow" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginRight="3.0dip" android:src="@drawable/purple_arrow" android:scaleType="fitCenter" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/image_description" />
+    </RelativeLayout>
+</RelativeLayout>

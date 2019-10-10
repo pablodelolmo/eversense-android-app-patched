@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <com.senseonics.util.StepPagerStrip android:gravity="left" android:id="@id/strip" android:paddingLeft="?android:listPreferredItemPaddingLeft" android:paddingTop="16.0dip" android:paddingRight="?android:listPreferredItemPaddingRight" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_centerHorizontal="true" custom:last_selected_color="@color/step_pager_selected_last_tab_color" custom:next_tab_color="@color/gray_medium" custom:previous_tab_color="@color/step_pager_previous_tab_color" custom:selected_tab_color="@color/step_pager_selected_tab_color" />
+    <android.support.v4.view.ViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/divider" android:layout_below="@id/strip" />
+    <View android:id="@id/divider" android:background="@color/gray_horizontal_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_above="@id/bottomBar" />
+    <include android:id="@id/bottomBar" layout="@layout/setup_sensor_bottom" />
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottomLayout">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/activity_event_log_graphview_linearlayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/box_margin" android:layout_marginTop="@dimen/box_margin" android:layout_marginRight="@dimen/box_margin">
+                <View android:background="@color/blue" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+                <LinearLayout android:orientation="vertical" android:id="@id/content" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <View android:background="@color/blue" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+                <LinearLayout android:orientation="vertical" android:id="@id/bloodGlucoseNotUsedLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/box_margin">
+                    <TextView android:textSize="@dimen/large_text" android:textStyle="bold" android:textColor="@color/black" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/small_margin" android:text="@string/cal_not_used_reason_text" />
+                    <View android:background="@color/blue" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+                    <TextView android:textSize="@dimen/large_text" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/bloodGlucoseNotUsedReason" android:background="@android:color/white" android:padding="@dimen/box_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <View android:background="@color/blue" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+                </LinearLayout>
+                <View android:background="@color/gray_graph_margin" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="@dimen/box_margin" />
+                <RelativeLayout android:id="@id/graphView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <View android:background="@color/gray_graph_margin" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout android:id="@id/bottomLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/box_margin" android:layout_alignParentBottom="true" style="@android:style/Widget.Holo.Button.Borderless">
+        <View android:id="@id/divider" android:background="@color/gray_horizontal_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <RelativeLayout android:orientation="horizontal" android:id="@id/bottomButtons" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/divider" />
+    </RelativeLayout>
+</RelativeLayout>

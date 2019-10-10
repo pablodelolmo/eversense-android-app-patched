@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Naviger hjem</string>
+    <string name="abc_action_bar_up_description">Naviger op</string>
+    <string name="abc_action_menu_overflow_description">Flere muligheder</string>
+    <string name="abc_action_mode_done">Luk</string>
+    <string name="abc_activity_chooser_view_see_all">Se alle</string>
+    <string name="abc_activitychooserview_choose_application">Vælg en app</string>
+    <string name="abc_capital_off">FRA</string>
+    <string name="abc_capital_on">TIL</string>
+    <string name="abc_search_hint">Søg…</string>
+    <string name="abc_searchview_description_clear">Ryd forespørgslen</string>
+    <string name="abc_searchview_description_query">Søgeforespørgsel</string>
+    <string name="abc_searchview_description_search">Søg</string>
+    <string name="abc_searchview_description_submit">Indsend forespørgslen</string>
+    <string name="abc_searchview_description_voice">Talesøgning</string>
+    <string name="abc_shareactionprovider_share_with">Del med</string>
+    <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
+    <string name="abc_toolbar_collapse_description">Skjul</string>
+    <string name="about">Om</string>
+    <string name="above">Over</string>
+    <string name="above_target_level">Over grænseværdi</string>
+    <string name="accept">Accepter</string>
+    <string name="alcohol">Alkohol</string>
+    <string name="alert">Besked</string>
+    <string name="alert_detail_glucose_value">Glukoseværdi:</string>
+    <string name="alert_detail_threshold">Tærskel:</string>
+    <string name="alert_notice">Påmindelse om besked</string>
+    <string name="alert_settings">Beskedindstillinger</string>
+    <string name="all">Alle</string>
+    <string name="allergy">Allergi</string>
+    <string name="and">og</string>
+    <string name="android_device_info">Oplysninger om Androidenhed</string>
+    <string name="android_version">Androidversion</string>
+    <string name="app_update_body">Der findes en opgradering til din Eversense App. Vil du installere den nu?</string>
+    <string name="app_update_title">Opgrader Eversense App</string>
+    <string name="auto_sync">Automatisk synkronisering</string>
+    <string name="auto_sync_enabled_text">"Automatisk synk. er aktiveret.
+Dine data vil blive synkroniseret med serveren hver 2. time."</string>
+    <string name="average">Gennemsnit</string>
+    <string name="avg">Gns.</string>
+    <string name="battery_level">Batteriniveau</string>
+    <string name="below">under</string>
+    <string name="below_target_level">Under grænseværdi</string>
+    <string name="between">mellem</string>
+    <string name="ble_not_supported">Bluetooth med lav energi understøttes ikke</string>
+    <string name="bluetooth_is_off">Bluetooth er deaktiveret</string>
+    <string name="bluetooth_pairing">Bluetooth-parring</string>
+    <string name="breakfast">Morgenmad</string>
+    <string name="cal_accepted_message_2">"Din blodsukkerværdi er blevet anvendt til kalibrering.
+
+Advarsel: Din transmitter må ikke fjernes fra sensoren i %1$d minutter. Hvis transmitteren fjernes, skal kalibreringen gentages."</string>
+    <string name="cal_accepted_title">Kalibrering accepteret</string>
+    <string name="cal_in_progress">Kalibrering i gang (%1$d min., %2$d sek.)</string>
+    <string name="cal_not_entered_message">Din blodsukkerværdi er registreret, men er ikke indtastet til kalibrering.</string>
+    <string name="cal_not_entered_title">Kalibrering ikke indtastet</string>
+    <string name="cal_not_used_reason_text">Årsag ikke benyttet til kalibrering</string>
+    <string name="cal_rejected_auto_link_message">Din blodsukkerværdi blev ikke anvendt til kalibrering, da tilstanden Automatisk forbindelse er aktiv. Deaktiver tilstanden Automatisk forbindelse inden kalibrering.</string>
+    <string name="cal_rejected_auto_link_title">"Kalibrering afvist
+(Automatisk forbindelsestilstand)"</string>
+    <string name="cal_rejected_blinded_message_2">Din blodsukkerværdi blev ikke anvendt til kalibrering. Vent venligst %1$d time(r), og prøv igen.</string>
+    <string name="cal_rejected_blinded_title">"Kalibrering afvist
+(Blindet)"</string>
+    <string name="cal_rejected_data_message_2">Din blodsukkerværdi blev ikke anvendt til kalibrering, da der ikke foreligger tilstrækkelige sensorglukosedata. Kontroller, at din transmitter er placeret over sensoren, vent %1$d minutter, og prøv igen.</string>
+    <string name="cal_rejected_data_title">"Kalibrering afvist
+(Utilstrækkelige data)"</string>
+    <string name="cal_rejected_not_ready_message_2">Din blodsukkerværdi blev ikke anvendt til kalibrering, da prøven blev taget, før transmitteren var klar til kalibrering. Vent venligst %1$d minutter, og prøv igen.</string>
+    <string name="cal_rejected_not_ready_title">"Kalibrering afvist
+(Ikke klar)"</string>
+    <string name="cal_rejected_other_message">Din blodsukkerværdi blev ikke anvendt til kalibrering grundet en ukendt fejl.</string>
+    <string name="cal_rejected_other_title">"Kalibrering afvist
+(Anden fejl)"</string>
+    <string name="cal_rejected_rate_message_2">Din blodsukkerværdi blev ikke anvendt til kalibrering, da blodsukkerhastigheden ændres for hurtigt. Vent venligst %1$d time(r), og prøv igen.</string>
+    <string name="cal_rejected_rate_title">"Kalibrering afvist
+(Høj ændringshastighed)"</string>
+    <string name="cal_rejected_replacement_message">Din blodsukkerværdi blev ikke anvendt til kalibrering, da din sensor skal udskiftes. Kontakt din læge for udskiftning af sensor.</string>
+    <string name="cal_rejected_replacement_title">"Kalibrering afvist
+(Sensorudskiftning påkrævet)"</string>
+    <string name="cal_rejected_too_different_message_2">Din indtastede kalibreringsværdi på %1$s kan være ukorrekt. Kalibrer igen om %2$d time for at sikre glukosenøjagtighed.</string>
+    <string name="cal_rejected_too_different_title">Kalibrering under gennemsyn</string>
+    <string name="cal_rejected_too_high_message_2">Blodsukkerværdier over %1$s kan ikke benyttes til kalibrering. Træf de nødvendige foranstaltninger, og prøv igen om %2$d time(r).</string>
+    <string name="cal_rejected_too_high_title">"Kalibrering afvist
+(For høj)"</string>
+    <string name="cal_rejected_too_low_message_2">Blodsukkerværdier under %1$s kan ikke benyttes til kalibrering. Træf de nødvendige foranstaltninger, og prøv igen om %2$d time(r).</string>
+    <string name="cal_rejected_too_low_title">"Kalibrering afvist
+(For lav)"</string>
+    <string name="cal_rejected_unknown_message">Din blodsukkerværdi blev ikke anvendt til kalibrering grundet en ukendt årsag. Prøv igen senere.</string>
+    <string name="cal_rejected_unknown_title">"Kalibrering afvist
+(Ukendt fejl)"</string>
+    <string name="calibrate">Kalibrer</string>
+    <string name="calibrate_now_notification_help_message">Kalibrering af dit CGM-system med en blodsukkermåler som planlagt er vigtig for at sikre, at du modtager nøjagtige sensorglukoseværdier.</string>
+    <string name="calibrate_now_notification_message">Du skal foretage en kalibrering nu. Udfør en kalibrering nu ud fra fingerpriktest på din blodsukkermåler.</string>
+    <string name="calibrate_now_notification_title">Kalibrer nu</string>
+    <string name="calibrate_text">Indtast blodsukkerværdien og målingstidspunktet fra din måler, og tryk derefter på \"Indsend\" for bekræftelse.</string>
+    <string name="calibration">Kalibrering</string>
+    <string name="calibration_event">Kalibrering</string>
+    <string name="calibration_expired_alarm_help_message">"Kalibrering af dit CGM-system med en blodsukkermåler som planlagt er vigtig for at sikre, at du modtager nøjagtige sensorglukoseværdier. 
+
+I geninitialiseringsfasen skal du udføre 4 blodsukkermålertests med 2-12 timers mellemrum. Dit system guider dig automatisk gennem kalibreringsprocessen."</string>
+    <string name="calibration_expired_alarm_message">Der er ikke udført kalibrering i 24 timer. Systemet er nu i geninitialiseringsfasen, og du skal lave 4 kalibreringer ud fra fingerpriktests.</string>
+    <string name="calibration_expired_alarm_title">Kalibrering udløbet</string>
+    <string name="calibration_grace_alert_help_message">"Din transmitter har overskredet tidsfristen for kalibrering. Sensorglukoseværdier vil ikke længere blive vist. Tryk på 'Kalibrer' for at fortsætte."</string>
+    <string name="calibration_grace_alert_message">"Din transmitter har overskredet tidsfristen for kalibrering. Sensorglukoseværdier vil ikke længere blive vist. Tryk på 'Kalibrer' for at fortsætte."</string>
+    <string name="calibration_grace_alert_title">Tidsfrist for kalibrering overskredet</string>
+    <string name="calibration_tips"><b>Kalibreringsråd</b></string>
+    <string name="cancel">Annuller</string>
+    <string name="carbs">Kulhydrater</string>
+    <string name="click_twice_back">Klik på TILBAGE igen for at afslutte</string>
+    <string name="clinical_mode_enabled">Klinisk tilstand aktiveret</string>
+    <string name="complete_sensor_linking_text">Anbring transmitteren over sensoren for at fuldføre forbindelsen. Tryk på OK, når dette er gjort.</string>
+    <string name="completed_cals">Gennemførte kal.</string>
+    <string name="condition">Tilstand</string>
+    <string name="congratulations">Tillykke!</string>
+    <string name="connected">Forbindelse oprettet</string>
+    <string name="connecting">Opretter forbindelse</string>
+    <string name="connecting_wait">Opretter forbindelse, vent venligst…</string>
+    <string name="connection_status">Tilslut</string>
+    <string name="connection_tips"><b>Hjælp til at oprette forbindelse</b></string>
+    <string name="contact">Kontakt</string>
+    <string name="contact_us">Kontakt os</string>
+    <string name="contact_us_mail_body">Disse meddelelser overvåges ikke døgnet rundt. Brug ikke denne e-mailadresse til presserende spørgsmål.</string>
+    <string name="contact_us_mail_subject">Meddelelse til kundesupport</string>
+    <string name="cough_cold">Hoste/forkølelse</string>
+    <string name="create_an_account">Opret en konto</string>
+    <string name="current_phase">Aktuel fase</string>
+    <string name="daily_calibration">Daglig kalibrering</string>
+    <string name="data_saved">Data lagret</string>
+    <string name="data_saved_text" formatted="false">"%@ nye hændelser er gemt i din database,
+%@ hændelser er tidligere gemt."</string>
+    <string name="date">Dato</string>
+    <string name="day_1">1 dag</string>
+    <string name="day_14">14 dage</string>
+    <string name="day_30">30 dage</string>
+    <string name="day_7">7 dage</string>
+    <string name="day_90">90 dage</string>
+    <string name="daylight_saving">Sommertid</string>
+    <string name="days_remaining_alarm_help_message_1">Din sensor vil foretage målinger i et antal dage fra datoen for denne meddelelse, der antages at være 4. Kontakt lægen for at aftale udskiftning.</string>
+    <string name="default_sync_days">Standardsynkronisering af dage</string>
+    <string name="details">Oplysninger</string>
+    <string name="details_version">Version</string>
+    <string name="detected_sensor">Registreret sensor</string>
+    <string name="detected_serialnumber">Registreret SN</string>
+    <string name="device_compatibility">ENHEDSKOMPATIBILITET</string>
+    <string name="diarrhea">Diarré</string>
+    <string name="dinner">Aftensmad</string>
+    <string name="disconnected_from_transmitter">Din transmitter er i øjeblikket afbrudt. Forbind din transmitter, og prøv igen.</string>
+    <string name="dismiss_all">Afvis alle</string>
+    <string name="dizzy">Svimmelhed</string>
+    <string name="do_not_disturb">Må ikke forstyrres</string>
+    <string name="do_not_disturb_description">Deaktiver visning af alle ikke-kritiske beskeder og meddelelser.</string>
+    <string name="do_not_disturb_warning_message_2">Ikke-kritiske beskeder er slukket i appen og på smart-senderen.</string>
+    <string name="do_not_disturb_warning_title">Må ikke forstyrres aktiveret</string>
+    <string name="done">Udført</string>
+    <string name="drawer_close">Luk navigationsskuffe</string>
+    <string name="drawer_open">Åbn navigationsskuffe</string>
+    <string name="drop_out">Kunne ikke kalibrere. Vent venligst 6 timer, og prøv igen.</string>
+    <string name="duration">Varighed</string>
+    <string name="earache">Ørepine</string>
+    <string name="email">E-mail</string>
+    <string name="email_body_graph">"Se glukosediagrammet med data, der er indsamlet de seneste %1$s fra mit Eversense CGM-system.
+
+Bemærk: Hvis billedet ikke kan vises, kan du prøve at åbne det i en browser.
+"</string>
+    <string name="email_body_pie">"Se glukosediagrammet med data, der er indsamlet de seneste %d fra mit Eversense CGM-system.
+
+Bemærk: Hvis du har problemer med visningen af billedet, kan du forsøge at åbne det i en browser.
+"</string>
+    <string name="email_body_table">Se glukosestatistikrapporten med data, der er indsamlet de seneste %d fra mit Eversense CGM-system.</string>
+    <string name="email_body_weekly">Se den ugentlige modaloversigtsrapport med data, der er indsamlet de seneste 7 dage fra mit Eversense CGM-system.</string>
+    <string name="email_subject_graph">Sensordata</string>
+    <string name="email_subject_pie_chart">Rapport for cirkeldiagram for glukose</string>
+    <string name="email_subject_pie_table">Rapport for glukosestatistik</string>
+    <string name="email_subject_weekly">Ugentlig modaloversigtsrapport</string>
+    <string name="empty_battery_alarm_help_message">"Fjern transmitteren fra din krop, inden du forbinder transmitteren til strømforsyningen og oplader batteriet. 
+
+Transmitteren indhenter ikke oplysninger fra sensoren under opladningen. Du modtager ikke glukoseoplysninger, når transmitteren lader."</string>
+    <string name="empty_battery_alarm_message">Batteriet i din transmitter er afladet. Oplad din transmitter nu for at genoptage visning af sensorglukose.</string>
+    <string name="empty_battery_alarm_title">Batteri afladet</string>
+    <string name="end">Slut</string>
+    <string name="estimated_days_remaining_alarm_message">Anslået antal dage, din sensor foretager målinger fra datoen for denne meddelelse, er 4. Kontakt lægen for at aftale udskiftning.</string>
+    <string name="estimated_days_remaining_alarm_title">Anslået antal resterende dage</string>
+    <string name="eula">SLUTBRUGERLICENSAFTALE</string>
+    <string name="eula_confirmation_text">"Ved at klikke på \"Acceptér\" nedenfor accepterer jeg vilkårene i slutbrugerlicensaftalen (EULA), Senseonics' fortrolighedspolitik og vilkår for brug og, under min brug af Eversense®-systemet, deres fremtidige opdateringer. Jeg accepterer opbevaring, transmission og brug af mine data, herunder opbevaring i Storbritannien uden begrænsning og overførsel til USA til begrænsede formål (såsom teknisk support og kundesupport), i henhold til slutbrugerlicensaftalen og fortrolighedspolitikken, og jeg anerkender, at sådanne databestemmelser giver fuld funktionalitet og understøttelse af systemet."</string>
+    <string name="eula_menu">Licensaftale</string>
+    <string name="eula_screen">Slutbrugerlicensaftaleskærm</string>
+    <string name="evening">Aften</string>
+    <string name="evening_time">Aftentidspunkt</string>
+    <string name="event_cal_accepted_title">Anvendt</string>
+    <string name="event_cal_not_entered_title">Ikke indtastet</string>
+    <string name="event_cal_rejected_auto_link_title">Automatisk forbindelsestilstand</string>
+    <string name="event_cal_rejected_blinded_title">Blændet</string>
+    <string name="event_cal_rejected_data_title">Ikke tilstrækkelige data</string>
+    <string name="event_cal_rejected_not_ready_title">Ikke klar</string>
+    <string name="event_cal_rejected_other_title">Anden fejl</string>
+    <string name="event_cal_rejected_rate_title">Høj ændringshastighed</string>
+    <string name="event_cal_rejected_replacement_title">Sensorudskiftning påkrævet</string>
+    <string name="event_cal_rejected_too_different_title">Under gennemsyn</string>
+    <string name="event_cal_rejected_too_high_title">For høj</string>
+    <string name="event_cal_rejected_too_low_title">For lav</string>
+    <string name="event_log">Hændelseslog</string>
+    <string name="excellent">Fremragende</string>
+    <string name="exercise_event">Motion</string>
+    <string name="exit_app">Afslut</string>
+    <string name="faq">Ofte stillede spørgsmål</string>
+    <string name="fever">Feber</string>
+    <string name="file_corrupted">Korrupt fil</string>
+    <string name="file_corrupted_text">Kunne ikke downloade sensorparameterfil. Kontakt kundesupport.</string>
+    <string name="finish">Udfør</string>
+    <string name="flu">Influenza</string>
+    <string name="force_logout_text_w_email">Du er blevet logget ud på grund af forkert e-mail eller adgangskode.</string>
+    <string name="forgot_my_password">Glemt min adgangskode</string>
+    <string name="general_error_saving_data">Fejl ved lagring af data</string>
+    <string name="general_error_saving_data_text">Data er ikke lagret på serveren. Prøv igen. Kontakt kundesupport, hvis fejlen fortsætter.</string>
+    <string name="glucose_above_high_alert_level">Glukose over høj beskedgrænse</string>
+    <string name="glucose_above_high_target_level">Glukose høj grænseværdi</string>
+    <string name="glucose_alert_levels">Glukose beskedgrænse</string>
+    <string name="glucose_below_low_alert_level">Glukose under lav beskedgrænse</string>
+    <string name="glucose_below_low_target_level">Glukosender lav grænseværdi</string>
+    <string name="glucose_event">Glukose</string>
+    <string name="glucose_event_submit_title">Bekræft glukose</string>
+    <string name="glucose_level_distribution">Cirkeldiagram for glukose (%1$s)</string>
+    <string name="glucose_target_levels">Glukosegrænseværdier</string>
+    <string name="glucose_unit">Glukoseenheder</string>
+    <string name="glucose_within_target_levels">Glukose inden for grænseværdi</string>
+    <string name="good">God</string>
+    <string name="grams">gram</string>
+    <string name="health_event">Helbred</string>
+    <string name="help">Hjælp</string>
+    <string name="hide">Skjul</string>
+    <string name="hide_event"><b>Skjul hændelse</b></string>
+    <string name="hide_event_question">Er du sikker på, du vil skjule denne hændelse?</string>
+    <string name="high">Høj</string>
+    <string name="high_alert">Høj-besked</string>
+    <string name="high_ambient_light_alarm_help_message">"For at reducere transmitterens eksponering for lys kan du prøve en eller flere af følgende: 
+-Ophold dig i et område, hvor der er mindre lys 
+-Bær transmitteren under tøjet"</string>
+    <string name="high_ambient_light_alarm_message_2">Din sensor er udsat for for meget lys. Reducer sensorens eksponering for lys for at genoptage modtagelse af glukoseaflæsninger. Kontakt kundesupport, hvis problemet fortsætter.</string>
+    <string name="high_ambient_light_alarm_title">Kraftigt omgivende lys</string>
+    <string name="high_glucose_alarm_help_message_2" formatted="false">"Du har indstillet din Høj glukose besked til %value%. Når du når denne grænseværdi for din glukose, vil din transmitter og din smartphone afgive en besked. Din værdi kan ligge på eller over grænseværdien for Høj glukose besked. 
+
+Bekræft altid dine glukoseværdier med en blodsukkermåler inden der træffes beslutning om behandling. 
+
+Hvis du ønsker at ændre din indstilling for Høj glukose besked, skal du gå til Menu -> Indstillinger -> Glukose."</string>
+    <string name="high_glucose_alarm_message_2">Din sensorglukoseværdi ligger på eller over din indstilling for Høj glukose besked %d. Bekræft glukoseværdi med blodsukkermålertest.</string>
+    <string name="high_glucose_alarm_title">Høj glukose</string>
+    <string name="high_glucose_alert_help_message">"Du har indstillet din Besked om høj glukose til %@. Når du når denne grænseværdi for din glukose, vil din transmitter og din smartphone afgive en alarm. Din værdi kan ligge på eller over grænseværdien for Besked om høj glukose. 
+
+Bekræft altid dine glukoseværdier med en blodsukkermåler inden beslutning om behandling. 
+
+Bemærk, at din indstilling for Besked om høj glukose ikke er det samme som din indstilling for Alarm for høj glukose. 
+
+Hvis du ønsker at ændre din indstilling for Besked om høj glukose, skal du gå til Menu -> Indstillinger -> Glukose."</string>
+    <string name="high_glucose_alert_message">Din sensorglukoseværdi ligger på eller over din indstilling for Høj glukose besked %d.</string>
+    <string name="high_glucose_alert_title">Høj glukose</string>
+    <string name="high_symptoms">Sympt. på høj glukose</string>
+    <string name="high_target">Høj grænseværdi</string>
+    <string name="home">Mit glukose</string>
+    <string name="hours_remaining">timer tilbage</string>
+    <string name="hr">hr</string>
+    <string name="i_do_not_have_a_glucose_sensor">Jeg har ikke en Smart Transmitter</string>
+    <string name="i_have_glucose_sensor">Jeg har en Smart Transmitter</string>
+    <string name="image_description">Billede</string>
+    <string name="incompatible_fw_version_body_2">Inkompatibel transmittersoftware registreret. Kontakt kundesupport.</string>
+    <string name="incompatible_fw_version_title_2">Inkompatibel transmittersoftware</string>
+    <string name="incompatible_sensor_file">Ikke-kompatibel sensorfil</string>
+    <string name="incompatible_sensor_file_text">Ikke-kompatibel sensorfil (version: %%) registreret. Kontakt kundesupport.</string>
+    <string name="infection">Infektion</string>
+    <string name="init_phase">Initialisering</string>
+    <string name="init_phase_notif">Initialiseringsfase (%1$d kalibreringer mangler)</string>
+    <string name="insertion_date">Indsættelsesdato</string>
+    <string name="insertion_time">Indsættelsestidspunkt</string>
+    <string name="insulin_event">Insulin</string>
+    <string name="insulin_type">Type</string>
+    <string name="intensity">Intensitet</string>
+    <string name="intermediate_acting">Middelvirkende</string>
+    <string name="invalid_device_type">Ugyldig enhedstype</string>
+    <string name="invalid_device_type_text">Ugyldig enhedstype. Prøv igen. Kontakt kundesupport, hvis fejlen fortsætter.</string>
+    <string name="invalid_email">Ugyldig e-mail</string>
+    <string name="invalid_error_text">Ingen internetforbindelse registreret. Opret forbindelse til internettet for at hente den seneste version.</string>
+    <string name="invalid_password">Ugyldig adgangskode</string>
+    <string name="invalid_user_credentials_text_w_email">E-mailen eller adgangskoden er forkert. Prøv igen. Kontakt kundesupport, hvis fejlen fortsætter.</string>
+    <string name="invalid_user_credentials_w_email">Forkert e-mail eller adgangskode</string>
+    <string name="last_cal">Seneste kal.</string>
+    <string name="last_synced_on">Seneste synk.</string>
+    <string name="less_than_one_hour">1 time tilbage</string>
+    <string name="link_detected_sensor">Forbindelse registreret, sensor</string>
+    <string name="link_detected_sensor_text_2">Ikke-forbundet sensor registreret. Tryk på Forbind registreret sensor for at fortsætte.</string>
+    <string name="link_sensor">Forb. sensor</string>
+    <string name="linked_sensor">Forbundet sensor</string>
+    <string name="linking_process_complete">3. Forbindelsesproces gennemført</string>
+    <string name="linking_sensor">2. Forbinder sensor</string>
+    <string name="log_in">Log ind</string>
+    <string name="log_out">Log ud</string>
+    <string name="log_out_text">Hvis du logger ud, vil du ikke kunne se glukosedata i Eversense App, før du logger på igen. Er du sikker på, du vil logge ud?</string>
+    <string name="login_success">Login gennemført</string>
+    <string name="long_acting">Langtidsvirkende</string>
+    <string name="low">Lav</string>
+    <string name="low_alert">Lav-besked</string>
+    <string name="low_battery_notification_help_message">Batteriniveauet i din transmitter er lav. Oplad snarest.</string>
+    <string name="low_battery_notification_message">Batteriniveauet i din transmitter er lav. Oplad snarest.</string>
+    <string name="low_battery_notification_title">Oplad transmitter</string>
+    <string name="low_glucose_alarm_help_message_2" formatted="false">"Du har indstillet din Lav glukose besked til %value%. Når du når denne grænseværdi for din glukose, vil din transmitter og din smartphone afgive en besked. Din værdi kan ligge på eller under grænseværdien for Lav glukose besked. 
+
+Bekræft altid dine glukoseværdier med en blodsukkermåler inden beslutning om behandling. 
+
+Hvis du ønsker at ændre din indstilling for Lav glukose besked, skal du gå til Menu -> Indstillinger -> Glukose."</string>
+    <string name="low_glucose_alarm_message_2">Din sensorglukoseværdi ligger på eller under din indstilling for Lav glukose besked %d. Bekræft glukoseværdi med blodsukkermålertest.</string>
+    <string name="low_glucose_alarm_title">Lav glukose</string>
+    <string name="low_glucose_alert_help_message" formatted="false">"Du har indstillet din Besked om lav glukose til %value%. Når du når denne grænseværdi for din glukose, vil din transmitter og din smartphone afgive en alarm. Din værdi kan ligge på eller under grænseværdien for Besked om lav glukose.
+
+Bekræft altid dine glukoseværdier med en blodsukkermåler inden beslutning om behandling. 
+
+Bemærk, at din indstilling for Besked om lav glukose ikke er den samme som din indstilling for Alarm for lav glukose. 
+
+Hvis du ønsker at ændre din indstilling for Besked om lav glukose, skal du gå til Menu -> Indstillinger -> Glukose."</string>
+    <string name="low_glucose_alert_message">Din sensorglukoseværdi ligger på eller under din indstilling for Lav glukose besked %d.</string>
+    <string name="low_glucose_alert_title">Lav glukose</string>
+    <string name="low_symptoms">Sympt. på lav glukose</string>
+    <string name="low_target">Lav grænseværdi</string>
+    <string name="lunch">Frokost</string>
+    <string name="machine">Maskine</string>
+    <string name="manual_text">Udnyt funktionerne ved manuel indtastning af data.</string>
+    <string name="meal_event">Måltid</string>
+    <string name="meal_start_end_time_text">Vælg START- og SLUT-tidspunkt</string>
+    <string name="meal_times">Spisetider</string>
+    <string name="medium">Mellem</string>
+    <string name="menstrual_period">Menstruationsperiode</string>
+    <string name="mg_Dl">mg/dL</string>
+    <string name="mg_dl_min">mg/dL/min</string>
+    <string name="min">min.</string>
+    <string name="minutes_from_alert_level">Minutter</string>
+    <string name="mixed_50_50">Blandet 50/50</string>
+    <string name="mixed_70_30">Blandet 70/30</string>
+    <string name="mixed_75_25">Blandet 75/25</string>
+    <string name="mmol_L">mmol/L</string>
+    <string name="mmol_l_min">mmol/L/min</string>
+    <string name="model">Model</string>
+    <string name="model_number">Modelnummer</string>
+    <string name="modify_evening_time">Advarsel: Morgen- og aftenkalibreringstidspunkter skal ligge mellem 10 og 14 timer fra hinanden (f.eks. kl. 08.00 og 18.00). Ændr aftentidspunktet, før du forlader skærmbilledet.</string>
+    <string name="more_than_max_pending_alerts">Du har mere end 2 afventende beskeder. Vil du se dem alle?</string>
+    <string name="morning">Morgen</string>
+    <string name="morning_time">Morgentidspunkt</string>
+    <string name="my_account_sync">Synk.</string>
+    <string name="my_sensor">Min sensor</string>
+    <string name="my_transmitter">Min transmitter</string>
+    <string name="name">Navn</string>
+    <string name="nausea_vomiting">Kvalme/opkast</string>
+    <string name="new_sensor_detected_notification_help_message">Den indsatte sensor og transmitter skal være forbundet med hinanden for at indlede kommunikation. Tryk på \"Forbind sensor\" for at gennemgå forbindelsesprocessen. Din nye sensor skal akklimatisere sig til din krops reaktion. Vent 24 timer, før du bærer transmitteren over sensoren, og påbegynd kalibreringsinitialiseringsfasen.</string>
+    <string name="new_sensor_detected_notification_message">Der er registreret en ny sensor. Hvis du har en ny sensor og/eller transmitter, bedes du forbinde din sensor og transmitter.</string>
+    <string name="new_sensor_detected_notification_title">Ny sensor registreret</string>
+    <string name="next">Næste</string>
+    <string name="next_schedule_cal_time"><b>Næste planlagte kalibreringstidspunkt</b></string>
+    <string name="next_schedule_cal_unknown">Ikke tilgængelig</string>
+    <string name="no">Nej</string>
+    <string name="no_browser_found_2">Der blev ikke fundet nogen browser til at åbne websider i. Installer en browser fra Google Play-butikken.</string>
+    <string name="no_glucose_display">Ingen viste glukoseværdier</string>
+    <string name="no_sensor_detected_alarm_message">Din transmitter (%@) kan ikke finde din sensor. Sensorglukoseværdie vil ikke blive vist, før transmitteren er genanbragt direkte over sensoren. Se Placeringsguide for at få hjælp.</string>
+    <string name="no_sensor_detected_alarm_title">Ingen sensor registreret</string>
+    <string name="no_sensor_glucose_reading">Ingen sensorglukosemåling</string>
+    <string name="no_sensor_linked">Din transmitter er ikke forbundet med en sensor. Forbind en sensor, og prøv igen.</string>
+    <string name="no_signal">Intet signal</string>
+    <string name="no_statistics">Ingen tilgængelig statistik på grund af manglende data. Vent på indsamling af flere data.</string>
+    <string name="no_transmitter_connected">Ingen forbundet transmitter</string>
+    <string name="normal">Normal</string>
+    <string name="not_available">I/R</string>
+    <string name="not_connected">Ikke forbundet</string>
+    <string name="not_enough_data">Ikke nok sensordata indsamlet.</string>
+    <string name="not_now">Ikke nu</string>
+    <string name="notes">Notater</string>
+    <string name="notification">Meddelelse</string>
+    <string name="notification_channel_alert">Eversense beskeder og meddelelser</string>
+    <string name="notification_channel_foreground">Eversense systemoplysninger</string>
+    <string name="notifications_2">Beskedhistorik</string>
+    <string name="now">Nu</string>
+    <string name="ok">OK</string>
+    <string name="one_day_distribution">Glukosestatistik (%1$s)</string>
+    <string name="or">ELLER</string>
+    <string name="other">Andet</string>
+    <string name="out_of_range_high_glucose_alarm_help_message" formatted="false">"Bekræft altid din glukoseværdi med en blodsukkermåler inden beslutning om behandling. 
+
+Når sensorglukoseværdien ligger på eller under %value%, genoptages visning af sensorglukoseværdien."</string>
+    <string name="out_of_range_high_glucose_alarm_message_2">Din sensorglukoseværdi er højere end %1$s. Mål din glukose manuelt med din blodsukkermåler.</string>
+    <string name="out_of_range_high_glucose_alarm_title">Uden for område, høj glukose</string>
+    <string name="out_of_range_low_glucose_alarm_help_message" formatted="false">"Bekræft altid din glukoseværdi med en blodsukkermåler inden der træffes beslutning om behandling. 
+
+Når sensorglukoseværdien ligger på eller over %value%, genoptages visning af sensorglukoseværdien."</string>
+    <string name="out_of_range_low_glucose_alarm_message_2">Din sensorglukoseværdi er lavere end %1$s. Mål din glukose manuelt med din blodsukkermåler.</string>
+    <string name="out_of_range_low_glucose_alarm_title">Uden for område, lav glukose</string>
+    <string name="pair_text">Transmitter skal parres for automatisk modtagelse og sporing af dine glukosedata.</string>
+    <string name="pair_text_title">PAR DIN TRANSMITTER</string>
+    <string name="password">Adgangskode</string>
+    <string name="period">Periode</string>
+    <string name="phase_start">Fasestart</string>
+    <string name="phase_text">Fase</string>
+    <string name="place_sensor">Anbring din transmitter over sensoren, og prøv igen om %d minutter.</string>
+    <string name="place_transmitter_text">Anbring transmitteren direkte over sensor for bedste signal.</string>
+    <string name="placement_guide">Placeringsguide</string>
+    <string name="placement_in_progress">Placering i gang ...</string>
+    <string name="placement_low_battery_body_2">Lav transmitterbatteriniveau er registreret. Signalstyrke vil opdatere langsommere end normalt (én gang hver %1$d minutter).</string>
+    <string name="placement_low_battery_title">Lav batteriniveau registreret</string>
+    <string name="placement_mode_body">Ønsker du fortsat at bruge siden Placeringsguide?</string>
+    <string name="placement_mode_title">Placeringstilstand</string>
+    <string name="poor">Dårlig</string>
+    <string name="power_failure_alarm_help_message">Din transmitter genjusterer aktuelt tidspunkt/dato baseret på din smartphone. Du skal oplade transmitteren dagligt for at forebygge ukorrekte tider.</string>
+    <string name="power_failure_alarm_message">Din transmitter har et forældet eller ugyldigt dato-/tidsstempel. Appen opdaterer tidspunktet på transmitteren. Hvis du fortsat oplever denne fejl, bedes du kontakte kundesupport.</string>
+    <string name="power_failure_alarm_title">Ugyldigt transmittertidspunkt</string>
+    <string name="predicted_high_glucose_alert_help_message_2" formatted="false">"Du har indstillet dine Forudsigende beskeder til %predictiveMins% minutter før dit sensorglukoseniveau, hvis det fortsætter med nuværende hastighed, krydser grænseværdien for glukosebesked. 
+
+Bekræft altid dine glukoseværdier med en blodsukkermåler inden der træffes beslutning om behandling. 
+
+Hvis du ønsker at ændre din indstilling for Forudsigende beskeder, skal du gå til Menu -> Indstillinger -> Glukose."</string>
+    <string name="predicted_high_glucose_alert_message_3">Din sensorglukoseværdi er stigende og vil nå din værdi for Høj glukose besked om %d minutter. Mål dit glukose manuelt med din hjemmeblodsukkermåler.</string>
+    <string name="predicted_high_glucose_alert_title">Forudsagt høj glukose</string>
+    <string name="predicted_low_glucose_alert_help_message_2" formatted="false">"Du har indstillet dine Forudsigende beskeder til %predictiveMins% minutter før dit sensorglukoseniveau, hvis det fortsætter med nuværende hastighed, krydser grænseværdien for glukosebesked. 
+
+Bekræft altid dine glukoseværdier med en blodsukkermåler inden der træffes beslutning om behandling. 
+
+Hvis du ønsker at ændre din indstilling for Forudsigende beskeder, skal du gå til Menu -> Indstillinger -> Glukose."</string>
+    <string name="predicted_low_glucose_alert_message_2">Din sensorglukoseværdi er faldende og vil nå din værdi for Lav glukose besked om %d minutter. Mål dit glukose manuelt med din hjemmeblodsukkermåler.</string>
+    <string name="predicted_low_glucose_alert_title">Forudsagt lav glukose</string>
+    <string name="predictive_alerts">Forudsigende beskeder</string>
+    <string name="predictive_text_2">Få besked X minutter før dit sensorglukoseniveau, hvis det fortsætter med nuværende hastighed, krydser grænseværdi for glukosebesked.</string>
+    <string name="privacy_statement">Erklæring om beskyttelse af personlige oplysninger</string>
+    <string name="product_information">Produktoplysninger</string>
+    <string name="productinfo">"&lt;html>&lt;body style='margin:0;padding:0;'> &lt;table cellpadding=\"5\"> &lt;tr > &lt;td valign=\"top\">Virksomhed:&lt;/td> &lt;td>Senseonics, Inc.&lt;br/>20451 Seneca Meadows Parkway,&lt;br/>Germantown, Maryland,&lt;br/>USA&lt;br/>&lt;a href='http://www.eversensediabetes.com'>www.eversensediabetes.com&lt;/a>&lt;/td> &lt;/tr> &lt;tr > &lt;td>Version:&lt;/td> &lt;td>@version&lt;/td> &lt;/tr> &lt;tr > &lt;td>Frigivet:&lt;/td> &lt;td>@releasedate&lt;/td> &lt;/tr> &lt;tr> &lt;td>Kompatibilitet:&lt;/td> &lt;td>&lt;a href='https://ous.eversensediabetes.com/compatibility/'>https://&lt;br/>ous.eversensediabetes.com/&lt;br/>compatibility/&lt;/a>&lt;/td> &lt;/tr> &lt;tr> &lt;td>&lt;/td> &lt;td>&lt;/td> &lt;/tr> &lt;tr> &lt;td>&lt;/td> &lt;td>&lt;/td> &lt;/tr> &lt;tr> &lt;td colspan=2 align='center'> © 2016 Senseonics, Inc. &lt;/td> &lt;/tr> &lt;/table> &lt;/body>&lt;/html>"</string>
+    <string name="rapid_acting">Hurtigtvirkende</string>
+    <string name="rate_alerts">Hastighedsbeskeder</string>
+    <string name="rate_falling_alert_mg_message_2" formatted="false">Din sensorglukoseværdi falder med en hastighed, der er over eller lig med din indstilling for ændringshastighed på %.1f %@. Mål dit glukose manuelt med din hjemmeblodsukkermåler.</string>
+    <string name="rate_falling_alert_mg_mmol_help_message" formatted="false">"Du har indstillet din Ændringshastighed til at advare dig, når din sensorglukose ændres hurtigere end %rate%. 
+
+Bekræft altid dine glukoseværdier med en blodsukkermåler inden der træffes beslutning om behandling. 
+
+Hvis du ønsker at ændre din indstilling for Ændringshastighed, skal du gå til Menu -> Indstillinger -> Glukose."</string>
+    <string name="rate_falling_alert_mmol_message_2" formatted="false">Din sensorglukoseværdi falder med en hastighed, der er over eller lig med din indstilling for ændringshastighed på %.2f %@. Mål dit glukose manuelt med din hjemmeblodsukkermåler.</string>
+    <string name="rate_falling_alert_title">Faldende hastighed</string>
+    <string name="rate_of_change">Ændringshast.</string>
+    <string name="rate_rising_alert_mg_message_2" formatted="false">Din sensorglukoseværdi stiger med en hastighed, der er over eller lig med din indstilling for ændringshastighed på %.1f %@. Mål dit glukose manuelt med din hjemmeblodsukkermåler.</string>
+    <string name="rate_rising_alert_mg_mmol_help_message" formatted="false">"Du har indstillet din Ændringshastighed til at advare dig, når din sensorglukose ændres hurtigere end %rate%. 
+
+Bekræft altid dine glukoseværdier med en blodsukkermåler inden der træffes beslutning om behandling. 
+
+Hvis du ønsker at ændre din indstilling for Ændringshastighed, skal du gå til Menu -> Indstillinger -> Glukose."</string>
+    <string name="rate_rising_alert_mmol_message_2" formatted="false">Din sensorglukoseværdi stiger med en hastighed, der er over eller lig med din indstilling for ændringshastighed på %.2f %@. Mål dit glukose manuelt med din hjemmeblodsukkermåler.</string>
+    <string name="rate_rising_alert_title">Stigende hastighed</string>
+    <string name="rate_text">Få besked, når dit sensorglukoseniveau ændres (stiger eller falder) hurtigere end den fastlagte ændringshastighed.</string>
+    <string name="rate_too_high">Din sensorglukose ændres for hurtigt. Vent venligst 10 minutter, og prøv igen.</string>
+    <string name="request_timeout">Timeout for anmodning</string>
+    <string name="request_timeout_text">Timeout for anmodning forårsaget af internetforbindelse eller serverproblem. Kontroller din internetforbindelse. Kontakt kundesupport, hvis fejlen fortsætter.</string>
+    <string name="retrieving_parameters">1. Indlæser parametre</string>
+    <string name="ringtones">RINGETONER</string>
+    <string name="rssi_value">RSSI</string>
+    <string name="save">Gem</string>
+    <string name="search_menu_title">Søg</string>
+    <string name="searching">Søger...</string>
+    <string name="select_transmitter_text">Vælg din transmitter på listen nedenfor for at oprette forbindelse</string>
+    <string name="sensor_days_since_insertion">Dage siden indsættelse</string>
+    <string name="sensor_details">Sensoroplysninger</string>
+    <string name="sensor_eol">Sensor er udfaset. Kontakt din læge.</string>
+    <string name="sensor_file_error">Sensorfilfejl</string>
+    <string name="sensor_file_error_text">Kunne ikke downloade sensorparameterfil. Prøv igen. Kontakt kundesupport, hvis fejlen fortsætter.</string>
+    <string name="sensor_hardware_error_alarm_help_message">Din transmitter (%@) har rapporteret en sensorhardwarefejl og vil ikke længere vise sensorglukose. Kontakt kundesupport for afhjælpning af fejl.</string>
+    <string name="sensor_hardware_error_alarm_message">Din transmitter (%@) har rapporteret en sensorhardwarefejl og vil ikke længere vise sensorglukose. Kontakt kundesupport for afhjælpning af fejl.</string>
+    <string name="sensor_hardware_error_alarm_title">Sensorhardwarefejl</string>
+    <string name="sensor_high_temperature_alarm_message">Din sensors temperatur er for høj. Søg et køligere sted hen for fortsat modtagelse af sensorglukoseværdier. Kontakt kundesupport, hvis problemet fortsætter.</string>
+    <string name="sensor_high_temperature_alarm_title">Høj sensortemperatur</string>
+    <string name="sensor_instability_alarm_help_message">I geninitialiseringsfasen skal du udføre fire blodsukkermålertests med 2-12 timers mellemrum. Dit system guider dig automatisk gennem kalibreringsprocessen.</string>
+    <string name="sensor_instability_alarm_message">Systemet kræver geninitialisering. Du skal udføre fire kalibreringstests vha. fingerprik.</string>
+    <string name="sensor_instability_alarm_title">Sensorkontrol</string>
+    <string name="sensor_link_failure_body">Prøv igen. Kontakt kundesupport, hvis problemet fortsætter.</string>
+    <string name="sensor_link_failure_title">Forbindelse af sensoren mislykket</string>
+    <string name="sensor_low_high_temperature_alarm_help_message">Hold din transmitter tændt over sensoren. Når sensortemperaturen er mellem 27-40 C, vil den fortsætte med levering af sensorglukoseværdier.</string>
+    <string name="sensor_low_temperature_alarm_message">Din sensors temperatur er for lav. Søg et varmere sted hen for fortsat modtagelse af sensorglukoseværdier. Kontakt kundesupport, hvis problemet fortsætter.</string>
+    <string name="sensor_low_temperature_alarm_title">Lav sensortemperatur</string>
+    <string name="sensor_on_hold_alarm_help_message">Når initialiseringsfasen starter efter 6 timer, vil systemet bede dig kalibrere med fingerpriktests.</string>
+    <string name="sensor_on_hold_alarm_message">System er suspenderet i 6 timer, og geninitialisering starter om 6 timer.</string>
+    <string name="sensor_on_hold_alarm_title">Sensor suspenderet</string>
+    <string name="sensor_retired_alarm_help_message">"Kontakt din læge for at få fjernet den aktuelle sensor og erstattet den med en ny sensor. 
+
+Din aktuelle sensor kan ikke længere levere glukoseværdier."</string>
+    <string name="sensor_retired_alarm_message">Din sensor skal udskiftes. Kontakt din læge for udskiftning af sensor.</string>
+    <string name="sensor_retired_alarm_title">Sensorudskiftning</string>
+    <string name="sensor_retired_prematurely_alarm_message">Din sensor kan ikke længere måle glukoseværdier. Kontakt din læge for udskiftning af sensor.</string>
+    <string name="sensor_retired_prematurely_alarm_title">Sensorudskiftning</string>
+    <string name="sensor_retired_prematurely_help_message">Sensoren er holdt op med at fungere og kan ikke længere måle glukoseværdier. Kontakt din læge for udskiftning af sensoren.</string>
+    <string name="sensor_retirement_14_days_notification_message_2">Sensoren skal udskiftes inden for de næste 14 dage, og du vil ikke længere kunne modtage sensorglukoseværdier. Kontakt din læge for udskiftning af sensor.</string>
+    <string name="sensor_retirement_14_days_notification_title">Sensorudskiftning</string>
+    <string name="sensor_retirement_1_7_day_alarm_help_message">Det er tid til at fjerne og udskifte din sensor. Kontakt din læge for at lave en aftale.</string>
+    <string name="sensor_retirement_1_day_alarm_message">Sensoren skal udskiftes inden i morgen, og du vil ikke længere kunne modtage sensorglukoseværdier. Kontakt din læge for udskiftning af sensor.</string>
+    <string name="sensor_retirement_1_day_alarm_title">Sensorudskiftning</string>
+    <string name="sensor_retirement_2_days_alarm_message_2">Sensoren skal udskiftes inden for de næste 2 dage, og du vil ikke længere kunne modtage sensorglukoseværdier. Kontakt din læge for udskiftning af sensor.</string>
+    <string name="sensor_retirement_2_days_alarm_title">Sensorudskiftning</string>
+    <string name="sensor_retirement_30_days_notification_message">Sensoren skal udskiftes inden for de næste 30 dage, og du vil ikke længere kunne modtage sensorglukoseværdier. Kontakt din læge for udskiftning af sensor.</string>
+    <string name="sensor_retirement_30_days_notification_title">Sensorudskiftning</string>
+    <string name="sensor_retirement_3_days_alert_message_2">Sensoren skal udskiftes inden for de næste 3 dage, og du vil ikke længere kunne modtage sensorglukoseværdier. Kontakt din læge for udskiftning af sensor.</string>
+    <string name="sensor_retirement_3_days_alert_title">Sensorudskiftning</string>
+    <string name="sensor_retirement_7_days_alert_message_2">Sensoren skal udskiftes inden for de næste 7 dage, og du vil ikke længere kunne modtage sensorglukoseværdier. Kontakt din læge for udskiftning af sensor.</string>
+    <string name="sensor_retirement_7_days_alert_title">Sensorudskiftning</string>
+    <string name="sensor_retirement_agedout_alarm_message">Din sensor skal udskiftes inden for syv dage for fortsat modtagelse af sensorglukoseværdier. Kontakt din læge for udskiftning af sensor.</string>
+    <string name="sensor_retirement_agedout_help_message">Du vil ikke længere modtage sensorglukoseværdier efter syv dage. Kontakt din læge for udskiftning af sensoren.</string>
+    <string name="sensor_status_alarm_message_0">Din sensor har været indsat i 150 dage. Kontakt lægen hurtigst muligt for at aftale udskiftning.</string>
+    <string name="sensor_status_alarm_message_1">Din sensor har været indsat i 146 dage. Kontakt lægen hurtigst muligt for at aftale udskiftning.</string>
+    <string name="sensor_status_alarm_message_2">Din sensor har været indsat i 136 dage. Kontakt lægen for at aftale udskiftning.</string>
+    <string name="sensor_status_alarm_message_3">Din sensor har været indsat i 120 dage. Kontakt lægen for at aftale udskiftning.</string>
+    <string name="sensor_status_alarm_title">Sensorstatus</string>
+    <string name="serial_number">Serienummer</string>
+    <string name="serial_number_sensor">Forbundet SN</string>
+    <string name="server_error">Serverfejl</string>
+    <string name="server_error_text">Der opstod en serverfejl. Prøv igen. Kontakt kundesupport, hvis fejlen fortsætter.</string>
+    <string name="set_alert_levels">Indstil de glukoseniveauer, som du ønsker, at systemet skal afgive besked om, hvis niveauerne nås.</string>
+    <string name="set_calibration_time_text">"Indstil morgen- og aftentidspunkter, hvor du vil påmindes om kalibrering.
+
+Bemærk: Morgen- og aftenkalibreringstidspunkter skal ligge mellem 10 og 14 timer fra hinanden."</string>
+    <string name="set_meal_times_text">Tidsperioder for spisetidstabel</string>
+    <string name="set_target_levels">Indstil de glukosegrænser, som du ønsker at holde dig inden for.</string>
+    <string name="settings">Indstillinger</string>
+    <string name="severity">Alvorlighedsgrad</string>
+    <string name="share_my_data">Del mine data</string>
+    <string name="short_acting">Korttidsvirkende</string>
+    <string name="shortcut_breakfast">Mgm</string>
+    <string name="shortcut_dinner">Aftm</string>
+    <string name="shortcut_lunch">Frk</string>
+    <string name="shortcut_sleep">Svn</string>
+    <string name="shortcut_snack">Mlm</string>
+    <string name="sleep">Søvn</string>
+    <string name="snack">Mellemmåltid</string>
+    <string name="sore_throat">Halsbetændelse</string>
+    <string name="sound_high_glucose_alarm_2">Høj glukose besked</string>
+    <string name="sound_high_snooze">Udsæt Alarm høj glukose</string>
+    <string name="sound_low_glucose_alarm_2">Lav glukose besked</string>
+    <string name="sound_low_snooze">Udsæt Alarm lav glukose</string>
+    <string name="sound_settings">Lydindstillinger</string>
+    <string name="sound_settings_description_2">Vælg lyde for høj/lav glukose besked og frekvens for gentagelse af lydene.</string>
+    <string name="start">Start</string>
+    <string name="statistics">Rapporter</string>
+    <string name="statistics_string">Statistik</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stddev">Stand.afvig.</string>
+    <string name="stop">Stop</string>
+    <string name="stress">Stress</string>
+    <string name="submit">Indsend</string>
+    <string name="sync_could_not_start_2">Synk. kunne ikke startes. Log ud og log ind igen på din konto.</string>
+    <string name="sync_days">Synkroniseringsdage</string>
+    <string name="sync_now">START SYNK.</string>
+    <string name="synced_success">Synkronisering gennemført</string>
+    <string name="syncing">SYNKRONISERER ...</string>
+    <string name="system">System</string>
+    <string name="target">Mål</string>
+    <string name="temp_profile_description">Indstil de glukoseniveauer, som du ønsker, at systemet skal afgive besked om, hvis din midlertidige profil er aktiveret. Tryk på START for at aktivere og STOP for at deaktivere.</string>
+    <string name="temp_profile_duration">%1$dtimer %2$dmin.</string>
+    <string name="temp_profile_glucose_settings_warning">Din midlertidige profil er aktiv, og glukoseindstillingerne, der er gemt her, aktiveres først, når den midlertidige profil deaktiveres eller udløber.</string>
+    <string name="temp_profile_time_left">%1$dtimer %2$dmin. tilbage</string>
+    <string name="temp_profile_title">Midlertidig profil</string>
+    <string name="temp_profile_turned_off_body">Din midlertidige profil er udløbet. Dine standardindstillinger for glukose genoptages nu.</string>
+    <string name="temp_profile_turned_off_title">Midlertidig profil deaktiveret</string>
+    <string name="time">Tidspunkt</string>
+    <string name="tips_connect_html_text">"Hvis du ikke kan etablere forbindelse til din transmitter, kan du prøve følgende trin:
+
+ * Kontroller, at transmitteren er opladet og ikke tilsluttet en lader.
+ * Slå Bluetooth fra og til via smartphoneindstillingsmenu.
+ * Sluk og tænd smartphone.
+ * Udfør 'Glem min enhed', og etabler parring."</string>
+    <string name="tips_connect_html_text_initial">"Forbind (\"par\") transmitteren første gang:
+
+ 1) Afbryd transmitteren fra USB.
+ 2) Tryk på knappen på transmitteren tre gange.
+ 3) Bekræft, at LED-lampen blinker GRØNT og GULT.
+ 4) Tryk på transmitterens navn (navngivet med SN på bageste mærkat) i listen ovenfor."</string>
+    <string name="tips_html_text">"* Vask hænder, og tør dem grundigt inden brug af teststrip
+ * Brug den korrekte størrelse bloddråbe
+ * Hold måleapparatet rent
+ * Foreslåede kalibreringstidspunkter – før måltider, før insulindosering, før sengetid, før træning."</string>
+    <string name="tired">Træt</string>
+    <string name="today">I DAG</string>
+    <string name="todayLow">I dag</string>
+    <string name="tomorrowLow">I morgen</string>
+    <string name="too_soon">Det er ikke tid til planlagt kalibrering. Prøv igen ved næste planlagte kalibreringstid.</string>
+    <string name="transmitter_details">Transmitteroplysninger</string>
+    <string name="transmitter_disconnected_notification_message">Din transmitter (%@) er blevet afbrudt. Forbind din transmitter for at genoptage modtagelse af alle meddelelser.</string>
+    <string name="transmitter_disconnected_notification_title">Transmitter afbrudt</string>
+    <string name="transmitter_error">Transmitterfejl</string>
+    <string name="transmitter_error_alarm_help_message">Kontakt kundesupport.</string>
+    <string name="transmitter_error_alarm_message_2">Din transmitter har registreret en fejl. Kontakt kundesupport.</string>
+    <string name="transmitter_error_alarm_title">Transmitterfejl</string>
+    <string name="transmitter_high_temperature_alarm_help_message">"Når transmittertemperaturen er under 42 C, vil den genoptage levering af sensorglukoseværdier. 
+
+Du kan midlertidigt fjerne transmitteren for at afkøle den. Husk dog at anbringe transmitteren over sensoren igen, når temperaturen er faldet. Transmitteren må ikke nedkøles i køleskab."</string>
+    <string name="transmitter_high_temperature_alarm_message_2">Din transmitters temperatur er for høj. Gå til et køligere område for igen at modtage glukosemålinger fra sensoren. Kontakt kundesupport, hvis problemet fortsætter.</string>
+    <string name="transmitter_high_temperature_alarm_title">Høj transmittertemperatur</string>
+    <string name="type">Type</string>
+    <string name="unit_descriptive_text_mgdl_mmol" formatted="false">Hvis du ønsker at ændre måleenheden til<b> %value%</b>, kan det kun ske på dette tidspunkt. Konsulter din læge, inden du ændrer denne indstilling, hvis du er usikker på valget af måleenhed.</string>
+    <string name="unit_example_text_mgdl">Eksempel: 160 &lt;b>mg/dL&lt;/b> (eller hvor som helst i området &lt;b>40–400 mg/dL&lt;/b>)</string>
+    <string name="unit_example_text_mmol">Eksempel: 8,9 &lt;b>mmol/L&lt;/b> (eller hvor som helst i området &lt;b>2,2–22,2 mmol/L&lt;/b>)</string>
+    <string name="unit_glucose_reading_changed">ændret</string>
+    <string name="unit_glucose_reading_set">indstil</string>
+    <string name="unit_glucose_reading_text_mgdl_mmol_2" formatted="false">Din glukosemåling har været<b> %value%</b>, som målt og vist i nedenstående måleenhed.</string>
+    <string name="unit_selected_text" formatted="false">Måleenhed:<b> %value%</b></string>
+    <string name="unit_title">MÅLEENHED</string>
+    <string name="units">Enheder</string>
+    <string name="unknown">Ukendt</string>
+    <string name="unknown_error">Ukendt fejl</string>
+    <string name="unknown_error_alert_message">Ukendt fejl. Hvis du fortsat oplever denne fejl, bedes du kontakte kundesupport. (%@)</string>
+    <string name="unknown_error_alert_title">Ukendt kode: %d</string>
+    <string name="unknown_error_text">Der er opstået en ukendt fejl. Prøv igen. Kontakt kundesupport, hvis fejlen fortsætter.</string>
+    <string name="unknown_help_message">Ukendt fejl. Hvis du fortsat oplever denne fejl, bedes du kontakte kundesupport. (%@)</string>
+    <string name="unknown_reason">Der kan ikke gennemføres en kalibrering på nuværende tidspunkt. Se kalibreringsafsnittet i din brugervejledning for nærmere oplysninger, og prøv igen senere.</string>
+    <string name="unsupported_mode">Din transmitter er i en tilstand, der ikke understøtter kalibrering. Kontakt din læge for yderligere spørgsmål.</string>
+    <string name="username">Brugernavn</string>
+    <string name="value">Værdi</string>
+    <string name="version_number">Firmwareversion</string>
+    <string name="very_low">Meget lav</string>
+    <string name="very_low_battery_alert_help_message">"Fjern transmitteren fra din krop, inden du forbinder transmitteren til strømforsyningen og oplader batteriet. 
+
+Transmitteren indhenter ikke oplysninger fra sensoren under opladningen. Du modtager ikke glukoseoplysninger, når transmitteren lader."</string>
+    <string name="very_low_battery_alert_message">Batteriniveauet i din transmitter er meget lav. Oplad batteriet i din transmitter nu.</string>
+    <string name="very_low_battery_alert_title">Oplad transmitter</string>
+    <string name="vibration_motor_alarm_help_message">Dit system vil fortsat vise glukoseværdier i de næste 72 timer. Du skal udskifte din transmitter for at kunne modtage glukosemålinger efter 72 timer. Kontakt kundesupport for udskiftning.</string>
+    <string name="vibration_motor_alarm_message">Din transmitter har registreret et problem med vibrationsmotoren og kan ikke længere afgive vibrationsadvarsler. Kontakt kundesupport for udskiftning af transmitteren.</string>
+    <string name="vibration_motor_alarm_title">Vibrationsmotor</string>
+    <string name="view">Vis</string>
+    <string name="wait_for_x_minutes">Prøv igen om %d minutter.</string>
+    <string name="waiting_post_calibration">Venter på sensormålinger efter kalibrering. Vent venligst %d minutter, og prøv igen.</string>
+    <string name="warm_up_phase">Opvarmning</string>
+    <string name="warmup_unknown">Din transmitter er i opvarmningsfase, og kalibrering er ikke påkrævet. Kontakt din læge for nærmere oplysninger.</string>
+    <string name="warning">Advarsel</string>
+    <string name="weekly_statistics">Ugentlig modaloversigt (%1$s)</string>
+    <string name="welcome">Velkommen</string>
+    <string name="wi_fi_disconnected">Forbindelse til internet afbrudt</string>
+    <string name="wi_fi_disconnected_text">Internetforbindelse kunne ikke registreres. Opret forbindelse til internettet, og prøv igen.</string>
+    <string name="within">Inden for</string>
+    <string name="within_target_levels">Inden for grænseværdier</string>
+    <string name="yes">Ja</string>
+</resources>

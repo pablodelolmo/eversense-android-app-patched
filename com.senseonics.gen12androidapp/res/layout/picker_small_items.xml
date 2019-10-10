@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="@dimen/dialog_width"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:background="@color/gray_popup_bar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/extra_large_text" android:textStyle="bold" android:textColor="@color/black" android:gravity="center" android:id="@id/title" android:padding="@dimen/box_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/extra_large_margin" android:layout_marginRight="@dimen/extra_large_margin">
+        <net.simonvt.numberpicker.NumberPicker android:id="@id/picker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/box_margin" android:minWidth="200.0dip" />
+        <net.simonvt.numberpicker.NumberPicker android:id="@id/picker2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/box_margin" android:minWidth="200.0dip" />
+    </LinearLayout>
+    <include layout="@layout/cancel_ok_buttons" />
+</LinearLayout>

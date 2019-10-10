@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="@dimen/box_margin" />
+    <RelativeLayout android:id="@id/layout" android:padding="@dimen/event_box_text_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@android:style/Widget.Holo.Button.Borderless">
+        <TextView android:textSize="@dimen/large_text" android:textColor="@android:color/black" android:gravity="center_vertical" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/duration" android:layout_toLeftOf="@id/rightLayout" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/rightLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/large_text" android:textColor="@color/black" android:id="@id/rightTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@id/arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/event_box_text_margin" android:src="@drawable/list_item_arrow" android:contentDescription="@string/image_description" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="@dimen/box_margin" />
+</LinearLayout>

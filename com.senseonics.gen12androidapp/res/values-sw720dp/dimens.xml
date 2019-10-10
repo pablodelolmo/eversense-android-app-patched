@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="add_event_menu_margin">300.0dip</dimen>
+    <dimen name="glucose_type_size">35.0dip</dimen>
+    <dimen name="glucose_value_size_mg_dl">200.0dip</dimen>
+    <dimen name="glucose_value_size_mmol_l">180.0dip</dimen>
+    <dimen name="notification_large_text">25.0dip</dimen>
+    <dimen name="popup_glucose_value_size">90.0dip</dimen>
+</resources>

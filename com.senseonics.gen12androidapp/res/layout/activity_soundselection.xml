@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/gray_bg" android:paddingTop="@dimen/box_margin" android:paddingBottom="@dimen/box_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:gravity="left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/box_margin" android:text="@string/ringtones" />
+    <LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/box_margin" android:layout_marginRight="@dimen/box_margin" style="@android:style/Widget.Holo.Button.Borderless">
+        <View android:background="@color/blue" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+        <ListView android:scrollbarStyle="insideInset" android:id="@id/soundList" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@color/gray_horizontal_divider" android:dividerHeight="1.0dip" />
+        <View android:background="@color/blue" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+    </LinearLayout>
+</LinearLayout>

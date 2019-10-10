@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/box_margin" android:layout_marginBottom="@dimen/box_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/header_section" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/box_margin">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toStartOf="@id/arrowOpenClose">
+            <TextView android:textSize="@dimen/large_text" android:textStyle="bold" android:textColor="@color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/rate_alerts" />
+            <TextView android:textSize="@dimen/medium_text" android:textStyle="italic" android:textColor="@color/detail_font_color" android:gravity="left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/rate_text_2" />
+        </LinearLayout>
+        <ImageView android:id="@id/arrowOpenClose" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/box_margin" android:src="@drawable/icon_table_close" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/body_section" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="@color/blue" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        <include android:id="@id/layoutRate" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_rate_alerts_subsection" />
+        <View android:background="@color/blue" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    </LinearLayout>
+</LinearLayout>

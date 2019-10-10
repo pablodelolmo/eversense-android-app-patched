@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/event_hide_button_layout" android:background="@color/gray_popup_bar" android:paddingTop="@dimen/box_margin" android:paddingBottom="@dimen/box_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="2.0" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/large_text" android:textColor="@color/lighter_black" android:id="@id/hidebutton" android:paddingTop="@dimen/box_margin" android:paddingBottom="@dimen/box_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hide_event" style="@android:style/Widget.Holo.Button.Borderless" />
+</LinearLayout>

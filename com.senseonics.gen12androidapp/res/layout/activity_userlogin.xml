@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/layout_my_account_info" />
+            <LinearLayout android:orientation="vertical" android:background="@drawable/rounded_corner_filled_blue" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/bottom_text_margin">
+                <TextView android:textSize="@dimen/large_text" android:textStyle="bold" android:textColor="@color/graph_white" android:id="@id/btnSync" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/log_in" style="@android:style/Widget.Holo.Button.Borderless" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

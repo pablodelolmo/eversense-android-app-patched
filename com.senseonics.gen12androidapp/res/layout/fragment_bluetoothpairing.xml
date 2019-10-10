@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottomLayout">
+        <LinearLayout android:orientation="vertical" android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/extra_large_text" android:textColor="@color/black" android:id="@id/pairTitle" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/box_margin" android:layout_marginBottom="@dimen/box_margin" android:text="@string/pair_text_title" />
+            <TextView android:textSize="@dimen/large_text" android:textStyle="italic" android:textColor="@color/black" android:gravity="left" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/box_margin" android:text="@string/select_transmitter_text" android:layout_centerHorizontal="true" />
+            <LinearLayout android:background="@color/black" android:layout_width="fill_parent" android:layout_height="@dimen/connect_box_height" android:layout_margin="@dimen/box_margin" android:layout_below="@id/text">
+                <LinearLayout android:id="@id/boxLayout" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="1.0dip">
+                    <ListView android:scrollbarStyle="outsideOverlay" android:id="@id/listView" android:padding="@dimen/box_margin" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@color/divider_color" android:dividerHeight="1.0dip" android:footerDividersEnabled="true" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/box_margin">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/tips" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/arrowTips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/small_margin" android:src="@drawable/icon_tips_arrow" android:contentDescription="@string/image_description" />
+                    <TextView android:textSize="@dimen/large_text" android:textColor="@color/black" android:textColorLink="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/connection_tips" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/tipsTextLayout" android:paddingLeft="@dimen/event_box_text_margin" android:paddingRight="@dimen/event_box_text_margin" android:paddingBottom="@dimen/event_box_text_margin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                    <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:id="@id/tipsText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/small_margin" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

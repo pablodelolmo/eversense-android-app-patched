@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layoutDefaultSyncDays" android:background="@android:color/white" android:padding="@dimen/box_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bottom_text_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:id="@id/tvDefaultSyncDaysText" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/default_sync_days" android:layout_alignParentLeft="true" />
+    <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:id="@id/tvDefaultSyncDaysValue" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="1" android:layout_toLeftOf="@id/arrowIntensity" />
+    <ImageView android:id="@id/arrowIntensity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/event_box_text_margin" android:src="@drawable/list_item_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/buttonsParentLayout" android:background="@color/gray_popup_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="2.0" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/large_text" android:textStyle="bold" android:textColor="@color/lighter_black" android:id="@id/cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_weight="1.0" style="@android:style/Widget.Holo.Button.Borderless" />
+    <View android:id="@id/divider" android:background="@color/gray_horizontal_divider" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+    <TextView android:textSize="@dimen/large_text" android:textColor="@color/lighter_black" android:id="@id/accept" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/accept" android:layout_weight="1.0" style="@android:style/Widget.Holo.Button.Borderless" />
+</LinearLayout>

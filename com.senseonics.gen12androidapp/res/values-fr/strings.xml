@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">"Revenir à l'accueil"</string>
+    <string name="abc_action_bar_up_description">Revenir en haut de la page</string>
+    <string name="abc_action_menu_overflow_description">"Plus d'options"</string>
+    <string name="abc_action_mode_done">OK</string>
+    <string name="abc_activity_chooser_view_see_all">Tout afficher</string>
+    <string name="abc_activitychooserview_choose_application">Sélectionner une application</string>
+    <string name="abc_capital_off">DÉSACTIVÉ</string>
+    <string name="abc_capital_on">ACTIVÉ</string>
+    <string name="abc_search_hint">Rechercher…</string>
+    <string name="abc_searchview_description_clear">Effacer la requête</string>
+    <string name="abc_searchview_description_query">Requête de recherche</string>
+    <string name="abc_searchview_description_search">Rechercher</string>
+    <string name="abc_searchview_description_submit">Envoyer la requête</string>
+    <string name="abc_searchview_description_voice">Recherche vocale</string>
+    <string name="abc_shareactionprovider_share_with">Partager avec</string>
+    <string name="abc_shareactionprovider_share_with_application">Partager avec %s</string>
+    <string name="abc_toolbar_collapse_description">Réduire</string>
+    <string name="about">À propos</string>
+    <string name="above">Au-dessus</string>
+    <string name="above_target_level">Au-dessus taux cible</string>
+    <string name="accept">Accepter</string>
+    <string name="alcohol">Alcool</string>
+    <string name="alert">Alerte</string>
+    <string name="alert_detail_glucose_value">Valeur du taux de glucose :</string>
+    <string name="alert_detail_threshold">Seuil :</string>
+    <string name="alert_notice">"Notification d'alerte"</string>
+    <string name="alert_settings">"Paramètres d'alerte"</string>
+    <string name="all">TOUS</string>
+    <string name="allergy">Allergie</string>
+    <string name="and">et</string>
+    <string name="android_device_info">"Infos sur l'appareil Androïde"</string>
+    <string name="android_version">Version Androïde</string>
+    <string name="app_update_body">"Une mise à jour de votre application Eversense App est à votre disposition. Souhaitez-vous l'installer maintenant ?"</string>
+    <string name="app_update_title">"Mettre à jour l'application Eversense App"</string>
+    <string name="auto_sync">Synchronisation automatique</string>
+    <string name="auto_sync_enabled_text">"Synchronisation automatique activée.
+Vos données seront synchronisées avec le serveur toutes les 2 heures."</string>
+    <string name="average">Moyenne</string>
+    <string name="avg">Moy</string>
+    <string name="battery_level">Niveau de la pile</string>
+    <string name="below">En-dessous</string>
+    <string name="below_target_level">En dessous taux cible</string>
+    <string name="between">entre</string>
+    <string name="ble_not_supported">"Le Bluetooth basse énergie n'est pas pris en charge."</string>
+    <string name="bluetooth_is_off">Le Bluetooth est désactivé</string>
+    <string name="bluetooth_pairing">Jumelage Bluetooth</string>
+    <string name="breakfast">Petit-déjeuner</string>
+    <string name="cal_accepted_message_2">"Votre glycémie a bien été utilisée pour l'étalonnage.
+
+Avertissement : votre transmetteur ne doit pas être retiré du capteur pendant %1$d minutes. Si vous retirez le transmetteur, il faudra refaire l'étalonnage."</string>
+    <string name="cal_accepted_title">Étalonnage accepté</string>
+    <string name="cal_in_progress">Étalonnage en cours (%1$d min, %2$d sec)</string>
+    <string name="cal_not_entered_message">"Votre valeur de glycémie a bien été enregistrée, mais elle n'a pas été entrée pour l'étalonnage."</string>
+    <string name="cal_not_entered_title">Étalonnage non entré</string>
+    <string name="cal_not_used_reason_text">"Raison pour laquelle non utilisée pour l'étalonnage"</string>
+    <string name="cal_rejected_auto_link_message">"Votre glycémie n'a pas été utilisée pour l'étalonnage parce que le mode de mise en liaison automatique est activé. Désactivez le mode de mise en liaison automatique avant de lancer l'étalonnage."</string>
+    <string name="cal_rejected_auto_link_title">"Étalonnage refusé
+(Mode de liaison auto)"</string>
+    <string name="cal_rejected_blinded_message_2">"Votre glycémie n'a pas été utilisée pour l'étalonnage. Veuillez patienter %1$d heure(s) et réessayez."</string>
+    <string name="cal_rejected_blinded_title">"Étalonnage rejeté
+(À l'aveugle)"</string>
+    <string name="cal_rejected_data_message_2">"Votre glycémie n'a pas été utilisée pour l'étalonnage, parce que les données de taux de glucose provenant du capteur sont insuffisantes. Assurez-vous que votre transmetteur est bien placé sur le capteur, attendez %1$d minutes et réessayez."</string>
+    <string name="cal_rejected_data_title">"Étalonnage rejeté
+(Données insuffisantes)"</string>
+    <string name="cal_rejected_not_ready_message_2">"Votre glycémie n'a pas été utilisée pour l'étalonnage, parce que le prélèvement sanguin a été fait avant que le transmetteur ne soit prêt pour l'étalonnage. Veuillez patienter %1$d minutes et réessayez."</string>
+    <string name="cal_rejected_not_ready_title">"Étalonnage rejeté
+(Pas prêt)"</string>
+    <string name="cal_rejected_other_message">"Votre glycémie n'a pas été utilisée pour l'étalonnage en raison d'une défaillance d'origine inconnue."</string>
+    <string name="cal_rejected_other_title">"Étalonnage rejeté
+(Autre défaillance)"</string>
+    <string name="cal_rejected_rate_message_2">"Votre glycémie n'a pas été utilisée pour l'étalonnage parce que le taux de glucose varie trop rapidement. Veuillez patienter %1$d heure(s) et réessayez."</string>
+    <string name="cal_rejected_rate_title">"Étalonnage rejeté
+(Taux de variation trop élevé)"</string>
+    <string name="cal_rejected_replacement_message">"Votre glycémie n'a pas été utilisée pour l'étalonnage parce que votre capteur a besoin d'être remplacé. Veuillez contacter votre médecin pour qu'il change votre capteur."</string>
+    <string name="cal_rejected_replacement_title">"Étalonnage rejeté
+(Remplacement du capteur requis)"</string>
+    <string name="cal_rejected_too_different_message_2">"La valeur %1$s que vous avez entrée pour l'étalonnage est peut-être incorrecte. Veuillez refaire l'étalonnage dans %2$d heure(s) pour assurer l'exactitude des taux de glucose."</string>
+    <string name="cal_rejected_too_different_title">"Étalonnage à l'étude"</string>
+    <string name="cal_rejected_too_high_message_2">"Des valeurs de glycémie supérieures à %1$s ne sont pas utilisables pour l'étalonnage. Veuillez prendre les mesures appropriées et réessayez dans %2$d heure(s)."</string>
+    <string name="cal_rejected_too_high_title">"Étalonnage rejeté
+(Valeur trop élevée)"</string>
+    <string name="cal_rejected_too_low_message_2">"Des valeurs de glycémie inférieures à %1$s ne sont pas utilisables pour l'étalonnage. Veuillez prendre les mesures appropriées et réessayez dans %2$d heure(s)."</string>
+    <string name="cal_rejected_too_low_title">"Étalonnage rejeté
+(Valeur trop faible)"</string>
+    <string name="cal_rejected_unknown_message">"Votre glycémie n'a pas été utilisée pour l'étalonnage pour une raison inconnue. Veuillez réessayer."</string>
+    <string name="cal_rejected_unknown_title">"Étalonnage rejeté
+(Défaillance inconnue)"</string>
+    <string name="calibrate">Étalonner</string>
+    <string name="calibrate_now_notification_help_message">"Étalonner votre système MGC avec un lecteur de glycémie selon l'horaire requis est important pour garantir des valeurs de taux de glucose exactes."</string>
+    <string name="calibrate_now_notification_message">"Votre étalonnage doit être effectué. Veuillez faire un étalonnage au moyen d'une glycémie mesurée au lecteur après prélèvement de sang par piqûre au doigt."</string>
+    <string name="calibrate_now_notification_title">Étalonner maintenant</string>
+    <string name="calibrate_text">"Entrez la valeur de la glycémie et l'heure de la lecture sur votre lecteur, puis, tapez sur \"Soumettre\" pour l'entrer."</string>
+    <string name="calibration">Étalonnage</string>
+    <string name="calibration_event">Étalonnage</string>
+    <string name="calibration_expired_alarm_help_message">"Étalonner votre système MGC avec un lecteur de glycémie selon l'horaire requis est important pour garantir des valeurs de taux de glucose exactes. 
+
+Dans la phase de réinitialisation, vous devez effectuer 4 mesures de glycémie avec un lecteur, réalisées de 2 à 12 heures les unes des autres. Votre système vous guidera automatiquement pour cette procédure d'étalonnage."</string>
+    <string name="calibration_expired_alarm_message">"Votre dernier étalonnage remonte à plus de 24 heures. Votre système est maintenant en phase de réinitialisation. Vous devrez refaire 4 tests d'étalonnage avec 4 gouttes de sang."</string>
+    <string name="calibration_expired_alarm_title">Étalonnage expiré</string>
+    <string name="calibration_grace_alert_help_message">"L'étalonnage de votre transmetteur est en retard. Les valeurs du taux de glucose vont cesser de s'afficher. Veuillez appuyer sur 'Étalonner' pour continuer."</string>
+    <string name="calibration_grace_alert_message">"L'étalonnage de votre transmetteur est en retard. Les valeurs du taux de glucose vont cesser de s'afficher. Veuillez appuyer sur 'Étalonner' pour continuer."</string>
+    <string name="calibration_grace_alert_title">Étalonnage en retard</string>
+    <string name="calibration_tips"><b>"Conseils pour l'étalonnage"</b></string>
+    <string name="cancel">Annuler</string>
+    <string name="carbs">Glucides</string>
+    <string name="click_twice_back">Veuillez cliquer de nouveau sur RETOUR pour fermer</string>
+    <string name="clinical_mode_enabled">Mode clinique activé</string>
+    <string name="complete_sensor_linking_text">Placez le transmetteur sur le capteur pour achever le jumelage. Appuyez sur OK lorsque vous avez terminé.</string>
+    <string name="completed_cals">Étal terminés</string>
+    <string name="condition">État</string>
+    <string name="congratulations">Félicitations !</string>
+    <string name="connected">Connecté</string>
+    <string name="connecting">Connexion en cours</string>
+    <string name="connecting_wait">Connexion en cours, veuillez patienter...</string>
+    <string name="connection_status">Connecter</string>
+    <string name="connection_tips"><b>Aidez-moi à me connecter</b></string>
+    <string name="contact">Contacter</string>
+    <string name="contact_us">Nous contacter</string>
+    <string name="contact_us_mail_body">"Les messages ne sont pas surveillés 24h/24, 7j/7. N'utilisez pas cette adresse email pour les questions urgentes."</string>
+    <string name="contact_us_mail_subject">Message pour le Support clientèle</string>
+    <string name="cough_cold">Toux/Rhume</string>
+    <string name="create_an_account">Créer un compte</string>
+    <string name="current_phase">Phase en cours</string>
+    <string name="daily_calibration">Étal. quotidien</string>
+    <string name="data_saved">Données enregistrées</string>
+    <string name="data_saved_text" formatted="false">"%@ nouveaux événements ont été enregistrés dans votre base de données, 
+%@ événements avaient déjà été enregistrés auparavant."</string>
+    <string name="date">Date</string>
+    <string name="day_1">1 jour</string>
+    <string name="day_14">14 jours</string>
+    <string name="day_30">30 jours</string>
+    <string name="day_7">7 jours</string>
+    <string name="day_90">90 jours</string>
+    <string name="daylight_saving">"Heure d'été"</string>
+    <string name="days_remaining_alarm_help_message_1">"À compter de la date de cet avis, le nombre de jours pendant lesquels votre capteur continuera à mesurer le taux de glucose est de : 4 Contactez votre médecin pour qu'il remplace le capteur actuel par un nouveau capteur."</string>
+    <string name="default_sync_days">Jours de synchro par défaut</string>
+    <string name="details">Détails</string>
+    <string name="details_version">Version</string>
+    <string name="detected_sensor">Capteur détecté</string>
+    <string name="detected_serialnumber">NS détecté</string>
+    <string name="device_compatibility">"COMPATIBILITÉ DE L'APPAREIL"</string>
+    <string name="diarrhea">Diarrhée</string>
+    <string name="dinner">Diner</string>
+    <string name="disconnected_from_transmitter">Votre transmetteur est actuellement déconnecté. Veuillez reconnecter votre transmetteur et réessayez.</string>
+    <string name="dismiss_all">Les ignorer toutes</string>
+    <string name="dizzy">Vertiges</string>
+    <string name="do_not_disturb">Ne pas déranger</string>
+    <string name="do_not_disturb_description">"Désactivez toutes les alertes et notifications non-critiques pour qu'elles ne s'affichent plus."</string>
+    <string name="do_not_disturb_warning_message_2">"Les alertes non critiques sont désactivées dans l'application et sur le Smart Transmetteur."</string>
+    <string name="do_not_disturb_warning_title">Mode « Ne pas déranger » activé</string>
+    <string name="done">Terminé</string>
+    <string name="drawer_close">Fermer tiroir de navigation</string>
+    <string name="drawer_open">Ouvrir tiroir de navigation</string>
+    <string name="drop_out">Étalonnage impossible à effectuer. Veuillez patienter 6 heures et réessayer.</string>
+    <string name="duration">Durée</string>
+    <string name="earache">Mal aux oreilles</string>
+    <string name="email">Email</string>
+    <string name="email_body_graph">"Consultez le diagramme du glucose et les données collectées sur les derniers %1$s à partir de « Mon système MGC Eversense ».
+
+Remarque : si vous avez des difficultés à voir l'image, essayez de l'ouvrir dans un navigateur Web.
+"</string>
+    <string name="email_body_pie">"Consultez le diagramme à secteurs du glucose et les données collectées sur les dernières %d à partir de « Mon système MGC Eversense ».
+
+Remarque : si vous avez des difficultés à voir l'image, essayez de l'ouvrir dans un navigateur Web.
+"</string>
+    <string name="email_body_table">Consultez le rapport de Récapitulatif modal hebdomadaire qui contient les données collectées sur les derniers %d à partir de mon système MGC Eversense.</string>
+    <string name="email_body_weekly">Consultez le rapport de Récap modal hebdo qui contient les données collectées sur les 7 derniers jours à partir de mon système MGC Eversense.</string>
+    <string name="email_subject_graph">Données du capteur</string>
+    <string name="email_subject_pie_chart">Rapport diagramme circulaire de glucose</string>
+    <string name="email_subject_pie_table">Rapport de statistiques du taux de glucose</string>
+    <string name="email_subject_weekly">Rapport de Récap modal hebdo</string>
+    <string name="empty_battery_alarm_help_message">"Retirez le transmetteur de votre corps avant de le connecter à une source d'alimentation pour recharger la pile. 
+
+Le transmetteur ne collecte pas d'informations en provenance du capteur pendant qu'il se recharge. Pendant la charge du transmetteur, vous ne recevrez pas de valeurs de taux de glucose."</string>
+    <string name="empty_battery_alarm_message">La pile de votre transmetteur est à plat. Rechargez votre transmetteur immédiatement pour restaurer la réception des valeurs de taux de glucose.</string>
+    <string name="empty_battery_alarm_title">Pile à plat</string>
+    <string name="end">Fin</string>
+    <string name="estimated_days_remaining_alarm_message">"Estimation du nombre de jours pendant lesquels votre capteur continuera à mesurer le taux de glucose, à compter de la date de ce message : 4 Contactez votre médecin pour qu'il remplace le capteur."</string>
+    <string name="estimated_days_remaining_alarm_title">Nombre de jours restants</string>
+    <string name="eula">"LICENCE D'EXPLOITATION POUR L'UTILISATEUR FINAL"</string>
+    <string name="eula_confirmation_text">"En cliquant sur « Accepter » ci-dessous : j'accepte les termes du Contrat de licence d'utilisateur final (CLUF), de la Politique de confidentialité et conditions d'utilisation de Senseonics (Politique de confidentialité) et de leurs futures mises à jour pendant mon utilisation du système Eversense®. Je consens au stockage, à la transmission et à l'utilisation de mes données, y compris, sans toutefois s'y limiter, leur stockage au Royaume-Uni et leur transmission aux États-Unis à des fins limitées (telles que l'assistance en ingénierie et à la clientèle), selon les termes du CLUF et de la Politique de confidentialité, et je reconnais que de telles dispositions relatives aux données permettent d'assurer la pleine fonctionnalité du système et sa pleine assistance."</string>
+    <string name="eula_menu">"Licence d'exploitation"</string>
+    <string name="eula_screen">Écran EULA</string>
+    <string name="evening">Soir</string>
+    <string name="evening_time">Heure du soir</string>
+    <string name="event_cal_accepted_title">Utilisé</string>
+    <string name="event_cal_not_entered_title">Non entré</string>
+    <string name="event_cal_rejected_auto_link_title">Mode de mise en liaison automatique</string>
+    <string name="event_cal_rejected_blinded_title">"À l'aveugle"</string>
+    <string name="event_cal_rejected_data_title">Pas assez de données</string>
+    <string name="event_cal_rejected_not_ready_title">Pas prêt</string>
+    <string name="event_cal_rejected_other_title">Autre défaillance</string>
+    <string name="event_cal_rejected_rate_title">Taux de variation élevé</string>
+    <string name="event_cal_rejected_replacement_title">Remplacement du capteur requis</string>
+    <string name="event_cal_rejected_too_different_title">"En cours d'examen"</string>
+    <string name="event_cal_rejected_too_high_title">Trop élevée</string>
+    <string name="event_cal_rejected_too_low_title">Trop faible</string>
+    <string name="event_log">Journal des événements</string>
+    <string name="excellent">Excellent</string>
+    <string name="exercise_event">Exercice</string>
+    <string name="exit_app">Fermer</string>
+    <string name="faq">FAQ</string>
+    <string name="fever">Fièvre</string>
+    <string name="file_corrupted">Fichier corrompu</string>
+    <string name="file_corrupted_text">Impossible de télécharger le fichier des paramètres du capteur. Veuillez contacter le Support clientèle.</string>
+    <string name="finish">Terminer</string>
+    <string name="flu">Grippe</string>
+    <string name="force_logout_text_w_email">"Vous avez été déconnecté en raison d'un email ou d'un mot de passe incorrect."</string>
+    <string name="forgot_my_password">Mot de passe oublié</string>
+    <string name="general_error_saving_data">"Erreur d'enregistrement des données"</string>
+    <string name="general_error_saving_data_text">"Les données ne sont pas enregistrées sur le serveur. Veuillez réessayer. Si l'erreur persiste, contactez le Support clientèle."</string>
+    <string name="glucose_above_high_alert_level">"Glucose au-dessus niveau d'alerte Hyper"</string>
+    <string name="glucose_above_high_target_level">Glucose au-dessus niveau cible Hyper</string>
+    <string name="glucose_alert_levels">"Niveaux d'alerte du taux de glucose"</string>
+    <string name="glucose_below_low_alert_level">"Glucose en dessous niveau d'alerte Hypo"</string>
+    <string name="glucose_below_low_target_level">Glucose en dessous niveau cible Hypo</string>
+    <string name="glucose_event">Glucose</string>
+    <string name="glucose_event_submit_title">Confirmer le taux de glucose</string>
+    <string name="glucose_level_distribution">Diagramme circulaire de glucose (%1$s)</string>
+    <string name="glucose_target_levels">Niveaux de taux de glucose cibles</string>
+    <string name="glucose_unit">Unités de glucose</string>
+    <string name="glucose_within_target_levels">Taux de glucose dans la plage cible</string>
+    <string name="good">Bon</string>
+    <string name="grams">grammes</string>
+    <string name="health_event">Santé</string>
+    <string name="help">Aide</string>
+    <string name="hide">Masquer</string>
+    <string name="hide_event"><b>"Masquer l'événement"</b></string>
+    <string name="hide_event_question">Êtes-vous sûr(e) de vouloir masquer cet événement ?</string>
+    <string name="high">Élevé</string>
+    <string name="high_alert">Alerte Hyper</string>
+    <string name="high_ambient_light_alarm_help_message">"Pour réduire l'exposition du transmetteur à la lumière, essayez de faire l'une des choses suivantes :
+-Mettez-vous dans un endroit moins lumineux
+-Portez le transmetteur sous vos vêtements"</string>
+    <string name="high_ambient_light_alarm_message_2">"Votre capteur est dans un endroit trop lumineux. Réduisez son exposition à la lumière pour qu'il réaffichage les taux de glucose. Si le problème persiste, contactez le Support clientèle."</string>
+    <string name="high_ambient_light_alarm_title">Lumière ambiante trop forte</string>
+    <string name="high_glucose_alarm_help_message_2" formatted="false">"Vous avez réglé votre paramètre d'alerte d'hyperglycémie sur %value%. Lorsque vous atteindrez ce niveau de taux de glucose, votre transmetteur et votre smartphone vous enverront une alerte. Vous pouvez avoir atteint ou dépassé ce niveau d'alerte d'hyperglycémie. 
+
+Confirmez toujours votre taux de glucose au moyen d'une mesure avec un lecteur de glycémie avant de prendre une décision thérapeutique. 
+
+Si vous souhaitez modifier votre paramètre d'alerte d'hyperglycémie, allez à Menu -> Paramètres -> Glucose."</string>
+    <string name="high_glucose_alarm_message_2">"Le taux de glucose mesuré par votre capteur est au-dessus de votre paramètre d'alerte d'hyperglycémie, %d. Confirmez votre taux de glucose en faisant un test avec un lecteur de glycémie."</string>
+    <string name="high_glucose_alarm_title">Hyperglycémie</string>
+    <string name="high_glucose_alert_help_message" formatted="false">"Vous avez réglé votre paramètre d'alerte d'hyperglycémie sur %value%. Lorsque vous atteindrez ce niveau de taux de glucose, votre transmetteur et votre smartphone vous enverront une alarme. Vous pouvez avoir atteint ou dépassé ce niveau d'alerte d'hyperglycémie. 
+
+Confirmez toujours votre taux de glucose au moyen d'une mesure avec un lecteur de glycémie avant de prendre une décision thérapeutique. 
+
+Veuillez noter que votre alerte d'hyperglycémie est différente de votre paramètre d'alarme d'hyperglycémie. 
+
+Si vous souhaitez modifier votre paramètre d'alerte d'hyperglycémie, allez à Menu -> Paramètres -> Glucose."</string>
+    <string name="high_glucose_alert_message">"Le taux de glucose mesuré par votre capteur est au-dessus de votre paramètre d'alerte d'hyperglycémie, %d."</string>
+    <string name="high_glucose_alert_title">Hyperglycémie</string>
+    <string name="high_symptoms">Sympt. Hyper</string>
+    <string name="high_target">Cible Hyper</string>
+    <string name="home">Mon glucose</string>
+    <string name="hours_remaining">heures restantes</string>
+    <string name="hr">h</string>
+    <string name="i_do_not_have_a_glucose_sensor">"Je n'ai pas de Smart Transmetteur"</string>
+    <string name="i_have_glucose_sensor">"J'ai un Smart Transmetteur"</string>
+    <string name="image_description">Image</string>
+    <string name="incompatible_fw_version_body_2">"Détection d'un logiciel de transmetteur incompatible. Veuillez contacter le Support clientèle."</string>
+    <string name="incompatible_fw_version_title_2">Logiciel du transmetteur incompatible.</string>
+    <string name="incompatible_sensor_file">Fichier de capteur incompatible</string>
+    <string name="incompatible_sensor_file_text">"Détection d'un fichier de capteur incompatible (Version : %%). Veuillez contacter le Support clientèle."</string>
+    <string name="infection">Infection</string>
+    <string name="init_phase">Initialisation</string>
+    <string name="init_phase_notif">"Phase d'initialisation (%1$d étalonnages restants)"</string>
+    <string name="insertion_date">"Date d'insertion"</string>
+    <string name="insertion_time">"Heure d'insertion"</string>
+    <string name="insulin_event">Insuline</string>
+    <string name="insulin_type">Type</string>
+    <string name="intensity">Intensité</string>
+    <string name="intermediate_acting">Action intermédiaire</string>
+    <string name="invalid_device_type">"Type d'appareil invalide"</string>
+    <string name="invalid_device_type_text">"Type d'appareil invalide. Veuillez réessayer. Si l'erreur persiste, contactez le Support clientèle."</string>
+    <string name="invalid_email">Email invalide</string>
+    <string name="invalid_error_text">"Aucune connexion Internet détectée. Pour obtenir la dernière version, veuillez vous connecter à l'Internet."</string>
+    <string name="invalid_password">Mot de passe invalide</string>
+    <string name="invalid_user_credentials_text_w_email">"L'email ou le mot de passe est incorrect. Veuillez réessayer. Si l'erreur persiste, contactez le Support clientèle."</string>
+    <string name="invalid_user_credentials_w_email">Email ou mot de passe incorrect</string>
+    <string name="last_cal">Dernier étal</string>
+    <string name="last_synced_on">Dernières synchro:</string>
+    <string name="less_than_one_hour">1 heure restante</string>
+    <string name="link_detected_sensor">Relier le capteur détecté</string>
+    <string name="link_detected_sensor_text_2">"Détection d'un capteur non relié. Tapez sur Relier capteur détecté pour continuer."</string>
+    <string name="link_sensor">Relier capt.</string>
+    <string name="linked_sensor">Capteur relié</string>
+    <string name="linking_process_complete">3. Jumelage terminé</string>
+    <string name="linking_sensor">2. Mise en liaison du capteur</string>
+    <string name="log_in">Se connecter</string>
+    <string name="log_out">Se déconnecter</string>
+    <string name="log_out_text">"Si vous vous déconnectez, vous ne pourrez plus voir les valeurs du taux de glucose sur l'application Eversense App tant que vous ne vous reconnectez pas. Êtes-vous sûr(e) de vouloir vous déconnecter ?"</string>
+    <string name="login_success">Connexion établie</string>
+    <string name="long_acting">À action prolongée</string>
+    <string name="low">Faible</string>
+    <string name="low_alert">Alerte Hypo</string>
+    <string name="low_battery_notification_help_message">La pile de votre transmetteur est faible. Rechargez-la prochainement.</string>
+    <string name="low_battery_notification_message">La pile de votre transmetteur est faible. Rechargez-la prochainement.</string>
+    <string name="low_battery_notification_title">Charger le transmetteur</string>
+    <string name="low_glucose_alarm_help_message_2" formatted="false">"Vous avez réglé votre paramètre d'alerte d'hypoglycémie sur %value%. Lorsque vous atteindrez ce niveau de taux de glucose, votre transmetteur et votre smartphone vous enverront une alerte. Vous pouvez avoir atteint ou dépassé ce niveau d'alerte d'hypoglycémie. 
+
+Confirmez toujours votre taux de glucose au moyen d'une mesure avec un lecteur de glycémie avant de prendre une décision thérapeutique. 
+
+Si vous souhaitez modifier votre paramètre d'alerte d'hypoglycémie, allez à Menu -> Paramètres -> Glucose."</string>
+    <string name="low_glucose_alarm_message_2">"Le taux de glucose mesuré par votre capteur est en-dessous de votre paramètre d'alerte d'hypoglycémie, %d. Confirmez votre taux de glucose en faisant un test avec un lecteur de glycémie."</string>
+    <string name="low_glucose_alarm_title">Hypoglycémie</string>
+    <string name="low_glucose_alert_help_message" formatted="false">"Vous avez réglé votre paramètre d'alerte d'hypoglycémie sur %value%. Lorsque vous atteindrez ce niveau de taux de glucose, votre transmetteur et votre smartphone vous enverront une alarme. Vous pouvez être en-dessous du seuil d'alerte d'hypoglycémie.
+
+Confirmez toujours votre taux de glucose au moyen d'une mesure avec un lecteur de glycémie avant de prendre une décision thérapeutique. 
+
+Veuillez noter que votre alerte d'hypoglycémie est différente de votre paramètre d'alarme d'hypoglycémie. 
+
+Si vous souhaitez modifier votre paramètre d'alerte d'hypoglycémie, allez à Menu -> Paramètres -> Glucose."</string>
+    <string name="low_glucose_alert_message">"Le taux de glucose mesuré par votre capteur est en-dessous de votre paramètre d'alerte d'hypoglycémie, %d."</string>
+    <string name="low_glucose_alert_title">Hypoglycémie</string>
+    <string name="low_symptoms">Sympt. Hypo</string>
+    <string name="low_target">Cible Hypo</string>
+    <string name="lunch">Déjeuner</string>
+    <string name="machine">Appareil</string>
+    <string name="manual_text">Profitez des fonctionnalités disponibles en entrant les données manuellement.</string>
+    <string name="meal_event">Repas</string>
+    <string name="meal_start_end_time_text">Veuillez sélectionner une heure de DEBUT et une heure de FIN.</string>
+    <string name="meal_times">Heures des repas</string>
+    <string name="medium">Moyen</string>
+    <string name="menstrual_period">Menstruations</string>
+    <string name="mg_Dl">mg/dL</string>
+    <string name="mg_dl_min">mg/dL/min</string>
+    <string name="min">min</string>
+    <string name="minutes_from_alert_level">Minutes</string>
+    <string name="mixed_50_50">Mélange 50/50</string>
+    <string name="mixed_70_30">Mélange 70/30</string>
+    <string name="mixed_75_25">Mélange 75/25</string>
+    <string name="mmol_L">mmol/L</string>
+    <string name="mmol_l_min">mmol/L/min</string>
+    <string name="model">Modèle</string>
+    <string name="model_number">Numéro de modèle</string>
+    <string name="modify_evening_time">"Avertissement : les heures du matin et du soir doivent être séparées de 10 à 14 heures les unes des autres (ex. : 8h00 et 18h00). Veuillez modifier l'heure du soir avant de fermer l'écran."</string>
+    <string name="more_than_max_pending_alerts">"Vous avez au moins 2 alertes en attente d'une mesure corrective. Souhaitez-vous les voir toutes ?"</string>
+    <string name="morning">Matin</string>
+    <string name="morning_time">Heure du matin</string>
+    <string name="my_account_sync">Synchroniser</string>
+    <string name="my_sensor">Mon capteur</string>
+    <string name="my_transmitter">Mon Transmetteur</string>
+    <string name="name">Nom</string>
+    <string name="nausea_vomiting">Nausées/Vomissements</string>
+    <string name="new_sensor_detected_notification_help_message">"Le capteur inséré et le transmetteur doivent être liés ensemble pour établir la communication. Touchez « Lier le capteur » pour commencer le processus de liaison. Votre nouveau capteur devra s'acclimater à la réponse de votre corps. Veuillez attendre 24 heures avant de porter le transmetteur au-dessus du capteur et de commencer la phase d'initialisation de l'étalonnage."</string>
+    <string name="new_sensor_detected_notification_message">Un nouveau capteur a été détecté. Si vous avez un nouveau capteur et/ou transmetteur, veuillez jumeler votre capteur et votre transmetteur.</string>
+    <string name="new_sensor_detected_notification_title">Nouveau capteur détecté</string>
+    <string name="next">Suivant</string>
+    <string name="next_schedule_cal_time"><b>Heure du prochain étalonnage prévu</b></string>
+    <string name="next_schedule_cal_unknown">Non disponible</string>
+    <string name="no">Non</string>
+    <string name="no_browser_found_2">Aucun navigateur détecté pour ouvrir les pages Web. Veuillez installer un navigateur à partir de Google Play Store.</string>
+    <string name="no_glucose_display">"Aucune valeur du taux de glucose ne s'affiche"</string>
+    <string name="no_sensor_detected_alarm_message">"Votre transmetteur (%@) ne parvient pas à localiser votre capteur. Les valeurs de taux de glucose ne s'afficheront pas tant que le transmetteur n'est pas remis en place sur le capteur. Pour plus de détails, voir le Guide de placement."</string>
+    <string name="no_sensor_detected_alarm_title">Aucun capteur détecté</string>
+    <string name="no_sensor_glucose_reading">Aucune valeur du taux de glucose</string>
+    <string name="no_sensor_linked">"Votre transmetteur n'est relié à aucun capteur. Veuillez le relier à un capteur et réessayez."</string>
+    <string name="no_signal">Aucun signal</string>
+    <string name="no_statistics">"Statistiques non disponibles par manque de données. Attendez que d'autres données soient collectées."</string>
+    <string name="no_transmitter_connected">Aucun transmetteur connecté</string>
+    <string name="normal">Normal</string>
+    <string name="not_available">S/O</string>
+    <string name="not_connected">Non connecté</string>
+    <string name="not_enough_data">Données collectées par le capteur insuffisantes.</string>
+    <string name="not_now">Plus tard</string>
+    <string name="notes">Remarques</string>
+    <string name="notification">Notification</string>
+    <string name="notification_channel_alert">Alertes et Notifications Eversense</string>
+    <string name="notification_channel_foreground">Informations système Eversense</string>
+    <string name="notifications_2">Historique des alertes</string>
+    <string name="now">Maintenant</string>
+    <string name="ok">OK</string>
+    <string name="one_day_distribution">Rapport de statistiques du taux de glucose (%1$s)</string>
+    <string name="or">OU</string>
+    <string name="other">Autre</string>
+    <string name="out_of_range_high_glucose_alarm_help_message" formatted="false">"Confirmez toujours votre taux de glucose avec un lecteur de glycémie avant de prendre toute décision thérapeutique. 
+
+Une fois que le taux de glucose du capteur passe en-dessous de %value%, l'affichage des valeurs du taux de glucose reprend."</string>
+    <string name="out_of_range_high_glucose_alarm_message_2">La valeur du taux de glucose de votre capteur est supérieure à %1$s. Mesurez votre glycémie manuellement au moyen de votre lecteur de glycémie.</string>
+    <string name="out_of_range_high_glucose_alarm_title">Hyperglycémie, glycémie hors plage</string>
+    <string name="out_of_range_low_glucose_alarm_help_message" formatted="false">"Confirmez toujours votre valeur de taux de glucose par un test avec un lecteur de glycémie avant de prendre toute décision thérapeutique. 
+
+Une fois que le taux de glucose du capteur est au moins de %value%, l'affichage des valeurs du taux de glucose reprend."</string>
+    <string name="out_of_range_low_glucose_alarm_message_2">La valeur du taux de glucose de votre capteur est inférieure à %1$s. Mesurez votre glycémie manuellement au moyen de votre lecteur de glycémie.</string>
+    <string name="out_of_range_low_glucose_alarm_title">Hypoglycémie, glycémie hors plage</string>
+    <string name="pair_text">Jumelez votre transmetteur pour recevoir et suivre automatiquement vos taux de glucose.</string>
+    <string name="pair_text_title">JUMELER VOTRE TRANSMETTEUR</string>
+    <string name="password">Mot de passe</string>
+    <string name="period">Période</string>
+    <string name="phase_start">Début de phase</string>
+    <string name="phase_text">Phase</string>
+    <string name="place_sensor">Veuillez placer votre transmetteur sur le capteur et réessayez dans %d minutes.</string>
+    <string name="place_transmitter_text">Placez le transmetteur directement sur le capteur pour obtenir le meilleur signal.</string>
+    <string name="placement_guide">Guide de placement</string>
+    <string name="placement_in_progress">Placement en cours...</string>
+    <string name="placement_low_battery_body_2">"Le système a détecté que la pile du transmetteur est faible. La puissance du signal se mettre à jour plus lentement que d'habitude (une fois toutes les %1$d minutes)"</string>
+    <string name="placement_low_battery_title">"Détection d'un niveau de charge faible de la pile"</string>
+    <string name="placement_mode_body">Souhaitez-vous continuer à utiliser la page Guide de placement ?</string>
+    <string name="placement_mode_title">Mode de placement</string>
+    <string name="poor">Mauvais</string>
+    <string name="power_failure_alarm_help_message">"Votre transmetteur va se remettre à la date et à l'heure présentes, en se synchronisant sur votre smartphone. Chargez le transmetteur tous les jours pour éviter que l'heure ne devienne invalide."</string>
+    <string name="power_failure_alarm_message">"Votre transmetteur a un horodatage ancien ou invalide. L'application va mettre à jour l'heure du transmetteur. Si vous continuez à recevoir cette erreur, veuillez contacter le Support clientèle."</string>
+    <string name="power_failure_alarm_title">Heure du transmetteur invalide</string>
+    <string name="predicted_high_glucose_alert_help_message_2" formatted="false">"Vous avez réglé votre paramètre d'alerte prédictive sur %predictiveMins% minutes avant les valeurs du taux de glucose fournies par le capteur. Si le taux de variation du glucose se maintient, le taux de glucose passera en-dessous ou au-dessus de son seuil d'alerte. 
+
+Confirmez toujours votre taux de glucose au moyen d'une mesure avec un lecteur de glycémie avant de prendre une décision thérapeutique. 
+
+Si vous souhaitez modifier votre paramètre d'alerte prédictive, allez à Menu -> Paramètres -> Glucose."</string>
+    <string name="predicted_high_glucose_alert_message_3">"La valeur du taux de glucose de votre capteur a tendance à augmenter et va atteindre la valeur d'alerte d'hyperglycémie dans %d minutes. Mesurez votre glycémie manuellement au moyen de votre lecteur de glycémie."</string>
+    <string name="predicted_high_glucose_alert_title">Hyper en prévision</string>
+    <string name="predicted_low_glucose_alert_help_message_2" formatted="false">"Vous avez réglé votre paramètre d'alerte prédictive sur %predictiveMins% minutes avant les valeurs du taux de glucose fournies par le capteur. Si le taux de variation du glucose se maintient, le taux de glucose passera en-dessous ou au-dessus de son seuil d'alerte. 
+
+Confirmez toujours votre taux de glucose au moyen d'une mesure avec un lecteur de glycémie avant de prendre une décision thérapeutique. 
+
+Si vous souhaitez modifier votre paramètre d'alerte prédictive, allez à Menu -> Paramètres -> Glucose."</string>
+    <string name="predicted_low_glucose_alert_message_2">"La valeur du taux de glucose de votre capteur a tendance à chuter et va atteindre la valeur d'alerte d'hypoglycémie dans %d minutes. Mesurez votre glycémie manuellement au moyen de votre lecteur de glycémie."</string>
+    <string name="predicted_low_glucose_alert_title">Hypo en prévision</string>
+    <string name="predictive_alerts">Alertes prédictives</string>
+    <string name="predictive_text_2">"Soyez averti X minutes avant votre capteur de mesure du taux de glucose, si le taux de glucose continue de changer à la vitesse actuelle, s'il dépasse le seuil d'alerte."</string>
+    <string name="privacy_statement">Déclaration de confidentialité</string>
+    <string name="product_information">Informations produit</string>
+    <string name="productinfo">"&lt;html>&lt;body style='margin:0;padding:0;'> &lt;table cellpadding=\"5\"> &lt;tr > &lt;td valign=\"top\">Compagnie :&lt;/td> &lt;td>Senseonics, Inc.&lt;br/>20451 Seneca Meadows Parkway,&lt;br/>Germantown, Maryland,&lt;br/>USA&lt;br/>&lt;a href='http://www.eversensediabetes.com'>www.eversensediabetes.com&lt;/a>&lt;/td> &lt;/tr> &lt;tr > &lt;td>Version :&lt;/td> &lt;td>@version&lt;/td> &lt;/tr> &lt;tr > &lt;td>Publiée :&lt;/td> &lt;td>@releasedate&lt;/td> &lt;/tr> &lt;tr> &lt;td>Compatibilité :&lt;/td> &lt;td>&lt;a href='https://ous.eversensediabetes.com/compatibility/'>https://&lt;br/>ous.eversensediabetes.com/&lt;br/>compatibility/&lt;/a>&lt;/td> &lt;/tr> &lt;tr> &lt;td>&lt;/td> &lt;td>&lt;/td> &lt;/tr> &lt;tr> &lt;td>&lt;/td> &lt;td>&lt;/td> &lt;/tr> &lt;tr> &lt;td colspan=2 align='center'> © 2016 Senseonics, Inc. &lt;/td> &lt;/tr> &lt;/table> &lt;/body>&lt;/html>"</string>
+    <string name="rapid_acting">À action rapide</string>
+    <string name="rate_alerts">Alertes de taux de glucose</string>
+    <string name="rate_falling_alert_mg_message_2" formatted="false">Le taux de glucose mesuré par votre capteur chute à une vitesse qui est supérieure ou égale au paramètre de taux de variation, %.1f %@. Mesurez votre glycémie manuellement au moyen de votre lecteur de glycémie.</string>
+    <string name="rate_falling_alert_mg_mmol_help_message" formatted="false">"Vous avez réglé votre paramètre de taux de variation de manière à recevoir une alerte lorsque le taux de glucose varie de plus de %rate%. 
+
+Confirmez toujours votre taux de glucose au moyen d'une mesure avec un lecteur de glycémie avant de prendre une décision thérapeutique. 
+
+Si vous souhaitez modifier votre paramètre de taux de variation, allez à Menu -> Paramètres -> Glucose."</string>
+    <string name="rate_falling_alert_mmol_message_2" formatted="false">Le taux de glucose mesuré par votre capteur chute à une vitesse qui est supérieure ou égale au paramètre de taux de variation, %.2f %@. Mesurez votre glycémie manuellement au moyen de votre lecteur de glycémie.</string>
+    <string name="rate_falling_alert_title">Chute du taux de glucose</string>
+    <string name="rate_of_change">Taux de variation</string>
+    <string name="rate_rising_alert_mg_message_2" formatted="false">Le taux de glucose mesuré par votre capteur augmente à une vitesse qui est supérieure ou égale au paramètre de taux de variation, %.1f %@. Mesurez votre glycémie manuellement au moyen de votre lecteur de glycémie.</string>
+    <string name="rate_rising_alert_mg_mmol_help_message" formatted="false">"Vous avez réglé votre paramètre de taux de variation, de manière à recevoir une alerte lorsque le taux de glucose varie de plus de %rate%. 
+
+Confirmez toujours votre taux de glucose au moyen d'une mesure avec un lecteur de glycémie avant de prendre une décision thérapeutique. 
+
+Si vous souhaitez modifier votre paramètre de taux de variation, allez à Menu -> Paramètres -> Glucose."</string>
+    <string name="rate_rising_alert_mmol_message_2" formatted="false">Le taux de glucose mesuré par votre capteur augmente à une vitesse qui est supérieure ou égale au paramètre de taux de variation, %.2f %@. Mesurez votre glycémie manuellement au moyen de votre lecteur de glycémie.</string>
+    <string name="rate_rising_alert_title">Augmentation du taux de glucose</string>
+    <string name="rate_text">Soyez averti lorsque les valeurs du taux de glucose de votre capteur varient (à la hausse ou à la baisse) plus rapidement que le taux de variation configuré.</string>
+    <string name="rate_too_high">Le taux de glucose indiqué par votre capteur varie trop vite. Veuillez patienter 10 minutes et réessayez.</string>
+    <string name="request_timeout">Requête expirée</string>
+    <string name="request_timeout_text">"La requête a expiré en raison d'un problème de communication sur Internet ou avec le serveur. Vérifiez votre connexion Internet. Si l'erreur persiste, contactez le Support clientèle."</string>
+    <string name="retrieving_parameters">1. Récup. paramètres</string>
+    <string name="ringtones">TONALITÉS</string>
+    <string name="rssi_value">RSSI</string>
+    <string name="save">Enregistrer</string>
+    <string name="search_menu_title">Rechercher</string>
+    <string name="searching">Rechercher...</string>
+    <string name="select_transmitter_text">Sélectionnez le transmetteur à connecter dans la liste ci-dessous</string>
+    <string name="sensor_days_since_insertion">"Nombre de jours depuis l'insertion"</string>
+    <string name="sensor_details">Détails du capteur</string>
+    <string name="sensor_eol">Le capteur est hors-service. Veuillez contacter votre médecin.</string>
+    <string name="sensor_file_error">Erreur de fichier du capteur</string>
+    <string name="sensor_file_error_text">"Impossible de télécharger le fichier des paramètres du capteur. Veuillez réessayer. Si l'erreur persiste, contactez le Support clientèle."</string>
+    <string name="sensor_hardware_error_alarm_help_message">"Votre transmetteur (%@) a rapporté une erreur du capteur. Il va interrompre l'affichage des valeurs du taux de glucose. Veuillez contacter le Support clientèle pour résoudre le problème."</string>
+    <string name="sensor_hardware_error_alarm_message">"Votre transmetteur (%@) a rapporté une erreur du capteur. Il va interrompre l'affichage des valeurs du taux de glucose. Veuillez contacter le Support clientèle pour résoudre le problème."</string>
+    <string name="sensor_hardware_error_alarm_title">Erreur du capteur</string>
+    <string name="sensor_high_temperature_alarm_message">La température de votre transmetteur est trop élevée. Déplacez-vous dans un endroit plus frais pour continuer à recevoir les valeurs de taux de glucose. Si le problème persiste, contactez le Support clientèle.</string>
+    <string name="sensor_high_temperature_alarm_title">Température capteur élevée</string>
+    <string name="sensor_instability_alarm_help_message">"Dans la phase de réinitialisation, vous devez prendre 4 mesures de glycémie avec un lecteur, à 2 à 12 heures les unes des autres. Votre système vous guidera automatiquement pour cette procédure d'étalonnage."</string>
+    <string name="sensor_instability_alarm_message">Le système doit être réinitialisé. Vous devrez faire 4 tests de glycémie par piqûre au doigt.</string>
+    <string name="sensor_instability_alarm_title">Vérification du capteur</string>
+    <string name="sensor_link_failure_body">Veuillez réessayer. Si le problème persiste, contactez le Support clientèle.</string>
+    <string name="sensor_link_failure_title">Échec du jumelage du capteur</string>
+    <string name="sensor_low_high_temperature_alarm_help_message">Laissez votre transmetteur allumé sur le capteur. Une fois que la température du capteur est entre 27 C et 40 C, il reprend ses mesures du taux de glucose.</string>
+    <string name="sensor_low_temperature_alarm_message">La température de votre capteur est trop basse. Déplacez-vous dans un endroit plus chaud pour continuer à recevoir les valeurs de taux de glucose. Si le problème persiste, contactez le Support clientèle.</string>
+    <string name="sensor_low_temperature_alarm_title">Température capteur faible</string>
+    <string name="sensor_on_hold_alarm_help_message">"Lorsque la phase d'initialisation commence après 6 heures, le système vous demande d'effectuer un étalonnage à l'aide de valeurs de glycémie obtenues par piqûre au doigt."</string>
+    <string name="sensor_on_hold_alarm_message">Le système est mis hors-service pour 6 heures de temps. Sa réinitialisation commencera dans 6 heures.</string>
+    <string name="sensor_on_hold_alarm_title">Mise hors-service du capteur</string>
+    <string name="sensor_retired_alarm_help_message">"Contactez votre médecin pour qu'il remplace le capteur actuel par un nouveau capteur. 
+
+Votre capteur actuel ne mesure plus le taux de glucose."</string>
+    <string name="sensor_retired_alarm_message">Votre capteur doit être remplacé. Veuillez contacter votre médecin pour remplacer le capteur.</string>
+    <string name="sensor_retired_alarm_title">Remplacement du capteur</string>
+    <string name="sensor_retired_prematurely_alarm_message">Votre capteur ne peut plus relever le taux de glucose. Veuillez contacter votre médecin pour remplacer le capteur.</string>
+    <string name="sensor_retired_prematurely_alarm_title">Remplacement du capteur</string>
+    <string name="sensor_retired_prematurely_help_message">"Le capteur a cessé de fonctionner ; il ne peut plus relever le taux de glucose. Contactez votre médecin pour qu'il remplace le capteur."</string>
+    <string name="sensor_retirement_14_days_notification_message_2">Il faudra remplacer le capteur dans les 14 jours qui viennent, délai après lequel il ne pourra plus vous donner de valeurs du taux de glucose. Veuillez contacter votre médecin pour remplacer le capteur.</string>
+    <string name="sensor_retirement_14_days_notification_title">Remplacement du capteur</string>
+    <string name="sensor_retirement_1_7_day_alarm_help_message">Votre capteur doit être retiré et remplacé. Contactez votre médecin pour prendre rendez-vous.</string>
+    <string name="sensor_retirement_1_day_alarm_message">Il faudra remplacer le capteur dans les 24 heures qui viennent, délai après lequel il ne pourra plus vous donner de valeurs du taux de glucose. Veuillez contacter votre médecin pour remplacer le capteur.</string>
+    <string name="sensor_retirement_1_day_alarm_title">Remplacement du capteur</string>
+    <string name="sensor_retirement_2_days_alarm_message_2">Il faudra remplacer le capteur dans les 2 jours qui viennent, délai après lequel il ne pourra plus vous donner de valeurs du taux de glucose. Veuillez contacter votre médecin pour remplacer le capteur.</string>
+    <string name="sensor_retirement_2_days_alarm_title">Remplacement du capteur</string>
+    <string name="sensor_retirement_30_days_notification_message">Il faudra remplacer le capteur dans les 30 jours qui viennent, délai après lequel il ne pourra plus vous donner de valeurs du taux de glucose. Veuillez contacter votre médecin pour remplacer le capteur.</string>
+    <string name="sensor_retirement_30_days_notification_title">Remplacement du capteur</string>
+    <string name="sensor_retirement_3_days_alert_message_2">Il faudra remplacer le capteur dans les 3 jours qui viennent, délai après lequel il ne pourra plus vous donner de valeurs du taux de glucose. Veuillez contacter votre médecin pour remplacer le capteur.</string>
+    <string name="sensor_retirement_3_days_alert_title">Remplacement du capteur</string>
+    <string name="sensor_retirement_7_days_alert_message_2">Il faudra remplacer le capteur dans les 7 jours qui viennent, délai après lequel il ne pourra plus vous donner de valeurs du taux de glucose. Veuillez contacter votre médecin pour remplacer le capteur.</string>
+    <string name="sensor_retirement_7_days_alert_title">Remplacement du capteur</string>
+    <string name="sensor_retirement_agedout_alarm_message">Votre capteur doit être remplacé dans les 7 jours pour pouvoir continuer à recevoir des valeurs de taux de glucose. Veuillez contacter votre médecin pour remplacer le capteur.</string>
+    <string name="sensor_retirement_agedout_help_message">"Dans 7 jours, le capteur cessera de vous envoyer les valeurs du taux de glucose. Contactez votre médecin pour qu'il remplace le capteur."</string>
+    <string name="sensor_status_alarm_message_0">"Votre capteur est inséré depuis 150 jours. Contactez votre médecin dès que possible pour qu'il remplace le capteur."</string>
+    <string name="sensor_status_alarm_message_1">"Votre capteur est inséré depuis 146 jours. Contactez votre médecin dès que possible pour qu'il remplace le capteur."</string>
+    <string name="sensor_status_alarm_message_2">"Votre capteur est inséré depuis 136 jours. Contactez votre médecin pour qu'il remplace le capteur."</string>
+    <string name="sensor_status_alarm_message_3">"Votre capteur est inséré depuis 120 jours. Contactez votre médecin pour qu'il remplace le capteur."</string>
+    <string name="sensor_status_alarm_title">État du capteur</string>
+    <string name="serial_number">Numéro de série</string>
+    <string name="serial_number_sensor">NS lié</string>
+    <string name="server_error">Erreur serveur</string>
+    <string name="server_error_text">"Un erreur s'est produite sur le serveur. Veuillez réessayer. Si l'erreur persiste, contactez le Support clientèle."</string>
+    <string name="set_alert_levels">Réglez les niveaux de glucose à partir desquels vous voulez que le système vous alerte en cas de dépassement.</string>
+    <string name="set_calibration_time_text">"Réglez les heures du matin et du soir auxquelles vous souhaitez être rappelé qu'il est temps de faire un étalonnage.
+
+Remarque : les heures d'étalonnage du matin et du soir doivent être séparées de 10 à 14 heures les unes des autres."</string>
+    <string name="set_meal_times_text">Plages horaires pour le tableau des Heures des repas</string>
+    <string name="set_target_levels">Réglez le niveaux de taux de glucose entre lesquels vous voulez rester.</string>
+    <string name="settings">Paramètres</string>
+    <string name="severity">Gravité</string>
+    <string name="share_my_data">Partager mes données</string>
+    <string name="short_acting">À action brève</string>
+    <string name="shortcut_breakfast">Pt Déj</string>
+    <string name="shortcut_dinner">Dîn</string>
+    <string name="shortcut_lunch">Déj</string>
+    <string name="shortcut_sleep">Som.</string>
+    <string name="shortcut_snack">Col</string>
+    <string name="sleep">Sommeil</string>
+    <string name="snack">En-cas</string>
+    <string name="sore_throat">Mal de gorge</string>
+    <string name="sound_high_glucose_alarm_2">"Alerte d'hyperglycémie"</string>
+    <string name="sound_high_snooze">Rappel élevé</string>
+    <string name="sound_low_glucose_alarm_2">"Alerte d'hypoglycémie"</string>
+    <string name="sound_low_snooze">Rappel faible</string>
+    <string name="sound_settings">Paramètres audio</string>
+    <string name="sound_settings_description_2">Choisissez les sons à utiliser pour les alertes de glucose élevé/faible et leur fréquence de répétition.</string>
+    <string name="start">Début</string>
+    <string name="statistics">Rapports</string>
+    <string name="statistics_string">Statistiques</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
+    <string name="stddev">Éc.-tp</string>
+    <string name="stop">Arrêter</string>
+    <string name="stress">Stress</string>
+    <string name="submit">Soumettre</string>
+    <string name="sync_could_not_start_2">"La synchronisation n'a pas pu démarrer. Déconnectez-vous, puis reconnectez-vous à votre compte."</string>
+    <string name="sync_days">Jours de synchro</string>
+    <string name="sync_now">LANCER LA SYNCHRONISATION</string>
+    <string name="synced_success">Synchronisation réussie</string>
+    <string name="syncing">SYNCHRONISATION EN COURS...</string>
+    <string name="system">Système</string>
+    <string name="target">Cible</string>
+    <string name="temp_profile_description">"Réglez les niveaux de glucose auxquels vous voulez que le système vous alerte lorsque le profil temporaire est activé. Tapez sur DEBUT pour l'activer, et sur ARRETER pour le désactiver."</string>
+    <string name="temp_profile_duration">%1$dhr %2$dmin</string>
+    <string name="temp_profile_glucose_settings_warning">"Votre profil temporaire est actif et les paramètres de taux de glucose enregistrés ici n'entreront en vigueur qu'une fois que vous désactiverez le profil temporaire ou qu'il expirera."</string>
+    <string name="temp_profile_time_left">%1$dh %2$dmin restants</string>
+    <string name="temp_profile_title">Profil temporaire</string>
+    <string name="temp_profile_turned_off_body">La durée de votre profil temporaire a expiré. Vos paramètres de taux de glucose standard vont reprendre leur cours.</string>
+    <string name="temp_profile_turned_off_title">Profil temporaire désactivé</string>
+    <string name="time">Heure</string>
+    <string name="tips_connect_html_text">"Si vous ne parvenez pas à établir une connexion avec votre transmetteur, essayez les choses suivantes :
+
+ * Assurez-vous que le transmetteur est chargé et qu'il est débranché du chargeur.
+ * Désactivez, puis réactivez le Bluetooth via le menu Paramètres du smartphone.
+ * Éteignez, puis rallumez le smartphone.
+ * Faites un 'Déjumelage' de votre appareil, puis relancez son jumelage."</string>
+    <string name="tips_connect_html_text_initial">"Pour connecter (jumeler) le transmetteur la première fois :
+
+ 1) Déconnectez le transmetteur du port USB.
+ 2) Tapez 3 fois sur le bouton du transmetteur.
+ 3) Confirmez que la DEL clignote en VERT et ORANGE.
+ 4) Tapez le nom de votre transmetteur (son nom est son numéro de série [SN] qui figurent sur l'étiquette sur sa face arrière) dans la liste ci-dessus."</string>
+    <string name="tips_html_text">"* Lavez-vous les mains et séchez-les bien avant d'utiliser une bandelette de test
+ * Utilisez une goutte de sang suffisante
+ * Gardez le lecteur propre
+ * Horaire d'étalonnage conseillé - avant les repas, avant l'administration des doses d'insuline, avant le coucher, avant de faire de l'exercice"</string>
+    <string name="tired">Fatigue</string>
+    <string name="today">"AUJOURD'HUI"</string>
+    <string name="todayLow">"Aujourd'hui"</string>
+    <string name="tomorrowLow">Demain</string>
+    <string name="too_soon">"Il n'est pas l'heure de faire un étalonnage. Réessayez à l'heure d'étalonnage prévue."</string>
+    <string name="transmitter_details">Détails du transmetteur</string>
+    <string name="transmitter_disconnected_notification_message">Votre transmetteur (%@) a été déconnecté. Veuillez connecter le transmetteur pour rétablir la réception de toutes les notifications.</string>
+    <string name="transmitter_disconnected_notification_title">Transmetteur déconnecté</string>
+    <string name="transmitter_error">Erreur de transmetteur</string>
+    <string name="transmitter_error_alarm_help_message">Veuillez contacter le Support clientèle.</string>
+    <string name="transmitter_error_alarm_message_2">Votre transmetteur a détecté une erreur. Veuillez contacter le Support clientèle.</string>
+    <string name="transmitter_error_alarm_title">Erreur de transmetteur</string>
+    <string name="transmitter_high_temperature_alarm_help_message">"Une fois que la température du capteur est en dessous de 42 C, il reprend ses mesures du taux de glucose. 
+
+Vous pouvez retirer le transmetteur temporairement pour le laisser refroidir. Cependant, n'oubliez pas de remettre le transmetteur sur le capteur une fois que la température a baissé. Ne mettez pas le transmetteur au réfrigérateur."</string>
+    <string name="transmitter_high_temperature_alarm_message_2">La température de votre transmetteur est trop élevée. Déplacez-vous dans un endroit plus frais pour restaurer la réception des valeurs de taux de glucose. Si le problème persiste, contactez le Support clientèle.</string>
+    <string name="transmitter_high_temperature_alarm_title">Température transmetteur élevée</string>
+    <string name="type">Type</string>
+    <string name="unit_descriptive_text_mgdl_mmol" formatted="false">Si vous souhaitez changez votre unité de mesure à<b> %value%</b>", vous pouvez le faire maintenant. Avant de modifier ce paramètre, veuillez consulter votre médecin si vous avez un doute sur l'unité à utiliser."</string>
+    <string name="unit_example_text_mgdl">Exemple : 160 &lt;b>mg/dL&lt;/b> (ou dans la plage &lt;b>40 mg/dL–400 mg/dL&lt;/b>)</string>
+    <string name="unit_example_text_mmol">Exemple : 8,9 &lt;b>mmol/L&lt;/b> (ou dans la plage &lt;b>2,2 mmol/L–22,2 mmol/L&lt;/b>)</string>
+    <string name="unit_glucose_reading_changed">changée</string>
+    <string name="unit_glucose_reading_set">réglé</string>
+    <string name="unit_glucose_reading_text_mgdl_mmol_2" formatted="false">"L'unité de mesure et d'affichage de votre taux de glucose a été"<b> %value%</b>" ; les valeurs obtenues s'afficheront désormais dans l'unité indiquée ci-dessous."</string>
+    <string name="unit_selected_text" formatted="false">Unité de mesure<b> %value%</b></string>
+    <string name="unit_title">UNITÉ DE MESURE</string>
+    <string name="units">Unités</string>
+    <string name="unknown">Inconnu</string>
+    <string name="unknown_error">Erreur inconnue</string>
+    <string name="unknown_error_alert_message">"Erreur d'origine inconnue. Si vous continuez à recevoir cette erreur, veuillez contacter le Support clientèle. (%@)"</string>
+    <string name="unknown_error_alert_title">Code inconnu : %d</string>
+    <string name="unknown_error_text">"Une erreur d'origine inconnue s'est produite. Veuillez réessayer. Si l'erreur persiste, contactez le Support clientèle."</string>
+    <string name="unknown_help_message">"Erreur d'origine inconnue. Si vous continuez à recevoir cette erreur, veuillez contacter le Support clientèle. (%@)"</string>
+    <string name="unknown_reason">"Impossible d'effectuer un étalonnage pour le moment. Consultez la section Étalonnage de votre Guide de l'utilisateur pour plus de détails et réessayez ultérieurement."</string>
+    <string name="unsupported_mode">"Votre transmetteur est dans un mode qui ne prend pas en charge l'étalonnage. Pour plus de détails, contactez votre médecin."</string>
+    <string name="username">"Nom d'utilisateur"</string>
+    <string name="value">Valeur</string>
+    <string name="version_number">Version microprogramme</string>
+    <string name="very_low">Très faible</string>
+    <string name="very_low_battery_alert_help_message">"Retirez le transmetteur de votre corps avant de le connecter à une source d'alimentation pour recharger la pile. 
+
+Le transmetteur ne collecte pas d'informations en provenance du capteur pendant qu'il se recharge. Pendant la charge du transmetteur, vous ne recevrez pas de valeurs de taux de glucose."</string>
+    <string name="very_low_battery_alert_message">La pile de votre transmetteur est très faible. Veuillez recharger dès maintenant votre transmetteur.</string>
+    <string name="very_low_battery_alert_title">Charger le transmetteur</string>
+    <string name="vibration_motor_alarm_help_message">Votre système va continuer à afficher des valeurs de taux de glucose pendant encore 72 heures. Après cela, vous devrez remplacer votre transmetteur pour continuer à recevoir les valeurs. Veuillez contacter le Support clientèle pour demander le remplacement.</string>
+    <string name="vibration_motor_alarm_message">Votre transmetteur a détecté un problème avec le moteur du vibreur. Les alertes par vibration ont cessé. Veuillez contacter le Support clientèle pour demander un transmetteur de remplacement.</string>
+    <string name="vibration_motor_alarm_title">Moteur du vibreur</string>
+    <string name="view">Afficher</string>
+    <string name="wait_for_x_minutes">Veuillez réessayer dans %d minutes.</string>
+    <string name="waiting_post_calibration">En attente des mesures du capteur après étalonnage Veuillez patienter %d minutes et réessayez.</string>
+    <string name="warm_up_phase">Acclimatation</string>
+    <string name="warmup_unknown">"Votre transmetteur est en phase d'acclimatation et aucun étalonnage n'est requis. Pour plus de détails, contactez votre médecin."</string>
+    <string name="warning">Avertissement</string>
+    <string name="weekly_statistics">Rapport modal hebdo (%1$s)</string>
+    <string name="welcome">Bienvenue</string>
+    <string name="wi_fi_disconnected">"L'Internet est déconnecté"</string>
+    <string name="wi_fi_disconnected_text">"Connexion Internet indétectable. Veuillez vous connecter à l'Internet et réessayer."</string>
+    <string name="within">Compris entre</string>
+    <string name="within_target_levels">Compris dans la plage cible</string>
+    <string name="yes">Oui</string>
+</resources>

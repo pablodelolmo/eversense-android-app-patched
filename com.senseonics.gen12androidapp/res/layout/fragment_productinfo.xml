@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/box_margin">
+                <LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <View android:background="@color/blue" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/aboutContent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/box_margin">
+                        <ImageView android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_margin="@dimen/box_margin" android:src="@drawable/company_logo" android:contentDescription="@string/image_description" />
+                        <WebView android:textColor="@color/black" android:id="@id/copyrightText3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/extra_small_margin" android:layout_marginTop="@dimen/extra_small_margin" android:layout_marginRight="@dimen/extra_small_margin" android:text="" />
+                        <TextView android:textSize="@dimen/small_text_part_no" android:textColor="@android:color/black" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/small_margin" android:layout_marginRight="@dimen/small_margin" android:layout_marginBottom="@dimen/small_margin" android:text="Eversense Mobile Application (Android)" />
+                        <ImageView android:id="@id/imgCE" android:layout_width="48.0dip" android:layout_height="36.0dip" android:layout_marginBottom="@dimen/small_margin" android:src="@drawable/icon_ce" android:contentDescription="@string/image_description" />
+                        <TextView android:textSize="@dimen/small_text_part_no" android:textColor="@android:color/black" android:gravity="center" android:id="@id/tvPartNo" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <View android:background="@color/blue" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

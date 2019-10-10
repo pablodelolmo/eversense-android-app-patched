@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/alarmLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/box_margin" layout="@layout/layout_glucose_alarm_levels" />
+            <include android:id="@id/targetLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/box_margin" layout="@layout/layout_glucose_target_levels" />
+            <include android:id="@id/predictiveLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/box_margin" layout="@layout/layout_predictive_alerts" />
+            <include android:id="@id/rateLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/box_margin" android:layout_marginBottom="@dimen/box_margin" layout="@layout/layout_rate_alerts" />
+            <View android:layout_width="fill_parent" android:layout_height="@dimen/box_margin" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

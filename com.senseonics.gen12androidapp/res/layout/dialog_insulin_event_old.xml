@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/dateView" layout="@layout/event_select_date" />
+    <View android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/event_box_divider_margin" android:layout_marginRight="@dimen/event_box_divider_margin" />
+    <RelativeLayout android:id="@id/insulinUnitsLayout" android:padding="@dimen/event_box_text_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@android:style/Widget.Holo.Button.Borderless">
+        <TextView android:textSize="@dimen/large_text" android:textStyle="bold" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/units" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="@dimen/large_text" android:textColor="@color/black" android:id="@id/units" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/arrowUnits" />
+        <ImageView android:id="@id/arrowUnits" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/event_box_text_margin" android:src="@drawable/list_item_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/event_box_divider_margin" android:layout_marginRight="@dimen/event_box_divider_margin" />
+    <RelativeLayout android:id="@id/insulinTypeLayout" android:padding="@dimen/event_box_text_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@android:style/Widget.Holo.Button.Borderless">
+        <TextView android:textSize="@dimen/large_text" android:textStyle="bold" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/insulin_type" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="@dimen/large_text" android:textColor="@color/black" android:id="@id/insulinType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/arrowInsulin" />
+        <ImageView android:id="@id/arrowInsulin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/event_box_text_margin" android:src="@drawable/list_item_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/event_box_divider_margin" android:layout_marginRight="@dimen/event_box_divider_margin" />
+    <include android:id="@id/notesView" layout="@layout/event_notes_old" />
+</LinearLayout>

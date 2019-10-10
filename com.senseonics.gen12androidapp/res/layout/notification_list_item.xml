@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/notificationDateLayout" android:background="@color/gray_light_text" android:visibility="visible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:enabled="false" android:textSize="@dimen/large_text" android:textStyle="bold" android:textColor="@android:color/black" android:id="@id/separator_new" android:paddingLeft="@dimen/small_margin_cell" android:paddingTop="@dimen/small_margin" android:paddingBottom="@dimen/small_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/date" />
+        <View android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/box_margin" android:layout_marginRight="@dimen/box_margin" />
+    </RelativeLayout>
+    <RelativeLayout android:paddingLeft="@dimen/box_margin" android:paddingRight="@dimen/box_margin" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/event_box_text_margin" android:layout_marginTop="@dimen/event_box_text_margin" android:layout_marginBottom="@dimen/event_box_text_margin" android:layout_toLeftOf="@id/time" android:layout_toRightOf="@id/icon" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
+            <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:id="@id/separator" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
+            <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/box_margin" android:singleLine="true" />
+        </LinearLayout>
+        <ImageView android:id="@id/arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/list_item_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/medium_text" android:textColor="@color/black" android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/small_margin" android:layout_toLeftOf="@id/arrow" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/box_margin" android:layout_marginRight="@dimen/box_margin" />
+</LinearLayout>
